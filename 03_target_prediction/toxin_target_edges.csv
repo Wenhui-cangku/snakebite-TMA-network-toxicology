@@ -1,0 +1,448 @@
+﻿toxin_id,toxin_ac,family,target_symbol,evidence_type,evidence_detail,pmids,score,download_date
+T041,P59071,PLA2,F10,literature,binds FXa and inhibits prothrombinase activity (IC50=130 nM),18062812,1.0,2026-09-24
+T027,C0HK16,PLA2,F10,literature,binds FX/FXa for anticoagulant activity (UniProt curated),27089306,1.0,2026-09-24
+PLA2_family,PLA2_family,PLA2,F10,literature,Family-level literature: Daboxin P (major PLA2 of Indian D. russelii) targets FX for anticoagulation,27089306,0.6,2026-09-24
+PLA2_family,PLA2_family,PLA2,F10,literature,Family-level literature: acidic RVVA-PLA2-I anticoagulant (purified from D. russelii),21356226,0.6,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F10,literature,RVV-X light chain 1: recognizes and binds the FX Gla domain (Ca2+-dependent),18616470;1629211;8144654;8639544;11910189;18060879,1.0,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F9,literature,RVV-X light chain 1: recognizes and binds the FIX Gla domain,18616470;1629211;8144654;8639544;11910189;18060879,1.0,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F10,literature,RVV-X light chain 2: recognizes and binds the FX Gla domain (Ca2+-dependent),18616470;8144654;11910189;18060879,1.0,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F9,literature,RVV-X light chain 2: recognizes and binds the FIX Gla domain,18616470;8144654;11910189;18060879,1.0,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F10,literature,RVV-X heavy chain: cleaves the Arg-Ile bond to activate FX,37092784;18616470;1629211;8144654;8639544;18060879;11910189,1.0,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F9,literature,RVV-X heavy chain: cleaves the Arg-Ile bond to activate FIX,18616470;1629211;8144654;8639544;18060879;11910189,1.0,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,PROS1,literature,RVV-X heavy chain: specifically cleaves and activates protein S,18616470;1629211;8144654;8639544;18060879;11910189,1.0,2026-09-24
+T059,Q4PRD1,snaclec/CTL,PROS1,literature,RVV-X complex: cleaves and activates protein S,18616470;1629211;8144654;8639544;11910189;18060879,0.8,2026-09-24
+T060,Q4PRD2,snaclec/CTL,PROS1,literature,RVV-X complex: cleaves and activates protein S,18616470;8144654;11910189;18060879,0.8,2026-09-24
+T052,Q38L02,snaclec/CTL,GP1BA,literature,binds platelet GPIbalpha and inhibits ristocetin-induced aggregation,16330060,1.0,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,FGA,literature,daborhagin-K (P-III hemorrhagic SVMP): hydrolyzes the fibrinogen Aalpha chain,18554518;28042812,1.0,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,FN1,literature,daborhagin-M/K: hydrolyzes fibronectin in vitro,18554518,1.0,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,COL4A1,literature,daborhagin-M/K: hydrolyzes type IV collagen in vitro,18554518,1.0,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,FGA,literature,russelysin = same protein as daborhagin-K (GenBank supplementary entry): hydrolyzes the fibrinogen Aalpha chain,18554518;28042812,0.9,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,FN1,literature,russelysin: hydrolyzes fibronectin,18554518,0.9,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,COL4A1,literature,russelysin: hydrolyzes type IV collagen,18554518,0.9,2026-09-24
+T003,A0A2H4Z2X6,SVMP/disintegrin,FN1,literature,Family-level corroboration: RVV-derived SPAD-1 (HGD-disintegrin) disrupts fibronectin-matrix adhesion,36423674,0.6,2026-09-24
+T004,A0A2H4Z2Y1,SVMP/disintegrin,FN1,literature,Family-level corroboration: RVV-derived SPAD-1 (HGD-disintegrin) disrupts fibronectin-matrix adhesion,36423674,0.6,2026-09-24
+T038,P18965,SVSP,F5,literature,RVV-V gamma: cleaves human FV Arg1545-Ser1546 for activation (Ca2+-independent),21640745;3053712;20054136;21871889;28732041,1.0,2026-09-24
+T037,P18964,SVSP,F5,literature,RVV-V: cleaves human FV Arg1545-Ser1546 for activation,21640745;21871889;28732041,1.0,2026-09-24
+T028,E5L0E3,SVSP,FGA,literature,SVSP: degrades the fibrinogen alpha chain; strong caseinolytic activity,21640745,1.0,2026-09-24
+T029,E5L0E4,SVSP,FGB,literature,SVSP: hydrolyzes the fibrinogen beta chain,21640745,1.0,2026-09-24
+T034,H6VC06,Kunitz inhibitor,PLG,literature,inhibits plasmin 90% (Ki=0.19 nM),22416129;23999090,1.0,2026-09-24
+T034,H6VC06,Kunitz inhibitor,F11,literature,inhibits FXIa 37% (Ki=6 nM),22416129;23999090,1.0,2026-09-24
+T034,H6VC06,Kunitz inhibitor,F10,literature,inhibits FXa 20%,22416129;23999090,1.0,2026-09-24
+T034,H6VC06,Kunitz inhibitor,PRSS1,literature,inhibits trypsin 70%,22416129;23999090,1.0,2026-09-24
+T033,H6VC05,Kunitz inhibitor,PROC,literature,inhibits activated protein C (APC) IC50=3.5 nM (in presence of heparin),22416129,1.0,2026-09-24
+T033,H6VC05,Kunitz inhibitor,F11,literature,inhibits FXIa 40% (in presence of heparin),22416129,1.0,2026-09-24
+T033,H6VC05,Kunitz inhibitor,PLG,literature,inhibits plasmin 70% (in presence of heparin),22416129,1.0,2026-09-24
+T033,H6VC05,Kunitz inhibitor,PRSS1,literature,inhibits trypsin 45% (in presence of heparin),22416129,1.0,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,CTRB1,literature,inhibits chymotrypsin (Ki=4.77 nM),23428970,1.0,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,PRSS1,literature,inhibits trypsin,nan,1.0,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,PRSS1,literature,inhibits trypsin,nan,1.0,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,PRSS1,literature,inhibits trypsin,nan,1.0,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,PRSS1,literature,inhibits trypsin,nan,1.0,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,PRSS1,literature,inhibits trypsin,nan,1.0,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,PLG,literature,inhibits plasmin and trypsin,nan,1.0,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,PRSS1,literature,inhibits plasmin and trypsin,nan,1.0,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,PLG,literature,inhibits plasmin and trypsin,nan,1.0,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,PRSS1,literature,inhibits plasmin and trypsin,nan,1.0,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,PLG,literature,inhibits plasmin and trypsin,nan,1.0,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,PRSS1,literature,inhibits plasmin and trypsin,nan,1.0,2026-09-24
+T042,P67861,VEGF,KDR,literature,induces angiogenesis via VEGFR-2 (KDR) signaling; NO-mediated hypotension,19208624;14600159;15542594,1.0,2026-09-24
+T036,P0DL42,VEGF,KDR,literature,induces angiogenesis via VEGFR-2 (KDR) signaling; NO-mediated hypotension,15992764;19457351,1.0,2026-09-24
+T039,P30894,NGF,GP1BA,literature,By similarity: inhibits metalloprotease proteolysis of platelet GPIbalpha (indirect protection),1477101;21801740,0.5,2026-09-24
+T041,P59071,PLA2,F2,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T041,P59071,PLA2,TFPI,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T041,P59071,PLA2,F3,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T041,P59071,PLA2,SERPINC1,string,"STRING first-shell neighbor, via F10 (combined score=0.998)",,0.998,2026-09-24
+T041,P59071,PLA2,F8,string,"STRING first-shell neighbor, via F10 (combined score=0.997)",,0.997,2026-09-24
+T041,P59071,PLA2,F5,string,"STRING first-shell neighbor, via F10 (combined score=0.995)",,0.995,2026-09-24
+T041,P59071,PLA2,F7,string,"STRING first-shell neighbor, via F10 (combined score=0.988)",,0.988,2026-09-24
+T041,P59071,PLA2,VWF,string,"STRING first-shell neighbor, via F10 (combined score=0.978)",,0.978,2026-09-24
+T041,P59071,PLA2,PROCR,string,"STRING first-shell neighbor, via F10 (combined score=0.958)",,0.958,2026-09-24
+T041,P59071,PLA2,F9,string,"STRING first-shell neighbor, via F10 (combined score=0.953)",,0.953,2026-09-24
+T027,C0HK16,PLA2,F2,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T027,C0HK16,PLA2,TFPI,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T027,C0HK16,PLA2,F3,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T027,C0HK16,PLA2,SERPINC1,string,"STRING first-shell neighbor, via F10 (combined score=0.998)",,0.998,2026-09-24
+T027,C0HK16,PLA2,F8,string,"STRING first-shell neighbor, via F10 (combined score=0.997)",,0.997,2026-09-24
+T027,C0HK16,PLA2,F5,string,"STRING first-shell neighbor, via F10 (combined score=0.995)",,0.995,2026-09-24
+T027,C0HK16,PLA2,F7,string,"STRING first-shell neighbor, via F10 (combined score=0.988)",,0.988,2026-09-24
+T027,C0HK16,PLA2,VWF,string,"STRING first-shell neighbor, via F10 (combined score=0.978)",,0.978,2026-09-24
+T027,C0HK16,PLA2,PROCR,string,"STRING first-shell neighbor, via F10 (combined score=0.958)",,0.958,2026-09-24
+T027,C0HK16,PLA2,F9,string,"STRING first-shell neighbor, via F10 (combined score=0.953)",,0.953,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F2,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T059,Q4PRD1,snaclec/CTL,TFPI,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F3,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T059,Q4PRD1,snaclec/CTL,SERPINC1,string,"STRING first-shell neighbor, via F10 (combined score=0.998)",,0.998,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F8,string,"STRING first-shell neighbor, via F10 (combined score=0.997)",,0.997,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F5,string,"STRING first-shell neighbor, via F10 (combined score=0.995)",,0.995,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F7,string,"STRING first-shell neighbor, via F10 (combined score=0.988)",,0.988,2026-09-24
+T059,Q4PRD1,snaclec/CTL,VWF,string,"STRING first-shell neighbor, via F10 (combined score=0.978)",,0.978,2026-09-24
+T059,Q4PRD1,snaclec/CTL,PROCR,string,"STRING first-shell neighbor, via F10 (combined score=0.958)",,0.958,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F9,string,"STRING first-shell neighbor, via F10 (combined score=0.953)",,0.953,2026-09-24
+T059,Q4PRD1,snaclec/CTL,GGCX,string,"STRING first-shell neighbor, via F9 (combined score=0.972)",,0.972,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F11,string,"STRING first-shell neighbor, via F9 (combined score=0.967)",,0.967,2026-09-24
+T059,Q4PRD1,snaclec/CTL,IGLL5,string,"STRING first-shell neighbor, via F9 (combined score=0.967)",,0.967,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F10,string,"STRING first-shell neighbor, via F9 (combined score=0.953)",,0.953,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F2,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T060,Q4PRD2,snaclec/CTL,TFPI,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F3,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T060,Q4PRD2,snaclec/CTL,SERPINC1,string,"STRING first-shell neighbor, via F10 (combined score=0.998)",,0.998,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F8,string,"STRING first-shell neighbor, via F10 (combined score=0.997)",,0.997,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F5,string,"STRING first-shell neighbor, via F10 (combined score=0.995)",,0.995,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F7,string,"STRING first-shell neighbor, via F10 (combined score=0.988)",,0.988,2026-09-24
+T060,Q4PRD2,snaclec/CTL,VWF,string,"STRING first-shell neighbor, via F10 (combined score=0.978)",,0.978,2026-09-24
+T060,Q4PRD2,snaclec/CTL,PROCR,string,"STRING first-shell neighbor, via F10 (combined score=0.958)",,0.958,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F9,string,"STRING first-shell neighbor, via F10 (combined score=0.953)",,0.953,2026-09-24
+T060,Q4PRD2,snaclec/CTL,GGCX,string,"STRING first-shell neighbor, via F9 (combined score=0.972)",,0.972,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F11,string,"STRING first-shell neighbor, via F9 (combined score=0.967)",,0.967,2026-09-24
+T060,Q4PRD2,snaclec/CTL,IGLL5,string,"STRING first-shell neighbor, via F9 (combined score=0.967)",,0.967,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F10,string,"STRING first-shell neighbor, via F9 (combined score=0.953)",,0.953,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F2,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,TFPI,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F3,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,SERPINC1,string,"STRING first-shell neighbor, via F10 (combined score=0.998)",,0.998,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F8,string,"STRING first-shell neighbor, via F10 (combined score=0.997)",,0.997,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F5,string,"STRING first-shell neighbor, via F10 (combined score=0.995)",,0.995,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F7,string,"STRING first-shell neighbor, via F10 (combined score=0.988)",,0.988,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,VWF,string,"STRING first-shell neighbor, via F10 (combined score=0.978)",,0.978,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,PROCR,string,"STRING first-shell neighbor, via F10 (combined score=0.958)",,0.958,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F9,string,"STRING first-shell neighbor, via F10 (combined score=0.953)",,0.953,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,GGCX,string,"STRING first-shell neighbor, via F9 (combined score=0.972)",,0.972,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F11,string,"STRING first-shell neighbor, via F9 (combined score=0.967)",,0.967,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,IGLL5,string,"STRING first-shell neighbor, via F9 (combined score=0.967)",,0.967,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F10,string,"STRING first-shell neighbor, via F9 (combined score=0.953)",,0.953,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,MERTK,string,"STRING first-shell neighbor, via PROS1 (combined score=0.999)",,0.999,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,TYRO3,string,"STRING first-shell neighbor, via PROS1 (combined score=0.999)",,0.999,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,AXL,string,"STRING first-shell neighbor, via PROS1 (combined score=0.997)",,0.997,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,C4B,string,"STRING first-shell neighbor, via PROS1 (combined score=0.953)",,0.953,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,C4A,string,"STRING first-shell neighbor, via PROS1 (combined score=0.946)",,0.946,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,MGP,string,"STRING first-shell neighbor, via PROS1 (combined score=0.880)",,0.88,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,C4BPB,string,"STRING first-shell neighbor, via PROS1 (combined score=0.874)",,0.874,2026-09-24
+T059,Q4PRD1,snaclec/CTL,MERTK,string,"STRING first-shell neighbor, via PROS1 (combined score=0.999)",,0.999,2026-09-24
+T059,Q4PRD1,snaclec/CTL,TYRO3,string,"STRING first-shell neighbor, via PROS1 (combined score=0.999)",,0.999,2026-09-24
+T059,Q4PRD1,snaclec/CTL,AXL,string,"STRING first-shell neighbor, via PROS1 (combined score=0.997)",,0.997,2026-09-24
+T059,Q4PRD1,snaclec/CTL,C4B,string,"STRING first-shell neighbor, via PROS1 (combined score=0.953)",,0.953,2026-09-24
+T059,Q4PRD1,snaclec/CTL,C4A,string,"STRING first-shell neighbor, via PROS1 (combined score=0.946)",,0.946,2026-09-24
+T059,Q4PRD1,snaclec/CTL,MGP,string,"STRING first-shell neighbor, via PROS1 (combined score=0.880)",,0.88,2026-09-24
+T059,Q4PRD1,snaclec/CTL,C4BPB,string,"STRING first-shell neighbor, via PROS1 (combined score=0.874)",,0.874,2026-09-24
+T060,Q4PRD2,snaclec/CTL,MERTK,string,"STRING first-shell neighbor, via PROS1 (combined score=0.999)",,0.999,2026-09-24
+T060,Q4PRD2,snaclec/CTL,TYRO3,string,"STRING first-shell neighbor, via PROS1 (combined score=0.999)",,0.999,2026-09-24
+T060,Q4PRD2,snaclec/CTL,AXL,string,"STRING first-shell neighbor, via PROS1 (combined score=0.997)",,0.997,2026-09-24
+T060,Q4PRD2,snaclec/CTL,C4B,string,"STRING first-shell neighbor, via PROS1 (combined score=0.953)",,0.953,2026-09-24
+T060,Q4PRD2,snaclec/CTL,C4A,string,"STRING first-shell neighbor, via PROS1 (combined score=0.946)",,0.946,2026-09-24
+T060,Q4PRD2,snaclec/CTL,MGP,string,"STRING first-shell neighbor, via PROS1 (combined score=0.880)",,0.88,2026-09-24
+T060,Q4PRD2,snaclec/CTL,C4BPB,string,"STRING first-shell neighbor, via PROS1 (combined score=0.874)",,0.874,2026-09-24
+T052,Q38L02,snaclec/CTL,VWF,string,"STRING first-shell neighbor, via GP1BA (combined score=0.999)",,0.999,2026-09-24
+T052,Q38L02,snaclec/CTL,GP9,string,"STRING first-shell neighbor, via GP1BA (combined score=0.999)",,0.999,2026-09-24
+T052,Q38L02,snaclec/CTL,FLNA,string,"STRING first-shell neighbor, via GP1BA (combined score=0.999)",,0.999,2026-09-24
+T052,Q38L02,snaclec/CTL,GP1BB,string,"STRING first-shell neighbor, via GP1BA (combined score=0.999)",,0.999,2026-09-24
+T052,Q38L02,snaclec/CTL,SELP,string,"STRING first-shell neighbor, via GP1BA (combined score=0.999)",,0.999,2026-09-24
+T052,Q38L02,snaclec/CTL,F2,string,"STRING first-shell neighbor, via GP1BA (combined score=0.992)",,0.992,2026-09-24
+T052,Q38L02,snaclec/CTL,ITGAM,string,"STRING first-shell neighbor, via GP1BA (combined score=0.982)",,0.982,2026-09-24
+T052,Q38L02,snaclec/CTL,GP5,string,"STRING first-shell neighbor, via GP1BA (combined score=0.979)",,0.979,2026-09-24
+T052,Q38L02,snaclec/CTL,YWHAZ,string,"STRING first-shell neighbor, via GP1BA (combined score=0.979)",,0.979,2026-09-24
+T052,Q38L02,snaclec/CTL,ITGB2,string,"STRING first-shell neighbor, via GP1BA (combined score=0.978)",,0.978,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,F2,string,"STRING first-shell neighbor, via FGA (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,FGB,string,"STRING first-shell neighbor, via FGA (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,FGG,string,"STRING first-shell neighbor, via FGA (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,AHSG,string,"STRING first-shell neighbor, via FGA (combined score=0.984)",,0.984,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,SERPINC1,string,"STRING first-shell neighbor, via FGA (combined score=0.980)",,0.98,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGB3,string,"STRING first-shell neighbor, via FGA (combined score=0.978)",,0.978,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ALB,string,"STRING first-shell neighbor, via FGA (combined score=0.975)",,0.975,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,SERPINF2,string,"STRING first-shell neighbor, via FGA (combined score=0.967)",,0.967,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,PLG,string,"STRING first-shell neighbor, via FGA (combined score=0.965)",,0.965,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,F13B,string,"STRING first-shell neighbor, via FGA (combined score=0.960)",,0.96,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGAV,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,VTN,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,SDC1,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGB1,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,SDC4,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGA2B,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGA5,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,THBS1,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,CD44,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,COL4A2,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.999)",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGA1,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.923)",,0.923,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,COL5A1,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.915)",,0.915,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,COL5A2,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.914)",,0.914,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,GP6,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.906)",,0.906,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,LAMC1,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.880)",,0.88,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,PLOD3,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.874)",,0.874,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGA3,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.870)",,0.87,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,F2,string,"STRING first-shell neighbor, via FGA (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,FGB,string,"STRING first-shell neighbor, via FGA (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,FGG,string,"STRING first-shell neighbor, via FGA (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,AHSG,string,"STRING first-shell neighbor, via FGA (combined score=0.984)",,0.984,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,SERPINC1,string,"STRING first-shell neighbor, via FGA (combined score=0.980)",,0.98,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGB3,string,"STRING first-shell neighbor, via FGA (combined score=0.978)",,0.978,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ALB,string,"STRING first-shell neighbor, via FGA (combined score=0.975)",,0.975,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,SERPINF2,string,"STRING first-shell neighbor, via FGA (combined score=0.967)",,0.967,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,PLG,string,"STRING first-shell neighbor, via FGA (combined score=0.965)",,0.965,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,F13B,string,"STRING first-shell neighbor, via FGA (combined score=0.960)",,0.96,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGAV,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,VTN,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,SDC1,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGB1,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,SDC4,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGA2B,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGA5,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,THBS1,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,CD44,string,"STRING first-shell neighbor, via FN1 (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,COL4A2,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.999)",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGA1,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.923)",,0.923,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,COL5A1,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.915)",,0.915,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,COL5A2,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.914)",,0.914,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,GP6,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.906)",,0.906,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,LAMC1,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.880)",,0.88,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,PLOD3,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.874)",,0.874,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGA3,string,"STRING first-shell neighbor, via COL4A1 (combined score=0.870)",,0.87,2026-09-24
+T038,P18965,SVSP,F2,string,"STRING first-shell neighbor, via F5 (combined score=0.999)",,0.999,2026-09-24
+T038,P18965,SVSP,F10,string,"STRING first-shell neighbor, via F5 (combined score=0.995)",,0.995,2026-09-24
+T038,P18965,SVSP,PROS1,string,"STRING first-shell neighbor, via F5 (combined score=0.972)",,0.972,2026-09-24
+T038,P18965,SVSP,PROC,string,"STRING first-shell neighbor, via F5 (combined score=0.940)",,0.94,2026-09-24
+T038,P18965,SVSP,F8,string,"STRING first-shell neighbor, via F5 (combined score=0.846)",,0.846,2026-09-24
+T038,P18965,SVSP,MCFD2,string,"STRING first-shell neighbor, via F5 (combined score=0.825)",,0.825,2026-09-24
+T038,P18965,SVSP,MMRN1,string,"STRING first-shell neighbor, via F5 (combined score=0.822)",,0.822,2026-09-24
+T038,P18965,SVSP,MTHFR,string,"STRING first-shell neighbor, via F5 (combined score=0.821)",,0.821,2026-09-24
+T038,P18965,SVSP,SERPINC1,string,"STRING first-shell neighbor, via F5 (combined score=0.817)",,0.817,2026-09-24
+T038,P18965,SVSP,F3,string,"STRING first-shell neighbor, via F5 (combined score=0.799)",,0.799,2026-09-24
+T037,P18964,SVSP,F2,string,"STRING first-shell neighbor, via F5 (combined score=0.999)",,0.999,2026-09-24
+T037,P18964,SVSP,F10,string,"STRING first-shell neighbor, via F5 (combined score=0.995)",,0.995,2026-09-24
+T037,P18964,SVSP,PROS1,string,"STRING first-shell neighbor, via F5 (combined score=0.972)",,0.972,2026-09-24
+T037,P18964,SVSP,PROC,string,"STRING first-shell neighbor, via F5 (combined score=0.940)",,0.94,2026-09-24
+T037,P18964,SVSP,F8,string,"STRING first-shell neighbor, via F5 (combined score=0.846)",,0.846,2026-09-24
+T037,P18964,SVSP,MCFD2,string,"STRING first-shell neighbor, via F5 (combined score=0.825)",,0.825,2026-09-24
+T037,P18964,SVSP,MMRN1,string,"STRING first-shell neighbor, via F5 (combined score=0.822)",,0.822,2026-09-24
+T037,P18964,SVSP,MTHFR,string,"STRING first-shell neighbor, via F5 (combined score=0.821)",,0.821,2026-09-24
+T037,P18964,SVSP,SERPINC1,string,"STRING first-shell neighbor, via F5 (combined score=0.817)",,0.817,2026-09-24
+T037,P18964,SVSP,F3,string,"STRING first-shell neighbor, via F5 (combined score=0.799)",,0.799,2026-09-24
+T028,E5L0E3,SVSP,F2,string,"STRING first-shell neighbor, via FGA (combined score=0.999)",,0.999,2026-09-24
+T028,E5L0E3,SVSP,FGB,string,"STRING first-shell neighbor, via FGA (combined score=0.999)",,0.999,2026-09-24
+T028,E5L0E3,SVSP,FGG,string,"STRING first-shell neighbor, via FGA (combined score=0.999)",,0.999,2026-09-24
+T028,E5L0E3,SVSP,AHSG,string,"STRING first-shell neighbor, via FGA (combined score=0.984)",,0.984,2026-09-24
+T028,E5L0E3,SVSP,SERPINC1,string,"STRING first-shell neighbor, via FGA (combined score=0.980)",,0.98,2026-09-24
+T028,E5L0E3,SVSP,ITGB3,string,"STRING first-shell neighbor, via FGA (combined score=0.978)",,0.978,2026-09-24
+T028,E5L0E3,SVSP,ALB,string,"STRING first-shell neighbor, via FGA (combined score=0.975)",,0.975,2026-09-24
+T028,E5L0E3,SVSP,SERPINF2,string,"STRING first-shell neighbor, via FGA (combined score=0.967)",,0.967,2026-09-24
+T028,E5L0E3,SVSP,PLG,string,"STRING first-shell neighbor, via FGA (combined score=0.965)",,0.965,2026-09-24
+T028,E5L0E3,SVSP,F13B,string,"STRING first-shell neighbor, via FGA (combined score=0.960)",,0.96,2026-09-24
+T029,E5L0E4,SVSP,FGA,string,"STRING first-shell neighbor, via FGB (combined score=0.999)",,0.999,2026-09-24
+T029,E5L0E4,SVSP,FGG,string,"STRING first-shell neighbor, via FGB (combined score=0.999)",,0.999,2026-09-24
+T029,E5L0E4,SVSP,F2,string,"STRING first-shell neighbor, via FGB (combined score=0.999)",,0.999,2026-09-24
+T029,E5L0E4,SVSP,SERPINC1,string,"STRING first-shell neighbor, via FGB (combined score=0.954)",,0.954,2026-09-24
+T029,E5L0E4,SVSP,ITGB3,string,"STRING first-shell neighbor, via FGB (combined score=0.952)",,0.952,2026-09-24
+T029,E5L0E4,SVSP,SERPIND1,string,"STRING first-shell neighbor, via FGB (combined score=0.951)",,0.951,2026-09-24
+T029,E5L0E4,SVSP,PLG,string,"STRING first-shell neighbor, via FGB (combined score=0.948)",,0.948,2026-09-24
+T029,E5L0E4,SVSP,AMBP,string,"STRING first-shell neighbor, via FGB (combined score=0.931)",,0.931,2026-09-24
+T029,E5L0E4,SVSP,GC,string,"STRING first-shell neighbor, via FGB (combined score=0.931)",,0.931,2026-09-24
+T029,E5L0E4,SVSP,ITGA2B,string,"STRING first-shell neighbor, via FGB (combined score=0.925)",,0.925,2026-09-24
+T034,H6VC06,Kunitz inhibitor,HRG,string,"STRING first-shell neighbor, via PLG (combined score=0.999)",,0.999,2026-09-24
+T034,H6VC06,Kunitz inhibitor,SERPINF2,string,"STRING first-shell neighbor, via PLG (combined score=0.999)",,0.999,2026-09-24
+T034,H6VC06,Kunitz inhibitor,PLAT,string,"STRING first-shell neighbor, via PLG (combined score=0.998)",,0.998,2026-09-24
+T034,H6VC06,Kunitz inhibitor,ENO1,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T034,H6VC06,Kunitz inhibitor,FN1,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T034,H6VC06,Kunitz inhibitor,ANXA2,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T034,H6VC06,Kunitz inhibitor,CLEC3B,string,"STRING first-shell neighbor, via PLG (combined score=0.996)",,0.996,2026-09-24
+T034,H6VC06,Kunitz inhibitor,VTN,string,"STRING first-shell neighbor, via PLG (combined score=0.995)",,0.995,2026-09-24
+T034,H6VC06,Kunitz inhibitor,SERPINF1,string,"STRING first-shell neighbor, via PLG (combined score=0.995)",,0.995,2026-09-24
+T034,H6VC06,Kunitz inhibitor,AMOT,string,"STRING first-shell neighbor, via PLG (combined score=0.993)",,0.993,2026-09-24
+T034,H6VC06,Kunitz inhibitor,KNG1,string,"STRING first-shell neighbor, via F11 (combined score=0.998)",,0.998,2026-09-24
+T034,H6VC06,Kunitz inhibitor,SERPINC1,string,"STRING first-shell neighbor, via F11 (combined score=0.969)",,0.969,2026-09-24
+T034,H6VC06,Kunitz inhibitor,F9,string,"STRING first-shell neighbor, via F11 (combined score=0.967)",,0.967,2026-09-24
+T034,H6VC06,Kunitz inhibitor,F8,string,"STRING first-shell neighbor, via F11 (combined score=0.966)",,0.966,2026-09-24
+T034,H6VC06,Kunitz inhibitor,F12,string,"STRING first-shell neighbor, via F11 (combined score=0.954)",,0.954,2026-09-24
+T034,H6VC06,Kunitz inhibitor,APP,string,"STRING first-shell neighbor, via F11 (combined score=0.954)",,0.954,2026-09-24
+T034,H6VC06,Kunitz inhibitor,F3,string,"STRING first-shell neighbor, via F11 (combined score=0.923)",,0.923,2026-09-24
+T034,H6VC06,Kunitz inhibitor,IGHV3-43D,string,"STRING first-shell neighbor, via F11 (combined score=0.913)",,0.913,2026-09-24
+T034,H6VC06,Kunitz inhibitor,IGKV1D-33,string,"STRING first-shell neighbor, via F11 (combined score=0.912)",,0.912,2026-09-24
+T034,H6VC06,Kunitz inhibitor,IGKV1-33,string,"STRING first-shell neighbor, via F11 (combined score=0.912)",,0.912,2026-09-24
+T034,H6VC06,Kunitz inhibitor,F2,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T034,H6VC06,Kunitz inhibitor,TFPI,string,"STRING first-shell neighbor, via F10 (combined score=0.999)",,0.999,2026-09-24
+T034,H6VC06,Kunitz inhibitor,F5,string,"STRING first-shell neighbor, via F10 (combined score=0.995)",,0.995,2026-09-24
+T034,H6VC06,Kunitz inhibitor,F7,string,"STRING first-shell neighbor, via F10 (combined score=0.988)",,0.988,2026-09-24
+T034,H6VC06,Kunitz inhibitor,VWF,string,"STRING first-shell neighbor, via F10 (combined score=0.978)",,0.978,2026-09-24
+T034,H6VC06,Kunitz inhibitor,PROCR,string,"STRING first-shell neighbor, via F10 (combined score=0.958)",,0.958,2026-09-24
+T034,H6VC06,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.999)",,0.999,2026-09-24
+T034,H6VC06,Kunitz inhibitor,TMPRSS15,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.920)",,0.92,2026-09-24
+T034,H6VC06,Kunitz inhibitor,PRSS3,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.918)",,0.918,2026-09-24
+T034,H6VC06,Kunitz inhibitor,CTRB1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.863)",,0.863,2026-09-24
+T034,H6VC06,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.859)",,0.859,2026-09-24
+T034,H6VC06,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.855)",,0.855,2026-09-24
+T034,H6VC06,Kunitz inhibitor,CFTR,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.854)",,0.854,2026-09-24
+T034,H6VC06,Kunitz inhibitor,PLG,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.832)",,0.832,2026-09-24
+T034,H6VC06,Kunitz inhibitor,F2R,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.826)",,0.826,2026-09-24
+T033,H6VC05,Kunitz inhibitor,PROCR,string,"STRING first-shell neighbor, via PROC (combined score=0.996)",,0.996,2026-09-24
+T033,H6VC05,Kunitz inhibitor,THBD,string,"STRING first-shell neighbor, via PROC (combined score=0.992)",,0.992,2026-09-24
+T033,H6VC05,Kunitz inhibitor,F2,string,"STRING first-shell neighbor, via PROC (combined score=0.987)",,0.987,2026-09-24
+T033,H6VC05,Kunitz inhibitor,SERPINF2,string,"STRING first-shell neighbor, via PROC (combined score=0.972)",,0.972,2026-09-24
+T033,H6VC05,Kunitz inhibitor,SERPINA5,string,"STRING first-shell neighbor, via PROC (combined score=0.969)",,0.969,2026-09-24
+T033,H6VC05,Kunitz inhibitor,F2R,string,"STRING first-shell neighbor, via PROC (combined score=0.960)",,0.96,2026-09-24
+T033,H6VC05,Kunitz inhibitor,F8,string,"STRING first-shell neighbor, via PROC (combined score=0.960)",,0.96,2026-09-24
+T033,H6VC05,Kunitz inhibitor,SERPINE1,string,"STRING first-shell neighbor, via PROC (combined score=0.943)",,0.943,2026-09-24
+T033,H6VC05,Kunitz inhibitor,F5,string,"STRING first-shell neighbor, via PROC (combined score=0.940)",,0.94,2026-09-24
+T033,H6VC05,Kunitz inhibitor,SERPINA1,string,"STRING first-shell neighbor, via PROC (combined score=0.934)",,0.934,2026-09-24
+T033,H6VC05,Kunitz inhibitor,KNG1,string,"STRING first-shell neighbor, via F11 (combined score=0.998)",,0.998,2026-09-24
+T033,H6VC05,Kunitz inhibitor,SERPINC1,string,"STRING first-shell neighbor, via F11 (combined score=0.969)",,0.969,2026-09-24
+T033,H6VC05,Kunitz inhibitor,F9,string,"STRING first-shell neighbor, via F11 (combined score=0.967)",,0.967,2026-09-24
+T033,H6VC05,Kunitz inhibitor,F12,string,"STRING first-shell neighbor, via F11 (combined score=0.954)",,0.954,2026-09-24
+T033,H6VC05,Kunitz inhibitor,APP,string,"STRING first-shell neighbor, via F11 (combined score=0.954)",,0.954,2026-09-24
+T033,H6VC05,Kunitz inhibitor,F3,string,"STRING first-shell neighbor, via F11 (combined score=0.923)",,0.923,2026-09-24
+T033,H6VC05,Kunitz inhibitor,IGHV3-43D,string,"STRING first-shell neighbor, via F11 (combined score=0.913)",,0.913,2026-09-24
+T033,H6VC05,Kunitz inhibitor,IGKV1D-33,string,"STRING first-shell neighbor, via F11 (combined score=0.912)",,0.912,2026-09-24
+T033,H6VC05,Kunitz inhibitor,IGKV1-33,string,"STRING first-shell neighbor, via F11 (combined score=0.912)",,0.912,2026-09-24
+T033,H6VC05,Kunitz inhibitor,HRG,string,"STRING first-shell neighbor, via PLG (combined score=0.999)",,0.999,2026-09-24
+T033,H6VC05,Kunitz inhibitor,PLAT,string,"STRING first-shell neighbor, via PLG (combined score=0.998)",,0.998,2026-09-24
+T033,H6VC05,Kunitz inhibitor,ENO1,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T033,H6VC05,Kunitz inhibitor,FN1,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T033,H6VC05,Kunitz inhibitor,ANXA2,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T033,H6VC05,Kunitz inhibitor,CLEC3B,string,"STRING first-shell neighbor, via PLG (combined score=0.996)",,0.996,2026-09-24
+T033,H6VC05,Kunitz inhibitor,VTN,string,"STRING first-shell neighbor, via PLG (combined score=0.995)",,0.995,2026-09-24
+T033,H6VC05,Kunitz inhibitor,SERPINF1,string,"STRING first-shell neighbor, via PLG (combined score=0.995)",,0.995,2026-09-24
+T033,H6VC05,Kunitz inhibitor,AMOT,string,"STRING first-shell neighbor, via PLG (combined score=0.993)",,0.993,2026-09-24
+T033,H6VC05,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.999)",,0.999,2026-09-24
+T033,H6VC05,Kunitz inhibitor,TMPRSS15,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.920)",,0.92,2026-09-24
+T033,H6VC05,Kunitz inhibitor,PRSS3,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.918)",,0.918,2026-09-24
+T033,H6VC05,Kunitz inhibitor,CTRB1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.863)",,0.863,2026-09-24
+T033,H6VC05,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.859)",,0.859,2026-09-24
+T033,H6VC05,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.855)",,0.855,2026-09-24
+T033,H6VC05,Kunitz inhibitor,CFTR,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.854)",,0.854,2026-09-24
+T033,H6VC05,Kunitz inhibitor,PLG,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.832)",,0.832,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via CTRB1 (combined score=0.973)",,0.973,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,SERPINA3,string,"STRING first-shell neighbor, via CTRB1 (combined score=0.969)",,0.969,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,SERPINA1,string,"STRING first-shell neighbor, via CTRB1 (combined score=0.957)",,0.957,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via CTRB1 (combined score=0.949)",,0.949,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,CPB1,string,"STRING first-shell neighbor, via CTRB1 (combined score=0.932)",,0.932,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,PNLIP,string,"STRING first-shell neighbor, via CTRB1 (combined score=0.925)",,0.925,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,CEL,string,"STRING first-shell neighbor, via CTRB1 (combined score=0.909)",,0.909,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via CTRB1 (combined score=0.885)",,0.885,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,PRSS1,string,"STRING first-shell neighbor, via CTRB1 (combined score=0.863)",,0.863,2026-09-24
+T019,A8Y7P1,Kunitz inhibitor,A2M,string,"STRING first-shell neighbor, via CTRB1 (combined score=0.859)",,0.859,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.999)",,0.999,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,TMPRSS15,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.920)",,0.92,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,PRSS3,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.918)",,0.918,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,CTRB1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.863)",,0.863,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.859)",,0.859,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.855)",,0.855,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,CFTR,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.854)",,0.854,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,PLG,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.832)",,0.832,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,F2R,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.826)",,0.826,2026-09-24
+T012,A8Y7N4,Kunitz inhibitor,APP,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.822)",,0.822,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.999)",,0.999,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,TMPRSS15,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.920)",,0.92,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,PRSS3,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.918)",,0.918,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,CTRB1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.863)",,0.863,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.859)",,0.859,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.855)",,0.855,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,CFTR,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.854)",,0.854,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,PLG,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.832)",,0.832,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,F2R,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.826)",,0.826,2026-09-24
+T016,A8Y7N8,Kunitz inhibitor,APP,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.822)",,0.822,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.999)",,0.999,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,TMPRSS15,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.920)",,0.92,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,PRSS3,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.918)",,0.918,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,CTRB1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.863)",,0.863,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.859)",,0.859,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.855)",,0.855,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,CFTR,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.854)",,0.854,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,PLG,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.832)",,0.832,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,F2R,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.826)",,0.826,2026-09-24
+T018,A8Y7P0,Kunitz inhibitor,APP,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.822)",,0.822,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.999)",,0.999,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,TMPRSS15,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.920)",,0.92,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,PRSS3,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.918)",,0.918,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,CTRB1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.863)",,0.863,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.859)",,0.859,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.855)",,0.855,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,CFTR,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.854)",,0.854,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,PLG,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.832)",,0.832,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,F2R,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.826)",,0.826,2026-09-24
+T020,A8Y7P2,Kunitz inhibitor,APP,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.822)",,0.822,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.999)",,0.999,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,TMPRSS15,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.920)",,0.92,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,PRSS3,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.918)",,0.918,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,CTRB1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.863)",,0.863,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.859)",,0.859,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.855)",,0.855,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,CFTR,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.854)",,0.854,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,PLG,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.832)",,0.832,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,F2R,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.826)",,0.826,2026-09-24
+T024,A8Y7P6,Kunitz inhibitor,APP,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.822)",,0.822,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,HRG,string,"STRING first-shell neighbor, via PLG (combined score=0.999)",,0.999,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,SERPINF2,string,"STRING first-shell neighbor, via PLG (combined score=0.999)",,0.999,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,PLAT,string,"STRING first-shell neighbor, via PLG (combined score=0.998)",,0.998,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,ENO1,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,FN1,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,ANXA2,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,CLEC3B,string,"STRING first-shell neighbor, via PLG (combined score=0.996)",,0.996,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,VTN,string,"STRING first-shell neighbor, via PLG (combined score=0.995)",,0.995,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,SERPINF1,string,"STRING first-shell neighbor, via PLG (combined score=0.995)",,0.995,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,AMOT,string,"STRING first-shell neighbor, via PLG (combined score=0.993)",,0.993,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.999)",,0.999,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,TMPRSS15,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.920)",,0.92,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,PRSS3,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.918)",,0.918,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,CTRB1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.863)",,0.863,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.859)",,0.859,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.855)",,0.855,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,CFTR,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.854)",,0.854,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,PLG,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.832)",,0.832,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,F2R,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.826)",,0.826,2026-09-24
+T013,A8Y7N5,Kunitz inhibitor,APP,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.822)",,0.822,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,HRG,string,"STRING first-shell neighbor, via PLG (combined score=0.999)",,0.999,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,SERPINF2,string,"STRING first-shell neighbor, via PLG (combined score=0.999)",,0.999,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,PLAT,string,"STRING first-shell neighbor, via PLG (combined score=0.998)",,0.998,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,ENO1,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,FN1,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,ANXA2,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,CLEC3B,string,"STRING first-shell neighbor, via PLG (combined score=0.996)",,0.996,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,VTN,string,"STRING first-shell neighbor, via PLG (combined score=0.995)",,0.995,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,SERPINF1,string,"STRING first-shell neighbor, via PLG (combined score=0.995)",,0.995,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,AMOT,string,"STRING first-shell neighbor, via PLG (combined score=0.993)",,0.993,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.999)",,0.999,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,TMPRSS15,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.920)",,0.92,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,PRSS3,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.918)",,0.918,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,CTRB1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.863)",,0.863,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.859)",,0.859,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.855)",,0.855,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,CFTR,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.854)",,0.854,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,PLG,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.832)",,0.832,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,F2R,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.826)",,0.826,2026-09-24
+T021,A8Y7P3,Kunitz inhibitor,APP,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.822)",,0.822,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,HRG,string,"STRING first-shell neighbor, via PLG (combined score=0.999)",,0.999,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,SERPINF2,string,"STRING first-shell neighbor, via PLG (combined score=0.999)",,0.999,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,PLAT,string,"STRING first-shell neighbor, via PLG (combined score=0.998)",,0.998,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,ENO1,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,FN1,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,ANXA2,string,"STRING first-shell neighbor, via PLG (combined score=0.997)",,0.997,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,CLEC3B,string,"STRING first-shell neighbor, via PLG (combined score=0.996)",,0.996,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,VTN,string,"STRING first-shell neighbor, via PLG (combined score=0.995)",,0.995,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,SERPINF1,string,"STRING first-shell neighbor, via PLG (combined score=0.995)",,0.995,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,AMOT,string,"STRING first-shell neighbor, via PLG (combined score=0.993)",,0.993,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,SPINK1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.999)",,0.999,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,TMPRSS15,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.920)",,0.92,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,PRSS3,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.918)",,0.918,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,CTRB1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.863)",,0.863,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,CTRB2,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.859)",,0.859,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,CPA1,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.855)",,0.855,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,CFTR,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.854)",,0.854,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,PLG,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.832)",,0.832,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,F2R,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.826)",,0.826,2026-09-24
+T022,A8Y7P4,Kunitz inhibitor,APP,string,"STRING first-shell neighbor, via PRSS1 (combined score=0.822)",,0.822,2026-09-24
+T042,P67861,VEGF,VEGFB,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T042,P67861,VEGF,CDH5,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T042,P67861,VEGF,NRP1,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T042,P67861,VEGF,VEGFC,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T042,P67861,VEGF,PGF,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T042,P67861,VEGF,VEGFD,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T042,P67861,VEGF,PECAM1,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T042,P67861,VEGF,FGF2,string,"STRING first-shell neighbor, via KDR (combined score=0.998)",,0.998,2026-09-24
+T042,P67861,VEGF,SRC,string,"STRING first-shell neighbor, via KDR (combined score=0.998)",,0.998,2026-09-24
+T042,P67861,VEGF,PDGFC,string,"STRING first-shell neighbor, via KDR (combined score=0.997)",,0.997,2026-09-24
+T036,P0DL42,VEGF,VEGFB,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T036,P0DL42,VEGF,CDH5,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T036,P0DL42,VEGF,NRP1,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T036,P0DL42,VEGF,VEGFC,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T036,P0DL42,VEGF,PGF,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T036,P0DL42,VEGF,VEGFD,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T036,P0DL42,VEGF,PECAM1,string,"STRING first-shell neighbor, via KDR (combined score=0.999)",,0.999,2026-09-24
+T036,P0DL42,VEGF,FGF2,string,"STRING first-shell neighbor, via KDR (combined score=0.998)",,0.998,2026-09-24
+T036,P0DL42,VEGF,SRC,string,"STRING first-shell neighbor, via KDR (combined score=0.998)",,0.998,2026-09-24
+T036,P0DL42,VEGF,PDGFC,string,"STRING first-shell neighbor, via KDR (combined score=0.997)",,0.997,2026-09-24
