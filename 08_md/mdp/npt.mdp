@@ -1,0 +1,26 @@
+; npt.mdp — 100 ps NPT, 300 K / 1 bar, position restraints on heavy atoms
+define      = -DPOSRES
+integrator  = md
+dt          = 0.002
+nsteps      = 50000
+nstxout     = 500
+nstvout     = 500
+nstenergy   = 500
+nstlog      = 500
+cutoff-scheme = Verlet
+nstlist     = 10
+coulombtype = PME
+rcoulomb    = 1.2
+rvdw        = 1.2
+pbc         = xyz
+tcoupl      = V-rescale
+tc-grps     = Protein Non-Protein
+tau_t       = 0.1 0.1
+ref_t       = 300 300
+pcoupl      = Parrinello-Rahman
+pcoupltype  = isotropic
+tau_p       = 2.0
+ref_p       = 1.0
+compressibility = 4.5e-5
+gen_vel     = no
+constraints = h-bonds
