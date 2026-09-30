@@ -1,0 +1,94 @@
+{
+  "CFH": {
+    "symbol": "CFH",
+    "mims": [
+      "AHUS1",
+      "CFHD"
+    ]
+  },
+  "CFHR3": {
+    "symbol": "CFHR3",
+    "mims": [
+      "AHUS1"
+    ]
+  },
+  "CFHR1": {
+    "symbol": "CFHR1",
+    "mims": [
+      "AHUS1"
+    ]
+  },
+  "CD46": {
+    "symbol": "CD46",
+    "mims": [
+      "AHUS2"
+    ]
+  },
+  "CFI": {
+    "symbol": "CFI",
+    "mims": [
+      "AHUS3",
+      "CFID"
+    ]
+  },
+  "CFB": {
+    "symbol": "CFB",
+    "mims": [
+      "AHUS4"
+    ]
+  },
+  "C3": {
+    "symbol": "C3",
+    "mims": [
+      "AHUS5"
+    ]
+  },
+  "THBD": {
+    "symbol": "THBD",
+    "mims": [
+      "AHUS6"
+    ]
+  },
+  "DGKE": {
+    "symbol": "DGKE",
+    "mims": [
+      "AHUS7/NPHS7"
+    ]
+  },
+  "C1GALT1C1": {
+    "symbol": "C1GALT1C1",
+    "mims": [
+      "AHUS8"
+    ]
+  },
+  "ADAMTS13": {
+    "symbol": "ADAMTS13",
+    "mims": [
+      "TTP"
+    ]
+  },
+  "CD59": {
+    "symbol": "CD59",
+    "mims": [
+      "CD59-HAA"
+    ]
+  },
+  "MMACHC": {
+    "symbol": "MMACHC",
+    "mims": [
+      "cblC"
+    ]
+  },
+  "PRDX1": {
+    "symbol": "PRDX1",
+    "mims": [
+      "cblC"
+    ]
+  },
+  "MTR": {
+    "symbol": "MTR",
+    "mims": [
+      "cblG"
+    ]
+  }
+}

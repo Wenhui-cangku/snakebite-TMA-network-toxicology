@@ -1,0 +1,52 @@
+{
+  "file_stats": {
+    "atypical hemolytic uremic syndrome": {
+      "raw_rows": 319,
+      "whitelist_rows": 319,
+      "notfound": 0,
+      "uniq_genes": 319
+    },
+    "microangiopathic hemolytic anemia": {
+      "raw_rows": 320875,
+      "whitelist_rows": 220541,
+      "notfound": 0,
+      "uniq_genes": 26812
+    },
+    "snakebite envenoming": {
+      "raw_rows": 64,
+      "whitelist_rows": 64,
+      "notfound": 0,
+      "uniq_genes": 57
+    },
+    "thrombotic microangiopathy": {
+      "raw_rows": 120692,
+      "whitelist_rows": 91269,
+      "notfound": 0,
+      "uniq_genes": 20340
+    },
+    "thrombotic thrombocytopenic purpura": {
+      "raw_rows": 31829,
+      "whitelist_rows": 31829,
+      "notfound": 0,
+      "uniq_genes": 16708
+    },
+    "venom-induced consumption coagulopathy": {
+      "raw_rows": 1,
+      "whitelist_rows": 0,
+      "notfound": 0,
+      "uniq_genes": 0
+    }
+  },
+  "agg_genes": 26816,
+  "new_direct": [
+    "EIF2AK1",
+    "GCLC",
+    "ITPA"
+  ],
+  "n_new_inf": 349,
+  "n_new_snakebite": 13,
+  "total": 2190,
+  "main": 1042,
+  "broad": 1148,
+  "annotated_existing": 1770
+}
