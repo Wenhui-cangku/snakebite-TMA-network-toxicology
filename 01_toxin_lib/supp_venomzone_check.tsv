@@ -1,0 +1,2 @@
+Entry	Entry Name	Protein names	Gene Names	Organism	Length	PDB	AlphaFoldDB	Function [CC]	Reviewed
+P86368	PA2B3_DABRR	Basic phospholipase A2 3 (PLA23) (svPLA2) (EC 3.1.1.4) (Phosphatidylcholine 2-acylhydrolase)		Daboia russelii (Russel's viper) (Vipera russelii)	121		P86368;	FUNCTION: PLA2 catalyzes the calcium-dependent hydrolysis of the 2-acyl groups in 3-sn-phosphoglycerides. {ECO:0000250}.	reviewed
