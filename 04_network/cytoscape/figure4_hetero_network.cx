@@ -1,0 +1,2177 @@
+[
+ {
+  "numberVerification": [
+   {
+    "longNumber": 281474976710655
+   }
+  ]
+ },
+ {
+  "metaData": [
+   {
+    "name": "nodes",
+    "version": "1.0",
+    "consistencyGroup": 1,
+    "elementCount": 30,
+    "idCounter": 30
+   },
+   {
+    "name": "edges",
+    "version": "1.0",
+    "consistencyGroup": 1,
+    "elementCount": 49,
+    "idCounter": 49
+   },
+   {
+    "name": "nodeAttributes",
+    "version": "1.0",
+    "consistencyGroup": 1,
+    "elementCount": 175
+   },
+   {
+    "name": "edgeAttributes",
+    "version": "1.0",
+    "consistencyGroup": 1,
+    "elementCount": 78
+   },
+   {
+    "name": "cartesianLayout",
+    "version": "1.0",
+    "consistencyGroup": 1,
+    "elementCount": 30
+   },
+   {
+    "name": "networkAttributes",
+    "version": "1.0",
+    "consistencyGroup": 1,
+    "elementCount": 1
+   }
+  ]
+ },
+ {
+  "networkAttributes": [
+   {
+    "n": "name",
+    "v": "Figure4_4layer_network",
+    "d": "string"
+   }
+  ]
+ },
+ {
+  "nodes": [
+   {
+    "@id": 0,
+    "n": "RVV-X"
+   },
+   {
+    "@id": 1,
+    "n": "RVV-Vγ"
+   },
+   {
+    "@id": 2,
+    "n": "daborhagin-K"
+   },
+   {
+    "@id": 3,
+    "n": "snaclec Q38L02"
+   },
+   {
+    "@id": 4,
+    "n": "PLA2 VRV-PL-VIIIa"
+   },
+   {
+    "@id": 5,
+    "n": "Kunitz H6VC06"
+   },
+   {
+    "@id": 6,
+    "n": "svVEGF"
+   },
+   {
+    "@id": 7,
+    "n": "F10"
+   },
+   {
+    "@id": 8,
+    "n": "F9"
+   },
+   {
+    "@id": 9,
+    "n": "PROS1"
+   },
+   {
+    "@id": 10,
+    "n": "F5"
+   },
+   {
+    "@id": 11,
+    "n": "FGA"
+   },
+   {
+    "@id": 12,
+    "n": "FN1"
+   },
+   {
+    "@id": 13,
+    "n": "COL4A1"
+   },
+   {
+    "@id": 14,
+    "n": "GP1BA"
+   },
+   {
+    "@id": 15,
+    "n": "PLG"
+   },
+   {
+    "@id": 16,
+    "n": "F11"
+   },
+   {
+    "@id": 17,
+    "n": "PRSS1"
+   },
+   {
+    "@id": 18,
+    "n": "KDR"
+   },
+   {
+    "@id": 19,
+    "n": "Formation of Fibrin Clot (REAC 140877, p=9.7e-23)"
+   },
+   {
+    "@id": 20,
+    "n": "Complement & Coagulation (KEGG 04610, p=3.9e-18)"
+   },
+   {
+    "@id": 21,
+    "n": "Platelet Activation (REAC 76002, p=1.5e-07)"
+   },
+   {
+    "@id": 22,
+    "n": "ECM-Receptor Interaction (KEGG 04512, adj=0.018)"
+   },
+   {
+    "@id": 23,
+    "n": "Focal Adhesion (KEGG 04510, adj=0.047)"
+   },
+   {
+    "@id": 24,
+    "n": "VEGFR2 Signaling (REAC 195399, adj=0.023)"
+   },
+   {
+    "@id": 25,
+    "n": "VICC consumptive coagulopathy"
+   },
+   {
+    "@id": 26,
+    "n": "Thrombocytopenia thrombocytopenia"
+   },
+   {
+    "@id": 27,
+    "n": "MAHA microangiopathic hemolytic anemia"
+   },
+   {
+    "@id": 28,
+    "n": "AKI acute kidney injury"
+   },
+   {
+    "@id": 29,
+    "n": "Capillary Leak capillary leak / hypotension"
+   }
+  ]
+ },
+ {
+  "edges": [
+   {
+    "@id": 0,
+    "s": 0,
+    "t": 7,
+    "i": "direct"
+   },
+   {
+    "@id": 1,
+    "s": 0,
+    "t": 8,
+    "i": "direct"
+   },
+   {
+    "@id": 2,
+    "s": 0,
+    "t": 9,
+    "i": "direct"
+   },
+   {
+    "@id": 3,
+    "s": 1,
+    "t": 10,
+    "i": "direct"
+   },
+   {
+    "@id": 4,
+    "s": 2,
+    "t": 11,
+    "i": "direct"
+   },
+   {
+    "@id": 5,
+    "s": 2,
+    "t": 12,
+    "i": "direct"
+   },
+   {
+    "@id": 6,
+    "s": 2,
+    "t": 13,
+    "i": "direct"
+   },
+   {
+    "@id": 7,
+    "s": 3,
+    "t": 14,
+    "i": "direct"
+   },
+   {
+    "@id": 8,
+    "s": 4,
+    "t": 7,
+    "i": "direct"
+   },
+   {
+    "@id": 9,
+    "s": 5,
+    "t": 15,
+    "i": "direct"
+   },
+   {
+    "@id": 10,
+    "s": 5,
+    "t": 16,
+    "i": "direct"
+   },
+   {
+    "@id": 11,
+    "s": 5,
+    "t": 7,
+    "i": "direct"
+   },
+   {
+    "@id": 12,
+    "s": 5,
+    "t": 17,
+    "i": "direct"
+   },
+   {
+    "@id": 13,
+    "s": 6,
+    "t": 18,
+    "i": "direct"
+   },
+   {
+    "@id": 14,
+    "s": 7,
+    "t": 19,
+    "i": "membership"
+   },
+   {
+    "@id": 15,
+    "s": 10,
+    "t": 19,
+    "i": "membership"
+   },
+   {
+    "@id": 16,
+    "s": 11,
+    "t": 19,
+    "i": "membership"
+   },
+   {
+    "@id": 17,
+    "s": 16,
+    "t": 19,
+    "i": "membership"
+   },
+   {
+    "@id": 18,
+    "s": 14,
+    "t": 19,
+    "i": "membership"
+   },
+   {
+    "@id": 19,
+    "s": 9,
+    "t": 19,
+    "i": "membership"
+   },
+   {
+    "@id": 20,
+    "s": 7,
+    "t": 20,
+    "i": "membership"
+   },
+   {
+    "@id": 21,
+    "s": 11,
+    "t": 20,
+    "i": "membership"
+   },
+   {
+    "@id": 22,
+    "s": 15,
+    "t": 20,
+    "i": "membership"
+   },
+   {
+    "@id": 23,
+    "s": 16,
+    "t": 20,
+    "i": "membership"
+   },
+   {
+    "@id": 24,
+    "s": 9,
+    "t": 20,
+    "i": "membership"
+   },
+   {
+    "@id": 25,
+    "s": 11,
+    "t": 21,
+    "i": "membership"
+   },
+   {
+    "@id": 26,
+    "s": 15,
+    "t": 21,
+    "i": "membership"
+   },
+   {
+    "@id": 27,
+    "s": 14,
+    "t": 21,
+    "i": "membership"
+   },
+   {
+    "@id": 28,
+    "s": 9,
+    "t": 21,
+    "i": "membership"
+   },
+   {
+    "@id": 29,
+    "s": 13,
+    "t": 22,
+    "i": "membership"
+   },
+   {
+    "@id": 30,
+    "s": 14,
+    "t": 22,
+    "i": "membership"
+   },
+   {
+    "@id": 31,
+    "s": 13,
+    "t": 23,
+    "i": "membership"
+   },
+   {
+    "@id": 32,
+    "s": 18,
+    "t": 23,
+    "i": "membership"
+   },
+   {
+    "@id": 33,
+    "s": 18,
+    "t": 24,
+    "i": "membership"
+   },
+   {
+    "@id": 34,
+    "s": 19,
+    "t": 25,
+    "i": "mechanism"
+   },
+   {
+    "@id": 35,
+    "s": 19,
+    "t": 27,
+    "i": "mechanism"
+   },
+   {
+    "@id": 36,
+    "s": 19,
+    "t": 26,
+    "i": "mechanism"
+   },
+   {
+    "@id": 37,
+    "s": 20,
+    "t": 25,
+    "i": "mechanism"
+   },
+   {
+    "@id": 38,
+    "s": 20,
+    "t": 27,
+    "i": "mechanism"
+   },
+   {
+    "@id": 39,
+    "s": 20,
+    "t": 28,
+    "i": "mechanism"
+   },
+   {
+    "@id": 40,
+    "s": 21,
+    "t": 26,
+    "i": "mechanism"
+   },
+   {
+    "@id": 41,
+    "s": 21,
+    "t": 27,
+    "i": "mechanism"
+   },
+   {
+    "@id": 42,
+    "s": 22,
+    "t": 28,
+    "i": "mechanism"
+   },
+   {
+    "@id": 43,
+    "s": 24,
+    "t": 29,
+    "i": "mechanism"
+   },
+   {
+    "@id": 44,
+    "s": 24,
+    "t": 28,
+    "i": "mechanism"
+   },
+   {
+    "@id": 45,
+    "s": 25,
+    "t": 26,
+    "i": "progression"
+   },
+   {
+    "@id": 46,
+    "s": 25,
+    "t": 27,
+    "i": "progression"
+   },
+   {
+    "@id": 47,
+    "s": 25,
+    "t": 28,
+    "i": "progression"
+   },
+   {
+    "@id": 48,
+    "s": 29,
+    "t": 28,
+    "i": "progression"
+   }
+  ]
+ },
+ {
+  "nodeAttributes": [
+   {
+    "po": 0,
+    "n": "layer",
+    "v": "1",
+    "d": "integer"
+   },
+   {
+    "po": 0,
+    "n": "node_type",
+    "v": "toxin",
+    "d": "string"
+   },
+   {
+    "po": 0,
+    "n": "family_or_axis",
+    "v": "SVMP+snaclec complex",
+    "d": "string"
+   },
+   {
+    "po": 0,
+    "n": "evidence_note",
+    "v": "ClusPro✅ HADDOCK-site✅",
+    "d": "string"
+   },
+   {
+    "po": 0,
+    "n": "fill_color",
+    "v": "#D62728",
+    "d": "string"
+   },
+   {
+    "po": 0,
+    "n": "shape",
+    "v": "HEXAGON",
+    "d": "string"
+   },
+   {
+    "po": 1,
+    "n": "layer",
+    "v": "1",
+    "d": "integer"
+   },
+   {
+    "po": 1,
+    "n": "node_type",
+    "v": "toxin",
+    "d": "string"
+   },
+   {
+    "po": 1,
+    "n": "family_or_axis",
+    "v": "SVSP",
+    "d": "string"
+   },
+   {
+    "po": 1,
+    "n": "evidence_note",
+    "v": "ClusPro✅ HADDOCK✅✅ co-crystal✅",
+    "d": "string"
+   },
+   {
+    "po": 1,
+    "n": "fill_color",
+    "v": "#D62728",
+    "d": "string"
+   },
+   {
+    "po": 1,
+    "n": "shape",
+    "v": "HEXAGON",
+    "d": "string"
+   },
+   {
+    "po": 2,
+    "n": "layer",
+    "v": "1",
+    "d": "integer"
+   },
+   {
+    "po": 2,
+    "n": "node_type",
+    "v": "toxin",
+    "d": "string"
+   },
+   {
+    "po": 2,
+    "n": "family_or_axis",
+    "v": "SVMP (P-III)",
+    "d": "string"
+   },
+   {
+    "po": 2,
+    "n": "evidence_note",
+    "v": "ClusPro✅ HADDOCK-site✅",
+    "d": "string"
+   },
+   {
+    "po": 2,
+    "n": "fill_color",
+    "v": "#D62728",
+    "d": "string"
+   },
+   {
+    "po": 2,
+    "n": "shape",
+    "v": "HEXAGON",
+    "d": "string"
+   },
+   {
+    "po": 3,
+    "n": "layer",
+    "v": "1",
+    "d": "integer"
+   },
+   {
+    "po": 3,
+    "n": "node_type",
+    "v": "toxin",
+    "d": "string"
+   },
+   {
+    "po": 3,
+    "n": "family_or_axis",
+    "v": "snaclec/CTL",
+    "d": "string"
+   },
+   {
+    "po": 3,
+    "n": "evidence_note",
+    "v": "ClusPro✅",
+    "d": "string"
+   },
+   {
+    "po": 3,
+    "n": "fill_color",
+    "v": "#D62728",
+    "d": "string"
+   },
+   {
+    "po": 3,
+    "n": "shape",
+    "v": "HEXAGON",
+    "d": "string"
+   },
+   {
+    "po": 4,
+    "n": "layer",
+    "v": "1",
+    "d": "integer"
+   },
+   {
+    "po": 4,
+    "n": "node_type",
+    "v": "toxin",
+    "d": "string"
+   },
+   {
+    "po": 4,
+    "n": "family_or_axis",
+    "v": "PLA2",
+    "d": "string"
+   },
+   {
+    "po": 4,
+    "n": "evidence_note",
+    "v": "ClusPro✅",
+    "d": "string"
+   },
+   {
+    "po": 4,
+    "n": "fill_color",
+    "v": "#D62728",
+    "d": "string"
+   },
+   {
+    "po": 4,
+    "n": "shape",
+    "v": "HEXAGON",
+    "d": "string"
+   },
+   {
+    "po": 5,
+    "n": "layer",
+    "v": "1",
+    "d": "integer"
+   },
+   {
+    "po": 5,
+    "n": "node_type",
+    "v": "toxin",
+    "d": "string"
+   },
+   {
+    "po": 5,
+    "n": "family_or_axis",
+    "v": "Kunitz inhibitor",
+    "d": "string"
+   },
+   {
+    "po": 5,
+    "n": "evidence_note",
+    "v": "ClusPro✅ HADDOCK-site✅",
+    "d": "string"
+   },
+   {
+    "po": 5,
+    "n": "fill_color",
+    "v": "#D62728",
+    "d": "string"
+   },
+   {
+    "po": 5,
+    "n": "shape",
+    "v": "HEXAGON",
+    "d": "string"
+   },
+   {
+    "po": 6,
+    "n": "layer",
+    "v": "1",
+    "d": "integer"
+   },
+   {
+    "po": 6,
+    "n": "node_type",
+    "v": "toxin",
+    "d": "string"
+   },
+   {
+    "po": 6,
+    "n": "family_or_axis",
+    "v": "VEGF",
+    "d": "string"
+   },
+   {
+    "po": 6,
+    "n": "evidence_note",
+    "v": "ClusPro✅✅ HDock✅",
+    "d": "string"
+   },
+   {
+    "po": 6,
+    "n": "fill_color",
+    "v": "#D62728",
+    "d": "string"
+   },
+   {
+    "po": 6,
+    "n": "shape",
+    "v": "HEXAGON",
+    "d": "string"
+   },
+   {
+    "po": 7,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 7,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 7,
+    "n": "family_or_axis",
+    "v": "Axis2 coagulation/fibrinolysis",
+    "d": "string"
+   },
+   {
+    "po": 7,
+    "n": "hub_status",
+    "v": "Hub+strict",
+    "d": "string"
+   },
+   {
+    "po": 7,
+    "n": "evidence_note",
+    "v": "RVV-X activation / PLA2 binding / weak Kunitz inhibition",
+    "d": "string"
+   },
+   {
+    "po": 7,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 7,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 8,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 8,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 8,
+    "n": "family_or_axis",
+    "v": "Axis2 coagulation/fibrinolysis",
+    "d": "string"
+   },
+   {
+    "po": 8,
+    "n": "evidence_note",
+    "v": "RVV-X activation",
+    "d": "string"
+   },
+   {
+    "po": 8,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 8,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 9,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 9,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 9,
+    "n": "family_or_axis",
+    "v": "Axis2 coagulation/fibrinolysis",
+    "d": "string"
+   },
+   {
+    "po": 9,
+    "n": "hub_status",
+    "v": "strict",
+    "d": "string"
+   },
+   {
+    "po": 9,
+    "n": "evidence_note",
+    "v": "RVV-X activation",
+    "d": "string"
+   },
+   {
+    "po": 9,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 9,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 10,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 10,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 10,
+    "n": "family_or_axis",
+    "v": "Axis2 coagulation/fibrinolysis",
+    "d": "string"
+   },
+   {
+    "po": 10,
+    "n": "hub_status",
+    "v": "Hub+strict",
+    "d": "string"
+   },
+   {
+    "po": 10,
+    "n": "evidence_note",
+    "v": "RVV-Vγ activation",
+    "d": "string"
+   },
+   {
+    "po": 10,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 10,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 11,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 11,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 11,
+    "n": "family_or_axis",
+    "v": "Axis2 coagulation/fibrinolysis",
+    "d": "string"
+   },
+   {
+    "po": 11,
+    "n": "hub_status",
+    "v": "Hub+strict",
+    "d": "string"
+   },
+   {
+    "po": 11,
+    "n": "evidence_note",
+    "v": "daborhagin-K hydrolysis",
+    "d": "string"
+   },
+   {
+    "po": 11,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 11,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 12,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 12,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 12,
+    "n": "family_or_axis",
+    "v": "ECM",
+    "d": "string"
+   },
+   {
+    "po": 12,
+    "n": "evidence_note",
+    "v": "daborhagin-K hydrolysis",
+    "d": "string"
+   },
+   {
+    "po": 12,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 12,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 13,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 13,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 13,
+    "n": "family_or_axis",
+    "v": "ECM",
+    "d": "string"
+   },
+   {
+    "po": 13,
+    "n": "hub_status",
+    "v": "strict",
+    "d": "string"
+   },
+   {
+    "po": 13,
+    "n": "evidence_note",
+    "v": "daborhagin-K hydrolysis",
+    "d": "string"
+   },
+   {
+    "po": 13,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 13,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 14,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 14,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 14,
+    "n": "family_or_axis",
+    "v": "Axis1 VWF/platelet",
+    "d": "string"
+   },
+   {
+    "po": 14,
+    "n": "hub_status",
+    "v": "strict",
+    "d": "string"
+   },
+   {
+    "po": 14,
+    "n": "evidence_note",
+    "v": "snaclec binding (competitive inhibition)",
+    "d": "string"
+   },
+   {
+    "po": 14,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 14,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 15,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 15,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 15,
+    "n": "family_or_axis",
+    "v": "Axis2 coagulation/fibrinolysis",
+    "d": "string"
+   },
+   {
+    "po": 15,
+    "n": "hub_status",
+    "v": "Hub+strict",
+    "d": "string"
+   },
+   {
+    "po": 15,
+    "n": "evidence_note",
+    "v": "Kunitz inhibition Ki=0.19nM",
+    "d": "string"
+   },
+   {
+    "po": 15,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 15,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 16,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 16,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 16,
+    "n": "family_or_axis",
+    "v": "Axis2 coagulation/fibrinolysis",
+    "d": "string"
+   },
+   {
+    "po": 16,
+    "n": "hub_status",
+    "v": "strict",
+    "d": "string"
+   },
+   {
+    "po": 16,
+    "n": "evidence_note",
+    "v": "Kunitz inhibition Ki=6nM",
+    "d": "string"
+   },
+   {
+    "po": 16,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 16,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 17,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 17,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 17,
+    "n": "family_or_axis",
+    "v": "other (digestive enzyme)",
+    "d": "string"
+   },
+   {
+    "po": 17,
+    "n": "evidence_note",
+    "v": "Kunitz inhibition 70%",
+    "d": "string"
+   },
+   {
+    "po": 17,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 17,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 18,
+    "n": "layer",
+    "v": "2",
+    "d": "integer"
+   },
+   {
+    "po": 18,
+    "n": "node_type",
+    "v": "target",
+    "d": "string"
+   },
+   {
+    "po": 18,
+    "n": "family_or_axis",
+    "v": "Axis4 endothelium/inflammation/kidney",
+    "d": "string"
+   },
+   {
+    "po": 18,
+    "n": "hub_status",
+    "v": "strict",
+    "d": "string"
+   },
+   {
+    "po": 18,
+    "n": "evidence_note",
+    "v": "svVEGF activation",
+    "d": "string"
+   },
+   {
+    "po": 18,
+    "n": "fill_color",
+    "v": "#1F77B4",
+    "d": "string"
+   },
+   {
+    "po": 18,
+    "n": "shape",
+    "v": "ELLIPSE",
+    "d": "string"
+   },
+   {
+    "po": 19,
+    "n": "layer",
+    "v": "3",
+    "d": "integer"
+   },
+   {
+    "po": 19,
+    "n": "node_type",
+    "v": "pathway",
+    "d": "string"
+   },
+   {
+    "po": 19,
+    "n": "family_or_axis",
+    "v": "coagulation",
+    "d": "string"
+   },
+   {
+    "po": 19,
+    "n": "fill_color",
+    "v": "#2CA02C",
+    "d": "string"
+   },
+   {
+    "po": 19,
+    "n": "shape",
+    "v": "ROUND_RECTANGLE",
+    "d": "string"
+   },
+   {
+    "po": 20,
+    "n": "layer",
+    "v": "3",
+    "d": "integer"
+   },
+   {
+    "po": 20,
+    "n": "node_type",
+    "v": "pathway",
+    "d": "string"
+   },
+   {
+    "po": 20,
+    "n": "family_or_axis",
+    "v": "coagulation+complement",
+    "d": "string"
+   },
+   {
+    "po": 20,
+    "n": "fill_color",
+    "v": "#2CA02C",
+    "d": "string"
+   },
+   {
+    "po": 20,
+    "n": "shape",
+    "v": "ROUND_RECTANGLE",
+    "d": "string"
+   },
+   {
+    "po": 21,
+    "n": "layer",
+    "v": "3",
+    "d": "integer"
+   },
+   {
+    "po": 21,
+    "n": "node_type",
+    "v": "pathway",
+    "d": "string"
+   },
+   {
+    "po": 21,
+    "n": "family_or_axis",
+    "v": "Axis1 platelet",
+    "d": "string"
+   },
+   {
+    "po": 21,
+    "n": "fill_color",
+    "v": "#2CA02C",
+    "d": "string"
+   },
+   {
+    "po": 21,
+    "n": "shape",
+    "v": "ROUND_RECTANGLE",
+    "d": "string"
+   },
+   {
+    "po": 22,
+    "n": "layer",
+    "v": "3",
+    "d": "integer"
+   },
+   {
+    "po": 22,
+    "n": "node_type",
+    "v": "pathway",
+    "d": "string"
+   },
+   {
+    "po": 22,
+    "n": "family_or_axis",
+    "v": "ECM",
+    "d": "string"
+   },
+   {
+    "po": 22,
+    "n": "evidence_note",
+    "v": "single platform (Enrichr)",
+    "d": "string"
+   },
+   {
+    "po": 22,
+    "n": "fill_color",
+    "v": "#2CA02C",
+    "d": "string"
+   },
+   {
+    "po": 22,
+    "n": "shape",
+    "v": "ROUND_RECTANGLE",
+    "d": "string"
+   },
+   {
+    "po": 23,
+    "n": "layer",
+    "v": "3",
+    "d": "integer"
+   },
+   {
+    "po": 23,
+    "n": "node_type",
+    "v": "pathway",
+    "d": "string"
+   },
+   {
+    "po": 23,
+    "n": "family_or_axis",
+    "v": "ECM",
+    "d": "string"
+   },
+   {
+    "po": 23,
+    "n": "evidence_note",
+    "v": "single platform (Enrichr, borderline)",
+    "d": "string"
+   },
+   {
+    "po": 23,
+    "n": "fill_color",
+    "v": "#2CA02C",
+    "d": "string"
+   },
+   {
+    "po": 23,
+    "n": "shape",
+    "v": "ROUND_RECTANGLE",
+    "d": "string"
+   },
+   {
+    "po": 24,
+    "n": "layer",
+    "v": "3",
+    "d": "integer"
+   },
+   {
+    "po": 24,
+    "n": "node_type",
+    "v": "pathway",
+    "d": "string"
+   },
+   {
+    "po": 24,
+    "n": "family_or_axis",
+    "v": "Axis4 endothelium",
+    "d": "string"
+   },
+   {
+    "po": 24,
+    "n": "fill_color",
+    "v": "#2CA02C",
+    "d": "string"
+   },
+   {
+    "po": 24,
+    "n": "shape",
+    "v": "ROUND_RECTANGLE",
+    "d": "string"
+   },
+   {
+    "po": 25,
+    "n": "layer",
+    "v": "4",
+    "d": "integer"
+   },
+   {
+    "po": 25,
+    "n": "node_type",
+    "v": "phenotype",
+    "d": "string"
+   },
+   {
+    "po": 25,
+    "n": "fill_color",
+    "v": "#9467BD",
+    "d": "string"
+   },
+   {
+    "po": 25,
+    "n": "shape",
+    "v": "DIAMOND",
+    "d": "string"
+   },
+   {
+    "po": 26,
+    "n": "layer",
+    "v": "4",
+    "d": "integer"
+   },
+   {
+    "po": 26,
+    "n": "node_type",
+    "v": "phenotype",
+    "d": "string"
+   },
+   {
+    "po": 26,
+    "n": "fill_color",
+    "v": "#9467BD",
+    "d": "string"
+   },
+   {
+    "po": 26,
+    "n": "shape",
+    "v": "DIAMOND",
+    "d": "string"
+   },
+   {
+    "po": 27,
+    "n": "layer",
+    "v": "4",
+    "d": "integer"
+   },
+   {
+    "po": 27,
+    "n": "node_type",
+    "v": "phenotype",
+    "d": "string"
+   },
+   {
+    "po": 27,
+    "n": "fill_color",
+    "v": "#9467BD",
+    "d": "string"
+   },
+   {
+    "po": 27,
+    "n": "shape",
+    "v": "DIAMOND",
+    "d": "string"
+   },
+   {
+    "po": 28,
+    "n": "layer",
+    "v": "4",
+    "d": "integer"
+   },
+   {
+    "po": 28,
+    "n": "node_type",
+    "v": "phenotype",
+    "d": "string"
+   },
+   {
+    "po": 28,
+    "n": "fill_color",
+    "v": "#9467BD",
+    "d": "string"
+   },
+   {
+    "po": 28,
+    "n": "shape",
+    "v": "DIAMOND",
+    "d": "string"
+   },
+   {
+    "po": 29,
+    "n": "layer",
+    "v": "4",
+    "d": "integer"
+   },
+   {
+    "po": 29,
+    "n": "node_type",
+    "v": "phenotype",
+    "d": "string"
+   },
+   {
+    "po": 29,
+    "n": "fill_color",
+    "v": "#9467BD",
+    "d": "string"
+   },
+   {
+    "po": 29,
+    "n": "shape",
+    "v": "DIAMOND",
+    "d": "string"
+   }
+  ]
+ },
+ {
+  "edgeAttributes": [
+   {
+    "po": 0,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 0,
+    "n": "note",
+    "v": "RVV-X heavy chain cleaves and activates FX (PMID 37092784 et al.)",
+    "d": "string"
+   },
+   {
+    "po": 1,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 1,
+    "n": "note",
+    "v": "RVV-X heavy chain cleaves and activates FIX",
+    "d": "string"
+   },
+   {
+    "po": 2,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 2,
+    "n": "note",
+    "v": "RVV-X cleaves and activates protein S",
+    "d": "string"
+   },
+   {
+    "po": 3,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 3,
+    "n": "note",
+    "v": "RVV-Vγ cleaves FV Arg1545-Ser1546",
+    "d": "string"
+   },
+   {
+    "po": 4,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 4,
+    "n": "note",
+    "v": "hydrolyzes fibrinogen Aα (PMID 18554518)",
+    "d": "string"
+   },
+   {
+    "po": 5,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 5,
+    "n": "note",
+    "v": "hydrolyzes fibronectin in vitro",
+    "d": "string"
+   },
+   {
+    "po": 6,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 6,
+    "n": "note",
+    "v": "hydrolyzes type IV collagen in vitro",
+    "d": "string"
+   },
+   {
+    "po": 7,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 7,
+    "n": "note",
+    "v": "binds GPIbα and inhibits ristocetin-induced aggregation",
+    "d": "string"
+   },
+   {
+    "po": 8,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 8,
+    "n": "note",
+    "v": "binds FXa IC50=130nM (PMID 18062812)",
+    "d": "string"
+   },
+   {
+    "po": 9,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 9,
+    "n": "note",
+    "v": "inhibits plasmin 90% Ki=0.19nM",
+    "d": "string"
+   },
+   {
+    "po": 10,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 10,
+    "n": "note",
+    "v": "inhibits FXIa 37% Ki=6nM",
+    "d": "string"
+   },
+   {
+    "po": 11,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 11,
+    "n": "note",
+    "v": "inhibits FXa 20%",
+    "d": "string"
+   },
+   {
+    "po": 12,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 12,
+    "n": "note",
+    "v": "inhibits trypsin 70%",
+    "d": "string"
+   },
+   {
+    "po": 13,
+    "n": "evidence_type",
+    "v": "literature",
+    "d": "string"
+   },
+   {
+    "po": 13,
+    "n": "note",
+    "v": "induces angiogenesis via VEGFR2 / NO hypotension",
+    "d": "string"
+   },
+   {
+    "po": 14,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 15,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 16,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 17,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 18,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 19,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 20,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 21,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 22,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 23,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 24,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 25,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 26,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 27,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 28,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 29,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 30,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 31,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 32,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 33,
+    "n": "evidence_type",
+    "v": "enrichment",
+    "d": "string"
+   },
+   {
+    "po": 34,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 34,
+    "n": "note",
+    "v": "massive fibrin formation→consumptive coagulopathy",
+    "d": "string"
+   },
+   {
+    "po": 35,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 35,
+    "n": "note",
+    "v": "microthrombi→mechanical hemolysis",
+    "d": "string"
+   },
+   {
+    "po": 36,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 36,
+    "n": "note",
+    "v": "platelet consumption",
+    "d": "string"
+   },
+   {
+    "po": 37,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 37,
+    "n": "note",
+    "v": "full activation of the coagulation cascade",
+    "d": "string"
+   },
+   {
+    "po": 38,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 38,
+    "n": "note",
+    "v": "microthrombi+complement",
+    "d": "string"
+   },
+   {
+    "po": 39,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 39,
+    "n": "note",
+    "v": "renal microthrombi / complement-mediated renal injury",
+    "d": "string"
+   },
+   {
+    "po": 40,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 40,
+    "n": "note",
+    "v": "aggregation+consumption",
+    "d": "string"
+   },
+   {
+    "po": 41,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 41,
+    "n": "note",
+    "v": "microvascular platelet thrombi",
+    "d": "string"
+   },
+   {
+    "po": 42,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 42,
+    "n": "note",
+    "v": "glomerular basement membrane type IV collagen injury",
+    "d": "string"
+   },
+   {
+    "po": 43,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 43,
+    "n": "note",
+    "v": "vascular permeability↑→capillary leak",
+    "d": "string"
+   },
+   {
+    "po": 44,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 44,
+    "n": "note",
+    "v": "hypotension→renal hypoperfusion",
+    "d": "string"
+   },
+   {
+    "po": 45,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 45,
+    "n": "note",
+    "v": "one of the clinical manifestations of VICC",
+    "d": "string"
+   },
+   {
+    "po": 46,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 46,
+    "n": "note",
+    "v": "VICC→TMA progression",
+    "d": "string"
+   },
+   {
+    "po": 47,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 47,
+    "n": "note",
+    "v": "VICC→TMA progression",
+    "d": "string"
+   },
+   {
+    "po": 48,
+    "n": "evidence_type",
+    "v": "inference",
+    "d": "string"
+   },
+   {
+    "po": 48,
+    "n": "note",
+    "v": "hypoperfusion aggravates renal injury",
+    "d": "string"
+   }
+  ]
+ },
+ {
+  "cartesianLayout": [
+   {
+    "node": 0,
+    "x": -640.0,
+    "y": -300.0
+   },
+   {
+    "node": 1,
+    "x": -640.0,
+    "y": -450.0
+   },
+   {
+    "node": 2,
+    "x": -640.0,
+    "y": 150.0
+   },
+   {
+    "node": 3,
+    "x": -640.0,
+    "y": 300.0
+   },
+   {
+    "node": 4,
+    "x": -640.0,
+    "y": -150.0
+   },
+   {
+    "node": 5,
+    "x": -640.0,
+    "y": -0.0
+   },
+   {
+    "node": 6,
+    "x": -640.0,
+    "y": 450.0
+   },
+   {
+    "node": 7,
+    "x": -215.0,
+    "y": -472.5
+   },
+   {
+    "node": 8,
+    "x": -215.0,
+    "y": -367.5
+   },
+   {
+    "node": 9,
+    "x": -215.0,
+    "y": -157.5
+   },
+   {
+    "node": 10,
+    "x": -215.0,
+    "y": -577.5
+   },
+   {
+    "node": 11,
+    "x": -215.0,
+    "y": 157.5
+   },
+   {
+    "node": 12,
+    "x": -215.0,
+    "y": 262.5
+   },
+   {
+    "node": 13,
+    "x": -215.0,
+    "y": 367.5
+   },
+   {
+    "node": 14,
+    "x": -215.0,
+    "y": 472.5
+   },
+   {
+    "node": 15,
+    "x": -215.0,
+    "y": -52.5
+   },
+   {
+    "node": 16,
+    "x": -215.0,
+    "y": -262.5
+   },
+   {
+    "node": 17,
+    "x": -215.0,
+    "y": 52.5
+   },
+   {
+    "node": 18,
+    "x": -215.0,
+    "y": 577.5
+   },
+   {
+    "node": 19,
+    "x": 230.0,
+    "y": -425.0
+   },
+   {
+    "node": 20,
+    "x": 230.0,
+    "y": -255.0
+   },
+   {
+    "node": 21,
+    "x": 230.0,
+    "y": -85.0
+   },
+   {
+    "node": 22,
+    "x": 230.0,
+    "y": 85.0
+   },
+   {
+    "node": 23,
+    "x": 230.0,
+    "y": 255.0
+   },
+   {
+    "node": 24,
+    "x": 230.0,
+    "y": 425.0
+   },
+   {
+    "node": 25,
+    "x": 700.0,
+    "y": -350.0
+   },
+   {
+    "node": 26,
+    "x": 700.0,
+    "y": -175.0
+   },
+   {
+    "node": 27,
+    "x": 700.0,
+    "y": -0.0
+   },
+   {
+    "node": 28,
+    "x": 700.0,
+    "y": 175.0
+   },
+   {
+    "node": 29,
+    "x": 700.0,
+    "y": 350.0
+   }
+  ]
+ },
+ {
+  "status": [
+   {
+    "error": "",
+    "success": true
+   }
+  ]
+ },
+ {
+  "numberVerification": [
+   {
+    "longNumber": 281474976710655
+   }
+  ]
+ }
+]

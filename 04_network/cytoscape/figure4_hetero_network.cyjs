@@ -1,0 +1,1014 @@
+{
+ "format_version": "1.0",
+ "generated_by": "snakebite_TMA phase3-4 script",
+ "target_cytoscapejs_version": "~2.1",
+ "data": {
+  "name": "Figure4_4layer_network"
+ },
+ "elements": {
+  "nodes": [
+   {
+    "data": {
+     "id": "RVVX",
+     "label": "RVV-X",
+     "layer": 1,
+     "node_type": "toxin",
+     "family_or_axis": "SVMP+snaclec complex",
+     "hub_status": "",
+     "evidence_note": "ClusPro✅ HADDOCK-site✅",
+     "fill_color": "#D62728",
+     "shape": "HEXAGON"
+    },
+    "position": {
+     "x": -640,
+     "y": -300.0
+    }
+   },
+   {
+    "data": {
+     "id": "RVVV",
+     "label": "RVV-Vγ",
+     "layer": 1,
+     "node_type": "toxin",
+     "family_or_axis": "SVSP",
+     "hub_status": "",
+     "evidence_note": "ClusPro✅ HADDOCK✅✅ co-crystal✅",
+     "fill_color": "#D62728",
+     "shape": "HEXAGON"
+    },
+    "position": {
+     "x": -640,
+     "y": -450.0
+    }
+   },
+   {
+    "data": {
+     "id": "DABK",
+     "label": "daborhagin-K",
+     "layer": 1,
+     "node_type": "toxin",
+     "family_or_axis": "SVMP (P-III)",
+     "hub_status": "",
+     "evidence_note": "ClusPro✅ HADDOCK-site✅",
+     "fill_color": "#D62728",
+     "shape": "HEXAGON"
+    },
+    "position": {
+     "x": -640,
+     "y": 150.0
+    }
+   },
+   {
+    "data": {
+     "id": "SNAC",
+     "label": "snaclec Q38L02",
+     "layer": 1,
+     "node_type": "toxin",
+     "family_or_axis": "snaclec/CTL",
+     "hub_status": "",
+     "evidence_note": "ClusPro✅",
+     "fill_color": "#D62728",
+     "shape": "HEXAGON"
+    },
+    "position": {
+     "x": -640,
+     "y": 300.0
+    }
+   },
+   {
+    "data": {
+     "id": "PLA2",
+     "label": "PLA2 VRV-PL-VIIIa",
+     "layer": 1,
+     "node_type": "toxin",
+     "family_or_axis": "PLA2",
+     "hub_status": "",
+     "evidence_note": "ClusPro✅",
+     "fill_color": "#D62728",
+     "shape": "HEXAGON"
+    },
+    "position": {
+     "x": -640,
+     "y": -150.0
+    }
+   },
+   {
+    "data": {
+     "id": "KUN",
+     "label": "Kunitz H6VC06",
+     "layer": 1,
+     "node_type": "toxin",
+     "family_or_axis": "Kunitz inhibitor",
+     "hub_status": "",
+     "evidence_note": "ClusPro✅ HADDOCK-site✅",
+     "fill_color": "#D62728",
+     "shape": "HEXAGON"
+    },
+    "position": {
+     "x": -640,
+     "y": -0.0
+    }
+   },
+   {
+    "data": {
+     "id": "SVVEGF",
+     "label": "svVEGF",
+     "layer": 1,
+     "node_type": "toxin",
+     "family_or_axis": "VEGF",
+     "hub_status": "",
+     "evidence_note": "ClusPro✅✅ HDock✅",
+     "fill_color": "#D62728",
+     "shape": "HEXAGON"
+    },
+    "position": {
+     "x": -640,
+     "y": 450.0
+    }
+   },
+   {
+    "data": {
+     "id": "F10",
+     "label": "F10",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "Axis2 coagulation/fibrinolysis",
+     "hub_status": "Hub+strict",
+     "evidence_note": "RVV-X activation / PLA2 binding / weak Kunitz inhibition",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": -472.5
+    }
+   },
+   {
+    "data": {
+     "id": "F9",
+     "label": "F9",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "Axis2 coagulation/fibrinolysis",
+     "hub_status": "",
+     "evidence_note": "RVV-X activation",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": -367.5
+    }
+   },
+   {
+    "data": {
+     "id": "PROS1",
+     "label": "PROS1",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "Axis2 coagulation/fibrinolysis",
+     "hub_status": "strict",
+     "evidence_note": "RVV-X activation",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": -157.5
+    }
+   },
+   {
+    "data": {
+     "id": "F5",
+     "label": "F5",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "Axis2 coagulation/fibrinolysis",
+     "hub_status": "Hub+strict",
+     "evidence_note": "RVV-Vγ activation",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": -577.5
+    }
+   },
+   {
+    "data": {
+     "id": "FGA",
+     "label": "FGA",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "Axis2 coagulation/fibrinolysis",
+     "hub_status": "Hub+strict",
+     "evidence_note": "daborhagin-K hydrolysis",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": 157.5
+    }
+   },
+   {
+    "data": {
+     "id": "FN1",
+     "label": "FN1",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "ECM",
+     "hub_status": "",
+     "evidence_note": "daborhagin-K hydrolysis",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": 262.5
+    }
+   },
+   {
+    "data": {
+     "id": "COL4A1",
+     "label": "COL4A1",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "ECM",
+     "hub_status": "strict",
+     "evidence_note": "daborhagin-K hydrolysis",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": 367.5
+    }
+   },
+   {
+    "data": {
+     "id": "GP1BA",
+     "label": "GP1BA",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "Axis1 VWF/platelet",
+     "hub_status": "strict",
+     "evidence_note": "snaclec binding (competitive inhibition)",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": 472.5
+    }
+   },
+   {
+    "data": {
+     "id": "PLG",
+     "label": "PLG",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "Axis2 coagulation/fibrinolysis",
+     "hub_status": "Hub+strict",
+     "evidence_note": "Kunitz inhibition Ki=0.19nM",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": -52.5
+    }
+   },
+   {
+    "data": {
+     "id": "F11",
+     "label": "F11",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "Axis2 coagulation/fibrinolysis",
+     "hub_status": "strict",
+     "evidence_note": "Kunitz inhibition Ki=6nM",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": -262.5
+    }
+   },
+   {
+    "data": {
+     "id": "PRSS1",
+     "label": "PRSS1",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "other (digestive enzyme)",
+     "hub_status": "",
+     "evidence_note": "Kunitz inhibition 70%",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": 52.5
+    }
+   },
+   {
+    "data": {
+     "id": "KDR",
+     "label": "KDR",
+     "layer": 2,
+     "node_type": "target",
+     "family_or_axis": "Axis4 endothelium/inflammation/kidney",
+     "hub_status": "strict",
+     "evidence_note": "svVEGF activation",
+     "fill_color": "#1F77B4",
+     "shape": "ELLIPSE"
+    },
+    "position": {
+     "x": -215,
+     "y": 577.5
+    }
+   },
+   {
+    "data": {
+     "id": "PW_FIB",
+     "label": "Formation of Fibrin Clot\n(REAC 140877, p=9.7e-23)",
+     "layer": 3,
+     "node_type": "pathway",
+     "family_or_axis": "coagulation",
+     "hub_status": "",
+     "evidence_note": "",
+     "fill_color": "#2CA02C",
+     "shape": "ROUND_RECTANGLE"
+    },
+    "position": {
+     "x": 230,
+     "y": -425.0
+    }
+   },
+   {
+    "data": {
+     "id": "PW_COAG",
+     "label": "Complement & Coagulation\n(KEGG 04610, p=3.9e-18)",
+     "layer": 3,
+     "node_type": "pathway",
+     "family_or_axis": "coagulation+complement",
+     "hub_status": "",
+     "evidence_note": "",
+     "fill_color": "#2CA02C",
+     "shape": "ROUND_RECTANGLE"
+    },
+    "position": {
+     "x": 230,
+     "y": -255.0
+    }
+   },
+   {
+    "data": {
+     "id": "PW_PLT",
+     "label": "Platelet Activation\n(REAC 76002, p=1.5e-07)",
+     "layer": 3,
+     "node_type": "pathway",
+     "family_or_axis": "Axis1 platelet",
+     "hub_status": "",
+     "evidence_note": "",
+     "fill_color": "#2CA02C",
+     "shape": "ROUND_RECTANGLE"
+    },
+    "position": {
+     "x": 230,
+     "y": -85.0
+    }
+   },
+   {
+    "data": {
+     "id": "PW_ECM",
+     "label": "ECM-Receptor Interaction\n(KEGG 04512, adj=0.018)",
+     "layer": 3,
+     "node_type": "pathway",
+     "family_or_axis": "ECM",
+     "hub_status": "",
+     "evidence_note": "single platform (Enrichr)",
+     "fill_color": "#2CA02C",
+     "shape": "ROUND_RECTANGLE"
+    },
+    "position": {
+     "x": 230,
+     "y": 85.0
+    }
+   },
+   {
+    "data": {
+     "id": "PW_FA",
+     "label": "Focal Adhesion\n(KEGG 04510, adj=0.047)",
+     "layer": 3,
+     "node_type": "pathway",
+     "family_or_axis": "ECM",
+     "hub_status": "",
+     "evidence_note": "single platform (Enrichr, borderline)",
+     "fill_color": "#2CA02C",
+     "shape": "ROUND_RECTANGLE"
+    },
+    "position": {
+     "x": 230,
+     "y": 255.0
+    }
+   },
+   {
+    "data": {
+     "id": "PW_VEGF",
+     "label": "VEGFR2 Signaling\n(REAC 195399, adj=0.023)",
+     "layer": 3,
+     "node_type": "pathway",
+     "family_or_axis": "Axis4 endothelium",
+     "hub_status": "",
+     "evidence_note": "",
+     "fill_color": "#2CA02C",
+     "shape": "ROUND_RECTANGLE"
+    },
+    "position": {
+     "x": 230,
+     "y": 425.0
+    }
+   },
+   {
+    "data": {
+     "id": "PH_VICC",
+     "label": "VICC\nconsumptive coagulopathy",
+     "layer": 4,
+     "node_type": "phenotype",
+     "family_or_axis": "",
+     "hub_status": "",
+     "evidence_note": "",
+     "fill_color": "#9467BD",
+     "shape": "DIAMOND"
+    },
+    "position": {
+     "x": 700,
+     "y": -350.0
+    }
+   },
+   {
+    "data": {
+     "id": "PH_THR",
+     "label": "Thrombocytopenia\nthrombocytopenia",
+     "layer": 4,
+     "node_type": "phenotype",
+     "family_or_axis": "",
+     "hub_status": "",
+     "evidence_note": "",
+     "fill_color": "#9467BD",
+     "shape": "DIAMOND"
+    },
+    "position": {
+     "x": 700,
+     "y": -175.0
+    }
+   },
+   {
+    "data": {
+     "id": "PH_MAHA",
+     "label": "MAHA\nmicroangiopathic hemolytic anemia",
+     "layer": 4,
+     "node_type": "phenotype",
+     "family_or_axis": "",
+     "hub_status": "",
+     "evidence_note": "",
+     "fill_color": "#9467BD",
+     "shape": "DIAMOND"
+    },
+    "position": {
+     "x": 700,
+     "y": -0.0
+    }
+   },
+   {
+    "data": {
+     "id": "PH_AKI",
+     "label": "AKI\nacute kidney injury",
+     "layer": 4,
+     "node_type": "phenotype",
+     "family_or_axis": "",
+     "hub_status": "",
+     "evidence_note": "",
+     "fill_color": "#9467BD",
+     "shape": "DIAMOND"
+    },
+    "position": {
+     "x": 700,
+     "y": 175.0
+    }
+   },
+   {
+    "data": {
+     "id": "PH_LEAK",
+     "label": "Capillary Leak\ncapillary leak / hypotension",
+     "layer": 4,
+     "node_type": "phenotype",
+     "family_or_axis": "",
+     "hub_status": "",
+     "evidence_note": "",
+     "fill_color": "#9467BD",
+     "shape": "DIAMOND"
+    },
+    "position": {
+     "x": 700,
+     "y": 350.0
+    }
+   }
+  ],
+  "edges": [
+   {
+    "data": {
+     "id": "e0",
+     "source": "RVVX",
+     "target": "F10",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "RVV-X heavy chain cleaves and activates FX (PMID 37092784 et al.)"
+    }
+   },
+   {
+    "data": {
+     "id": "e1",
+     "source": "RVVX",
+     "target": "F9",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "RVV-X heavy chain cleaves and activates FIX"
+    }
+   },
+   {
+    "data": {
+     "id": "e2",
+     "source": "RVVX",
+     "target": "PROS1",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "RVV-X cleaves and activates protein S"
+    }
+   },
+   {
+    "data": {
+     "id": "e3",
+     "source": "RVVV",
+     "target": "F5",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "RVV-Vγ cleaves FV Arg1545-Ser1546"
+    }
+   },
+   {
+    "data": {
+     "id": "e4",
+     "source": "DABK",
+     "target": "FGA",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "hydrolyzes fibrinogen Aα (PMID 18554518)"
+    }
+   },
+   {
+    "data": {
+     "id": "e5",
+     "source": "DABK",
+     "target": "FN1",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "hydrolyzes fibronectin in vitro"
+    }
+   },
+   {
+    "data": {
+     "id": "e6",
+     "source": "DABK",
+     "target": "COL4A1",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "hydrolyzes type IV collagen in vitro"
+    }
+   },
+   {
+    "data": {
+     "id": "e7",
+     "source": "SNAC",
+     "target": "GP1BA",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "binds GPIbα and inhibits ristocetin-induced aggregation"
+    }
+   },
+   {
+    "data": {
+     "id": "e8",
+     "source": "PLA2",
+     "target": "F10",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "binds FXa IC50=130nM (PMID 18062812)"
+    }
+   },
+   {
+    "data": {
+     "id": "e9",
+     "source": "KUN",
+     "target": "PLG",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "inhibits plasmin 90% Ki=0.19nM"
+    }
+   },
+   {
+    "data": {
+     "id": "e10",
+     "source": "KUN",
+     "target": "F11",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "inhibits FXIa 37% Ki=6nM"
+    }
+   },
+   {
+    "data": {
+     "id": "e11",
+     "source": "KUN",
+     "target": "F10",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "inhibits FXa 20%"
+    }
+   },
+   {
+    "data": {
+     "id": "e12",
+     "source": "KUN",
+     "target": "PRSS1",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "inhibits trypsin 70%"
+    }
+   },
+   {
+    "data": {
+     "id": "e13",
+     "source": "SVVEGF",
+     "target": "KDR",
+     "interaction": "direct",
+     "evidence_type": "literature",
+     "note": "induces angiogenesis via VEGFR2 / NO hypotension"
+    }
+   },
+   {
+    "data": {
+     "id": "e14",
+     "source": "F10",
+     "target": "PW_FIB",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e15",
+     "source": "F5",
+     "target": "PW_FIB",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e16",
+     "source": "FGA",
+     "target": "PW_FIB",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e17",
+     "source": "F11",
+     "target": "PW_FIB",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e18",
+     "source": "GP1BA",
+     "target": "PW_FIB",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e19",
+     "source": "PROS1",
+     "target": "PW_FIB",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e20",
+     "source": "F10",
+     "target": "PW_COAG",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e21",
+     "source": "FGA",
+     "target": "PW_COAG",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e22",
+     "source": "PLG",
+     "target": "PW_COAG",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e23",
+     "source": "F11",
+     "target": "PW_COAG",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e24",
+     "source": "PROS1",
+     "target": "PW_COAG",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e25",
+     "source": "FGA",
+     "target": "PW_PLT",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e26",
+     "source": "PLG",
+     "target": "PW_PLT",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e27",
+     "source": "GP1BA",
+     "target": "PW_PLT",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e28",
+     "source": "PROS1",
+     "target": "PW_PLT",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e29",
+     "source": "COL4A1",
+     "target": "PW_ECM",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e30",
+     "source": "GP1BA",
+     "target": "PW_ECM",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e31",
+     "source": "COL4A1",
+     "target": "PW_FA",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e32",
+     "source": "KDR",
+     "target": "PW_FA",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e33",
+     "source": "KDR",
+     "target": "PW_VEGF",
+     "interaction": "membership",
+     "evidence_type": "enrichment",
+     "note": ""
+    }
+   },
+   {
+    "data": {
+     "id": "e34",
+     "source": "PW_FIB",
+     "target": "PH_VICC",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "massive fibrin formation→consumptive coagulopathy"
+    }
+   },
+   {
+    "data": {
+     "id": "e35",
+     "source": "PW_FIB",
+     "target": "PH_MAHA",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "microthrombi→mechanical hemolysis"
+    }
+   },
+   {
+    "data": {
+     "id": "e36",
+     "source": "PW_FIB",
+     "target": "PH_THR",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "platelet consumption"
+    }
+   },
+   {
+    "data": {
+     "id": "e37",
+     "source": "PW_COAG",
+     "target": "PH_VICC",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "full activation of the coagulation cascade"
+    }
+   },
+   {
+    "data": {
+     "id": "e38",
+     "source": "PW_COAG",
+     "target": "PH_MAHA",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "microthrombi+complement"
+    }
+   },
+   {
+    "data": {
+     "id": "e39",
+     "source": "PW_COAG",
+     "target": "PH_AKI",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "renal microthrombi / complement-mediated renal injury"
+    }
+   },
+   {
+    "data": {
+     "id": "e40",
+     "source": "PW_PLT",
+     "target": "PH_THR",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "aggregation+consumption"
+    }
+   },
+   {
+    "data": {
+     "id": "e41",
+     "source": "PW_PLT",
+     "target": "PH_MAHA",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "microvascular platelet thrombi"
+    }
+   },
+   {
+    "data": {
+     "id": "e42",
+     "source": "PW_ECM",
+     "target": "PH_AKI",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "glomerular basement membrane type IV collagen injury"
+    }
+   },
+   {
+    "data": {
+     "id": "e43",
+     "source": "PW_VEGF",
+     "target": "PH_LEAK",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "vascular permeability↑→capillary leak"
+    }
+   },
+   {
+    "data": {
+     "id": "e44",
+     "source": "PW_VEGF",
+     "target": "PH_AKI",
+     "interaction": "mechanism",
+     "evidence_type": "inference",
+     "note": "hypotension→renal hypoperfusion"
+    }
+   },
+   {
+    "data": {
+     "id": "e45",
+     "source": "PH_VICC",
+     "target": "PH_THR",
+     "interaction": "progression",
+     "evidence_type": "inference",
+     "note": "one of the clinical manifestations of VICC"
+    }
+   },
+   {
+    "data": {
+     "id": "e46",
+     "source": "PH_VICC",
+     "target": "PH_MAHA",
+     "interaction": "progression",
+     "evidence_type": "inference",
+     "note": "VICC→TMA progression"
+    }
+   },
+   {
+    "data": {
+     "id": "e47",
+     "source": "PH_VICC",
+     "target": "PH_AKI",
+     "interaction": "progression",
+     "evidence_type": "inference",
+     "note": "VICC→TMA progression"
+    }
+   },
+   {
+    "data": {
+     "id": "e48",
+     "source": "PH_LEAK",
+     "target": "PH_AKI",
+     "interaction": "progression",
+     "evidence_type": "inference",
+     "note": "hypoperfusion aggravates renal injury"
+    }
+   }
+  ]
+ }
+}

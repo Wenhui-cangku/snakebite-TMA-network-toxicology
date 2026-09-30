@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph label="Figure4_4layer_network" xmlns="http://www.cs.rpi.edu/XGMML" directed="1">
+  <node id="RVVX" label="RVV-X">
+    <att name="layer" type="integer" value="1"/>
+    <att name="node_type" type="string" value="toxin"/>
+    <att name="family_or_axis" type="string" value="SVMP+snaclec complex"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK-site✅"/>
+    <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="300.0" w="60" h="60" outline="#000000" width="1.5"/>
+  </node>
+  <node id="RVVV" label="RVV-Vγ">
+    <att name="layer" type="integer" value="1"/>
+    <att name="node_type" type="string" value="toxin"/>
+    <att name="family_or_axis" type="string" value="SVSP"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK✅✅ co-crystal✅"/>
+    <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="450.0" w="60" h="60" outline="#000000" width="1.5"/>
+  </node>
+  <node id="DABK" label="daborhagin-K">
+    <att name="layer" type="integer" value="1"/>
+    <att name="node_type" type="string" value="toxin"/>
+    <att name="family_or_axis" type="string" value="SVMP (P-III)"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK-site✅"/>
+    <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="-150.0" w="60" h="60" outline="#000000" width="1.5"/>
+  </node>
+  <node id="SNAC" label="snaclec Q38L02">
+    <att name="layer" type="integer" value="1"/>
+    <att name="node_type" type="string" value="toxin"/>
+    <att name="family_or_axis" type="string" value="snaclec/CTL"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="ClusPro✅"/>
+    <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="-300.0" w="60" h="60" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PLA2" label="PLA2 VRV-PL-VIIIa">
+    <att name="layer" type="integer" value="1"/>
+    <att name="node_type" type="string" value="toxin"/>
+    <att name="family_or_axis" type="string" value="PLA2"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="ClusPro✅"/>
+    <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="150.0" w="60" h="60" outline="#000000" width="1.5"/>
+  </node>
+  <node id="KUN" label="Kunitz H6VC06">
+    <att name="layer" type="integer" value="1"/>
+    <att name="node_type" type="string" value="toxin"/>
+    <att name="family_or_axis" type="string" value="Kunitz inhibitor"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK-site✅"/>
+    <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="0.0" w="60" h="60" outline="#000000" width="1.5"/>
+  </node>
+  <node id="SVVEGF" label="svVEGF">
+    <att name="layer" type="integer" value="1"/>
+    <att name="node_type" type="string" value="toxin"/>
+    <att name="family_or_axis" type="string" value="VEGF"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="ClusPro✅✅ HDock✅"/>
+    <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="-450.0" w="60" h="60" outline="#000000" width="1.5"/>
+  </node>
+  <node id="F10" label="F10">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="hub_status" type="string" value="Hub+strict"/>
+    <att name="evidence_note" type="string" value="RVV-X activation / PLA2 binding / weak Kunitz inhibition"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="472.5" w="45" h="45" outline="#000000" width="4.0"/>
+  </node>
+  <node id="F9" label="F9">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="RVV-X activation"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="367.5" w="45" h="45" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PROS1" label="PROS1">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="hub_status" type="string" value="strict"/>
+    <att name="evidence_note" type="string" value="RVV-X activation"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="157.5" w="45" h="45" outline="#000000" width="4.0"/>
+  </node>
+  <node id="F5" label="F5">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="hub_status" type="string" value="Hub+strict"/>
+    <att name="evidence_note" type="string" value="RVV-Vγ activation"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="577.5" w="45" h="45" outline="#000000" width="4.0"/>
+  </node>
+  <node id="FGA" label="FGA">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="hub_status" type="string" value="Hub+strict"/>
+    <att name="evidence_note" type="string" value="daborhagin-K hydrolysis"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-157.5" w="45" h="45" outline="#000000" width="4.0"/>
+  </node>
+  <node id="FN1" label="FN1">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="ECM"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="daborhagin-K hydrolysis"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-262.5" w="45" h="45" outline="#000000" width="1.5"/>
+  </node>
+  <node id="COL4A1" label="COL4A1">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="ECM"/>
+    <att name="hub_status" type="string" value="strict"/>
+    <att name="evidence_note" type="string" value="daborhagin-K hydrolysis"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-367.5" w="45" h="45" outline="#000000" width="4.0"/>
+  </node>
+  <node id="GP1BA" label="GP1BA">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="Axis1 VWF/platelet"/>
+    <att name="hub_status" type="string" value="strict"/>
+    <att name="evidence_note" type="string" value="snaclec binding (competitive inhibition)"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-472.5" w="45" h="45" outline="#000000" width="4.0"/>
+  </node>
+  <node id="PLG" label="PLG">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="hub_status" type="string" value="Hub+strict"/>
+    <att name="evidence_note" type="string" value="Kunitz inhibition Ki=0.19nM"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="52.5" w="45" h="45" outline="#000000" width="4.0"/>
+  </node>
+  <node id="F11" label="F11">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="hub_status" type="string" value="strict"/>
+    <att name="evidence_note" type="string" value="Kunitz inhibition Ki=6nM"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="262.5" w="45" h="45" outline="#000000" width="4.0"/>
+  </node>
+  <node id="PRSS1" label="PRSS1">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="other (digestive enzyme)"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="Kunitz inhibition 70%"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-52.5" w="45" h="45" outline="#000000" width="1.5"/>
+  </node>
+  <node id="KDR" label="KDR">
+    <att name="layer" type="integer" value="2"/>
+    <att name="node_type" type="string" value="target"/>
+    <att name="family_or_axis" type="string" value="Axis4 endothelium/inflammation/kidney"/>
+    <att name="hub_status" type="string" value="strict"/>
+    <att name="evidence_note" type="string" value="svVEGF activation"/>
+    <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-577.5" w="45" h="45" outline="#000000" width="4.0"/>
+  </node>
+  <node id="PW_FIB" label="Formation of Fibrin Clot (REAC 140877, p=9.7e-23)">
+    <att name="layer" type="integer" value="3"/>
+    <att name="node_type" type="string" value="pathway"/>
+    <att name="family_or_axis" type="string" value="coagulation"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value=""/>
+    <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="425.0" w="70" h="40" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PW_COAG" label="Complement &amp; Coagulation (KEGG 04610, p=3.9e-18)">
+    <att name="layer" type="integer" value="3"/>
+    <att name="node_type" type="string" value="pathway"/>
+    <att name="family_or_axis" type="string" value="coagulation+complement"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value=""/>
+    <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="255.0" w="70" h="40" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PW_PLT" label="Platelet Activation (REAC 76002, p=1.5e-07)">
+    <att name="layer" type="integer" value="3"/>
+    <att name="node_type" type="string" value="pathway"/>
+    <att name="family_or_axis" type="string" value="Axis1 platelet"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value=""/>
+    <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="85.0" w="70" h="40" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PW_ECM" label="ECM-Receptor Interaction (KEGG 04512, adj=0.018)">
+    <att name="layer" type="integer" value="3"/>
+    <att name="node_type" type="string" value="pathway"/>
+    <att name="family_or_axis" type="string" value="ECM"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="single platform (Enrichr)"/>
+    <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="-85.0" w="70" h="40" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PW_FA" label="Focal Adhesion (KEGG 04510, adj=0.047)">
+    <att name="layer" type="integer" value="3"/>
+    <att name="node_type" type="string" value="pathway"/>
+    <att name="family_or_axis" type="string" value="ECM"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value="single platform (Enrichr, borderline)"/>
+    <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="-255.0" w="70" h="40" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PW_VEGF" label="VEGFR2 Signaling (REAC 195399, adj=0.023)">
+    <att name="layer" type="integer" value="3"/>
+    <att name="node_type" type="string" value="pathway"/>
+    <att name="family_or_axis" type="string" value="Axis4 endothelium"/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value=""/>
+    <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="-425.0" w="70" h="40" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PH_VICC" label="VICC consumptive coagulopathy">
+    <att name="layer" type="integer" value="4"/>
+    <att name="node_type" type="string" value="phenotype"/>
+    <att name="family_or_axis" type="string" value=""/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value=""/>
+    <graphics type="DIAMOND" fill="#9467BD" x="700.0" y="350.0" w="65" h="65" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PH_THR" label="Thrombocytopenia thrombocytopenia">
+    <att name="layer" type="integer" value="4"/>
+    <att name="node_type" type="string" value="phenotype"/>
+    <att name="family_or_axis" type="string" value=""/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value=""/>
+    <graphics type="DIAMOND" fill="#9467BD" x="700.0" y="175.0" w="65" h="65" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PH_MAHA" label="MAHA microangiopathic hemolytic anemia">
+    <att name="layer" type="integer" value="4"/>
+    <att name="node_type" type="string" value="phenotype"/>
+    <att name="family_or_axis" type="string" value=""/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value=""/>
+    <graphics type="DIAMOND" fill="#9467BD" x="700.0" y="0.0" w="65" h="65" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PH_AKI" label="AKI acute kidney injury">
+    <att name="layer" type="integer" value="4"/>
+    <att name="node_type" type="string" value="phenotype"/>
+    <att name="family_or_axis" type="string" value=""/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value=""/>
+    <graphics type="DIAMOND" fill="#9467BD" x="700.0" y="-175.0" w="65" h="65" outline="#000000" width="1.5"/>
+  </node>
+  <node id="PH_LEAK" label="Capillary Leak capillary leak / hypotension">
+    <att name="layer" type="integer" value="4"/>
+    <att name="node_type" type="string" value="phenotype"/>
+    <att name="family_or_axis" type="string" value=""/>
+    <att name="hub_status" type="string" value=""/>
+    <att name="evidence_note" type="string" value=""/>
+    <graphics type="DIAMOND" fill="#9467BD" x="700.0" y="-350.0" w="65" h="65" outline="#000000" width="1.5"/>
+  </node>
+  <edge id="e0" label="direct" source="RVVX" target="F10">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="RVV-X heavy chain cleaves and activates FX (PMID 37092784 et al.)"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e1" label="direct" source="RVVX" target="F9">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="RVV-X heavy chain cleaves and activates FIX"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e2" label="direct" source="RVVX" target="PROS1">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="RVV-X cleaves and activates protein S"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e3" label="direct" source="RVVV" target="F5">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="RVV-Vγ cleaves FV Arg1545-Ser1546"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e4" label="direct" source="DABK" target="FGA">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="hydrolyzes fibrinogen Aα (PMID 18554518)"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e5" label="direct" source="DABK" target="FN1">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="hydrolyzes fibronectin in vitro"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e6" label="direct" source="DABK" target="COL4A1">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="hydrolyzes type IV collagen in vitro"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e7" label="direct" source="SNAC" target="GP1BA">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="binds GPIbα and inhibits ristocetin-induced aggregation"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e8" label="direct" source="PLA2" target="F10">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="binds FXa IC50=130nM (PMID 18062812)"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e9" label="direct" source="KUN" target="PLG">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="inhibits plasmin 90% Ki=0.19nM"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e10" label="direct" source="KUN" target="F11">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="inhibits FXIa 37% Ki=6nM"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e11" label="direct" source="KUN" target="F10">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="inhibits FXa 20%"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e12" label="direct" source="KUN" target="PRSS1">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="inhibits trypsin 70%"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e13" label="direct" source="SVVEGF" target="KDR">
+    <att name="interaction" type="string" value="direct"/>
+    <att name="evidence_type" type="string" value="literature"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="induces angiogenesis via VEGFR2 / NO hypotension"/>
+    <graphics width="1.5" fill="#333333"/>
+  </edge>
+  <edge id="e14" label="membership" source="F10" target="PW_FIB">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e15" label="membership" source="F5" target="PW_FIB">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e16" label="membership" source="FGA" target="PW_FIB">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e17" label="membership" source="F11" target="PW_FIB">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e18" label="membership" source="GP1BA" target="PW_FIB">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e19" label="membership" source="PROS1" target="PW_FIB">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e20" label="membership" source="F10" target="PW_COAG">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e21" label="membership" source="FGA" target="PW_COAG">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e22" label="membership" source="PLG" target="PW_COAG">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e23" label="membership" source="F11" target="PW_COAG">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e24" label="membership" source="PROS1" target="PW_COAG">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e25" label="membership" source="FGA" target="PW_PLT">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e26" label="membership" source="PLG" target="PW_PLT">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e27" label="membership" source="GP1BA" target="PW_PLT">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e28" label="membership" source="PROS1" target="PW_PLT">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e29" label="membership" source="COL4A1" target="PW_ECM">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e30" label="membership" source="GP1BA" target="PW_ECM">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e31" label="membership" source="COL4A1" target="PW_FA">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e32" label="membership" source="KDR" target="PW_FA">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e33" label="membership" source="KDR" target="PW_VEGF">
+    <att name="interaction" type="string" value="membership"/>
+    <att name="evidence_type" type="string" value="enrichment"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value=""/>
+    <graphics width="1.5" fill="#AAAAAA"/>
+  </edge>
+  <edge id="e34" label="mechanism" source="PW_FIB" target="PH_VICC">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="massive fibrin formation→consumptive coagulopathy"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e35" label="mechanism" source="PW_FIB" target="PH_MAHA">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="microthrombi→mechanical hemolysis"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e36" label="mechanism" source="PW_FIB" target="PH_THR">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="platelet consumption"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e37" label="mechanism" source="PW_COAG" target="PH_VICC">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="full activation of the coagulation cascade"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e38" label="mechanism" source="PW_COAG" target="PH_MAHA">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="microthrombi+complement"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e39" label="mechanism" source="PW_COAG" target="PH_AKI">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="renal microthrombi / complement-mediated renal injury"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e40" label="mechanism" source="PW_PLT" target="PH_THR">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="aggregation+consumption"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e41" label="mechanism" source="PW_PLT" target="PH_MAHA">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="microvascular platelet thrombi"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e42" label="mechanism" source="PW_ECM" target="PH_AKI">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="glomerular basement membrane type IV collagen injury"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e43" label="mechanism" source="PW_VEGF" target="PH_LEAK">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="vascular permeability↑→capillary leak"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e44" label="mechanism" source="PW_VEGF" target="PH_AKI">
+    <att name="interaction" type="string" value="mechanism"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="hypotension→renal hypoperfusion"/>
+    <graphics width="1.5" fill="#777777"/>
+  </edge>
+  <edge id="e45" label="progression" source="PH_VICC" target="PH_THR">
+    <att name="interaction" type="string" value="progression"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="one of the clinical manifestations of VICC"/>
+    <graphics width="1.5" fill="#9467BD"/>
+  </edge>
+  <edge id="e46" label="progression" source="PH_VICC" target="PH_MAHA">
+    <att name="interaction" type="string" value="progression"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="VICC→TMA progression"/>
+    <graphics width="1.5" fill="#9467BD"/>
+  </edge>
+  <edge id="e47" label="progression" source="PH_VICC" target="PH_AKI">
+    <att name="interaction" type="string" value="progression"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="VICC→TMA progression"/>
+    <graphics width="1.5" fill="#9467BD"/>
+  </edge>
+  <edge id="e48" label="progression" source="PH_LEAK" target="PH_AKI">
+    <att name="interaction" type="string" value="progression"/>
+    <att name="evidence_type" type="string" value="inference"/>
+    <att name="line_type" type="string" value=""/>
+    <att name="note" type="string" value="hypoperfusion aggravates renal injury"/>
+    <graphics width="1.5" fill="#9467BD"/>
+  </edge>
+</graph>
