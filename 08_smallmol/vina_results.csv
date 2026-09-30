@@ -1,0 +1,10 @@
+﻿docking_pair,best_affinity(kcal/mol),modes_≤-7.5,total_modes
+results\PLA2_batimastat,-7.276,0,9
+results\PLA2_marimastat,-7.134,0,9
+results\PLA2_varespladib,-7.839,2,9
+results\RVVX_batimastat,-7.641,3,9
+results\RVVX_marimastat,-7.528,1,9
+results\RVVX_varespladib,-7.884,2,9
+results\daborhaginK_batimastat,-5.524,0,9
+results\daborhaginK_marimastat,-5.115,0,9
+results\daborhaginK_varespladib,-5.804,0,9
