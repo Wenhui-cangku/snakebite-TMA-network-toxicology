@@ -1,0 +1,8 @@
+﻿prior_pathway,g:Profiler (platform 1),Enrichr (platform 2),conclusion,notes/driver_genes
+hsa04610 Complement and coagulation cascades,KEGG p=3.90e-18 ✓,adj=1.63e-22 ✓,significant on both platforms ✓✓,all 11 driver genes are on the coagulation/fibrinolysis arm (F2/F3/F5/F7/F8/F10/FGA/PLG/PROC/F11/PROS1); zero genes on the complement arm — key point for H2
+hsa04611 Platelet activation,REAC equivalent term p=1.47e-07 ✓,adj=1.45e-03 ✓,significant on both platforms ✓✓,GP1BA/ALB/F2/F5/F8/FGA/PLG/PROS1
+ECM–receptor interaction,did not reach g:SCS<0.05,adj=1.81e-02 ✓,single platform (Enrichr),driven by COL4A1 et al.
+Focal adhesion,did not reach g:SCS<0.05,adj=4.68e-02 ✓,"single platform (Enrichr, borderline)",
+PI3K–Akt,not significant,adj=9.08e-02,not significant,
+NF-κB,not significant,no such term,not significant,Axis-4 inflammatory dimension has no support on the 15-gene core set; recorded as-is
+Fluid shear stress & atherosclerosis,not significant,adj=1.52e-01,not significant,
