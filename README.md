@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23065998.svg)](https://doi.org/10.5281/zenodo.23065998)
+[![Data DOI](https://img.shields.io/badge/data%20DOI-10.5281%2Fzenodo.23087108-blue)](https://doi.org/10.5281/zenodo.23087108)
 # snakebite-TMA-network-toxicology
 # Network toxicology of Russell's viper envenomation-associated thrombotic microangiopathy
 
