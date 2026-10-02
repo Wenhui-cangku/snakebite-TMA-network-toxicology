@@ -25,7 +25,7 @@ The study builds a documented-analysis-plan–guided, multi-layer computational 
 | `09_manuscript/fig_en/` | Phase 7 | Figure-generation scripts for all manuscript figures |
 | `scripts/` | — | Pipeline scripts in execution order (see below) |
 
-Large raw files (PDB structures, docking outputs, GEO raw matrices) are **not** in this repository; they are archived on Zenodo: `https://doi.org/10.5281/zenodo.23087108`. The code + results snapshot of this repository is archived at `https://doi.org/10.5281/zenodo.23065998` (concept DOI; resolves to the latest release).
+Large raw files (PDB structures, docking outputs, GEO raw matrices) are **not** in this repository; they are archived on Zenodo as a separate dataset: `https://doi.org/10.5281/zenodo.23087108`. This repository itself (code + result tables) is archived on Zenodo under the concept DOI `https://doi.org/10.5281/zenodo.23065792` (always resolves to the latest release; release v1.0.2 = `10.5281/zenodo.23097132`).
 
 ## Reproduction order
 
