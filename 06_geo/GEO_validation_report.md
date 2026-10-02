@@ -6,10 +6,12 @@ Date: 2026-09-24 ｜ By: Kimi ｜ Status: **complete**
 
 | Dataset | Model | Primary contrast | Platform / genes |
 |---|---|---|---|
-| GSE121297 | human HUVEC × snaclec (rhodocetin-αβ) | static RCαβ vs static control (3v3) | Affymetrix HG-U133 Plus 2.0 / 22,454 genes |
+| GSE121297 | human HUVEC × snaclec (rhodocetin-αβ) | static RCαβ vs static control (3v3) | Affymetrix HG-U133 Plus 2.0 / 22,453 genes |
 | GSE248215 | mouse skeletal muscle × *D. russelii* venom (30 µg in-vivo injection) | 24 h vs PBS control (3v2) | NanoString Fibrosis V2 Panel / 760 genes |
 
-Method note: the limma workflow was reproduced in Python (Welch t + BH FDR; probes annotated via the g:Profiler convert API; highest-expressed probe taken per gene); NanoString used the author-provided normalised log2 matrix. **Both datasets have small sample sizes (3v3 / 3v2), and no DEG reaches adj<0.05 after BH correction** — per the reconnaissance plan, interpretation uses "nominal p<0.05 + \|log2FC\|" as exploratory judgement, labelled throughout; this limitation is written into Limitations.
+Method note: differential expression was explored using Welch's t-tests in Python with Benjamini-Hochberg correction; one fixed probe per gene (highest mean across the six contrast samples, chosen before testing); probes annotated via the g:Profiler convert API; NanoString used the author-provided normalised log2 matrix. **Both datasets have small sample sizes (3v3 / 3v2), and no DEG reaches adj<0.05 after BH correction** — per the reconnaissance plan, interpretation uses "nominal p<0.05 + \|log2FC\|" as exploratory judgement, labelled throughout; this limitation is written into Limitations.
+
+v41 standardisation note (2026-10-02): the pipeline was finalised as the fully reproducible fixed-probe rule implemented in `scripts/geo_v41_reanalysis.py` (22,453 genes in GSE121297). An earlier archived run (kept locally as `..._archived21183.csv`, not uploaded) additionally resolved multi-symbol probe conflicts and yielded 21,183 genes; log2FC and raw P values of all shared genes are identical, BH values shift only through the changed denominator (e.g. VCAM1 0.75→0.76, ICAM1 0.67→0.68), and the conclusion (0 genes at BH-adjusted P<0.05) is unchanged.
 
 ## 2. Core findings (watchlist of 35 prior molecules)
 
@@ -44,12 +46,12 @@ Method note: the limma workflow was reproduced in Python (Welch t + BH FDR; prob
 
 ## 5. Output files
 
-- `06_geo/GSE121297_deg_static_rcab_vs_ctrl.csv` (22,454-gene full table), `GSE121297_watchlist.csv`
-- `06_geo/GSE248215_deg_DR24h_vs_ctrl.csv`, `GSE248215_deg_DR24h_vs_DR1h.csv`
+- `06_geo/GSE121297_deg_static_rcab_vs_ctrl.csv` (22,453-gene full table), `GSE121297_deg_static_rcab_vs_ctrl_v41reanalysis.csv` (canonical v41 output), `GSE121297_watchlist.csv`
+- `06_geo/GSE248215_deg_DR24h_vs_ctrl.csv`, `GSE248215_deg_DR24h_vs_ctrl_v41reanalysis.csv`, `GSE248215_deg_DR24h_vs_DR1h.csv`
 - `06_geo/geo_watchlist_combined.csv` (35 molecules × two datasets)
 - `06_geo/figure4_volcano.png` (Figure 4a/4b), `figure4c_watchlist.png` (Figure 4c)
 - Raw archive: series matrices ×3, `gpl570_probe2symbol.csv` (61,013 probe mappings)
-- Re-runnable scripts: `scripts/geo_gse121297.py`, `geo_figures.py`
+- Re-runnable scripts: `scripts/geo_v41_reanalysis.py` (canonical v41 pipeline), `scripts/geo_gse121297.py`, `geo_figures.py`
 - Excel: change log v12
 
 ## 6. Limitations (written into the manuscript)
