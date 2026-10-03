@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Post-process the Cytoscape-exported SVG: add dashes+arrows to mechanism-inference edges (#777777) and dotted+arrows to phenotype-progression edges (#9467bd).
-Input Figure4_4layer_network.svg (original untouched), output Figure4_4layer_network_final.svg."""
+"""Cytoscape 导出 SVG 后处理：机制推断边(#777777)加虚线+箭头，表型进展边(#9467bd)加 dotted+箭头。
+输入 Figure4_4layer_network.svg（不动原件），输出 Figure4_4layer_network_final.svg。"""
 import math, os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -9,7 +9,7 @@ DST = os.path.join(HERE, "Figure4_4layer_network_final.svg")
 
 raw = open(SRC, encoding="utf-8").read()
 
-ARROW_LEN, ARROW_HALF_W = 30.0, 11.0  # in original coordinate units (≈9 px after ~×0.3 scaling)
+ARROW_LEN, ARROW_HALF_W = 30.0, 11.0  # 原始坐标单位（约×0.3缩放后≈9px）
 
 def arrow_polygon(x1, y1, x2, y2, color):
     dx, dy = x2 - x1, y2 - y1
@@ -45,11 +45,11 @@ for color, dash in (("#777777", "7 5"), ("#9467bd", "2 3")):
 
 open(DST, "w", encoding="utf-8").write(raw)
 
-# self-check
+# 自检
 import xml.etree.ElementTree as ET
 ET.parse(DST)
 final = open(DST, encoding="utf-8").read()
-print("patched groups:", stats, "(expected #777777=11, #9467bd=4)")
-print("polygon arrows:", final.count("<polygon"), "(expected 15)")
+print("patched groups:", stats, "(预期 #777777=11, #9467bd=4)")
+print("polygon arrows:", final.count("<polygon"), "(预期 15)")
 print("dasharray 7 5:", final.count('stroke-dasharray="7 5"'), "/ 2 3:", final.count('stroke-dasharray="2 3"'))
 print("XML valid ✓ ->", DST)

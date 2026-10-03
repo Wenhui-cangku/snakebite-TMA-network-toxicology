@@ -161,23 +161,23 @@
    },
    {
     "@id": 25,
-    "n": "VICC consumptive coagulopathy"
+    "n": "VICC 消耗性凝血病"
    },
    {
     "@id": 26,
-    "n": "Thrombocytopenia thrombocytopenia"
+    "n": "Thrombocytopenia 血小板减少"
    },
    {
     "@id": 27,
-    "n": "MAHA microangiopathic hemolytic anemia"
+    "n": "MAHA 微血管病性溶血性贫血"
    },
    {
     "@id": 28,
-    "n": "AKI acute kidney injury"
+    "n": "AKI 急性肾损伤"
    },
    {
     "@id": 29,
-    "n": "Capillary Leak capillary leak / hypotension"
+    "n": "Capillary Leak 毛细血管渗漏/低血压"
    }
   ]
  },
@@ -496,13 +496,13 @@
    {
     "po": 0,
     "n": "family_or_axis",
-    "v": "SVMP+snaclec complex",
+    "v": "SVMP+snaclec 复合体",
     "d": "string"
    },
    {
     "po": 0,
     "n": "evidence_note",
-    "v": "ClusPro✅ HADDOCK-site✅",
+    "v": "ClusPro✅ HADDOCK位点✅",
     "d": "string"
    },
    {
@@ -538,7 +538,7 @@
    {
     "po": 1,
     "n": "evidence_note",
-    "v": "ClusPro✅ HADDOCK✅✅ co-crystal✅",
+    "v": "ClusPro✅ HADDOCK✅✅ 共结晶✅",
     "d": "string"
    },
    {
@@ -574,7 +574,7 @@
    {
     "po": 2,
     "n": "evidence_note",
-    "v": "ClusPro✅ HADDOCK-site✅",
+    "v": "ClusPro✅ HADDOCK位点✅",
     "d": "string"
    },
    {
@@ -676,13 +676,13 @@
    {
     "po": 5,
     "n": "family_or_axis",
-    "v": "Kunitz inhibitor",
+    "v": "Kunitz 抑制剂",
     "d": "string"
    },
    {
     "po": 5,
     "n": "evidence_note",
-    "v": "ClusPro✅ HADDOCK-site✅",
+    "v": "ClusPro✅ HADDOCK位点✅",
     "d": "string"
    },
    {
@@ -748,7 +748,7 @@
    {
     "po": 7,
     "n": "family_or_axis",
-    "v": "Axis2 coagulation/fibrinolysis",
+    "v": "轴2 凝血/纤溶",
     "d": "string"
    },
    {
@@ -760,7 +760,7 @@
    {
     "po": 7,
     "n": "evidence_note",
-    "v": "RVV-X activation / PLA2 binding / weak Kunitz inhibition",
+    "v": "RVV-X激活/PLA2结合/Kunitz弱抑",
     "d": "string"
    },
    {
@@ -790,13 +790,13 @@
    {
     "po": 8,
     "n": "family_or_axis",
-    "v": "Axis2 coagulation/fibrinolysis",
+    "v": "轴2 凝血/纤溶",
     "d": "string"
    },
    {
     "po": 8,
     "n": "evidence_note",
-    "v": "RVV-X activation",
+    "v": "RVV-X激活",
     "d": "string"
    },
    {
@@ -826,7 +826,7 @@
    {
     "po": 9,
     "n": "family_or_axis",
-    "v": "Axis2 coagulation/fibrinolysis",
+    "v": "轴2 凝血/纤溶",
     "d": "string"
    },
    {
@@ -838,7 +838,7 @@
    {
     "po": 9,
     "n": "evidence_note",
-    "v": "RVV-X activation",
+    "v": "RVV-X激活",
     "d": "string"
    },
    {
@@ -868,7 +868,7 @@
    {
     "po": 10,
     "n": "family_or_axis",
-    "v": "Axis2 coagulation/fibrinolysis",
+    "v": "轴2 凝血/纤溶",
     "d": "string"
    },
    {
@@ -880,7 +880,7 @@
    {
     "po": 10,
     "n": "evidence_note",
-    "v": "RVV-Vγ activation",
+    "v": "RVV-Vγ激活",
     "d": "string"
    },
    {
@@ -910,7 +910,7 @@
    {
     "po": 11,
     "n": "family_or_axis",
-    "v": "Axis2 coagulation/fibrinolysis",
+    "v": "轴2 凝血/纤溶",
     "d": "string"
    },
    {
@@ -922,7 +922,7 @@
    {
     "po": 11,
     "n": "evidence_note",
-    "v": "daborhagin-K hydrolysis",
+    "v": "daborhagin-K水解",
     "d": "string"
    },
    {
@@ -958,7 +958,7 @@
    {
     "po": 12,
     "n": "evidence_note",
-    "v": "daborhagin-K hydrolysis",
+    "v": "daborhagin-K水解",
     "d": "string"
    },
    {
@@ -1000,7 +1000,7 @@
    {
     "po": 13,
     "n": "evidence_note",
-    "v": "daborhagin-K hydrolysis",
+    "v": "daborhagin-K水解",
     "d": "string"
    },
    {
@@ -1030,7 +1030,7 @@
    {
     "po": 14,
     "n": "family_or_axis",
-    "v": "Axis1 VWF/platelet",
+    "v": "轴1 VWF/血小板",
     "d": "string"
    },
    {
@@ -1042,7 +1042,7 @@
    {
     "po": 14,
     "n": "evidence_note",
-    "v": "snaclec binding (competitive inhibition)",
+    "v": "snaclec结合(竞争性抑制)",
     "d": "string"
    },
    {
@@ -1072,7 +1072,7 @@
    {
     "po": 15,
     "n": "family_or_axis",
-    "v": "Axis2 coagulation/fibrinolysis",
+    "v": "轴2 凝血/纤溶",
     "d": "string"
    },
    {
@@ -1084,7 +1084,7 @@
    {
     "po": 15,
     "n": "evidence_note",
-    "v": "Kunitz inhibition Ki=0.19nM",
+    "v": "Kunitz抑制Ki=0.19nM",
     "d": "string"
    },
    {
@@ -1114,7 +1114,7 @@
    {
     "po": 16,
     "n": "family_or_axis",
-    "v": "Axis2 coagulation/fibrinolysis",
+    "v": "轴2 凝血/纤溶",
     "d": "string"
    },
    {
@@ -1126,7 +1126,7 @@
    {
     "po": 16,
     "n": "evidence_note",
-    "v": "Kunitz inhibition Ki=6nM",
+    "v": "Kunitz抑制Ki=6nM",
     "d": "string"
    },
    {
@@ -1156,13 +1156,13 @@
    {
     "po": 17,
     "n": "family_or_axis",
-    "v": "other (digestive enzyme)",
+    "v": "其他(消化酶)",
     "d": "string"
    },
    {
     "po": 17,
     "n": "evidence_note",
-    "v": "Kunitz inhibition 70%",
+    "v": "Kunitz抑制70%",
     "d": "string"
    },
    {
@@ -1192,7 +1192,7 @@
    {
     "po": 18,
     "n": "family_or_axis",
-    "v": "Axis4 endothelium/inflammation/kidney",
+    "v": "轴4 内皮/炎症/肾",
     "d": "string"
    },
    {
@@ -1204,7 +1204,7 @@
    {
     "po": 18,
     "n": "evidence_note",
-    "v": "svVEGF activation",
+    "v": "svVEGF激活",
     "d": "string"
    },
    {
@@ -1234,7 +1234,7 @@
    {
     "po": 19,
     "n": "family_or_axis",
-    "v": "coagulation",
+    "v": "凝血",
     "d": "string"
    },
    {
@@ -1264,7 +1264,7 @@
    {
     "po": 20,
     "n": "family_or_axis",
-    "v": "coagulation+complement",
+    "v": "凝血+补体",
     "d": "string"
    },
    {
@@ -1294,7 +1294,7 @@
    {
     "po": 21,
     "n": "family_or_axis",
-    "v": "Axis1 platelet",
+    "v": "轴1 血小板",
     "d": "string"
    },
    {
@@ -1330,7 +1330,7 @@
    {
     "po": 22,
     "n": "evidence_note",
-    "v": "single platform (Enrichr)",
+    "v": "单平台(Enrichr)",
     "d": "string"
    },
    {
@@ -1366,7 +1366,7 @@
    {
     "po": 23,
     "n": "evidence_note",
-    "v": "single platform (Enrichr, borderline)",
+    "v": "单平台(Enrichr,边缘)",
     "d": "string"
    },
    {
@@ -1396,7 +1396,7 @@
    {
     "po": 24,
     "n": "family_or_axis",
-    "v": "Axis4 endothelium",
+    "v": "轴4 内皮",
     "d": "string"
    },
    {
@@ -1544,7 +1544,7 @@
    {
     "po": 0,
     "n": "note",
-    "v": "RVV-X heavy chain cleaves and activates FX (PMID 37092784 et al.)",
+    "v": "RVV-X重链切割激活FX (PMID 37092784等)",
     "d": "string"
    },
    {
@@ -1556,7 +1556,7 @@
    {
     "po": 1,
     "n": "note",
-    "v": "RVV-X heavy chain cleaves and activates FIX",
+    "v": "RVV-X重链切割激活FIX",
     "d": "string"
    },
    {
@@ -1568,7 +1568,7 @@
    {
     "po": 2,
     "n": "note",
-    "v": "RVV-X cleaves and activates protein S",
+    "v": "RVV-X切割激活protein S",
     "d": "string"
    },
    {
@@ -1580,7 +1580,7 @@
    {
     "po": 3,
     "n": "note",
-    "v": "RVV-Vγ cleaves FV Arg1545-Ser1546",
+    "v": "RVV-Vγ切割FV Arg1545-Ser1546",
     "d": "string"
    },
    {
@@ -1592,7 +1592,7 @@
    {
     "po": 4,
     "n": "note",
-    "v": "hydrolyzes fibrinogen Aα (PMID 18554518)",
+    "v": "水解纤维蛋白原Aα (PMID 18554518)",
     "d": "string"
    },
    {
@@ -1604,7 +1604,7 @@
    {
     "po": 5,
     "n": "note",
-    "v": "hydrolyzes fibronectin in vitro",
+    "v": "体外水解纤维连接蛋白",
     "d": "string"
    },
    {
@@ -1616,7 +1616,7 @@
    {
     "po": 6,
     "n": "note",
-    "v": "hydrolyzes type IV collagen in vitro",
+    "v": "体外水解IV型胶原",
     "d": "string"
    },
    {
@@ -1628,7 +1628,7 @@
    {
     "po": 7,
     "n": "note",
-    "v": "binds GPIbα and inhibits ristocetin-induced aggregation",
+    "v": "结合GPIbα抑制瑞斯托霉素聚集",
     "d": "string"
    },
    {
@@ -1640,7 +1640,7 @@
    {
     "po": 8,
     "n": "note",
-    "v": "binds FXa IC50=130nM (PMID 18062812)",
+    "v": "结合FXa IC50=130nM (PMID 18062812)",
     "d": "string"
    },
    {
@@ -1652,7 +1652,7 @@
    {
     "po": 9,
     "n": "note",
-    "v": "inhibits plasmin 90% Ki=0.19nM",
+    "v": "抑制纤溶酶90% Ki=0.19nM",
     "d": "string"
    },
    {
@@ -1664,7 +1664,7 @@
    {
     "po": 10,
     "n": "note",
-    "v": "inhibits FXIa 37% Ki=6nM",
+    "v": "抑制FXIa 37% Ki=6nM",
     "d": "string"
    },
    {
@@ -1676,7 +1676,7 @@
    {
     "po": 11,
     "n": "note",
-    "v": "inhibits FXa 20%",
+    "v": "抑制FXa 20%",
     "d": "string"
    },
    {
@@ -1688,7 +1688,7 @@
    {
     "po": 12,
     "n": "note",
-    "v": "inhibits trypsin 70%",
+    "v": "抑制胰蛋白酶70%",
     "d": "string"
    },
    {
@@ -1700,7 +1700,7 @@
    {
     "po": 13,
     "n": "note",
-    "v": "induces angiogenesis via VEGFR2 / NO hypotension",
+    "v": "经VEGFR2诱导血管生成/NO低血压",
     "d": "string"
    },
    {
@@ -1832,7 +1832,7 @@
    {
     "po": 34,
     "n": "note",
-    "v": "massive fibrin formation→consumptive coagulopathy",
+    "v": "纤维蛋白大量形成→消耗性凝血",
     "d": "string"
    },
    {
@@ -1844,7 +1844,7 @@
    {
     "po": 35,
     "n": "note",
-    "v": "microthrombi→mechanical hemolysis",
+    "v": "微血栓→机械性溶血",
     "d": "string"
    },
    {
@@ -1856,7 +1856,7 @@
    {
     "po": 36,
     "n": "note",
-    "v": "platelet consumption",
+    "v": "血小板消耗",
     "d": "string"
    },
    {
@@ -1868,7 +1868,7 @@
    {
     "po": 37,
     "n": "note",
-    "v": "full activation of the coagulation cascade",
+    "v": "凝血级联全面激活",
     "d": "string"
    },
    {
@@ -1880,7 +1880,7 @@
    {
     "po": 38,
     "n": "note",
-    "v": "microthrombi+complement",
+    "v": "微血栓+补体",
     "d": "string"
    },
    {
@@ -1892,7 +1892,7 @@
    {
     "po": 39,
     "n": "note",
-    "v": "renal microthrombi / complement-mediated renal injury",
+    "v": "肾微血栓/补体介导肾损",
     "d": "string"
    },
    {
@@ -1904,7 +1904,7 @@
    {
     "po": 40,
     "n": "note",
-    "v": "aggregation+consumption",
+    "v": "聚集+消耗",
     "d": "string"
    },
    {
@@ -1916,7 +1916,7 @@
    {
     "po": 41,
     "n": "note",
-    "v": "microvascular platelet thrombi",
+    "v": "微血管血小板血栓",
     "d": "string"
    },
    {
@@ -1928,7 +1928,7 @@
    {
     "po": 42,
     "n": "note",
-    "v": "glomerular basement membrane type IV collagen injury",
+    "v": "肾小球基底膜IV胶原损伤",
     "d": "string"
    },
    {
@@ -1940,7 +1940,7 @@
    {
     "po": 43,
     "n": "note",
-    "v": "vascular permeability↑→capillary leak",
+    "v": "血管通透性↑→毛细血管渗漏",
     "d": "string"
    },
    {
@@ -1952,7 +1952,7 @@
    {
     "po": 44,
     "n": "note",
-    "v": "hypotension→renal hypoperfusion",
+    "v": "低血压→肾低灌注",
     "d": "string"
    },
    {
@@ -1964,7 +1964,7 @@
    {
     "po": 45,
     "n": "note",
-    "v": "one of the clinical manifestations of VICC",
+    "v": "VICC临床表现之一",
     "d": "string"
    },
    {
@@ -1976,7 +1976,7 @@
    {
     "po": 46,
     "n": "note",
-    "v": "VICC→TMA progression",
+    "v": "VICC→TMA进展",
     "d": "string"
    },
    {
@@ -1988,7 +1988,7 @@
    {
     "po": 47,
     "n": "note",
-    "v": "VICC→TMA progression",
+    "v": "VICC→TMA进展",
     "d": "string"
    },
    {
@@ -2000,7 +2000,7 @@
    {
     "po": 48,
     "n": "note",
-    "v": "hypoperfusion aggravates renal injury",
+    "v": "低灌注加重肾损",
     "d": "string"
    }
   ]

@@ -3,9 +3,9 @@
   <node id="RVVX" label="RVV-X">
     <att name="layer" type="integer" value="1"/>
     <att name="node_type" type="string" value="toxin"/>
-    <att name="family_or_axis" type="string" value="SVMP+snaclec complex"/>
+    <att name="family_or_axis" type="string" value="SVMP+snaclec 复合体"/>
     <att name="hub_status" type="string" value=""/>
-    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK-site✅"/>
+    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK位点✅"/>
     <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="300.0" w="60" h="60" outline="#000000" width="1.5"/>
   </node>
   <node id="RVVV" label="RVV-Vγ">
@@ -13,7 +13,7 @@
     <att name="node_type" type="string" value="toxin"/>
     <att name="family_or_axis" type="string" value="SVSP"/>
     <att name="hub_status" type="string" value=""/>
-    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK✅✅ co-crystal✅"/>
+    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK✅✅ 共结晶✅"/>
     <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="450.0" w="60" h="60" outline="#000000" width="1.5"/>
   </node>
   <node id="DABK" label="daborhagin-K">
@@ -21,7 +21,7 @@
     <att name="node_type" type="string" value="toxin"/>
     <att name="family_or_axis" type="string" value="SVMP (P-III)"/>
     <att name="hub_status" type="string" value=""/>
-    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK-site✅"/>
+    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK位点✅"/>
     <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="-150.0" w="60" h="60" outline="#000000" width="1.5"/>
   </node>
   <node id="SNAC" label="snaclec Q38L02">
@@ -43,9 +43,9 @@
   <node id="KUN" label="Kunitz H6VC06">
     <att name="layer" type="integer" value="1"/>
     <att name="node_type" type="string" value="toxin"/>
-    <att name="family_or_axis" type="string" value="Kunitz inhibitor"/>
+    <att name="family_or_axis" type="string" value="Kunitz 抑制剂"/>
     <att name="hub_status" type="string" value=""/>
-    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK-site✅"/>
+    <att name="evidence_note" type="string" value="ClusPro✅ HADDOCK位点✅"/>
     <graphics type="HEXAGON" fill="#D62728" x="-640.0" y="0.0" w="60" h="60" outline="#000000" width="1.5"/>
   </node>
   <node id="SVVEGF" label="svVEGF">
@@ -59,41 +59,41 @@
   <node id="F10" label="F10">
     <att name="layer" type="integer" value="2"/>
     <att name="node_type" type="string" value="target"/>
-    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="family_or_axis" type="string" value="轴2 凝血/纤溶"/>
     <att name="hub_status" type="string" value="Hub+strict"/>
-    <att name="evidence_note" type="string" value="RVV-X activation / PLA2 binding / weak Kunitz inhibition"/>
+    <att name="evidence_note" type="string" value="RVV-X激活/PLA2结合/Kunitz弱抑"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="472.5" w="45" h="45" outline="#000000" width="4.0"/>
   </node>
   <node id="F9" label="F9">
     <att name="layer" type="integer" value="2"/>
     <att name="node_type" type="string" value="target"/>
-    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="family_or_axis" type="string" value="轴2 凝血/纤溶"/>
     <att name="hub_status" type="string" value=""/>
-    <att name="evidence_note" type="string" value="RVV-X activation"/>
+    <att name="evidence_note" type="string" value="RVV-X激活"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="367.5" w="45" h="45" outline="#000000" width="1.5"/>
   </node>
   <node id="PROS1" label="PROS1">
     <att name="layer" type="integer" value="2"/>
     <att name="node_type" type="string" value="target"/>
-    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="family_or_axis" type="string" value="轴2 凝血/纤溶"/>
     <att name="hub_status" type="string" value="strict"/>
-    <att name="evidence_note" type="string" value="RVV-X activation"/>
+    <att name="evidence_note" type="string" value="RVV-X激活"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="157.5" w="45" h="45" outline="#000000" width="4.0"/>
   </node>
   <node id="F5" label="F5">
     <att name="layer" type="integer" value="2"/>
     <att name="node_type" type="string" value="target"/>
-    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="family_or_axis" type="string" value="轴2 凝血/纤溶"/>
     <att name="hub_status" type="string" value="Hub+strict"/>
-    <att name="evidence_note" type="string" value="RVV-Vγ activation"/>
+    <att name="evidence_note" type="string" value="RVV-Vγ激活"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="577.5" w="45" h="45" outline="#000000" width="4.0"/>
   </node>
   <node id="FGA" label="FGA">
     <att name="layer" type="integer" value="2"/>
     <att name="node_type" type="string" value="target"/>
-    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="family_or_axis" type="string" value="轴2 凝血/纤溶"/>
     <att name="hub_status" type="string" value="Hub+strict"/>
-    <att name="evidence_note" type="string" value="daborhagin-K hydrolysis"/>
+    <att name="evidence_note" type="string" value="daborhagin-K水解"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-157.5" w="45" h="45" outline="#000000" width="4.0"/>
   </node>
   <node id="FN1" label="FN1">
@@ -101,7 +101,7 @@
     <att name="node_type" type="string" value="target"/>
     <att name="family_or_axis" type="string" value="ECM"/>
     <att name="hub_status" type="string" value=""/>
-    <att name="evidence_note" type="string" value="daborhagin-K hydrolysis"/>
+    <att name="evidence_note" type="string" value="daborhagin-K水解"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-262.5" w="45" h="45" outline="#000000" width="1.5"/>
   </node>
   <node id="COL4A1" label="COL4A1">
@@ -109,53 +109,53 @@
     <att name="node_type" type="string" value="target"/>
     <att name="family_or_axis" type="string" value="ECM"/>
     <att name="hub_status" type="string" value="strict"/>
-    <att name="evidence_note" type="string" value="daborhagin-K hydrolysis"/>
+    <att name="evidence_note" type="string" value="daborhagin-K水解"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-367.5" w="45" h="45" outline="#000000" width="4.0"/>
   </node>
   <node id="GP1BA" label="GP1BA">
     <att name="layer" type="integer" value="2"/>
     <att name="node_type" type="string" value="target"/>
-    <att name="family_or_axis" type="string" value="Axis1 VWF/platelet"/>
+    <att name="family_or_axis" type="string" value="轴1 VWF/血小板"/>
     <att name="hub_status" type="string" value="strict"/>
-    <att name="evidence_note" type="string" value="snaclec binding (competitive inhibition)"/>
+    <att name="evidence_note" type="string" value="snaclec结合(竞争性抑制)"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-472.5" w="45" h="45" outline="#000000" width="4.0"/>
   </node>
   <node id="PLG" label="PLG">
     <att name="layer" type="integer" value="2"/>
     <att name="node_type" type="string" value="target"/>
-    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="family_or_axis" type="string" value="轴2 凝血/纤溶"/>
     <att name="hub_status" type="string" value="Hub+strict"/>
-    <att name="evidence_note" type="string" value="Kunitz inhibition Ki=0.19nM"/>
+    <att name="evidence_note" type="string" value="Kunitz抑制Ki=0.19nM"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="52.5" w="45" h="45" outline="#000000" width="4.0"/>
   </node>
   <node id="F11" label="F11">
     <att name="layer" type="integer" value="2"/>
     <att name="node_type" type="string" value="target"/>
-    <att name="family_or_axis" type="string" value="Axis2 coagulation/fibrinolysis"/>
+    <att name="family_or_axis" type="string" value="轴2 凝血/纤溶"/>
     <att name="hub_status" type="string" value="strict"/>
-    <att name="evidence_note" type="string" value="Kunitz inhibition Ki=6nM"/>
+    <att name="evidence_note" type="string" value="Kunitz抑制Ki=6nM"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="262.5" w="45" h="45" outline="#000000" width="4.0"/>
   </node>
   <node id="PRSS1" label="PRSS1">
     <att name="layer" type="integer" value="2"/>
     <att name="node_type" type="string" value="target"/>
-    <att name="family_or_axis" type="string" value="other (digestive enzyme)"/>
+    <att name="family_or_axis" type="string" value="其他(消化酶)"/>
     <att name="hub_status" type="string" value=""/>
-    <att name="evidence_note" type="string" value="Kunitz inhibition 70%"/>
+    <att name="evidence_note" type="string" value="Kunitz抑制70%"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-52.5" w="45" h="45" outline="#000000" width="1.5"/>
   </node>
   <node id="KDR" label="KDR">
     <att name="layer" type="integer" value="2"/>
     <att name="node_type" type="string" value="target"/>
-    <att name="family_or_axis" type="string" value="Axis4 endothelium/inflammation/kidney"/>
+    <att name="family_or_axis" type="string" value="轴4 内皮/炎症/肾"/>
     <att name="hub_status" type="string" value="strict"/>
-    <att name="evidence_note" type="string" value="svVEGF activation"/>
+    <att name="evidence_note" type="string" value="svVEGF激活"/>
     <graphics type="ELLIPSE" fill="#1F77B4" x="-215.0" y="-577.5" w="45" h="45" outline="#000000" width="4.0"/>
   </node>
   <node id="PW_FIB" label="Formation of Fibrin Clot (REAC 140877, p=9.7e-23)">
     <att name="layer" type="integer" value="3"/>
     <att name="node_type" type="string" value="pathway"/>
-    <att name="family_or_axis" type="string" value="coagulation"/>
+    <att name="family_or_axis" type="string" value="凝血"/>
     <att name="hub_status" type="string" value=""/>
     <att name="evidence_note" type="string" value=""/>
     <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="425.0" w="70" h="40" outline="#000000" width="1.5"/>
@@ -163,7 +163,7 @@
   <node id="PW_COAG" label="Complement &amp; Coagulation (KEGG 04610, p=3.9e-18)">
     <att name="layer" type="integer" value="3"/>
     <att name="node_type" type="string" value="pathway"/>
-    <att name="family_or_axis" type="string" value="coagulation+complement"/>
+    <att name="family_or_axis" type="string" value="凝血+补体"/>
     <att name="hub_status" type="string" value=""/>
     <att name="evidence_note" type="string" value=""/>
     <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="255.0" w="70" h="40" outline="#000000" width="1.5"/>
@@ -171,7 +171,7 @@
   <node id="PW_PLT" label="Platelet Activation (REAC 76002, p=1.5e-07)">
     <att name="layer" type="integer" value="3"/>
     <att name="node_type" type="string" value="pathway"/>
-    <att name="family_or_axis" type="string" value="Axis1 platelet"/>
+    <att name="family_or_axis" type="string" value="轴1 血小板"/>
     <att name="hub_status" type="string" value=""/>
     <att name="evidence_note" type="string" value=""/>
     <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="85.0" w="70" h="40" outline="#000000" width="1.5"/>
@@ -181,7 +181,7 @@
     <att name="node_type" type="string" value="pathway"/>
     <att name="family_or_axis" type="string" value="ECM"/>
     <att name="hub_status" type="string" value=""/>
-    <att name="evidence_note" type="string" value="single platform (Enrichr)"/>
+    <att name="evidence_note" type="string" value="单平台(Enrichr)"/>
     <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="-85.0" w="70" h="40" outline="#000000" width="1.5"/>
   </node>
   <node id="PW_FA" label="Focal Adhesion (KEGG 04510, adj=0.047)">
@@ -189,18 +189,18 @@
     <att name="node_type" type="string" value="pathway"/>
     <att name="family_or_axis" type="string" value="ECM"/>
     <att name="hub_status" type="string" value=""/>
-    <att name="evidence_note" type="string" value="single platform (Enrichr, borderline)"/>
+    <att name="evidence_note" type="string" value="单平台(Enrichr,边缘)"/>
     <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="-255.0" w="70" h="40" outline="#000000" width="1.5"/>
   </node>
   <node id="PW_VEGF" label="VEGFR2 Signaling (REAC 195399, adj=0.023)">
     <att name="layer" type="integer" value="3"/>
     <att name="node_type" type="string" value="pathway"/>
-    <att name="family_or_axis" type="string" value="Axis4 endothelium"/>
+    <att name="family_or_axis" type="string" value="轴4 内皮"/>
     <att name="hub_status" type="string" value=""/>
     <att name="evidence_note" type="string" value=""/>
     <graphics type="ROUND_RECTANGLE" fill="#2CA02C" x="230.0" y="-425.0" w="70" h="40" outline="#000000" width="1.5"/>
   </node>
-  <node id="PH_VICC" label="VICC consumptive coagulopathy">
+  <node id="PH_VICC" label="VICC 消耗性凝血病">
     <att name="layer" type="integer" value="4"/>
     <att name="node_type" type="string" value="phenotype"/>
     <att name="family_or_axis" type="string" value=""/>
@@ -208,7 +208,7 @@
     <att name="evidence_note" type="string" value=""/>
     <graphics type="DIAMOND" fill="#9467BD" x="700.0" y="350.0" w="65" h="65" outline="#000000" width="1.5"/>
   </node>
-  <node id="PH_THR" label="Thrombocytopenia thrombocytopenia">
+  <node id="PH_THR" label="Thrombocytopenia 血小板减少">
     <att name="layer" type="integer" value="4"/>
     <att name="node_type" type="string" value="phenotype"/>
     <att name="family_or_axis" type="string" value=""/>
@@ -216,7 +216,7 @@
     <att name="evidence_note" type="string" value=""/>
     <graphics type="DIAMOND" fill="#9467BD" x="700.0" y="175.0" w="65" h="65" outline="#000000" width="1.5"/>
   </node>
-  <node id="PH_MAHA" label="MAHA microangiopathic hemolytic anemia">
+  <node id="PH_MAHA" label="MAHA 微血管病性溶血性贫血">
     <att name="layer" type="integer" value="4"/>
     <att name="node_type" type="string" value="phenotype"/>
     <att name="family_or_axis" type="string" value=""/>
@@ -224,7 +224,7 @@
     <att name="evidence_note" type="string" value=""/>
     <graphics type="DIAMOND" fill="#9467BD" x="700.0" y="0.0" w="65" h="65" outline="#000000" width="1.5"/>
   </node>
-  <node id="PH_AKI" label="AKI acute kidney injury">
+  <node id="PH_AKI" label="AKI 急性肾损伤">
     <att name="layer" type="integer" value="4"/>
     <att name="node_type" type="string" value="phenotype"/>
     <att name="family_or_axis" type="string" value=""/>
@@ -232,7 +232,7 @@
     <att name="evidence_note" type="string" value=""/>
     <graphics type="DIAMOND" fill="#9467BD" x="700.0" y="-175.0" w="65" h="65" outline="#000000" width="1.5"/>
   </node>
-  <node id="PH_LEAK" label="Capillary Leak capillary leak / hypotension">
+  <node id="PH_LEAK" label="Capillary Leak 毛细血管渗漏/低血压">
     <att name="layer" type="integer" value="4"/>
     <att name="node_type" type="string" value="phenotype"/>
     <att name="family_or_axis" type="string" value=""/>
@@ -244,98 +244,98 @@
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="RVV-X heavy chain cleaves and activates FX (PMID 37092784 et al.)"/>
+    <att name="note" type="string" value="RVV-X重链切割激活FX (PMID 37092784等)"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e1" label="direct" source="RVVX" target="F9">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="RVV-X heavy chain cleaves and activates FIX"/>
+    <att name="note" type="string" value="RVV-X重链切割激活FIX"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e2" label="direct" source="RVVX" target="PROS1">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="RVV-X cleaves and activates protein S"/>
+    <att name="note" type="string" value="RVV-X切割激活protein S"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e3" label="direct" source="RVVV" target="F5">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="RVV-Vγ cleaves FV Arg1545-Ser1546"/>
+    <att name="note" type="string" value="RVV-Vγ切割FV Arg1545-Ser1546"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e4" label="direct" source="DABK" target="FGA">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="hydrolyzes fibrinogen Aα (PMID 18554518)"/>
+    <att name="note" type="string" value="水解纤维蛋白原Aα (PMID 18554518)"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e5" label="direct" source="DABK" target="FN1">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="hydrolyzes fibronectin in vitro"/>
+    <att name="note" type="string" value="体外水解纤维连接蛋白"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e6" label="direct" source="DABK" target="COL4A1">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="hydrolyzes type IV collagen in vitro"/>
+    <att name="note" type="string" value="体外水解IV型胶原"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e7" label="direct" source="SNAC" target="GP1BA">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="binds GPIbα and inhibits ristocetin-induced aggregation"/>
+    <att name="note" type="string" value="结合GPIbα抑制瑞斯托霉素聚集"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e8" label="direct" source="PLA2" target="F10">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="binds FXa IC50=130nM (PMID 18062812)"/>
+    <att name="note" type="string" value="结合FXa IC50=130nM (PMID 18062812)"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e9" label="direct" source="KUN" target="PLG">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="inhibits plasmin 90% Ki=0.19nM"/>
+    <att name="note" type="string" value="抑制纤溶酶90% Ki=0.19nM"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e10" label="direct" source="KUN" target="F11">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="inhibits FXIa 37% Ki=6nM"/>
+    <att name="note" type="string" value="抑制FXIa 37% Ki=6nM"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e11" label="direct" source="KUN" target="F10">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="inhibits FXa 20%"/>
+    <att name="note" type="string" value="抑制FXa 20%"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e12" label="direct" source="KUN" target="PRSS1">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="inhibits trypsin 70%"/>
+    <att name="note" type="string" value="抑制胰蛋白酶70%"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e13" label="direct" source="SVVEGF" target="KDR">
     <att name="interaction" type="string" value="direct"/>
     <att name="evidence_type" type="string" value="literature"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="induces angiogenesis via VEGFR2 / NO hypotension"/>
+    <att name="note" type="string" value="经VEGFR2诱导血管生成/NO低血压"/>
     <graphics width="1.5" fill="#333333"/>
   </edge>
   <edge id="e14" label="membership" source="F10" target="PW_FIB">
@@ -482,105 +482,105 @@
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="massive fibrin formation→consumptive coagulopathy"/>
+    <att name="note" type="string" value="纤维蛋白大量形成→消耗性凝血"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e35" label="mechanism" source="PW_FIB" target="PH_MAHA">
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="microthrombi→mechanical hemolysis"/>
+    <att name="note" type="string" value="微血栓→机械性溶血"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e36" label="mechanism" source="PW_FIB" target="PH_THR">
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="platelet consumption"/>
+    <att name="note" type="string" value="血小板消耗"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e37" label="mechanism" source="PW_COAG" target="PH_VICC">
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="full activation of the coagulation cascade"/>
+    <att name="note" type="string" value="凝血级联全面激活"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e38" label="mechanism" source="PW_COAG" target="PH_MAHA">
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="microthrombi+complement"/>
+    <att name="note" type="string" value="微血栓+补体"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e39" label="mechanism" source="PW_COAG" target="PH_AKI">
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="renal microthrombi / complement-mediated renal injury"/>
+    <att name="note" type="string" value="肾微血栓/补体介导肾损"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e40" label="mechanism" source="PW_PLT" target="PH_THR">
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="aggregation+consumption"/>
+    <att name="note" type="string" value="聚集+消耗"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e41" label="mechanism" source="PW_PLT" target="PH_MAHA">
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="microvascular platelet thrombi"/>
+    <att name="note" type="string" value="微血管血小板血栓"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e42" label="mechanism" source="PW_ECM" target="PH_AKI">
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="glomerular basement membrane type IV collagen injury"/>
+    <att name="note" type="string" value="肾小球基底膜IV胶原损伤"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e43" label="mechanism" source="PW_VEGF" target="PH_LEAK">
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="vascular permeability↑→capillary leak"/>
+    <att name="note" type="string" value="血管通透性↑→毛细血管渗漏"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e44" label="mechanism" source="PW_VEGF" target="PH_AKI">
     <att name="interaction" type="string" value="mechanism"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="hypotension→renal hypoperfusion"/>
+    <att name="note" type="string" value="低血压→肾低灌注"/>
     <graphics width="1.5" fill="#777777"/>
   </edge>
   <edge id="e45" label="progression" source="PH_VICC" target="PH_THR">
     <att name="interaction" type="string" value="progression"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="one of the clinical manifestations of VICC"/>
+    <att name="note" type="string" value="VICC临床表现之一"/>
     <graphics width="1.5" fill="#9467BD"/>
   </edge>
   <edge id="e46" label="progression" source="PH_VICC" target="PH_MAHA">
     <att name="interaction" type="string" value="progression"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="VICC→TMA progression"/>
+    <att name="note" type="string" value="VICC→TMA进展"/>
     <graphics width="1.5" fill="#9467BD"/>
   </edge>
   <edge id="e47" label="progression" source="PH_VICC" target="PH_AKI">
     <att name="interaction" type="string" value="progression"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="VICC→TMA progression"/>
+    <att name="note" type="string" value="VICC→TMA进展"/>
     <graphics width="1.5" fill="#9467BD"/>
   </edge>
   <edge id="e48" label="progression" source="PH_LEAK" target="PH_AKI">
     <att name="interaction" type="string" value="progression"/>
     <att name="evidence_type" type="string" value="inference"/>
     <att name="line_type" type="string" value=""/>
-    <att name="note" type="string" value="hypoperfusion aggravates renal injury"/>
+    <att name="note" type="string" value="低灌注加重肾损"/>
     <graphics width="1.5" fill="#9467BD"/>
   </edge>
 </graph>

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Convert figure4_hetero_network.cyjs to Cytoscape-native CX format (with coordinates).
-CX is the NDEx exchange format, natively supported by Cytoscape 3.x File -> Import -> Network from File;
-cartesianLayout coordinates are restored on import, avoiding the cyjs recognition problem."""
+"""把 figure4_hetero_network.cyjs 转成 Cytoscape 原生 CX 格式（含坐标）。
+CX 是 NDEx 交换格式，Cytoscape 3.x 的 File -> Import -> Network from File 原生支持，
+导入后自动恢复 cartesianLayout 坐标，避开 cyjs 识别问题。"""
 import json, os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -61,7 +61,7 @@ cx = [
 out = os.path.join(HERE, "figure4_hetero_network.cx")
 json.dump(cx, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
-# self-check
+# 自检
 chk = json.load(open(out, encoding="utf-8"))
 by = {list(f)[0]: f[list(f)[0]] for f in chk}
 print("CX written:", out)

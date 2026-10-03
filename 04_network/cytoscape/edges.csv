@@ -1,18 +1,18 @@
 ﻿source,target,interaction,evidence_type,note,line_type,width
-RVVX,F10,direct,literature,RVV-X heavy chain cleaves and activates FX (PMID 37092784 et al.),solid,3.0
-RVVX,F9,direct,literature,RVV-X heavy chain cleaves and activates FIX,solid,3.0
-RVVX,PROS1,direct,literature,RVV-X cleaves and activates protein S,solid,3.0
-RVVV,F5,direct,literature,RVV-Vγ cleaves FV Arg1545-Ser1546,solid,3.0
-DABK,FGA,direct,literature,hydrolyzes fibrinogen Aα (PMID 18554518),solid,3.0
-DABK,FN1,direct,literature,hydrolyzes fibronectin in vitro,solid,3.0
-DABK,COL4A1,direct,literature,hydrolyzes type IV collagen in vitro,solid,3.0
-SNAC,GP1BA,direct,literature,binds GPIbα and inhibits ristocetin-induced aggregation,solid,3.0
-PLA2,F10,direct,literature,binds FXa IC50=130nM (PMID 18062812),solid,3.0
-KUN,PLG,direct,literature,inhibits plasmin 90% Ki=0.19nM,solid,3.0
-KUN,F11,direct,literature,inhibits FXIa 37% Ki=6nM,solid,3.0
-KUN,F10,direct,literature,inhibits FXa 20%,solid,3.0
-KUN,PRSS1,direct,literature,inhibits trypsin 70%,solid,3.0
-SVVEGF,KDR,direct,literature,induces angiogenesis via VEGFR2 / NO hypotension,solid,3.0
+RVVX,F10,direct,literature,RVV-X重链切割激活FX (PMID 37092784等),solid,3.0
+RVVX,F9,direct,literature,RVV-X重链切割激活FIX,solid,3.0
+RVVX,PROS1,direct,literature,RVV-X切割激活protein S,solid,3.0
+RVVV,F5,direct,literature,RVV-Vγ切割FV Arg1545-Ser1546,solid,3.0
+DABK,FGA,direct,literature,水解纤维蛋白原Aα (PMID 18554518),solid,3.0
+DABK,FN1,direct,literature,体外水解纤维连接蛋白,solid,3.0
+DABK,COL4A1,direct,literature,体外水解IV型胶原,solid,3.0
+SNAC,GP1BA,direct,literature,结合GPIbα抑制瑞斯托霉素聚集,solid,3.0
+PLA2,F10,direct,literature,结合FXa IC50=130nM (PMID 18062812),solid,3.0
+KUN,PLG,direct,literature,抑制纤溶酶90% Ki=0.19nM,solid,3.0
+KUN,F11,direct,literature,抑制FXIa 37% Ki=6nM,solid,3.0
+KUN,F10,direct,literature,抑制FXa 20%,solid,3.0
+KUN,PRSS1,direct,literature,抑制胰蛋白酶70%,solid,3.0
+SVVEGF,KDR,direct,literature,经VEGFR2诱导血管生成/NO低血压,solid,3.0
 F10,PW_FIB,membership,enrichment,,solid,1.2
 F5,PW_FIB,membership,enrichment,,solid,1.2
 FGA,PW_FIB,membership,enrichment,,solid,1.2
@@ -33,18 +33,18 @@ GP1BA,PW_ECM,membership,enrichment,,solid,1.2
 COL4A1,PW_FA,membership,enrichment,,solid,1.2
 KDR,PW_FA,membership,enrichment,,solid,1.2
 KDR,PW_VEGF,membership,enrichment,,solid,1.2
-PW_FIB,PH_VICC,mechanism,inference,massive fibrin formation→consumptive coagulopathy,dashed,2.0
-PW_FIB,PH_MAHA,mechanism,inference,microthrombi→mechanical hemolysis,dashed,2.0
-PW_FIB,PH_THR,mechanism,inference,platelet consumption,dashed,2.0
-PW_COAG,PH_VICC,mechanism,inference,full activation of the coagulation cascade,dashed,2.0
-PW_COAG,PH_MAHA,mechanism,inference,microthrombi+complement,dashed,2.0
-PW_COAG,PH_AKI,mechanism,inference,renal microthrombi / complement-mediated renal injury,dashed,2.0
-PW_PLT,PH_THR,mechanism,inference,aggregation+consumption,dashed,2.0
-PW_PLT,PH_MAHA,mechanism,inference,microvascular platelet thrombi,dashed,2.0
-PW_ECM,PH_AKI,mechanism,inference,glomerular basement membrane type IV collagen injury,dashed,2.0
-PW_VEGF,PH_LEAK,mechanism,inference,vascular permeability↑→capillary leak,dashed,2.0
-PW_VEGF,PH_AKI,mechanism,inference,hypotension→renal hypoperfusion,dashed,2.0
-PH_VICC,PH_THR,progression,inference,one of the clinical manifestations of VICC,dotted,2.0
-PH_VICC,PH_MAHA,progression,inference,VICC→TMA progression,dotted,2.0
-PH_VICC,PH_AKI,progression,inference,VICC→TMA progression,dotted,2.0
-PH_LEAK,PH_AKI,progression,inference,hypoperfusion aggravates renal injury,dotted,2.0
+PW_FIB,PH_VICC,mechanism,inference,纤维蛋白大量形成→消耗性凝血,dashed,2.0
+PW_FIB,PH_MAHA,mechanism,inference,微血栓→机械性溶血,dashed,2.0
+PW_FIB,PH_THR,mechanism,inference,血小板消耗,dashed,2.0
+PW_COAG,PH_VICC,mechanism,inference,凝血级联全面激活,dashed,2.0
+PW_COAG,PH_MAHA,mechanism,inference,微血栓+补体,dashed,2.0
+PW_COAG,PH_AKI,mechanism,inference,肾微血栓/补体介导肾损,dashed,2.0
+PW_PLT,PH_THR,mechanism,inference,聚集+消耗,dashed,2.0
+PW_PLT,PH_MAHA,mechanism,inference,微血管血小板血栓,dashed,2.0
+PW_ECM,PH_AKI,mechanism,inference,肾小球基底膜IV胶原损伤,dashed,2.0
+PW_VEGF,PH_LEAK,mechanism,inference,血管通透性↑→毛细血管渗漏,dashed,2.0
+PW_VEGF,PH_AKI,mechanism,inference,低血压→肾低灌注,dashed,2.0
+PH_VICC,PH_THR,progression,inference,VICC临床表现之一,dotted,2.0
+PH_VICC,PH_MAHA,progression,inference,VICC→TMA进展,dotted,2.0
+PH_VICC,PH_AKI,progression,inference,VICC→TMA进展,dotted,2.0
+PH_LEAK,PH_AKI,progression,inference,低灌注加重肾损,dotted,2.0

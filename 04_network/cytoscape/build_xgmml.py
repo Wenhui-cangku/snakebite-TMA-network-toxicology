@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-"""Convert figure4_hetero_network.cyjs to XGMML (directly importable by all Cytoscape versions).
-Embeds node coordinates/colors/shapes and edge colors/widths; y-axis flipped to match the matplotlib preview orientation."""
+"""把 figure4_hetero_network.cyjs 转成 XGMML（Cytoscape 各版本均可直接导入）。
+内嵌节点坐标/颜色/形状与边颜色/宽度；y 轴翻转以匹配 matplotlib 预览的视觉方向。"""
 import json, os
 from xml.sax.saxutils import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 src = json.load(open(os.path.join(HERE, "figure4_hetero_network.cyjs"), encoding="utf-8"))
 
-# per-layer node sizes (consistent with guide §3)
+# 每层节点尺寸（与指南 §3 一致）
 SIZE = {1: (60, 60), 2: (45, 45), 3: (70, 40), 4: (65, 65)}
 EDGE_COLOR = {"direct": "#333333", "membership": "#AAAAAA",
               "mechanism": "#777777", "progression": "#9467BD"}
@@ -21,7 +21,7 @@ for n in src["elements"]["nodes"]:
     label = d.get("label", nid).replace("\n", " ")
     layer = int(d.get("layer", 2))
     w, h = SIZE.get(layer, (50, 50))
-    x = float(n["position"]["x"]); y = -float(n["position"]["y"])  # y flip
+    x = float(n["position"]["x"]); y = -float(n["position"]["y"])  # y 翻转
     shape = d.get("shape", "ELLIPSE")
     fill = d.get("fill_color", "#999999")
     bw = 4.0 if d.get("hub_status") else 1.5
@@ -51,7 +51,7 @@ L.append('</graph>')
 out = os.path.join(HERE, "figure4_hetero_network.xgmml")
 open(out, "w", encoding="utf-8").write("\n".join(L))
 
-# self-check
+# 自检
 import xml.etree.ElementTree as ET
 t = ET.parse(out)
 ns = "{http://www.cs.rpi.edu/XGMML}"

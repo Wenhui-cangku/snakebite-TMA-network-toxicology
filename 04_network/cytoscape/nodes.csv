@@ -1,42 +1,42 @@
 ﻿id,label,layer,node_type,family_or_axis,hub_status,evidence_note,fill_color,shape,x,y
-RVVX,RVV-X,1,toxin,SVMP+snaclec complex,,ClusPro✅ HADDOCK-site✅,#D62728,HEXAGON,-640,300.0
-RVVV,RVV-Vγ,1,toxin,SVSP,,ClusPro✅ HADDOCK✅✅ co-crystal✅,#D62728,HEXAGON,-640,450.0
-DABK,daborhagin-K,1,toxin,SVMP (P-III),,ClusPro✅ HADDOCK-site✅,#D62728,HEXAGON,-640,-150.0
+RVVX,RVV-X,1,toxin,SVMP+snaclec 复合体,,ClusPro✅ HADDOCK位点✅,#D62728,HEXAGON,-640,300.0
+RVVV,RVV-Vγ,1,toxin,SVSP,,ClusPro✅ HADDOCK✅✅ 共结晶✅,#D62728,HEXAGON,-640,450.0
+DABK,daborhagin-K,1,toxin,SVMP (P-III),,ClusPro✅ HADDOCK位点✅,#D62728,HEXAGON,-640,-150.0
 SNAC,snaclec Q38L02,1,toxin,snaclec/CTL,,ClusPro✅,#D62728,HEXAGON,-640,-300.0
 PLA2,PLA2 VRV-PL-VIIIa,1,toxin,PLA2,,ClusPro✅,#D62728,HEXAGON,-640,150.0
-KUN,Kunitz H6VC06,1,toxin,Kunitz inhibitor,,ClusPro✅ HADDOCK-site✅,#D62728,HEXAGON,-640,0.0
+KUN,Kunitz H6VC06,1,toxin,Kunitz 抑制剂,,ClusPro✅ HADDOCK位点✅,#D62728,HEXAGON,-640,0.0
 SVVEGF,svVEGF,1,toxin,VEGF,,ClusPro✅✅ HDock✅,#D62728,HEXAGON,-640,-450.0
-F10,F10,2,target,Axis2 coagulation/fibrinolysis,Hub+strict,RVV-X activation / PLA2 binding / weak Kunitz inhibition,#1F77B4,ELLIPSE,-215,472.5
-F9,F9,2,target,Axis2 coagulation/fibrinolysis,,RVV-X activation,#1F77B4,ELLIPSE,-215,367.5
-PROS1,PROS1,2,target,Axis2 coagulation/fibrinolysis,strict,RVV-X activation,#1F77B4,ELLIPSE,-215,157.5
-F5,F5,2,target,Axis2 coagulation/fibrinolysis,Hub+strict,RVV-Vγ activation,#1F77B4,ELLIPSE,-215,577.5
-FGA,FGA,2,target,Axis2 coagulation/fibrinolysis,Hub+strict,daborhagin-K hydrolysis,#1F77B4,ELLIPSE,-215,-157.5
-FN1,FN1,2,target,ECM,,daborhagin-K hydrolysis,#1F77B4,ELLIPSE,-215,-262.5
-COL4A1,COL4A1,2,target,ECM,strict,daborhagin-K hydrolysis,#1F77B4,ELLIPSE,-215,-367.5
-GP1BA,GP1BA,2,target,Axis1 VWF/platelet,strict,snaclec binding (competitive inhibition),#1F77B4,ELLIPSE,-215,-472.5
-PLG,PLG,2,target,Axis2 coagulation/fibrinolysis,Hub+strict,Kunitz inhibition Ki=0.19nM,#1F77B4,ELLIPSE,-215,52.5
-F11,F11,2,target,Axis2 coagulation/fibrinolysis,strict,Kunitz inhibition Ki=6nM,#1F77B4,ELLIPSE,-215,262.5
-PRSS1,PRSS1,2,target,other (digestive enzyme),,Kunitz inhibition 70%,#1F77B4,ELLIPSE,-215,-52.5
-KDR,KDR,2,target,Axis4 endothelium/inflammation/kidney,strict,svVEGF activation,#1F77B4,ELLIPSE,-215,-577.5
+F10,F10,2,target,轴2 凝血/纤溶,Hub+strict,RVV-X激活/PLA2结合/Kunitz弱抑,#1F77B4,ELLIPSE,-215,472.5
+F9,F9,2,target,轴2 凝血/纤溶,,RVV-X激活,#1F77B4,ELLIPSE,-215,367.5
+PROS1,PROS1,2,target,轴2 凝血/纤溶,strict,RVV-X激活,#1F77B4,ELLIPSE,-215,157.5
+F5,F5,2,target,轴2 凝血/纤溶,Hub+strict,RVV-Vγ激活,#1F77B4,ELLIPSE,-215,577.5
+FGA,FGA,2,target,轴2 凝血/纤溶,Hub+strict,daborhagin-K水解,#1F77B4,ELLIPSE,-215,-157.5
+FN1,FN1,2,target,ECM,,daborhagin-K水解,#1F77B4,ELLIPSE,-215,-262.5
+COL4A1,COL4A1,2,target,ECM,strict,daborhagin-K水解,#1F77B4,ELLIPSE,-215,-367.5
+GP1BA,GP1BA,2,target,轴1 VWF/血小板,strict,snaclec结合(竞争性抑制),#1F77B4,ELLIPSE,-215,-472.5
+PLG,PLG,2,target,轴2 凝血/纤溶,Hub+strict,Kunitz抑制Ki=0.19nM,#1F77B4,ELLIPSE,-215,52.5
+F11,F11,2,target,轴2 凝血/纤溶,strict,Kunitz抑制Ki=6nM,#1F77B4,ELLIPSE,-215,262.5
+PRSS1,PRSS1,2,target,其他(消化酶),,Kunitz抑制70%,#1F77B4,ELLIPSE,-215,-52.5
+KDR,KDR,2,target,轴4 内皮/炎症/肾,strict,svVEGF激活,#1F77B4,ELLIPSE,-215,-577.5
 PW_FIB,"Formation of Fibrin Clot
-(REAC 140877, p=9.7e-23)",3,pathway,coagulation,,,#2CA02C,ROUND_RECTANGLE,230,425.0
+(REAC 140877, p=9.7e-23)",3,pathway,凝血,,,#2CA02C,ROUND_RECTANGLE,230,425.0
 PW_COAG,"Complement & Coagulation
-(KEGG 04610, p=3.9e-18)",3,pathway,coagulation+complement,,,#2CA02C,ROUND_RECTANGLE,230,255.0
+(KEGG 04610, p=3.9e-18)",3,pathway,凝血+补体,,,#2CA02C,ROUND_RECTANGLE,230,255.0
 PW_PLT,"Platelet Activation
-(REAC 76002, p=1.5e-07)",3,pathway,Axis1 platelet,,,#2CA02C,ROUND_RECTANGLE,230,85.0
+(REAC 76002, p=1.5e-07)",3,pathway,轴1 血小板,,,#2CA02C,ROUND_RECTANGLE,230,85.0
 PW_ECM,"ECM-Receptor Interaction
-(KEGG 04512, adj=0.018)",3,pathway,ECM,,single platform (Enrichr),#2CA02C,ROUND_RECTANGLE,230,-85.0
+(KEGG 04512, adj=0.018)",3,pathway,ECM,,单平台(Enrichr),#2CA02C,ROUND_RECTANGLE,230,-85.0
 PW_FA,"Focal Adhesion
-(KEGG 04510, adj=0.047)",3,pathway,ECM,,"single platform (Enrichr, borderline)",#2CA02C,ROUND_RECTANGLE,230,-255.0
+(KEGG 04510, adj=0.047)",3,pathway,ECM,,"单平台(Enrichr,边缘)",#2CA02C,ROUND_RECTANGLE,230,-255.0
 PW_VEGF,"VEGFR2 Signaling
-(REAC 195399, adj=0.023)",3,pathway,Axis4 endothelium,,,#2CA02C,ROUND_RECTANGLE,230,-425.0
+(REAC 195399, adj=0.023)",3,pathway,轴4 内皮,,,#2CA02C,ROUND_RECTANGLE,230,-425.0
 PH_VICC,"VICC
-consumptive coagulopathy",4,phenotype,,,,#9467BD,DIAMOND,700,350.0
+消耗性凝血病",4,phenotype,,,,#9467BD,DIAMOND,700,350.0
 PH_THR,"Thrombocytopenia
-thrombocytopenia",4,phenotype,,,,#9467BD,DIAMOND,700,175.0
+血小板减少",4,phenotype,,,,#9467BD,DIAMOND,700,175.0
 PH_MAHA,"MAHA
-microangiopathic hemolytic anemia",4,phenotype,,,,#9467BD,DIAMOND,700,0.0
+微血管病性溶血性贫血",4,phenotype,,,,#9467BD,DIAMOND,700,0.0
 PH_AKI,"AKI
-acute kidney injury",4,phenotype,,,,#9467BD,DIAMOND,700,-175.0
+急性肾损伤",4,phenotype,,,,#9467BD,DIAMOND,700,-175.0
 PH_LEAK,"Capillary Leak
-capillary leak / hypotension",4,phenotype,,,,#9467BD,DIAMOND,700,-350.0
+毛细血管渗漏/低血压",4,phenotype,,,,#9467BD,DIAMOND,700,-350.0
