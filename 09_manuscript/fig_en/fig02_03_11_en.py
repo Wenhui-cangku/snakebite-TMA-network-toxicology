@@ -28,7 +28,7 @@ ax.add_patch(inter)
 ax.text(2.62, 3.3, "5", ha="center", va="center", fontsize=15, weight="bold", color="#5A1480")
 ax.text(3.87, 3.3, "10", ha="center", va="center", fontsize=13, weight="bold", color="#0E3D1F")
 ax.text(6.6, 3.3, "1032", ha="center", va="center", fontsize=15, weight="bold", color="#12408F")
-ax.annotate("Direct toxin targets (L1+L2)\nn = 15", xy=(2.75, 4.15), xytext=(0.55, 5.35),
+ax.annotate("L2 literature-curated\ntargets (n = 15)", xy=(2.75, 4.15), xytext=(0.55, 5.35),
             fontsize=9.5, color="#5A1480", weight="bold",
             arrowprops=dict(arrowstyle="-", color="#5A1480", lw=0.9))
 ax.annotate("Core disease-gene set\n(6 sources)  n = 1042", xy=(7.9, 5.1), xytext=(7.0, 5.45),
@@ -37,7 +37,7 @@ ax.annotate("Core disease-gene set\n(6 sources)  n = 1042", xy=(7.9, 5.1), xytex
 ax.annotate("Strict core target set  n = 10", xy=(3.9, 2.62), xytext=(5.6, 1.15),
             fontsize=9.5, color="#0E3D1F", weight="bold",
             arrowprops=dict(arrowstyle="-", color="#145A32", lw=0.9))
-ax.text(5, 6.65, "Figure 2  Direct toxin targets ∩ core disease-gene set", ha="center",
+ax.text(5, 6.65, "Figure 2  L2 literature-curated targets ∩ core disease-gene set", ha="center",
         fontsize=11.5, weight="bold")
 fig.savefig(OUT / "figure2a_venn.png", bbox_inches="tight")
 plt.close(fig)

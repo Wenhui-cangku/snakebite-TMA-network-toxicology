@@ -85,25 +85,35 @@ d1 = pd.read_csv(GEO / "GSE121297_deg_static_rcab_vs_ctrl.csv", encoding="utf-8-
 d2 = pd.read_csv(GEO / "GSE248215_deg_DR24h_vs_ctrl.csv", encoding="utf-8-sig")
 
 fig, axes = plt.subplots(1, 2, figsize=(13.5, 6.2), dpi=200)
-for ax, df, title in [
-    (axes[0], d1, "Figure 9a  GSE121297 (human HUVEC × snaclec RCαβ)\nstatic RCαβ vs static control (3 vs 3)"),
-    (axes[1], d2, "Figure 9b  GSE248215 (mouse muscle × D. russelii venom)\n24 h vs PBS control (3 vs 2)"),
-]:
-    x = df["log2FC"].clip(-8, 8)
-    y = -np.log10(df["p_value"].clip(1e-10, 1))
-    ax.scatter(x, y, s=6, c="#BBBBBB", alpha=0.5, zorder=1)
-    wl = df[df["symbol"].isin(g2ax)]
-    for _, r in wl.iterrows():
-        a = g2ax[r["symbol"]]
-        ax.scatter(min(max(r["log2FC"], -8), 8), -np.log10(max(r["p_value"], 1e-10)),
-                   s=42, c=AXC[a], edgecolors="black", linewidths=0.5, zorder=3)
-    for _, r in wl[(wl["p_value"] < 0.05) & (wl["log2FC"].abs() > 0.58)].iterrows():
-        ax.annotate(r["symbol"], (min(max(r["log2FC"], -8), 8), -np.log10(max(r["p_value"], 1e-10))),
-                    textcoords="offset points", xytext=(5, 4), fontsize=8, weight="bold")
-    ax.axhline(-np.log10(0.05), ls="--", lw=0.8, c="#555555")
-    ax.axvline(1, ls=":", lw=0.8, c="#999999"); ax.axvline(-1, ls=":", lw=0.8, c="#999999")
-    ax.set_xlabel("log2FC"); ax.set_ylabel("-log10(nominal P)")
-    ax.set_title(title, fontsize=10, weight="bold")
+# --- panel A: GSE121297 volcano (Welch, nominal P) ---
+ax = axes[0]
+x = d1["log2FC"].clip(-8, 8)
+y = -np.log10(d1["p_value"].clip(1e-10, 1))
+ax.scatter(x, y, s=6, c="#BBBBBB", alpha=0.5, zorder=1)
+wl = d1[d1["symbol"].isin(g2ax)]
+for _, r in wl.iterrows():
+    a = g2ax[r["symbol"]]
+    ax.scatter(min(max(r["log2FC"], -8), 8), -np.log10(max(r["p_value"], 1e-10)),
+               s=42, c=AXC[a], edgecolors="black", linewidths=0.5, zorder=3)
+for _, r in wl[(wl["p_value"] < 0.05) & (wl["log2FC"].abs() > 0.58)].iterrows():
+    ax.annotate(r["symbol"], (min(max(r["log2FC"], -8), 8), -np.log10(max(r["p_value"], 1e-10))),
+                textcoords="offset points", xytext=(5, 4), fontsize=8, weight="bold")
+ax.axhline(-np.log10(0.05), ls="--", lw=0.8, c="#555555")
+ax.axvline(1, ls=":", lw=0.8, c="#999999"); ax.axvline(-1, ls=":", lw=0.8, c="#999999")
+ax.set_xlabel("log2FC"); ax.set_ylabel("-log10(nominal P)")
+ax.set_title("Figure 9a  GSE121297 (human HUVEC × snaclec RCαβ)\nstatic RCαβ vs static control (3 vs 3)", fontsize=10, weight="bold")
+# --- panel B: GSE248215 descriptive log2FC bars (no testing) ---
+ax = axes[1]
+wl2 = d2[d2["symbol"].isin(g2ax)].copy()
+wl2["ax"] = wl2["symbol"].map(g2ax)
+wl2 = wl2.sort_values("log2FC")
+yy = np.arange(len(wl2))
+ax.barh(yy, wl2["log2FC"], color=[AXC[a] for a in wl2["ax"]], edgecolor="black", linewidth=0.4, height=0.7)
+ax.set_yticks(yy); ax.set_yticklabels(wl2["symbol"], fontsize=8)
+ax.axvline(0, lw=0.8, c="#333333")
+ax.axvline(1, ls=":", lw=0.8, c="#999999"); ax.axvline(-1, ls=":", lw=0.8, c="#999999")
+ax.set_xlabel("log2FC (descriptive)")
+ax.set_title("Figure 9b  GSE248215 (mouse muscle × D. russelii venom)\n24 h vs PBS (3 vs 2) — descriptive, no statistical testing", fontsize=10, weight="bold")
 handles = [plt.Line2D([], [], marker="o", ls="", color=c, markeredgecolor="black", markersize=8)
            for c in AXC.values()]
 fig.legend(handles, [f"{a} ({'/'.join(gs[:3])}…)" for a, gs in WATCH.items()],

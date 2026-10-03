@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Fig 5 four-layer heterogeneous network preview (EN) -> assets_en/figure4_preview.png
-matplotlib preview part only (node/edge definitions identical to build_figure4_network.py, labels in English)"""
+仅含 matplotlib 预览部分（节点/边定义与 build_figure4_network.py 一致，标签英文化）"""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(sys.executable).parent.parent.parent))
