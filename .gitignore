@@ -1,6 +1,5 @@
 __pycache__/
 *.pyc
-*.docx
-*.pdf
 *.ps1
 *.log
+*.bak_*
