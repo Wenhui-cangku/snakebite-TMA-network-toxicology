@@ -1,8 +1,8 @@
-﻿prior_pathway,g:Profiler (platform 1),Enrichr (platform 2),conclusion,notes/driver_genes
-hsa04610 Complement and coagulation cascades,KEGG p=3.90e-18 ✓,adj=1.63e-22 ✓,significant on both platforms ✓✓,all 11 driver genes are on the coagulation/fibrinolysis arm (F2/F3/F5/F7/F8/F10/FGA/PLG/PROC/F11/PROS1); zero genes on the complement arm — key point for H2
-hsa04611 Platelet activation,REAC equivalent term p=1.47e-07 ✓,adj=1.45e-03 ✓,significant on both platforms ✓✓,GP1BA/ALB/F2/F5/F8/FGA/PLG/PROS1
-ECM–receptor interaction,did not reach g:SCS<0.05,adj=1.81e-02 ✓,single platform (Enrichr),driven by COL4A1 et al.
-Focal adhesion,did not reach g:SCS<0.05,adj=4.68e-02 ✓,"single platform (Enrichr, borderline)",
-PI3K–Akt,not significant,adj=9.08e-02,not significant,
-NF-κB,not significant,no such term,not significant,Axis-4 inflammatory dimension has no support on the 15-gene core set; recorded as-is
-Fluid shear stress & atherosclerosis,not significant,adj=1.52e-01,not significant,
+﻿先验通路,g:Profiler（平台1）,Enrichr（平台2）,结论,备注/驱动基因
+hsa04610 补体与凝血级联,KEGG p=3.90e-18 ✓,adj=1.63e-22 ✓,双平台显著 ✓✓,11 驱动基因全为凝血/纤溶臂（F2/F3/F5/F7/F8/F10/FGA/PLG/PROC/F11/PROS1），补体臂 0 基因——H2 关键点
+hsa04611 血小板激活,REAC 等效条目 p=1.47e-07 ✓,adj=1.45e-03 ✓,双平台显著 ✓✓,GP1BA/ALB/F2/F5/F8/FGA/PLG/PROS1
+ECM–receptor interaction,未达 g:SCS<0.05,adj=1.81e-02 ✓,单平台（Enrichr）,COL4A1 等驱动
+Focal adhesion,未达 g:SCS<0.05,adj=4.68e-02 ✓,单平台（Enrichr，边缘）,
+PI3K–Akt,未显著,adj=9.08e-02,不显著,
+NF-κB,未显著,无此条目,不显著,轴4 炎症维度在 15 基因核心集上无支持，如实记录
+Fluid shear stress & atherosclerosis,未显著,adj=1.52e-01,不显著,
