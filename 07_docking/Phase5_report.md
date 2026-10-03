@@ -2,6 +2,8 @@
 
 Updated: 2026-09-30 | Status: ClusPro line complete (7/7), HADDOCK 4 pairs + HDock P7 complete, small-molecule line complete — **Phase 5B protein–protein docking fully complete**
 
+> **Update (2026-10-02, pre-submission review):** Pair **P4 (snaclec×GP1BA) is retracted** — the receptor chain was misidentified (1M10 chain A is VWF-A1, not GP1BA), so all P4 docking results in §2 below are void and are excluded from the manuscript. Pairs **P1 and P6 are downgraded to supportive (orientation-level) evidence**. Docking outcomes are reported in the manuscript as descriptive, threshold-based support rather than validation; see manuscript Section 3.6 and the protocol-deviation table in the Supplementary Material.
+
 ## 1. Overview
 
 | Layer | Content | Status |
