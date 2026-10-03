@@ -38,6 +38,7 @@ FILES = [
     "04_network/Phase3_构建报告.md", "04_network/build_figure4_network.py", "04_network/robustness_analysis.py",
     "04_network/hub_genes.csv", "04_network/intersection_sets.json", "04_network/phase3_topology.json",
     "04_network/robustness_results.json",
+    "04_network/robustness_analysis_v41.py", "04_network/robustness_results_v41.json",
     "04_network/ppi_core10_score400.tsv", "04_network/ppi_core10_score700.tsv",
     "04_network/ppi_extended61_score400.tsv", "04_network/ppi_extended61_score700.tsv",
     "04_network/figure2a_venn.png", "04_network/figure2b_ppi.png", "04_network/figure3c_robustness.png",
@@ -54,7 +55,9 @@ FILES = [
     # 06_geo
     "06_geo/GEO验证报告.md",
     "06_geo/GSE121297_deg_static_rcab_vs_ctrl.csv", "06_geo/GSE121297_watchlist.csv",
+    "06_geo/GSE121297_deg_static_rcab_vs_ctrl_v41reanalysis.csv",
     "06_geo/GSE248215_deg_DR24h_vs_ctrl.csv", "06_geo/GSE248215_deg_DR24h_vs_DR1h.csv",
+    "06_geo/GSE248215_deg_DR24h_vs_ctrl_v41reanalysis.csv",
     "06_geo/geo_watchlist_combined.csv", "06_geo/gpl570_probe2symbol.csv",
     "06_geo/figure4_volcano.png", "06_geo/figure4c_watchlist.png",
     # 07_docking
@@ -80,7 +83,7 @@ FILES = [
     # scripts
     "scripts/build_phase2_edges.py", "scripts/build_phase3.py", "scripts/build_phase4.py",
     "scripts/merge_ctd.py", "scripts/merge_omim.py",
-    "scripts/geo_gse121297.py", "scripts/geo_figures.py",
+    "scripts/geo_gse121297.py", "scripts/geo_figures.py", "scripts/geo_v41_reanalysis.py",
     "scripts/draw_fig2b.py", "scripts/redraw_fig2a.py", "scripts/redraw_prisma.py", "scripts/prep_docking.py",
 ]
 
