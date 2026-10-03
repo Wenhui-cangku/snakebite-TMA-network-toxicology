@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-GSE121297 (GPL570/Affymetrix HG-U133 Plus 2.0) differential expression
-contrast: static RCab (GSM3430997-999) vs static control (GSM3430994-996), 3v3
-probe annotation: g:Profiler convert API (AFFY_HG_U133_PLUS_2)
-statistics: Welch t + BH FDR (Python reproduction; report notes it substitutes for limma)
+GSE121297 (GPL570/Affymetrix HG-U133 Plus 2.0) 差异表达
+对比: 静态 RCab (GSM3430997-999) vs 静态对照 (GSM3430994-996), 3v3
+探针注释: g:Profiler convert API (AFFY_HG_U133_PLUS_2)
+统计: Welch t + BH FDR (Python 复现; 报告注明替代 limma)
 """
 from pathlib import Path
 import pandas as pd
@@ -49,7 +49,7 @@ else:
     mp.to_csv(MAP, index=False)
 print("mapping rows:", len(mp))
 
-# gene-level summary: per symbol take the probe with the highest mean expression
+# 基因级汇总: 每 symbol 取平均表达最高的探针
 m = mat.copy()
 m["probe"] = m.index
 mm = m.melt(id_vars="probe", var_name="sample", value_name="expr")
@@ -80,16 +80,16 @@ res = res.sort_values("adj_p")
 res.to_csv(os.path.join(DIR, "GSE121297_deg_static_rcab_vs_ctrl.csv"),
            index=False, encoding="utf-8-sig")
 deg = res[(res["adj_p"] < 0.05) & (res["log2FC"].abs() > 1)]
-print(f"\nDEG (adj<0.05 & |log2FC|>1): {len(deg)} | up {(deg['log2FC']>0).sum()} down {(deg['log2FC']<0).sum()}")
+print(f"\nDEG (adj<0.05 & |log2FC|>1): {len(deg)} | 上调 {(deg['log2FC']>0).sum()} 下调 {(deg['log2FC']<0).sum()}")
 print(res.head(15).to_string(index=False))
 
-# prior 27 + Hub gene check
+# 先验 27 + Hub 基因核查
 watch = ["ADAMTS13","C3","C5","CD46","CFB","CFH","CFI","FGA","GP1BA","HMOX1","IL6",
          "ITGA2B","ITGB3","NOS3","PLG","SERPINE1","TNF","VWF","F2","F5","F10","FGG",
          "PROC","VCAM1","ICAM1","SELE","HAVCR1","F3","F7","F8","F11","PROS1","KDR","COL4A1","ALB"]
 sub = res[res["symbol"].isin(watch)].copy()
 sub["signif"] = np.where((sub["adj_p"] < 0.05) & (sub["log2FC"].abs() > 1), "DEG",
                 np.where(sub["adj_p"] < 0.05, "adj<0.05", "ns"))
-print("\n=== prior/Hub gene expression check ===")
+print("\n=== 先验/Hub 基因表达核查 ===")
 print(sub.sort_values("adj_p").to_string(index=False))
 sub.to_csv(os.path.join(DIR, "GSE121297_watchlist.csv"), index=False, encoding="utf-8-sig")

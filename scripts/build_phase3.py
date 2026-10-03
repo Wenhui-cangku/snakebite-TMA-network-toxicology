@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Phase 3 - intersection, PPI and topology analysis
-1) L2 toxin targets ∩ disease core set -> candidate core target set (strict 10; extended +51 STRING-neighbor layer)
-2) Figure 2a Venn diagram
-3) STRING PPI (0.7 / 0.4 dual thresholds, TSV export)
-4) MCC / Degree / EPC three algorithms Top20, Hub = three-list intersection (Python reproduction of cytoHubba)
-5) four-axis mapping + QC checkpoints
+Phase 3 - 交集、PPI 与拓扑分析
+1) L2 毒素靶点 ∩ 疾病主集 -> 候选核心靶点集(strict 10; extended +51 STRING邻居层)
+2) Figure 2a 韦恩图
+3) STRING PPI (0.7 / 0.4 双阈值, 导出 TSV)
+4) MCC / Degree / EPC 三算法 Top20, Hub = 三榜交集 (Python 复现 cytoHubba)
+5) 四轴映射 + QC 核查点
 """
 import pandas as pd
 import os, json, time, urllib.request, urllib.parse
@@ -21,7 +21,7 @@ edges = pd.read_csv(os.path.join(ROOT, r"03_target_prediction\toxin_target_edges
 master = pd.read_csv(os.path.join(ROOT, r"02_disease_genes\disease_gene_master.csv"), encoding="utf-8-sig")
 
 lit_t = sorted(set(edges.loc[edges["evidence_type"] == "literature", "target_symbol"]))
-main = set(master.loc[master["in_core_set(yes/no)"] == "yes", "gene_symbol"].str.upper())
+main = set(master.loc[master["纳入主集(是/否)"] == "是", "基因Symbol"].str.upper())
 core = sorted(set(lit_t) & main)
 ext_nb = sorted(set(edges.loc[edges["evidence_type"] == "string", "target_symbol"]) & main)
 extended = sorted(set(core) | set(ext_nb))
@@ -39,14 +39,14 @@ from matplotlib_venn import venn2, venn2_circles
 
 fig, ax = plt.subplots(figsize=(7.2, 5.2), dpi=200)
 v = venn2(subsets=(len(set(lit_t) - main), len(main - set(lit_t)), len(core)),
-          set_labels=("Toxin predicted targets\n(L1+L2, n=15)", "Disease gene core set\n(six sources, n=1042)"), ax=ax)
+          set_labels=("毒素预测靶点\n(L1+L2, n=15)", "疾病基因主集\n(六源, n=1042)"), ax=ax)
 v.get_patch_by_id("10").set_color("#7B1FA2"); v.get_patch_by_id("10").set_alpha(0.55)
 v.get_patch_by_id("01").set_color("#1A56C4"); v.get_patch_by_id("01").set_alpha(0.45)
 v.get_patch_by_id("11").set_color("#1E7E34"); v.get_patch_by_id("11").set_alpha(0.75)
 venn2_circles(subsets=(len(set(lit_t) - main), len(main - set(lit_t)), len(core)), ax=ax, lw=1.0)
-ax.text(0, -0.62, "Intersection n = 10: COL4A1, F10, F11, F5, FGA,\nGP1BA, KDR, PLG, PROC, PROS1",
+ax.text(0, -0.62, "交集 n = 10：COL4A1, F10, F11, F5, FGA,\nGP1BA, KDR, PLG, PROC, PROS1",
         ha="center", fontsize=8.5, color="#1E7E34", weight="bold")
-ax.set_title("Figure 2a  Toxin predicted targets (L1+L2) ∩ disease gene core set", fontsize=11, weight="bold")
+ax.set_title("Figure 2a  毒素预测靶点（L1+L2）∩ 疾病基因主集", fontsize=11, weight="bold")
 fig.savefig(os.path.join(NET, "figure2a_venn.png"), bbox_inches="tight")
 plt.close(fig)
 print("figure2a_venn.png saved")
@@ -80,10 +80,10 @@ for tag, genes in [("core10", core), ("extended61", extended)]:
         df.to_csv(os.path.join(NET, f"ppi_{tag}_score{sc}.tsv"), sep="\t", index=False)
         connected = set(df["node1"]) | set(df["node2"])
         iso = sorted(set(genes) - connected)
-        print(f"PPI {tag} score>={sc}: edges {len(df)} | isolated nodes {len(iso)} {iso if len(iso)<=8 else iso[:8]}")
+        print(f"PPI {tag} score>={sc}: 边 {len(df)} | 孤立节点 {len(iso)} {iso if len(iso)<=8 else iso[:8]}")
         time.sleep(1)
 
-# ---------------- three topology algorithms ----------------
+# ---------------- 拓扑三算法 ----------------
 def mcc(G):
     score = {n: 0.0 for n in G.nodes}
     import math
@@ -126,31 +126,31 @@ for tag, genes in [("core10", core), ("extended61", extended)]:
     hub = sorted(set(t_deg) & set(t_mcc) & set(t_epc))
     results[tag] = {"deg": deg, "mcc": m, "epc": e,
                     "top_deg": t_deg, "top_mcc": t_mcc, "top_epc": t_epc, "hub": hub}
-    print(f"\n[{tag}] nodes {len(G.nodes)} edges {len(G.edges)}")
-    print("  Hub (three-list intersection):", hub)
+    print(f"\n[{tag}] 节点 {len(G.nodes)} 边 {len(G.edges)}")
+    print("  Hub (三榜交集):", hub)
 
-# ---------------- Hub table + four axes ----------------
-ax_map = dict(zip(master["gene_symbol"].str.upper(), master["pathology_axis(1-4)"]))
+# ---------------- Hub 表 + 四轴 ----------------
+ax_map = dict(zip(master["基因Symbol"].str.upper(), master["归属病理轴(1-4)"]))
 rows = []
 for g in results["extended61"]["hub"]:
-    rows.append({"gene_symbol": g,
+    rows.append({"基因Symbol": g,
                  "Degree": results["extended61"]["deg"].get(g, 0),
                  "MCC": results["extended61"]["mcc"].get(g, 0),
                  "EPC": round(results["extended61"]["epc"].get(g, 0), 2),
-                 "pathology_axis": ax_map.get(g, ""),
-                 "strict_core": "yes" if g in core else "no (extension layer)"})
-hub_df = pd.DataFrame(rows).sort_values(["strict_core", "Degree"], ascending=[True, False])
+                 "归属病理轴": ax_map.get(g, ""),
+                 "strict核心": "是" if g in core else "否（扩展层）"})
+hub_df = pd.DataFrame(rows).sort_values(["strict核心", "Degree"], ascending=[True, False])
 hub_df.to_csv(os.path.join(NET, "hub_genes.csv"), index=False, encoding="utf-8-sig")
 print("\nhub_genes.csv:")
 print(hub_df.to_string(index=False))
 
-# QC checkpoints
+# QC 核查点
 qc_targets = ["ADAMTS13", "VWF", "F2", "F10", "C3", "VCAM1"]
-print("\nQC H1/H2 checks:")
+print("\nQC H1/H2 核查:")
 for g in qc_targets:
     loc = ("strict" if g in core else
            "hub" if g in results["extended61"]["hub"] else
-           "extended" if g in extended else "missing")
+           "extended" if g in extended else "缺失")
     print(f"  {g}: {loc}")
 
 json.dump({t: {k: v for k, v in r.items() if k in ("top_deg", "top_mcc", "top_epc", "hub")}

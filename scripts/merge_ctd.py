@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Phase 1B - merging CTD data into the disease-gene master table
-Input: CTD/*.tsv (6 batch-query manual exports)
-Rules:
-  1. disease-whitelist filtering (removes irrelevant diseases brought in by CTD term expansion, e.g. congenital hemolytic anemia/thalassemia/ITP)
-  2. non-empty DirectEvidence -> core set
-  3. InferenceScore only: >=50 -> wide set; snakebite envenoming query exception (only 57 genes, all highly relevant — all into the wide set)
-  4. CTD inference column format: direct:<type> or inferred:<maxscore>
-  5. new genes mapped to UniProt AC via mygene.info
-Output: updates disease_gene_master.csv + data_management_table_public.xlsx + change log v7
+Phase 1B - CTD 数据并入疾病基因总表
+输入: CTD/*.tsv (6 个 batch query 手工导出)
+规则:
+  1. 疾病白名单过滤(剔除 CTD 词扩展带入的无关疾病, 如先天性溶血性贫血/地中海贫血/ITP)
+  2. DirectEvidence 非空 -> 纳入主集
+  3. 仅 InferenceScore: >=50 -> 进宽集; snakebite envenoming 词例外(全量仅57基因且高度切题, 全收进宽集)
+  4. CTD inference 列格式: direct:<type> 或 inferred:<maxscore>
+  5. 新基因用 mygene.info 映射 UniProt AC
+输出: 更新 disease_gene_master.csv + data_management_table.xlsx + 变更记录 v7
 """
 from pathlib import Path
 import pandas as pd
@@ -16,11 +16,11 @@ import glob, os, json, time, urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]  # repo root (snakebite_TMA/)
 MASTER = os.path.join(ROOT, r"02_disease_genes\disease_gene_master.csv")
-XLSX = os.path.join(ROOT, r"00_protocol\data_management_table_public.xlsx")
+XLSX = os.path.join(ROOT, r"00_protocol\data_management_table.xlsx")
 TODAY = "2026-09-22"
 INF_THRESHOLD = 50.0
 
-# disease whitelist: keep only CTD disease entries directly matching the project pathology axes
+# 疾病白名单: 仅保留与课题病理轴直接对应的 CTD 疾病条目
 WHITELIST = {
     "Snake Bites",
     "Atypical Hemolytic Uremic Syndrome",
@@ -40,7 +40,7 @@ TERM_SHORT = {
     "venom-induced consumption coagulopathy": "VICC",
 }
 
-# ---------- 1. parse CTD ----------
+# ---------- 1. 解析 CTD ----------
 agg = {}  # symbol_upper -> dict
 file_stats = {}
 # raw CTD exports live beside the project folder (not in repo)
@@ -77,7 +77,7 @@ for f in sorted(glob.glob(os.path.join(ROOT.parent, "CTD", "*.tsv"))):
                         "notfound": n_notfound,
                         "uniq_genes": w["GeneSymbol"].nunique()}
 
-# CTD annotation string
+# CTD annotation 字符串
 def ctd_str(a):
     if a["direct"]:
         return "direct:" + "|".join(sorted(a["direct"]))
@@ -85,9 +85,9 @@ def ctd_str(a):
         return f"inferred:{a['inf_max']:.2f}"
     return ""
 
-# ---------- 2. decide new-gene inclusion ----------
+# ---------- 2. 决定新基因纳入 ----------
 master = pd.read_csv(MASTER, encoding="utf-8-sig")
-msym = set(master["gene_symbol"].str.upper())
+msym = set(master["基因Symbol"].str.upper())
 
 new_direct, new_inf, new_snakebite = [], [], []
 for key, a in agg.items():
@@ -98,14 +98,14 @@ for key, a in agg.items():
     elif a["inf_max"] >= INF_THRESHOLD:
         new_inf.append(key)
     elif a["terms"] == {"snakebite"} or "snakebite" in a["terms"]:
-        # snakebite-query exception: full inclusion (max 8.85, inferred via Bungarotoxins/Glutamine)
+        # snakebite 词例外: 全量收录(最高 8.85, 经 Bungarotoxins/Glutamine 推断)
         new_snakebite.append(key)
 
 new_keys = new_direct + new_inf + new_snakebite
-print(f"CTD aggregated unique genes: {len(agg)}")
-print(f"new: direct {len(new_direct)} | inferred>=50 {len(new_inf)} | snakebite exception {len(new_snakebite)}")
+print(f"CTD 聚合唯一基因: {len(agg)}")
+print(f"新增: direct {len(new_direct)} | inferred>=50 {len(new_inf)} | snakebite例外 {len(new_snakebite)}")
 
-# ---------- 3. mygene mapping to UniProt ----------
+# ---------- 3. mygene 映射 UniProt ----------
 def mygene_map(symbols):
     out = {}
     url = "https://mygene.info/v3/query"
@@ -135,13 +135,13 @@ def mygene_map(symbols):
     return out
 
 new_syms = [agg[k]["symbol"] for k in new_keys]
-print(f"mygene mapping {len(new_syms)} new genes ...")
+print(f"mygene 映射 {len(new_syms)} 个新基因 ...")
 mg = mygene_map(new_syms)
-print(f"  hits {sum(1 for k in new_keys if mg.get(k,{}).get('uniprot'))}/{len(new_keys)}")
+print(f"  命中 {sum(1 for k in new_keys if mg.get(k,{}).get('uniprot'))}/{len(new_keys)}")
 
-# ---------- 4. update master table ----------
-master["gene_symbol"] = master["gene_symbol"].astype(str)
-idx = {s.upper(): i for i, s in enumerate(master["gene_symbol"])}
+# ---------- 4. 更新总表 ----------
+master["基因Symbol"] = master["基因Symbol"].astype(str)
+idx = {s.upper(): i for i, s in enumerate(master["基因Symbol"])}
 n_annot_exist = 0
 for key, a in agg.items():
     if key not in idx:
@@ -150,13 +150,13 @@ for key, a in agg.items():
     s = ctd_str(a)
     if s:
         cur = master.at[i, "CTD inference"]
-        if pd.isna(cur) or "pending manual export" in str(cur):
+        if pd.isna(cur) or "待手工导出" in str(cur):
             master.at[i, "CTD inference"] = s
             n_annot_exist += 1
-        src = str(master.at[i, "query_source"])
+        src = str(master.at[i, "检索词来源"])
         add = ";".join(f"CTD:{t}" for t in sorted(a["terms"]))
         if "CTD:" not in src:
-            master.at[i, "query_source"] = src.rstrip("；;") + ";" + add
+            master.at[i, "检索词来源"] = src.rstrip("；;") + "；" + add
 
 rows = []
 for key in new_keys:
@@ -168,60 +168,60 @@ for key in new_keys:
     if is_direct:
         remark = "CTD direct evidence (" + "|".join(sorted(a["diseases"])) + ")"
     elif key in new_snakebite and a["inf_max"] < INF_THRESHOLD:
-        remark = f"CTD inferred via {a['inf_chem']} (full-inclusion exception for the snakebite query)"
+        remark = f"CTD inferred via {a['inf_chem']} (snakebite词全量收录例外)"
     else:
         remark = f"CTD inferred score>={INF_THRESHOLD:g} via {a['inf_chem']}"
     if not uni:
-        remark += "; mygene did not map to UniProt"
+        remark += "；mygene未映射UniProt"
     rows.append({
-        "gene_symbol": a["symbol"], "UniProt AC": uni, "Entrez ID": entrez,
-        "GeneCards score": "", "DisGeNET score": "", "OMIM(yes/no)": "",
-        "CTD inference": ctd_str(a), "OpenTargets score": "", "OT_disease_count": "",
+        "基因Symbol": a["symbol"], "UniProt AC": uni, "Entrez ID": entrez,
+        "GeneCards score": "", "DisGeNET score": "", "OMIM(有/无)": "",
+        "CTD inference": ctd_str(a), "OpenTargets score": "", "OT疾病数": "",
         "DISEASES curated": "",
-        "in_core_set(yes/no)": "yes" if is_direct else "no (wide set)",
-        "pathology_axis(1-4)": "",
-        "query_source": ";".join(f"CTD:{t}" for t in sorted(a["terms"])),
-        "download_date": TODAY, "notes": remark,
+        "纳入主集(是/否)": "是" if is_direct else "否（宽集）",
+        "归属病理轴(1-4)": "",
+        "检索词来源": ";".join(f"CTD:{t}" for t in sorted(a["terms"])),
+        "下载日期": TODAY, "备注": remark,
     })
 
 master_new = pd.concat([master, pd.DataFrame(rows)], ignore_index=True)
 master_new.to_csv(MASTER, index=False, encoding="utf-8-sig")
-n_main = (master_new["in_core_set(yes/no)"] == "yes").sum()
+n_main = (master_new["纳入主集(是/否)"] == "是").sum()
 n_broad = len(master_new) - n_main
-print(f"\nmaster table updated: {len(master)} -> {len(master_new)} | core {n_main} | wide {n_broad}")
-print(f"existing genes back-filled with CTD annotations: {n_annot_exist}")
+print(f"\n总表更新: {len(master)} -> {len(master_new)} | 主集 {n_main} | 宽集 {n_broad}")
+print(f"已有基因回填 CTD 注释: {n_annot_exist}")
 
-# ---------- 5. sync Excel ----------
+# ---------- 5. 同步 Excel ----------
 import openpyxl
 wb = openpyxl.load_workbook(XLSX)
-ws = wb["disease_genes"]
+ws = wb["疾病基因管理表"]
 ws.delete_rows(2, ws.max_row)
 cols = list(master_new.columns)
 for _, r in master_new.iterrows():
     ws.append(["" if pd.isna(v) else v for v in r[cols]])
-log = wb["changelog"]
+log = wb["变更记录"]
 log.append([TODAY, "v7",
-            f"CTD manual export merged (6 queries, disease-whitelist filter terms expanded; direct 80 genes all present / {len(new_direct)} new into core, "
-            f"inferred>=50 added {len(new_inf)}, snakebite-query exception added all {len(new_snakebite)}; "
-            f"VICC query not catalogued in CTD (Object not found), recorded as-is; annotations back-filled for {n_annot_exist} existing genes; "
-            f"total {len(master_new)}, core {n_main}, wide {n_broad})", "user export + Kimi merge"])
+            f"CTD 手工导出并入（6 词，疾病白名单过滤词扩展；direct 80 基因全在/入主集新增 {len(new_direct)}，"
+            f"inferred>=50 新增 {len(new_inf)}，snakebite 词例外全量新增 {len(new_snakebite)}；"
+            f"VICC 词 CTD 无收录（Object not found）如实记录；已有基因回填注释 {n_annot_exist} 条；"
+            f"总 {len(master_new)}，主集 {n_main}，宽集 {n_broad}）", "用户导出+Kimi并入"])
 wb.save(XLSX)
-print("Excel synced + change log v7")
+print("Excel 已同步 + 变更记录 v7")
 
-# ---------- 6. summary output ----------
-print("\n=== file-level statistics ===")
+# ---------- 6. 汇总输出 ----------
+print("\n=== 文件级统计 ===")
 for t, s in file_stats.items():
-    print(f"  {t}: raw rows {s['raw_rows']} | whitelist rows {s['whitelist_rows']} | unique genes {s['uniq_genes']}" +
+    print(f"  {t}: 原始行 {s['raw_rows']} | 白名单行 {s['whitelist_rows']} | 唯一基因 {s['uniq_genes']}" +
           (f" | [Object not found]" if s["notfound"] else ""))
 
-print("\n=== CTD hits of four-axis prior molecules ===")
-ax = master_new[master_new["pathology_axis(1-4)"].notna()]
+print("\n=== 四轴先验分子 CTD 命中 ===")
+ax = master_new[master_new["归属病理轴(1-4)"].notna()]
 for _, r in ax.iterrows():
     c = r["CTD inference"]
-    hit = "" if (pd.isna(c) or "pending manual" in str(c)) else str(c)
-    print(f"  {r['gene_symbol']:10s} {r['pathology_axis(1-4)']}  {hit}")
+    hit = "" if (pd.isna(c) or "待手工" in str(c)) else str(c)
+    print(f"  {r['基因Symbol']:10s} {r['归属病理轴(1-4)']}  {hit}")
 
-# summary for the report
+# 供报告使用的汇总
 summary = {
     "file_stats": file_stats,
     "agg_genes": len(agg),
