@@ -23,6 +23,7 @@ The study builds a documented-analysis-plan–guided, multi-layer computational 
 | `08_md/` | Phase 6 | Orthogonal stability corroboration: iMODS NMA + PRODIGY affinity |
 | `08_smallmol/` | Phase 6 | Small-molecule docking summaries (batimastat / marimastat / varespladib) |
 | `09_manuscript/fig_en/` | Phase 7 | Figure-generation scripts for all manuscript figures |
+| `09_manuscript/supplementary/` | Phase 7 | Submission supplement: Supplementary Material document (docx/pdf), Tables S1–S10 workbook, generated source tables |
 | `scripts/` | — | Pipeline scripts in execution order (see below) |
 
 Large raw files (PDB structures, docking outputs, GEO raw matrices) are **not** in this repository; they are archived on Zenodo as a separate dataset: `https://doi.org/10.5281/zenodo.23087108`. This repository itself (code + result tables) is archived on Zenodo under the concept DOI `https://doi.org/10.5281/zenodo.23065792` (always resolves to the latest release; release v1.0.2 = `10.5281/zenodo.23097132`).
@@ -44,6 +45,7 @@ Large raw files (PDB structures, docking outputs, GEO raw matrices) are **not** 
 | 11 | `07_docking/figure/assemble_fig5_protein.py` | PyMOL panel assembly (Fig. 6) |
 | 12 | `09_manuscript/fig_en/*.py` | final manuscript figures (Figs. 2–5, 8–11) |
 | 13 | `09_manuscript/make_fig1_fig7.py` | workflow (Fig. 1) and AOP mechanism (Fig. 12) |
+| 14 | `scripts/build_supp_data.py` → `build_supp_xlsx.py` → `build_supp_docx.py` | Supplementary Tables S1–S10 workbook + Supplementary Material document (v44) |
 
 Historical one-time merge scripts (`merge_ctd.py`, `merge_omim.py`) document the six-source disease-gene integration; raw CTD/GeneCards exports are re-downloadable per the SOP in `00_protocol/` and are not included.
 
