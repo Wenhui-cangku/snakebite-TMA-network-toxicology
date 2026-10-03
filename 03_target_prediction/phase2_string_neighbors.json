@@ -632,8 +632,8 @@
   ]
  },
  "family_notes": {
-  "CRISP": "No curated human targets for the 4 CRISPs; serotriflin binds the snake's own serum SSP-2 (PMID 18222185, non-human target)",
-  "LAAO": "The 2 LAAOs affect platelet aggregation via H2O2 generation (PMID 21802487); no single protein target",
-  "NGF": "P30894 indirectly protects GP1BA (By similarity); recorded as a 0.5-score weak edge"
+  "CRISP": "4 条 CRISP 无已审编人源靶点; serotriflin 结合蛇自身血清 SSP-2 (PMID 18222185, 非人靶点)",
+  "LAAO": "2 条 LAAO 经 H2O2 生成影响血小板聚集 (PMID 21802487), 无单一蛋白靶点",
+  "NGF": "P30894 间接保护 GP1BA (By similarity), 已记 0.5 分弱边"
  }
 }
