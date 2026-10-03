@@ -1,0 +1,4 @@
+experiment,system,ligand,best_score_kcalmol,key_metric,note
+redocking benchmark,2W15 BaP1 (P-I SVMP) + catalytic Zn,"WR2 (peptidomimetic hydroxamate, co-crystallized)",-7.967,heavy-atom RMSD 1.45 A vs crystal pose (mode 1); min Zn-O 2.22 A,protocol validated (RMSD <= 2.0 A criterion)
+negative control,RVV-X (2E3X chain A) catalytic pocket,caffeine (CID 2519),-5.514,1.3-2.1 kcal/mol weaker than hydroxamates,non-chelator; small polar molecule
+negative control,RVV-X (2E3X chain A) catalytic pocket,D-glucose (CID 5793),-6.269,1.3-2.1 kcal/mol weaker than hydroxamates,non-chelator; small polar molecule
