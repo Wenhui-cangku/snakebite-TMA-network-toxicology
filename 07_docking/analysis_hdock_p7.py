@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Superposition validation of HDock P7 model_1 against the 3V2A template"""
+"""HDock P7 model_1 与 3V2A 模板叠合验证"""
 from pathlib import Path
 import numpy as np
 
@@ -15,7 +15,7 @@ def read_pdb(path):
     return atoms
 
 def kabsch(P, Q):
-    """P, Q: Nx3 corresponding points; returns rotation matrix and translation superposing P onto Q"""
+    """P, Q: Nx3 对应点; 返回把 P 叠到 Q 的旋转矩阵和平移"""
     Pc, Qc = P.mean(0), Q.mean(0)
     H = (P - Pc).T @ (Q - Qc)
     U, S, Vt = np.linalg.svd(H)
@@ -27,7 +27,7 @@ def kabsch(P, Q):
 model = read_pdb(BASE + r"\results\hdock\P7\model_1.pdb")
 ref   = read_pdb(BASE + r"\prepared\3V2A_full.pdb")
 
-# common CAs of chain R
+# R 链公共 CA
 def ca_map(atoms, ch):
     return {a['rn']: a['xyz'] for a in atoms if a['ch'] == ch and a['atom'] == 'CA'}
 
@@ -36,13 +36,13 @@ common = sorted(set(mR) & set(rR))
 P = np.array([mR[r] for r in common]); Q = np.array([rR[r] for r in common])
 R, t = kabsch(P, Q)
 rmsd_R = float(np.sqrt(((P @ R.T + t - Q)**2).sum(-1).mean()))
-print(f"chain R (VEGFR2 D2) superposition: {len(common)} CAs, RMSD = {rmsd_R:.3f} Å")
+print(f"R链(VEGFR2 D2)叠合: {len(common)} 个CA, RMSD = {rmsd_R:.3f} Å")
 
-# transform the whole model
+# 变换整个 model
 for a in model:
     a['xyz'] = R @ a['xyz'] + t
 
-# 26 interface-residue coverage: whether any svVEGF (chain A/B) atom lies within 5 Å of chain-R residue atoms
+# 26 界面残基覆盖: R链残基原子 5Å 内是否有 svVEGF(A/B链)原子
 veg = np.array([a['xyz'] for a in model if a['ch'] in ('A','B')])
 cov = []
 for rn in IF26:
@@ -52,17 +52,17 @@ for rn in IF26:
     d = np.sqrt(((veg[:,None]-rec[None])**2).sum(-1)).min()
     cov.append((rn, d <= 5.0))
 hit = [rn for rn,ok in cov if ok]
-print(f"26-interface-residue coverage: {len(hit)}/26 -> {hit}")
-print(f"not covered: {[rn for rn,ok in cov if ok is False]}")
+print(f"26界面残基覆盖: {len(hit)}/26 -> {hit}")
+print(f"未覆盖: {[rn for rn,ok in cov if ok is False]}")
 
-# spatial relationship to the template VEGF-A (3V2A chain A): compare centroids and closest distance
+# 与模板 VEGF-A (3V2A A链) 的空间关系: 比较质心与最近距离
 refA = np.array([a['xyz'] for a in ref if a['ch'] == 'A'])
 com_model = veg.mean(0); com_ref = refA.mean(0)
-print(f"svVEGF centroid vs VEGF-A template centroid distance: {float(np.linalg.norm(com_model-com_ref)):.2f} Å")
+print(f"svVEGF质心 vs VEGF-A模板质心 距离: {float(np.linalg.norm(com_model-com_ref)):.2f} Å")
 dmin = float(np.sqrt(((veg[:,None]-refA[None])**2).sum(-1)).min())
-print(f"svVEGF to VEGF-A template closest atom distance: {dmin:.2f} Å")
+print(f"svVEGF 与 VEGF-A 模板最近原子距离: {dmin:.2f} Å")
 
-# write out the superposed complex for PyMOL plotting
+# 叠合后的复合物写出, 供 PyMOL 作图
 out = BASE + r"\results\hdock\P7\model_1_superposed_on_3V2A.pdb"
 with open(out, 'w', encoding='utf-8') as f:
     i = 1
@@ -70,4 +70,4 @@ with open(out, 'w', encoding='utf-8') as f:
         f.write(f"ATOM  {i:>5}  {a['atom']:<4} ALA {a['ch']}{a['rn']:>4}    "
                 f"{a['xyz'][0]:8.3f}{a['xyz'][1]:8.3f}{a['xyz'][2]:8.3f}  1.00  0.00\n")
         i += 1
-print(f"superposed complex written: {out}")
+print(f"已写出叠合复合物: {out}")

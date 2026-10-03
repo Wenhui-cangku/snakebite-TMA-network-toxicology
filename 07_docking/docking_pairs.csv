@@ -1,8 +1,8 @@
-﻿pair_id,toxin(ligand),host_target(receptor),biological_proposition,L2_evidence,HADDOCK/ClusPro_submission_notes
-P1,T_RVVX_2E3X_ABC.pdb,H_FXa_2W26_AB.pdb,RVV-X → FX (activation cleavage at Arg-Ile),literature 1.0 (Q7LZ61/Q4PRD1/Q4PRD2),HADDOCK: toxin Zn catalytic domain HEXXHXXGXXH motif surface + FX heavy-chain N-terminal activation peptide region (residue numbers verified in PyMOL); ClusPro direct submission
-P2,T_RVVV_3S9C_A.pdb,H_FV_7KVE_B.pdb,RVV-Vγ → FV (cleaves Arg1545-Ser1546),literature 1.0 (P18965),"HADDOCK: SVSP catalytic triad (His57/Asp102/Ser195, chymotrypsin numbering) + around FV Arg1545; note: 3S9C chain B already has an FV-fragment co-crystal = direct structural evidence; docking serves as full-length validation"
-P3,T_daborhaginK_AF.pdb,H_FIB_3GHG_ABC.pdb,daborhagin-K → fibrinogen Aα,"literature 1.0 (B8K1W0, PMID 18554518)",AF model (pLDDT 84); HADDOCK: Zn catalytic motif surface + FGA chain C-terminus; ClusPro direct submission
-P4,T_snaclecQ38L02_AF.pdb,H_GP1BA_1M10_A.pdb,snaclec → GP1BA (inhibits ristocetin-induced aggregation),literature 1.0 (Q38L02),AF model (pLDDT 88.9); GP1BA passive residues defined from template 1M10 (VWF-A1 binding site)
-P5,T_PLA2_1KPM_A.pdb,H_FXa_2W26_AB.pdb,PLA2 VRV-PL-VIIIa → FXa (anticoagulant IC50=130nM),"literature 1.0 (P59071, PMID 18062812)",PLA2 interface region (non-catalytic-site binding) + FXa surface exosite
-P6,T_KunitzH6VC06_AF.pdb,H_PLG_1QRZ_A.pdb,Kunitz → plasmin (Ki=0.19nM),literature 1.0 (H6VC06),AF model (pLDDT 88.6); Kunitz reactive-loop P1 residue vs PLG catalytic triad (His603/Asp646/Ser741)
-P7,T_svVEGF_1WQ9_AB.pdb,H_VEGFR2_3V2A_R.pdb,svVEGF → VEGFR2/KDR,literature 1.0 (P67861),template reference 3V2A chain A (VEGF-A) binding pose; HDock template docking optional
+﻿配对ID,毒素(配体),宿主靶点(受体),生物学命题,L2证据,HADDOCK/ClusPro提交要点
+P1,T_RVVX_2E3X_ABC.pdb,H_FXa_2W26_AB.pdb,RVV-X → FX (激活切割Arg-Ile),literature 1.0 (Q7LZ61/Q4PRD1/Q4PRD2),HADDOCK: 毒素Zn催化域HEXXHXXGXXH基序表面+FX重链N端激活肽区(PyMOL核对残基号); ClusPro直接提交
+P2,T_RVVV_3S9C_A.pdb,H_FV_7KVE_B.pdb,RVV-Vγ → FV (切割Arg1545-Ser1546),literature 1.0 (P18965),"HADDOCK: SVSP催化三联体(His57/Asp102/Ser195 糜蛋白酶编号) + FV Arg1545周围; 注: 3S9C B链已有FV片段共结晶=直接结构证据, 对接作全长验证"
+P3,T_daborhaginK_AF.pdb,H_FIB_3GHG_ABC.pdb,daborhagin-K → 纤维蛋白原Aα,"literature 1.0 (B8K1W0, PMID 18554518)",AF模型(pLDDT 84); HADDOCK: Zn催化基序表面 + FGA链C端; ClusPro直接提交
+P4,T_snaclecQ38L02_AF.pdb,H_GP1BA_1M10_A.pdb,snaclec → GP1BA (抑制瑞斯托霉素聚集),literature 1.0 (Q38L02),AF模型(pLDDT 88.9); 参考模板1M10(VWF-A1结合位点)定义GP1BA被动残基
+P5,T_PLA2_1KPM_A.pdb,H_FXa_2W26_AB.pdb,PLA2 VRV-PL-VIIIa → FXa (抗凝IC50=130nM),"literature 1.0 (P59071, PMID 18062812)",PLA2界面区(非催化位点结合) + FXa表面外位点
+P6,T_KunitzH6VC06_AF.pdb,H_PLG_1QRZ_A.pdb,Kunitz → 纤溶酶 (Ki=0.19nM),literature 1.0 (H6VC06),AF模型(pLDDT 88.6); Kunitz反应环P1残基对PLG催化三联体(His603/Asp646/Ser741)
+P7,T_svVEGF_1WQ9_AB.pdb,H_VEGFR2_3V2A_R.pdb,svVEGF → VEGFR2/KDR,literature 1.0 (P67861),模板参考3V2A A链(VEGF-A)结合姿态; HDock模板对接可选

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Rewrite the P7 superposed PDB preserving the original atom-line format"""
+"""重写 P7 叠合 PDB,保留原始原子行格式"""
 from pathlib import Path
 import numpy as np
 
@@ -34,4 +34,4 @@ for line in open(BASE + r"\results\hdock\P7\model_1.pdb", encoding='utf-8', erro
     else:
         out.write(line)
 out.close()
-print("rewrite done, atoms:", n)
+print("重写完成, 原子数", n)

@@ -1,13 +1,13 @@
-﻿pair,toxin,host,platform,top1_cluster_members,center_energy,lowest_energy,interface_residue_count,functional_site_coverage,verdict,notes
-P1,RVV-X(2E3X),FXa(2W26),ClusPro,92,-725.3,-899.7,38,N-terminal 16-21 not covered (0/6),structural support (cluster) ✅ / site ⚠️,Ile16 insertion into the activation pocket is structurally inaccessible; functional-site evidence pending HADDOCK restraint docking; interface lies on external loop regions such as 84-109
-P2,RVV-Vγ(3S9C),FV(7KVE),ClusPro,99,-916.2,-1045.2,45,cleavage site 1543-1548 covered 3/6,structural support ✅,plus 3S9C co-crystal direct evidence
-P3,daborhagin-K(AF),fibrinogen (3GHG),ClusPro,119,-1174.6,-1175.1,37,FGA C-terminal 195-200 not covered (0/6),structural support (cluster) ✅ / site ❌,binds the FGA 57-88 coiled-coil region; the true cleavage region αC domain (221-610) is outside the crystal structure; site evidence pending HADDOCK
-P4,snaclec(AF),GP1BA(1M10),ClusPro,59,-688.3,-770.5,20,VWF-binding-region core covered (549/550/571/572),structural support ✅,"rerun with corrected receptor (single-chain GP1BA); interface 505-508/541-542/544-550/570-578 capping the VWF-site core, supporting a competitive-inhibition mechanism"
-P5,PLA2(1KPM),FXa(2W26),ClusPro,109,-751.4,-777.6,32,no specific site (n/a),structural support ✅,interface 35-61/94-99/143; the mechanism is interface binding itself
-P6,Kunitz(AF),plasmin (1QRZ),ClusPro,84,-737.9,-957.0,32,catalytic triad covered 2/3,structural support ✅,consistent with Ki=0.19nM literature
-P7,svVEGF(1WQ9),VEGFR2(3V2A),ClusPro,190,-1228.0,-1263.8,44,3V2A reference interface 26/26 fully covered,structural support ✅✅,strongest evidence; pose consistent with VEGF-A template
-P1,RVV-X,FXa,HADDOCK,81,-67.8±1.1,Z-score -0.7,21,N-terminal 16-21 covered 5/6 (cluster2 6/6,6 of 7 clusters covered),site orientation ✅ / score below the ≤-100 line,"Restraint satisfaction partial (toxin 155 / host 17-21 in interface, closest restraint distance 7.75Å, viol 81.4); proves the Ile16-region orientation is geometrically feasible; affinity scoring insufficient — the large ClusPro cluster serves as the primary structural evidence"
-P2,RVV-Vγ,FV,HADDOCK,165,-144.9±4.4,Z-score -1.4,31,cleavage site 1543-1548 covered 6/6 (all 4 clusters ≥5/6),✅✅ both criteria met,"closest restraint distance 1.97Å, near-perfectly satisfied; the only HADDOCK pair passing the ≤-100 line; three-way corroboration with ClusPro (99-member cluster) + 3S9C co-crystal"
-P3,daborhagin-K,fibrinogen,HADDOCK,23,-40.3±0.6,Z-score +0.9,13,FGA C-terminal 195-200 covered 5/6 (all 10 clusters ≥4/6),site orientation ✅ / score below threshold,"closest restraint distance 2.57Å, well satisfied; small cluster (23) and weak score but highly consistent orientation across 10 clusters, proving the FGA 195-200 orientation is feasible; the true cleavage region (αC domain) remains outside the structure"
-P6,Kunitz,plasmin,HADDOCK,57,-48.7±0.3,Z-score +0.3,20,catalytic triad 603/646/741 covered 3/3,site orientation ✅ / score below threshold,closest restraint distance 1.82Å satisfied; most of 11 clusters cover the triad ≥2/3; consistent with Ki=0.19nM literature; weak score but clear orientation evidence
-P7,svVEGF,VEGFR2,HDock,Top1,-258.18,Confidence 0.8969,-,3V2A interface 21/26 covered,✅ high confidence,Ligand RMSD 21.95Å (pose deflected) but R-chain superposition RMSD=0 and nearest atom to VEGF-A template 0.15Å in the same region; confidence>0.7 high confidence; dual-platform corroboration with ClusPro 26/26
+﻿配对,毒素,宿主,平台,Top1簇成员数,Center能量,Lowest能量,界面残基数,功能位点覆盖,判定,备注
+P1,RVV-X(2E3X),FXa(2W26),ClusPro,92,-725.3,-899.7,38,N端16-21未覆盖(0/6),结构支持(簇)✅/位点⚠️,"Ile16内插激活口袋属结构性不可及,功能位点证据待HADDOCK约束对接;界面位于84-109等外位点环区"
+P2,RVV-Vγ(3S9C),FV(7KVE),ClusPro,99,-916.2,-1045.2,45,切割位点1543-1548覆盖3/6,结构支持✅,另有3S9C共结晶直接证据
+P3,daborhagin-K(AF),纤维蛋白原(3GHG),ClusPro,119,-1174.6,-1175.1,37,FGA C端195-200未覆盖(0/6),结构支持(簇)✅/位点❌,"结合于FGA 57-88卷曲螺旋区;真实切割区αC域(221-610)不在晶体结构内,位点证据待HADDOCK"
+P4,snaclec(AF),GP1BA(1M10),ClusPro,59,-688.3,-770.5,20,VWF结合区核心覆盖(549/550/571/572),结构支持✅,"重跑已修正受体(单链GP1BA);界面505-508/541-542/544-550/570-578,压盖VWF位点核心,支持竞争性抑制机制"
+P5,PLA2(1KPM),FXa(2W26),ClusPro,109,-751.4,-777.6,32,无特定位点(n/a),结构支持✅,界面35-61/94-99/143;机制为界面结合本身
+P6,Kunitz(AF),纤溶酶(1QRZ),ClusPro,84,-737.9,-957.0,32,催化三联体覆盖2/3,结构支持✅,与Ki=0.19nM文献一致
+P7,svVEGF(1WQ9),VEGFR2(3V2A),ClusPro,190,-1228.0,-1263.8,44,3V2A参考界面26/26全覆盖,结构支持✅✅,最强证据;姿态与VEGF-A模板一致
+P1,RVV-X,FXa,HADDOCK,81,-67.8±1.1,Z-score -0.7,21,N端16-21覆盖5/6(cluster2为6/6,7簇中6簇覆盖),位点取向✅/打分未达≤-100线,"约束满足度部分(毒素155/宿主17-21入界面,约束间最近7.75Å,viol 81.4);证明Ile16区取向几何可行,亲和力打分不足,以ClusPro大簇为主要结构证据"
+P2,RVV-Vγ,FV,HADDOCK,165,-144.9±4.4,Z-score -1.4,31,切割位点1543-1548覆盖6/6(4簇全≥5/6),✅✅双达标,"约束间最近1.97Å近乎完美满足;HADDOCK唯一过≤-100线的配对,与ClusPro(99簇)+3S9C共结晶三方互证"
+P3,daborhagin-K,纤维蛋白原,HADDOCK,23,-40.3±0.6,Z-score +0.9,13,FGA C端195-200覆盖5/6(10簇全部≥4/6),位点取向✅/打分未达标,"约束间最近2.57Å满足良好;簇小(23)打分弱但10簇取向高度一致,证明FGA 195-200区取向可行;真实切割区αC域仍结构外"
+P6,Kunitz,纤溶酶,HADDOCK,57,-48.7±0.3,Z-score +0.3,20,催化三联体603/646/741覆盖3/3,位点取向✅/打分未达标,"约束间最近1.82Å满足;11簇中多数覆盖三联体≥2/3;与Ki=0.19nM文献一致,打分弱但取向证据明确"
+P7,svVEGF,VEGFR2,HDock,Top1,-258.18,Confidence 0.8969,-,3V2A界面21/26覆盖,✅高置信,"Ligand RMSD 21.95Å(姿态偏转)但R链叠合RMSD=0、与VEGF-A模板最近0.15Å同区域;confidence>0.7高置信;与ClusPro 26/26双平台互证"
