@@ -1,4 +1,4 @@
-; ions.mdp — used only for grompp before genion
+; ions.mdp — 仅用于 genion 前的 grompp
 integrator  = steep
 emtol       = 1000.0
 nsteps      = 50000

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""iMODS raw-data deep analysis + Figure 6 assembly
-From imode_cart.evec / imode.eval / input.pdb in the job directory:
-1) per-residue mobility m_i = Σ_k |v_ik|²/λ_k (first 20 modes)
-2) residue correlation matrix c_ij = Σ_k (v_i·v_j)/λ_k, normalized to correlation coefficients
-3) flexibility statistics of interface residues (toxin chain vs target chain, all-atom ≤5 Å)
-4) Figure 6: A=PRODIGY ΔG; B=interface/rest mobility ratio; C=representative mobility curve; D=representative correlation matrix
-Output: figure6_nma_prodigy.png/.svg + imods_prodigy_summary.csv"""
+"""iMODS 原始数据深度分析 + Figure 6 拼版
+从 job 目录的 imode_cart.evec / imode.eval / input.pdb：
+1) 逐残基迁移率 m_i = Σ_k |v_ik|²/λ_k（前 20 模式）
+2) 残基相关矩阵 c_ij = Σ_k (v_i·v_j)/λ_k，归一化为相关系数
+3) 界面残基（毒素链 vs 靶点链全原子 ≤5Å）柔性统计
+4) Figure 6：A=PRODIGY ΔG；B=界面/其余迁移率比；C=代表迁移率曲线；D=代表相关矩阵
+输出：figure6_nma_prodigy.png/.svg + imods_prodigy_summary.csv"""
 import sys, os, math, glob, csv
 from pathlib import Path
 sys.path.insert(0, str(Path(sys.executable).parent.parent.parent))
@@ -17,16 +17,16 @@ import matplotlib.pyplot as plt
 HERE = os.path.dirname(os.path.abspath(__file__))
 RES = os.path.join(HERE, "prodigy", "results_iMODS")
 
-PAIRS = {  # pair: (job-dir name fragment, target chains, toxin chains, label)
+PAIRS = {  # 对: (job目录名片段, 靶点链, 毒素链, 标签)
     "P1": ("P1", "AB", "CDE", "RVV-X×FXa"),
     "P2": ("P2", "B", "A", "RVV-Vγ×FV"),
     "P3": ("P3", "ABC", "D", "dabK×FIB"),
     "P4": ("P4", "A", "B", "snaclec×GP1BA"),
-    "P5": ("P5 ", "AB", "C", "PLA2×FXa"),   # directory named "P5 job"
+    "P5": ("P5 ", "AB", "C", "PLA2×FXa"),   # 目录名为 "P5 job"
     "P6": ("P6", "A", "B", "Kunitz×plasmin"),
     "P7": ("P7", "A", "BC", "svVEGF×VEGFR2"),
 }
-PRODIGY = {  # pair: (ΔG, Kd)
+PRODIGY = {  # 对: (ΔG, Kd)
     "P1": (-13.8, "8e-11"), "P2": (-11.7, "2.8e-09"), "P3": (-15.2, "7e-12"),
     "P4": (-9.2, "1.9e-07"), "P5": (-13.7, "8.5e-11"), "P6": (-10.7, "1.5e-08"),
     "P7": (-12.1, "1.3e-09"),
@@ -68,7 +68,7 @@ def parse_evec(path):
     return n, modes
 
 def parse_nodes(path):
-    """all-atom node order of imode_model.pdb (incl. segment-end N/C caps); returns [(chain, resnum, atom name)]"""
+    """imode_model.pdb 全原子节点顺序（含段端 N/C 帽），返回 [(链, 残基号, 原子名)]"""
     res = []
     for line in open(path, errors="ignore"):
         if line.startswith(("ATOM", "HETATM")):
@@ -76,7 +76,7 @@ def parse_nodes(path):
     return res
 
 def interface_residues(path, tgt, tox):
-    """all-atom ≤5 Å interface residues between two chain groups; returns {(chain, resnum)} union. Vectorized implementation."""
+    """两链组间全原子 ≤5Å 界面残基，返回 {(链,残基号)} 并集。向量化实现。"""
     tgt_list, tox_list = [], []
     for line in open(path, errors="ignore"):
         if not line.startswith("ATOM"):
@@ -108,9 +108,9 @@ for pid, (tag, tgt, tox, label) in PAIRS.items():
     inp = os.path.join(job, "input.pdb")
     n, modes = parse_evec(evec)
     model_pdb = os.path.join(job, "imode_model.pdb")
-    ca = parse_nodes(model_pdb)          # node order matches the 3N vector
+    ca = parse_nodes(model_pdb)          # 节点顺序与 3N 向量一致
     nres = n // 3
-    assert len(ca) == nres, f"{pid}: node count {len(ca)} != vector {nres}"
+    assert len(ca) == nres, f"{pid}: 节点数{len(ca)} != 向量{nres}"
     lam = np.array([m[0] for m in modes])
     V = np.stack([m[1] for m in modes])          # (20, 3N)
     mob = ((V ** 2).reshape(len(modes), nres, 3).sum(axis=2) / lam[:, None]).sum(axis=0)
@@ -120,7 +120,7 @@ for pid, (tag, tgt, tox, label) in PAIRS.items():
     idx_iface = [i for i, (ch, rn, _) in enumerate(ca) if (ch, rn) in iface_set]
     idx_rest = [i for i in range(nres) if i not in idx_iface]
     ratio = np.median(mob[idx_iface]) / np.median(mob[idx_rest])
-    # correlation matrix
+    # 相关矩阵
     C = np.zeros((nres, nres))
     for k in range(len(modes)):
         v = V[k].reshape(nres, 3)
@@ -131,12 +131,12 @@ for pid, (tag, tgt, tox, label) in PAIRS.items():
     cormats[pid] = (corr, ca)
     dg, kd = PRODIGY[pid]
     rows.append([pid, label, dg, kd, f"{lam[0]:.3e}", len(idx_iface), f"{ratio:.2f}"])
-    print(f"{pid} {label}: λ1={lam[0]:.3e} interface residues={len(idx_iface)} mobility ratio={ratio:.2f} PRODIGY ΔG={dg}")
+    print(f"{pid} {label}: λ1={lam[0]:.3e} 界面残基={len(idx_iface)} 迁移率比={ratio:.2f} PRODIGY ΔG={dg}")
 
-# summary CSV
+# 汇总 CSV
 with open(os.path.join(HERE, "imods_prodigy_summary.csv"), "w", newline="", encoding="utf-8-sig") as f:
     w = csv.writer(f)
-    w.writerow(["pair", "complex", "PRODIGY ΔG (kcal/mol)", "Kd (M)", "iMODS λ1", "interface_residues(5Å)", "interface/rest_mobility_ratio"])
+    w.writerow(["配对", "复合物", "PRODIGY ΔG (kcal/mol)", "Kd (M)", "iMODS λ1", "界面残基数(5Å)", "界面/其余迁移率比"])
     w.writerows(rows)
 
 # ---------- Figure 6 ----------
@@ -158,7 +158,7 @@ ax.set_ylabel("PRODIGY predicted ΔG (kcal/mol)")
 ax.set_ylim(min(dgs) - 2.8, 1.2)
 ax.set_title("A  Predicted binding affinity (PRODIGY)", fontsize=10, fontweight="bold")
 
-# B: interface mobility ratio
+# B: 界面迁移率比
 ax = axes[0][1]
 ratios = [float(r[6]) for r in rows]
 ax.bar(range(7), ratios, color="#2E7D32", alpha=0.85, width=0.62)
@@ -170,14 +170,14 @@ ax.set_xticks(range(7)); ax.set_xticklabels(labels, rotation=28, ha="right", fon
 ax.set_ylabel("median mobility, interface / rest")
 ax.set_title("B  Interface rigidity (NMA, <1 = stiffer interface)", fontsize=10, fontweight="bold")
 
-# C: P7 mobility curve (representative)
+# C: P7 迁移率曲线（代表）
 ax = axes[1][0]
 ca, mob_rel, idx_iface = profiles["P7"]
 xs = range(len(ca))
 ax.plot(xs, mob_rel, color="#37474F", lw=1.2)
 ax.scatter(idx_iface, [mob_rel[i] for i in idx_iface], s=18, color="#C62828",
            zorder=5, label="interface residues (≤5 Å)")
-# chain boundaries
+# 链边界
 bounds, prev = [], None
 for i, (ch, rn, _) in enumerate(ca):
     if ch != prev:
@@ -190,7 +190,7 @@ ax.set_xlabel("residue index (sequential)"); ax.set_ylabel("relative mobility")
 ax.legend(fontsize=8, loc="center right")
 ax.set_title("C  NMA mobility profile — P7 svVEGF×VEGFR2", fontsize=10, fontweight="bold")
 
-# D: P7 correlation matrix
+# D: P7 相关矩阵
 ax = axes[1][1]
 corr, ca7 = cormats["P7"]
 im = ax.imshow(corr, cmap="bwr", vmin=-1, vmax=1, origin="lower")

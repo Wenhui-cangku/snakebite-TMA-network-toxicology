@@ -1,4 +1,4 @@
-; minim.mdp — energy minimization (steepest descent + conjugate gradient)
+; minim.mdp — 能量最小化（最速下降+共轭梯度）
 integrator  = steep
 emtol       = 1000.0
 emstep      = 0.01

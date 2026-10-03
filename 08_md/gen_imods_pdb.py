@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Generate iMODS-specific copies: sequentially renumber residues of each chain to 1..N, removing insertion codes / residue 0.
-Output prodigy/PX_*_imods.pdb + mapping_PX.csv (original numbering → new numbering, for back-mapping)."""
+"""生成 iMODS 专用副本：每条链残基顺序重编号 1..N，去插入码/0 号残基。
+输出 prodigy/PX_*_imods.pdb + mapping_PX.csv（原编号→新编号，供回映射）。"""
 import os, csv
 
 HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "prodigy")
@@ -17,7 +17,7 @@ for base in FILES:
             rec = line[:6].strip()
             if rec in ("ATOM", "HETATM"):
                 ch = line[21]
-                orig = line[22:27].strip()          # residue number + insertion code
+                orig = line[22:27].strip()          # 残基号+插入码
                 if ch != cur_chain:
                     cur_chain, seen, counter = ch, {}, 0
                 if orig not in seen:
@@ -33,9 +33,9 @@ for base in FILES:
         w.writerow(["chain", "orig_resnum_icode", "new_resnum"])
         w.writerows(maps)
     nch = len({m[0] for m in maps})
-    print(f"{base}_imods.pdb  chains={nch}  residues={len(maps)}")
+    print(f"{base}_imods.pdb  链数={nch}  残基={len(maps)}")
 
-# self-check: after renumbering there should be no gaps / residue 0 / insertion codes
+# 自检：重编号后不应再有断档/0号/插入码
 import glob
 for f in sorted(glob.glob(os.path.join(HERE, "*_imods.pdb"))):
     bad = 0
@@ -43,4 +43,4 @@ for f in sorted(glob.glob(os.path.join(HERE, "*_imods.pdb"))):
         if line.startswith(("ATOM", "HETATM")):
             if line[26].strip() or int(line[22:26]) <= 0:
                 bad += 1
-    print(os.path.basename(f), "remaining problem atoms:", bad)
+    print(os.path.basename(f), "残留问题原子:", bad)

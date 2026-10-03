@@ -1,4 +1,4 @@
-; npt.mdp — 100 ps NPT, 300 K / 1 bar, position restraints on heavy atoms
+; npt.mdp — 100 ps NPT，300 K / 1 bar，重原子位置限制
 define      = -DPOSRES
 integrator  = md
 dt          = 0.002

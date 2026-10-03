@@ -1,4 +1,4 @@
-﻿pair,complex,PRODIGY ΔG (kcal/mol),Kd (M),iMODS λ1,interface_residues(5Å),interface/rest_mobility_ratio
+﻿配对,复合物,PRODIGY ΔG (kcal/mol),Kd (M),iMODS λ1,界面残基数(5Å),界面/其余迁移率比
 P1,RVV-X×FXa,-13.8,8e-11,2.864e-05,71,0.53
 P2,RVV-Vγ×FV,-11.7,2.8e-09,2.671e-05,64,0.88
 P3,dabK×FIB,-15.2,7e-12,2.605e-07,46,0.78

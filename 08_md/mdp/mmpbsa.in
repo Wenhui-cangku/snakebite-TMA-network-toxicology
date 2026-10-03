@@ -1,7 +1,7 @@
-# mmpbsa.in — gmx_MMPBSA input template (GB-OBC2, sampling from the equilibrated segment)
+# mmpbsa.in — gmx_MMPBSA 输入模板（GB-OBC2，平衡段取样）
 &general
   sys_name = "toxin-target complex",
-  startframe = 2500,          # start at 25 ns (adjust to the rmsd plateau)
+  startframe = 2500,          # 25 ns 起（按 rmsd 平台期调整）
   endframe = 5000,
   interval = 10,
   saltcon = 0.15,
@@ -15,7 +15,7 @@
   surfoff = 0.0,
 /
 &decomp
-  idecomp = 2,                # per-residue decomposition (key interface residue contributions)
+  idecomp = 2,                # 按残基分解（看界面关键残基贡献）
   dec_verbose = 0,
-  print_res = "within 6"      # output only residues within 6 A of the interface
+  print_res = "within 6"      # 只输出界面 6 Å 内残基
 /

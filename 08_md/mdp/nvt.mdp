@@ -1,4 +1,4 @@
-; nvt.mdp — 100 ps NVT, 300 K, position restraints on heavy atoms
+; nvt.mdp — 100 ps NVT，300 K，重原子位置限制
 define      = -DPOSRES
 integrator  = md
 dt          = 0.002

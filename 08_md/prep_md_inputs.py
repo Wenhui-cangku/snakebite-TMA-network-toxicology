@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-"""MD starting-structure preprocessing: extract best poses from docking results, clean into GROMACS-ready pure-ATOM PDBs,
-output chain/residue/atom statistics and missing-residue warnings. Output to 08_md/input/"""
+"""MD 起始结构预处理：从对接结果提取最优构象，清理为 GROMACS 可吃的纯 ATOM PDB，
+输出链/残基/原子统计与缺残基警示。输出到 08_md/input/"""
 import os, re, shutil
 
 BASE = os.path.dirname(os.path.abspath(__file__))
@@ -10,20 +10,20 @@ INP = os.path.join(BASE, "input")
 os.makedirs(INP, exist_ok=True)
 
 SOURCES = [
-    # (source file, output name, description, whether to relabel chains by TER blocks)
+    # (源文件, 输出名, 说明, 是否按TER分块重标链)
     (os.path.join(DOCK, "figure", "p2_cluster1_1.pdb"), "md_P2_RVVV_FV_haddock.pdb",
-     "P2 RVV-Vγ×FV HADDOCK cluster1_1 (both-criteria pose, PyMOL scene version already pure ATOM)", False),
+     "P2 RVV-Vγ×FV HADDOCK cluster1_1（双达标构象，PyMOL 场景版已纯 ATOM）", False),
     (os.path.join(DOCK, "results", "hdock", "P7", "model_1.pdb"), "md_P7_svVEGF_VEGFR2_hdock.pdb",
      "P7 svVEGF×VEGFR2 HDock model_1（confidence 0.897）", False),
     (os.path.join(DOCK, "figure", "p4_cluspro.pdb"), "md_P4_snaclec_GP1BA_cluspro.pdb",
-     "P4 snaclec×GP1BA ClusPro model.000.00 (pure-ATOM scene version)", True),
+     "P4 snaclec×GP1BA ClusPro model.000.00（纯 ATOM 场景版）", True),
 ]
-# small molecule (optional/advanced: requires CGenFF ligand topology)
+# 小分子（可选/进阶：需 CGenFF 配体拓扑）
 SMOL_SRC = os.path.join(SMOL, "results", "RVVX_batimastat.pdbqt")
 
 def clean_pdb(src, dst, relabel_blocks=False):
-    """keep only ATOM/HETATM/TER/END; count chains, residues, atoms, residue-number gaps.
-    with relabel_blocks=True, relabel the chain column by TER blocks as A/B/C… (for ClusPro all-chain-A files)"""
+    """只保留 ATOM/HETATM/TER/END；统计链、残基、原子数、残基号断档。
+    relabel_blocks=True 时按 TER 分块把链列重标为 A/B/C…（用于 ClusPro 全 A 链文件）"""
     chains = {}
     het = 0
     block = 0
@@ -38,7 +38,7 @@ def clean_pdb(src, dst, relabel_blocks=False):
                     line = line[:21] + letters[block] + line[22:]
                 cur = line[21]
                 if prev_chain is not None and cur != prev_chain and not wrote_ter:
-                    out.write("TER\n")  # insert TER at chain switches so pdb2gmx splits chains correctly
+                    out.write("TER\n")  # 链切换处补 TER，保证 pdb2gmx 正确拆链
                 prev_chain = cur
                 wrote_ter = False
                 if rec == "HETATM":
@@ -62,17 +62,17 @@ for src, name, note, relabel in SOURCES:
     natoms = sum(len(v) for v in chains.values())
     print(f"\n### {name}")
     print(f"  {note}")
-    print(f"  atoms {natoms} (HETATM {het})")
+    print(f"  原子 {natoms}（HETATM {het}）")
     for ch, reslist in sorted(chains.items()):
         uniq = sorted(set(r for r in reslist if r >= 0))
         gaps = [(a, b) for a, b in zip(uniq, uniq[1:]) if b - a > 1]
-        print(f"  chain {ch}: {len(uniq)} residues ({uniq[0]}–{uniq[-1]})", end="")
+        print(f"  链 {ch}: {len(uniq)} 残基 ({uniq[0]}–{uniq[-1]})", end="")
         if gaps:
-            print(f"  ⚠ gaps at {len(gaps)} places: {gaps[:5]}", end="")
+            print(f"  ⚠ 断档 {len(gaps)} 处: {gaps[:5]}", end="")
         print()
 
 if os.path.exists(SMOL_SRC):
-    # pdbqt → pdb (coordinates only, dropping charge/type columns)
+    # pdbqt → pdb（仅坐标，去 charge/类型列）
     dst = os.path.join(INP, "md_batimastat_RVVX_pose.pdb")
     n = 0
     with open(dst, "w") as out:
@@ -80,8 +80,8 @@ if os.path.exists(SMOL_SRC):
             if line.startswith(("ATOM", "HETATM")):
                 out.write(line[:66].rstrip() + "\n")
                 n += 1
-    print(f"\n### md_batimastat_RVVX_pose.pdb  Vina pose {n} atoms (pdbqt→pdb, coordinates only)")
-    print("  ⚠ small-molecule MD requires separate CGenFF/ParmEd topology, see SOP §6")
+    print(f"\n### md_batimastat_RVVX_pose.pdb  Vina 姿态 {n} 原子（pdbqt→pdb，仅坐标）")
+    print("  ⚠ 小分子 MD 需另配 CGenFF/ParmEd 拓扑，见 SOP §6")
 
-print("\noutput directory:", INP)
+print("\n输出目录:", INP)
 print(os.listdir(INP))

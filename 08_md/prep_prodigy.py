@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Route C preparation: 7 pairs of best docking poses → PRODIGY/iMODS normalized PDBs
-Chain-block rule: a TER record or a change of original chain ID both count as boundaries; relabeled A/B/C…
-Output: 08_md/prodigy/P1..P7_*.pdb + chain_map.txt (reference for web-submission checkboxes)"""
+"""路线 C 准备：7 对对接最优构象 → PRODIGY/iMODS 规范 PDB
+链块划分规则：TER 记录 或 原链 ID 变化，二者皆视为边界；重标为 A/B/C…
+输出：08_md/prodigy/P1..P7_*.pdb + chain_map.txt（网页提交勾选对照）"""
 import os
 
 BASE = os.path.dirname(os.path.abspath(__file__))
@@ -9,7 +9,7 @@ DOCK = os.path.join(BASE, "..", "07_docking")
 OUT = os.path.join(BASE, "prodigy")
 os.makedirs(OUT, exist_ok=True)
 
-# (id, source file, output name, target chains [relabeled], toxin chains [relabeled])
+# (编号, 源文件, 输出名, 靶点链[重标后], 毒素链[重标后])
 MODELS = [
     ("P1", os.path.join(DOCK, "results", "cluspro", "P1", "model.000.00.pdb"),
      "P1_RVVX_FXa.pdb", "A B", "C D E"),
@@ -27,13 +27,13 @@ MODELS = [
      "P7_svVEGF_VEGFR2.pdb", "A", "B C"),
 ]
 NAMES = {
-    "P1": ("FXa (coagulation factor Xa)", "RVV-X (SVMP+snaclec complex)"),
-    "P2": ("FV (coagulation factor V)", "RVV-Vγ (SVSP)"),
-    "P3": ("fibrinogen FGA (3GHG)", "daborhagin-K (SVMP P-III)"),
-    "P4": ("GP1BA (VWF receptor)", "snaclec Q38L02"),
-    "P5": ("FXa (coagulation factor Xa)", "PLA2 VRV-PL-VIIIa"),
-    "P6": ("plasmin (PLG)", "Kunitz H6VC06"),
-    "P7": ("VEGFR2 (KDR)", "svVEGF P67861 dimer"),
+    "P1": ("FXa（凝血因子Xa）", "RVV-X（SVMP+snaclec 复合体）"),
+    "P2": ("FV（凝血因子V）", "RVV-Vγ（SVSP）"),
+    "P3": ("纤维蛋白原 FGA（3GHG）", "daborhagin-K（SVMP P-III）"),
+    "P4": ("GP1BA（VWF 受体）", "snaclec Q38L02"),
+    "P5": ("FXa（凝血因子Xa）", "PLA2 VRV-PL-VIIIa"),
+    "P6": ("纤溶酶 plasmin（PLG）", "Kunitz H6VC06"),
+    "P7": ("VEGFR2（KDR）", "svVEGF P67861 二聚体"),
 }
 LETTERS = "ABCDEFGHIJ"
 
@@ -49,7 +49,7 @@ def process(src, dst):
             if rec in ("ATOM", "HETATM"):
                 orig_ch = line[21]
                 if cur_orig is not None and orig_ch != cur_orig:
-                    # original chain-ID change = new block
+                    # 原链 ID 变化 = 新块
                     blocks.append((min(cur_res), max(cur_res), len(cur_res)))
                     cur_res = []
                     out.write("TER\n")
@@ -72,7 +72,7 @@ def process(src, dst):
             blocks.append((min(cur_res), max(cur_res), len(cur_res)))
     return blocks, natom
 
-print(f"{'pair':<6}{'file':<26}{'atoms':>6}  chain blocks (letter: residue range [atom count])")
+print(f"{'对':<4}{'文件':<26}{'原子':>6}  链块(字母: 残基范围[原子数])")
 report = []
 for pid, src, name, tgt, tox in MODELS:
     dst = os.path.join(OUT, name)
@@ -82,10 +82,10 @@ for pid, src, name, tgt, tox in MODELS:
     report.append((pid, name, tgt, tox, desc))
 
 with open(os.path.join(OUT, "chain_map.txt"), "w", encoding="utf-8") as f:
-    f.write("PRODIGY / iMODS chain-ownership reference (relabeled letters govern)\n")
-    f.write("When submitting to PRODIGY: Partner 1 = target chains, Partner 2 = toxin chains (swapping order does not change ΔG)\n")
+    f.write("PRODIGY / iMODS 链归属对照（重标后字母为准）\n")
+    f.write("PRODIGY 提交时：Partner 1 = 靶点链，Partner 2 = 毒素链（顺序互换不影响 ΔG 数值）\n")
     f.write("=" * 76 + "\n")
     for pid, name, tgt, tox, desc in report:
         t, x = NAMES[pid]
-        f.write(f"\n{pid}  {name}\n  chain blocks: {desc}\n  target chains {tgt} = {t}\n  toxin chains {tox} = {x}\n")
+        f.write(f"\n{pid}  {name}\n  链块: {desc}\n  靶点链 {tgt} = {t}\n  毒素链 {tox} = {x}\n")
 print("\nchain_map.txt written")
