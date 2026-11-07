@@ -1,0 +1,9 @@
+﻿field,definition
+gene_symbol,Human gene symbol after identifier harmonization.
+GC,GeneCards channel meeting the documented threshold.
+OT,Open Targets channel meeting the documented threshold.
+DISEASES,DISEASES curated-knowledge channel.
+DGN,DisGeNET CURATED channel meeting the documented threshold.
+CTD,Comparative Toxicogenomics Database direct-evidence channel.
+PRIOR,Prespecified four-axis molecule channel.
+core_membership,"Membership in the reconstructed 1,042-gene core; the broad table contains 2,190 genes."

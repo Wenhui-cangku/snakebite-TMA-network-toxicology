@@ -1,0 +1,12 @@
+﻿metric,value,definition
+Input sequences,63.0,Sequences of at least 30 amino acids.
+Custom clusters,40.0,Custom length-seeded greedy 90%-identity clustering.
+usearch clusters,39.0,usearch v11.0.667 cluster_fast at 90% identity.
+All sequence pairs,1953.0,63 choose 2.
+Custom within-cluster pairs,35.0,Pairs assigned to the same custom cluster.
+usearch within-cluster pairs,41.0,Pairs assigned to the same usearch cluster.
+Shared within-cluster pairs,34.0,34 of 35 custom within-cluster pairs.
+Pairs only in custom clusters,1.0,One custom-only merge pair.
+Pairs only in usearch clusters,7.0,Seven usearch-only merge pairs.
+Agreeing pair assignments,1945.0,Pairs with concordant same/different-cluster assignments.
+Rand index,0.9959037378392217,1945/1953 = 0.995903738; reported to three decimals as 0.996.
