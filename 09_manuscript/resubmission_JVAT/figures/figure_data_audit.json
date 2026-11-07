@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "source_files": {
+    "edges": {
+      "path": "03_target_prediction/toxin_target_edges_audited.csv",
+      "sha256": "77d241bd97bcc2fdf212155a9f6a6270e0a5e94fd7c1fb8e85ce7b9293c1908c"
+    },
+    "enrichment": {
+      "path": "05_enrichment/reanalysis_v2/enrichment_summary_by_group.csv",
+      "sha256": "d72ad76b2dc9b8d6c962802d6392b2dbe65c772e4c22c885e3da0d534f55b592"
+    },
+    "permutation": {
+      "path": "05_enrichment/reanalysis_v2/permutation_results.csv",
+      "sha256": "eb238f5bb4b213c546df1bf8b6e01721c82ceb4bcc833ce67f739ff574aa298e"
+    },
+    "loso": {
+      "path": "05_enrichment/reanalysis_v2/loso_core_summary.csv",
+      "sha256": "45675688caadf5b18ae75fa46c330fd9c71a61837c9f366ee8ab863a07085060"
+    },
+    "sets": {
+      "path": "05_enrichment/reanalysis_v2/sets_definition.csv",
+      "sha256": "f82a42c62a8764264a169c8ad5bf6ae40ba2c63a04f912090e35df4ed0c77fe6"
+    },
+    "network": {
+      "path": "04_network/ppi_extended61_score700.tsv",
+      "sha256": "d5e99242d83b67bf73e91d6a30b8ba51eef078662d913865666425341e8a9259"
+    },
+    "intersection": {
+      "path": "04_network/intersection_sets.json",
+      "sha256": "5770c6aea2d0df9b35f98d4f73995c06e54cb1b43e1420d43fb5a3bbb2f96665"
+    },
+    "geo_endothelium": {
+      "path": "06_geo/limma_v2/GSE121297_RCaB_vs_Ctrl_limma_plainEB.csv",
+      "sha256": "c3c69f37221055e979e221db56487f8525aeb5548e39c2923565b33a5d9361a8"
+    },
+    "geo_muscle": {
+      "path": "06_geo/limma_v2/GSE248215_DR24h_vs_Ctrl_limma_plainEB.csv",
+      "sha256": "78cb1979500bd235b67291a29515ce8bc51500cca25363d7d5f739bad29f0958"
+    },
+    "no_gc_strict": {
+      "path": "05_enrichment/reanalysis_v2/enrichment_noGC_strict7.csv",
+      "sha256": "52330f7602297fc492860c8c34ba2f662e38293162f373d07719f6aa308274c6"
+    },
+    "no_gc_union": {
+      "path": "05_enrichment/reanalysis_v2/enrichment_noGC_union.csv",
+      "sha256": "7faca0982e6b55f30a9e5e5d7eb0cfade44c2094a401336f13565c74b2a70e0d"
+    }
+  },
+  "figure_1": {
+    "toxin_sequences": 63,
+    "toxin_clusters": 40,
+    "disease_genes": 2190,
+    "core_genes": 1042
+  },
+  "figure_2": {
+    "primary_edges": 33,
+    "host_targets": 15,
+    "toxin_records": 17,
+    "independent_toxin_entities": 14,
+    "interaction_counts": {
+      "enzymatic_cleavage": 15,
+      "inhibition": 10,
+      "direct_binding": 6,
+      "activation": 2
+    },
+    "factor_x_edges": 6,
+    "factor_x_independent_entities": 4
+  },
+  "figure_3": {
+    "permutation_seed": 20261106,
+    "permutations_per_group": 10000,
+    "archived_summary_reproduced": true,
+    "groups": [
+      "G2_strictcore10",
+      "G4_union15",
+      "G3_STRINGhubs5"
+    ]
+  },
+  "figure_4": {
+    "nodes": 54,
+    "edges": 321,
+    "minimum_score": 0.7
+  },
+  "figure_5": {
+    "GSE121297_BH_significant": 43,
+    "GSE248215_BH_significant": 75
+  },
+  "outputs": [
+    "09_manuscript/resubmission_JVAT/figures/Figure_1.png",
+    "09_manuscript/resubmission_JVAT/figures/Figure_1.svg",
+    "09_manuscript/resubmission_JVAT/figures/Figure_2.png",
+    "09_manuscript/resubmission_JVAT/figures/Figure_2.svg",
+    "09_manuscript/resubmission_JVAT/figures/Figure_3.png",
+    "09_manuscript/resubmission_JVAT/figures/Figure_3.svg",
+    "09_manuscript/resubmission_JVAT/figures/Figure_4.png",
+    "09_manuscript/resubmission_JVAT/figures/Figure_4.svg",
+    "09_manuscript/resubmission_JVAT/figures/Figure_5.png",
+    "09_manuscript/resubmission_JVAT/figures/Figure_5.svg",
+    "09_manuscript/resubmission_JVAT/figures/Figure_6.png",
+    "09_manuscript/resubmission_JVAT/figures/Figure_6.svg"
+  ],
+  "path_normalization": "Paths are archive-relative; SHA256 values refer to the public English files in this archive."
+}

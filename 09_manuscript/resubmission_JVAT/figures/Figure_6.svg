@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="462.24pt" height="521.7664pt" viewBox="0 0 462.24 521.7664" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-06T23:34:11.644744</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 521.7664 
+L 462.24 521.7664 
+L 462.24 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 143.307979 87.60096 
+Q 154.46053 87.60096 164.215538 87.60096 
+" clip-path="url(#p363f5d9516)" style="fill: none; stroke: #264653; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 160.615538 85.80096 
+L 164.215538 87.60096 
+L 160.615538 89.40096 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #264653; stroke: #264653; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 141.727923 188.521137 
+Q 149.262366 154.190401 165.930667 124.843367 
+" clip-path="url(#p363f5d9516)" style="fill: none; stroke: #264653; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 162.587567 127.084724 
+L 165.930667 124.843367 
+L 165.717892 128.862662 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #264653; stroke: #264653; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 141.975486 284.118763 
+Q 151.82034 256.600805 165.894032 232.593372 
+" clip-path="url(#p363f5d9516)" style="fill: none; stroke: #264653; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 162.52056 234.788751 
+L 165.894032 232.593372 
+L 165.626252 236.609377 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #264653; stroke: #264653; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 142.941865 374.498437 
+Q 154.46118 366.347529 164.839664 359.003857 
+" clip-path="url(#p363f5d9516)" style="fill: none; stroke-dasharray: 8,2,1.25,2; stroke-dashoffset: 0; stroke: #b28a2e; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 160.861241 359.613895 
+L 164.839664 359.003857 
+L 162.940641 362.552619 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #b28a2e; stroke-dasharray: 8,2,1.25,2; stroke-dashoffset: 0; stroke: #b28a2e; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 141.04966 369.753037 
+Q 133.070116 305.905696 165.838321 252.161104 
+" clip-path="url(#p363f5d9516)" style="fill: none; stroke-dasharray: 8,2,1.25,2; stroke-dashoffset: 0; stroke: #b28a2e; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 162.427385 254.29781 
+L 165.838321 252.161104 
+L 165.501124 256.171876 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #b28a2e; stroke-dasharray: 8,2,1.25,2; stroke-dashoffset: 0; stroke: #b28a2e; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 298.904296 101.515555 
+Q 313.22143 123.117583 326.612079 143.32171 
+" clip-path="url(#p363f5d9516)" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 326.12365 139.326533 
+L 326.612079 143.32171 
+L 323.12288 141.315347 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #8a939b; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 298.866644 223.074248 
+Q 313.221896 200.27473 326.683593 178.894388 
+" clip-path="url(#p363f5d9516)" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 323.242246 180.981762 
+L 326.683593 178.894388 
+L 326.288684 182.89989 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #8a939b; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 298.56964 350.294277 
+Q 328.027715 279.216668 328.619932 203.9559 
+" clip-path="url(#p363f5d9516)" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 326.791661 207.541625 
+L 328.619932 203.9559 
+L 330.39155 207.569952 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #8a939b; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 297.722149 133.691265 
+Q 294.863055 213.683777 327.192348 285.254869 
+" clip-path="url(#p363f5d9516)" style="fill: none; stroke-dasharray: 4.995,2.16; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.35; stroke-linecap: round"/>
+    <path d="M 327.350783 281.233066 
+L 327.192348 285.254869 
+L 324.069966 282.71504 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #8a939b; stroke-dasharray: 4.995,2.16; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.35; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 298.866644 255.858232 
+Q 313.221896 278.65775 326.772948 300.180009 
+" clip-path="url(#p363f5d9516)" style="fill: none; stroke-dasharray: 1.35,2.2275; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.35; stroke-linecap: round"/>
+    <path d="M 326.37804 296.174507 
+L 326.772948 300.180009 
+L 323.331601 298.092635 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #8a939b; stroke-dasharray: 1.35,2.2275; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.35; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8a939b" x="17.928" y="16.750367" transform="rotate(-0 17.928 16.750367)">MOLECULAR INITIATING INTERACTIONS</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8a939b" x="169.884" y="16.750367" transform="rotate(-0 169.884 16.750367)">HOST-RESPONSE MODULES</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8a939b" x="330.912" y="16.750367" transform="rotate(-0 330.912 16.750367)">CANDIDATE OUTCOMES</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 21.1032 133.160544 
+L 137.2248 133.160544 
+Q 144.0288 133.160544 144.0288 125.812224 
+L 144.0288 49.389696 
+Q 144.0288 42.041376 137.2248 42.041376 
+L 21.1032 42.041376 
+Q 14.2992 42.041376 14.2992 49.389696 
+L 14.2992 125.812224 
+Q 14.2992 133.160544 21.1032 133.160544 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #264653; stroke: #264653; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 21.1032 231.138144 
+L 137.2248 231.138144 
+Q 144.0288 231.138144 144.0288 223.789824 
+L 144.0288 159.614496 
+Q 144.0288 152.266176 137.2248 152.266176 
+L 21.1032 152.266176 
+Q 14.2992 152.266176 14.2992 159.614496 
+L 14.2992 223.789824 
+Q 14.2992 231.138144 21.1032 231.138144 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #eaf1f5; stroke: #457b9d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 21.1032 324.216864 
+L 137.2248 324.216864 
+Q 144.0288 324.216864 144.0288 316.868544 
+L 144.0288 255.142656 
+Q 144.0288 247.794336 137.2248 247.794336 
+L 21.1032 247.794336 
+Q 14.2992 247.794336 14.2992 255.142656 
+L 14.2992 316.868544 
+Q 14.2992 324.216864 21.1032 324.216864 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #eaf1f5; stroke: #457b9d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 21.1032 407.497824 
+L 137.2248 407.497824 
+Q 144.0288 407.497824 144.0288 400.149504 
+L 144.0288 350.670816 
+Q 144.0288 343.322496 137.2248 343.322496 
+L 21.1032 343.322496 
+Q 14.2992 343.322496 14.2992 350.670816 
+L 14.2992 400.149504 
+Q 14.2992 407.497824 21.1032 407.497824 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #fbf4df; stroke: #b28a2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 173.0592 147.857184 
+L 293.7168 147.857184 
+Q 300.5208 147.857184 300.5208 140.508864 
+L 300.5208 49.389696 
+Q 300.5208 42.041376 293.7168 42.041376 
+L 173.0592 42.041376 
+Q 166.2552 42.041376 166.2552 49.389696 
+L 166.2552 140.508864 
+Q 166.2552 147.857184 173.0592 147.857184 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #e8f4f1; stroke: #2a9d8f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 173.0592 275.228064 
+L 293.7168 275.228064 
+Q 300.5208 275.228064 300.5208 267.879744 
+L 300.5208 181.659456 
+Q 300.5208 174.311136 293.7168 174.311136 
+L 173.0592 174.311136 
+Q 166.2552 174.311136 166.2552 181.659456 
+L 166.2552 267.879744 
+Q 166.2552 275.228064 173.0592 275.228064 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #e8f4f1; stroke: #2a9d8f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 173.0592 402.598944 
+L 293.7168 402.598944 
+Q 300.5208 402.598944 300.5208 395.250624 
+L 300.5208 309.030336 
+Q 300.5208 301.682016 293.7168 301.682016 
+L 173.0592 301.682016 
+Q 166.2552 301.682016 166.2552 309.030336 
+L 166.2552 395.250624 
+Q 166.2552 402.598944 173.0592 402.598944 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #fbf4df; stroke: #b28a2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 334.0872 221.340384 
+L 441.1368 221.340384 
+Q 447.9408 221.340384 447.9408 213.992064 
+L 447.9408 103.277376 
+Q 447.9408 95.929056 441.1368 95.929056 
+L 334.0872 95.929056 
+Q 327.2832 95.929056 327.2832 103.277376 
+L 327.2832 213.992064 
+Q 327.2832 221.340384 334.0872 221.340384 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #f9ecea; stroke: #c44e52; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 334.0872 383.003424 
+L 441.1368 383.003424 
+Q 447.9408 383.003424 447.9408 375.655104 
+L 447.9408 269.839296 
+Q 447.9408 262.490976 441.1368 262.490976 
+L 334.0872 262.490976 
+Q 327.2832 262.490976 327.2832 269.839296 
+L 327.2832 375.655104 
+Q 327.2832 383.003424 334.0872 383.003424 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #f2f4f5; stroke: #8a939b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 21.1032 485.879904 
+L 441.1368 485.879904 
+Q 447.9408 485.879904 447.9408 478.531584 
+L 447.9408 433.951776 
+Q 447.9408 426.603456 441.1368 426.603456 
+L 21.1032 426.603456 
+Q 14.2992 426.603456 14.2992 433.951776 
+L 14.2992 478.531584 
+Q 14.2992 485.879904 21.1032 485.879904 
+z
+" clip-path="url(#p363f5d9516)" style="fill: #ffffff; stroke: #2a9d8f; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="79.164" y="71.09368" transform="rotate(-0 79.164 71.09368)">FACTOR X MODULE</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.7px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(33.880898 95.25316)">RVV-X recognition + activation</text>
+    <text style="font-size: 6.7px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(52.033187 102.657968)">Daboxin P binding</text>
+    <text style="font-size: 6.7px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #ffffff" transform="translate(37.63918 110.062777)">PLA2 / Kunitz FXa inhibition</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17252a" x="79.164" y="177.863342" transform="rotate(-0 79.164 177.863342)">COAGULATION / FIBRINOLYSIS</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(32.032266 201.166839)">FV and FXI · protein C / plasmin</text>
+    <text style="font-size: 6.6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(31.111359 208.383784)">Fibrinogen and matrix substrates</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 6.55px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17252a" x="79.164" y="272.614932" transform="rotate(-0 79.164 272.614932)">PLATELET / VASCULAR RECEPTORS</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.25px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(21.429137 295.1777)">Dabocetin–GPIbα · Rusvikunin–GPIIb/IIIa</text>
+    <text style="font-size: 6.25px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(50.33734 302.011928)">VR-1–VEGFR2/KDR</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 6.5px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17252a" x="79.164" y="364.700915" transform="rotate(-0 79.164 364.700915)">CROSS-SPECIES ANCHORS</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(25.071422 382.629611)">Other-viperid VWF/complement studies</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(23.170734 389.503619)">Elapid / cobra venom factor mechanisms</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17252a" x="233.388" y="75.260583" transform="rotate(-0 233.388 75.260583)">VICC CORE</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.9px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(184.680469 104.785223)">Coagulation-factor consumption</text>
+    <text style="font-size: 6.9px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(196.76625 112.411071)">Fibrinolysis perturbation</text>
+    <text style="font-size: 6.9px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(174.41618 120.036919)">Procoagulant + anticoagulant activities</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 6.65px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17252a" x="233.388" y="206.016086" transform="rotate(-0 233.388 206.016086)">PLATELET + ENDOTHELIAL RESPONSES</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(168.276687 234.322986)">Receptor modulation · VWF-string hypotheses</text>
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(171.690309 241.340976)">SELE / ICAM1 · CCL2 / TIMP1 / SERPINE1</text>
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(194.91841 248.284553)">Expression-context support</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 6.65px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17252a" x="233.388" y="333.386966" transform="rotate(-0 233.388 333.386966)">COMPLEMENT BRANCHES</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(194.73684 361.695354)">Daboia in vivo C3 depletion</text>
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(176.381867 368.638931)">Pre-antivenom anaphylatoxin generation</text>
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(179.032 375.656921)">Direct Daboia toxin cleavage: untested</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 6.9px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17252a" x="387.612" y="134.557243" transform="rotate(-0 387.612 134.557243)">THROMBOTIC MICROANGIOPATHY</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(360.282844 164.513771)">Thrombocytopenia</text>
+    <text style="font-size: 6.6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(336.073734 171.80806)">Microangiopathic hemolytic anemia</text>
+    <text style="font-size: 6.6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(349.100484 179.102349)">Microvascular organ injury</text>
+    <text style="font-size: 6.6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(387.612 186.396638)"/>
+    <text style="font-size: 6.6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(343.414687 193.71413)">TMA-stratified testing required</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 6.65px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17252a" x="387.612" y="299.682672" transform="rotate(-0 387.612 299.682672)">ACUTE KIDNEY INJURY</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(366.436238 328.283934)">Parallel routes:</text>
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(350.025953 335.22751)">Hemodynamic disturbance</text>
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(344.555527 342.342239)">Inflammatory endothelial injury</text>
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(352.324355 349.456967)">Pigment / myotoxic injury</text>
+    <text style="font-size: 6.35px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #17252a" transform="translate(360.79466 356.474957)">Direct renal toxicity</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 6.55px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #264653" x="231.12" y="446.62315" transform="rotate(-0 231.12 446.62315)">DECISIVE MEASUREMENTS</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 6.25px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #264653" transform="translate(80.854375 462.587643)">VWF antigen + multimers + ADAMTS13 activity   |   Endothelial VWF strings + shear-based platelet adhesion</text>
+    <text style="font-size: 6.25px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #264653" transform="translate(57.194219 469.590329)">Purified-toxin complement cleavage + pathway-selective inhibition + endothelial deposition   |   TMA-stratified clinical sampling</text>
+   </g>
+  </g>
+  <g id="legend_1">
+   <g id="line2d_1">
+    <path d="M 83.0615 511.2994 
+L 89.4615 511.2994 
+L 95.8615 511.2994 
+" style="fill: none; stroke: #264653; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262626" x="100.9815" y="513.5394" transform="rotate(-0 100.9815 513.5394)">Primary literature</text>
+   </g>
+   <g id="line2d_2">
+    <path d="M 156.1005 511.2994 
+L 162.5005 511.2994 
+L 168.9005 511.2994 
+" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.5"/>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262626" x="174.0205" y="513.5394" transform="rotate(-0 174.0205 513.5394)">Annotation-based</text>
+   </g>
+   <g id="line2d_3">
+    <path d="M 230.5885 511.2994 
+L 236.9885 511.2994 
+L 243.3885 511.2994 
+" style="fill: none; stroke-dasharray: 9.6,2.4,1.5,2.4; stroke-dashoffset: 0; stroke: #b28a2e; stroke-width: 1.5"/>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262626" x="248.5085" y="513.5394" transform="rotate(-0 248.5085 513.5394)">Cross-species surrogate</text>
+   </g>
+   <g id="line2d_4">
+    <path d="M 324.2635 511.2994 
+L 330.6635 511.2994 
+L 337.0635 511.2994 
+" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #8a939b; stroke-width: 1.5"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262626" x="342.1835" y="513.5394" transform="rotate(-0 342.1835 513.5394)">Untested link</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p363f5d9516">
+   <rect x="4.32" y="4.32" width="453.6" height="489.888"/>
+  </clipPath>
+ </defs>
+</svg>

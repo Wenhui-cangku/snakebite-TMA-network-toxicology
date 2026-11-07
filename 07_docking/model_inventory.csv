@@ -1,0 +1,8 @@
+﻿pair,interaction,toxin_asset,host_asset,identity_or_coverage_issue,manuscript_disposition
+P1,RVV-X - factor X/Xa,2E3X,2W26,Activated FXa model does not reproduce zymogen activation,Orientation-level context only; no evidence upgrade
+P2,RVV-V gamma - factor V,3S9C chain A,7KVE chain B; 3S9C chain B fragment,Fragment numbering systems differ between TITLE and UNP mapping,3S9C co-complex is the experimental anchor; docking scores are pose descriptors
+P3,daborhagin-K - fibrinogen,AF-B8K1W0,3GHG,The alpha-C cleavage region is outside the experimentally covered structure,Proxy-site structural context only
+P4,snaclec - GP1BA,AF-Q38L02,1M10,Receptor chain misidentified: chain A is VWF A1; chain B is GP1BA,Withdrawn; excluded from all structural support and figures
+P5,PLA2 VRV-PL-VIIIa - FXa,1KPM,2W26,No independent site-specific control establishes the model,Descriptive interface pose only
+P6,DrKIn-II - plasmin,AF-H6VC06,1QRZ,"1QRZ is plasminogen, not activated plasmin",Orientation-level context only; literature edge is not upgraded
+P7,svVEGF - VEGFR2/KDR,1WQ9,3V2A chain R; VEGF-A chain A template,Template-dependent; HDock ligand RMSD = 21.95 Å,Structural context; no claim of exact template-pose reproduction

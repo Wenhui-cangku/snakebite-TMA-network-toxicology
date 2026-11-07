@@ -1,0 +1,12 @@
+﻿dataset,sample,group,platform,biological_context
+GSE121297,GSM3430994,Static control,Affymetrix HG-U133 Plus 2.0 (GPL570),Human umbilical vein endothelial cells
+GSE121297,GSM3430995,Static control,Affymetrix HG-U133 Plus 2.0 (GPL570),Human umbilical vein endothelial cells
+GSE121297,GSM3430996,Static control,Affymetrix HG-U133 Plus 2.0 (GPL570),Human umbilical vein endothelial cells
+GSE121297,GSM3430997,Static rhodocetin-alpha-beta,Affymetrix HG-U133 Plus 2.0 (GPL570),Human umbilical vein endothelial cells exposed to a Calloselasma rhodostoma snaclec
+GSE121297,GSM3430998,Static rhodocetin-alpha-beta,Affymetrix HG-U133 Plus 2.0 (GPL570),Human umbilical vein endothelial cells exposed to a Calloselasma rhodostoma snaclec
+GSE121297,GSM3430999,Static rhodocetin-alpha-beta,Affymetrix HG-U133 Plus 2.0 (GPL570),Human umbilical vein endothelial cells exposed to a Calloselasma rhodostoma snaclec
+GSE248215,Control-1,Control,NanoString Fibrosis V2,Mouse skeletal muscle
+GSE248215,Control-2,Control,NanoString Fibrosis V2,Mouse skeletal muscle
+GSE248215,DR-A-24h,D. russelii venom 24 h,NanoString Fibrosis V2,Mouse skeletal muscle after in vivo venom exposure
+GSE248215,DR-B-24h,D. russelii venom 24 h,NanoString Fibrosis V2,Mouse skeletal muscle after in vivo venom exposure
+GSE248215,DR-C-24h,D. russelii venom 24 h,NanoString Fibrosis V2,Mouse skeletal muscle after in vivo venom exposure
