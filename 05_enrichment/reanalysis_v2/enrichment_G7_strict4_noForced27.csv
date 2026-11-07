@@ -1,0 +1,166 @@
+﻿library,term,overlap,input_n,term_n_in_bg,bg_n,p,BH_q,overlap_genes
+GO_Biological_Process_2023,Blood Vessel Morphogenesis (GO:0048514),2,4,15,1015,0.001203385261260917,1.0,COL4A1;KDR
+GO_Biological_Process_2023,Branching Morphogenesis Of An Epithelial Tube (GO:0048754),2,4,16,1015,0.0013734736157104757,1.0,COL4A1;KDR
+Reactome_2022,Integrin Cell Surface Interactions R-HSA-216083,2,4,16,1015,0.0013734736157104757,1.0,COL4A1;KDR
+Reactome_2022,Extracellular Matrix Organization R-HSA-1474244,2,4,36,1015,0.0070207394710845765,1.0,COL4A1;KDR
+GO_Biological_Process_2023,Positive Regulation Of Cell-Substrate Junction Organization (GO:0150117),1,4,3,1015,0.011787704833816278,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Focal Adhesion Assembly (GO:0051894),1,4,3,1015,0.011787704833816278,1.0,KDR
+GO_Biological_Process_2023,Angiogenesis Involved In Wound Healing (GO:0060055),1,4,3,1015,0.011787704833816278,1.0,KDR
+GO_Biological_Process_2023,Cell Migration Involved In Sprouting Angiogenesis (GO:0002042),1,4,3,1015,0.011787704833816278,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Positive Chemotaxis (GO:0050926),1,4,3,1015,0.011787704833816278,1.0,KDR
+GO_Biological_Process_2023,Vascular Wound Healing (GO:0061042),1,4,3,1015,0.011787704833816278,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Mitochondrial Depolarization (GO:0051900),1,4,3,1015,0.011787704833816278,1.0,KDR
+Reactome_2022,Removal Of Aminoterminal Propeptides From Gamma-Carboxylated Proteins R-HSA-159782,1,4,3,1015,0.011787704833816278,1.0,PROS1
+Reactome_2022,"Gamma-carboxylation, Transport, And Amino-Terminal Cleavage Of Proteins R-HSA-159854",1,4,3,1015,0.011787704833816278,1.0,PROS1
+Reactome_2022,Gamma-carboxylation Of Protein Precursors R-HSA-159740,1,4,3,1015,0.011787704833816278,1.0,PROS1
+GO_Biological_Process_2023,Positive Regulation Of Cell Migration By Vascular Endothelial Growth Factor Signaling Pathway (GO:0038089),1,4,3,1015,0.011787704833816278,1.0,KDR
+GO_Biological_Process_2023,Plasminogen Activation (GO:0031639),1,4,3,1015,0.011787704833816278,1.0,F11
+Reactome_2022,Transport Of Gamma-Carboxylated Protein Precursors From Endoplasmic Reticulum To Golgi Apparatus R-HSA-159763,1,4,3,1015,0.011787704833816278,1.0,PROS1
+KEGG_2021_Human,Focal adhesion,2,4,51,1015,0.013924057593240618,1.0,COL4A1;KDR
+GO_Biological_Process_2023,Blood Vessel Endothelial Cell Migration (GO:0043534),1,4,4,1015,0.01569368228505896,1.0,KDR
+Reactome_2022,"Gamma Carboxylation, Hypusine Formation And Arylsulfatase Activation R-HSA-163841",1,4,4,1015,0.01569368228505896,1.0,PROS1
+KEGG_2021_Human,Complement and coagulation cascades,2,4,57,1015,0.017288295635004412,1.0,F11;PROS1
+Reactome_2022,Collagen Chain Trimerization R-HSA-8948216,1,4,5,1015,0.019588069298749528,1.0,COL4A1
+GO_Biological_Process_2023,Calcium-Mediated Signaling Using Intracellular Calcium Source (GO:0035584),1,4,5,1015,0.019588069298749528,1.0,KDR
+Reactome_2022,VEGFR2 Mediated Cell Proliferation R-HSA-5218921,1,4,5,1015,0.019588069298749528,1.0,KDR
+Reactome_2022,VEGF Binds To VEGFR Leading To Receptor Dimerization R-HSA-195399,1,4,5,1015,0.019588069298749528,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Mitochondrial Fission (GO:0090140),1,4,5,1015,0.019588069298749528,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Macroautophagy (GO:0016239),1,4,5,1015,0.019588069298749528,1.0,KDR
+GO_Biological_Process_2023,ERK1 And ERK2 Cascade (GO:0070371),1,4,5,1015,0.019588069298749528,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Endothelial Cell Chemotaxis (GO:2001028),1,4,6,1015,0.023470888826279967,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Cell-Matrix Adhesion (GO:0001954),1,4,6,1015,0.023470888826279967,1.0,KDR
+GO_Biological_Process_2023,Branching Involved In Blood Vessel Morphogenesis (GO:0001569),1,4,6,1015,0.023470888826279967,1.0,KDR
+Reactome_2022,Collagen Biosynthesis And Modifying Enzymes R-HSA-1650814,1,4,6,1015,0.023470888826279967,1.0,COL4A1
+GO_Biological_Process_2023,Vascular Endothelial Growth Factor Signaling Pathway (GO:0038084),1,4,6,1015,0.023470888826279967,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Cell Migration Involved In Sprouting Angiogenesis (GO:0090050),1,4,7,1015,0.027342163796270788,1.0,KDR
+GO_Biological_Process_2023,Vascular Endothelial Growth Factor Receptor Signaling Pathway (GO:0048010),1,4,7,1015,0.027342163796270788,1.0,KDR
+GO_Biological_Process_2023,Peptidyl-Tyrosine Autophosphorylation (GO:0038083),1,4,7,1015,0.027342163796270788,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Positive Chemotaxis (GO:0050927),1,4,7,1015,0.027342163796270788,1.0,KDR
+Reactome_2022,Intrinsic Pathway Of Fibrin Clot Formation R-HSA-140837,1,4,7,1015,0.027342163796270788,1.0,PROS1
+Reactome_2022,NCAM1 Interactions R-HSA-419037,1,4,7,1015,0.027342163796270788,1.0,COL4A1
+GO_Biological_Process_2023,Embryonic Hemopoiesis (GO:0035162),1,4,7,1015,0.027342163796270788,1.0,KDR
+Reactome_2022,Signaling By Receptor Tyrosine Kinases R-HSA-9006934,2,4,76,1015,0.030080364261544958,1.0,COL4A1;KDR
+Reactome_2022,Scavenging By Class A Receptors R-HSA-3000480,1,4,8,1015,0.031201917114567847,1.0,COL4A1
+Reactome_2022,Signaling By PDGFR In Disease R-HSA-9671555,1,4,8,1015,0.031201917114567847,1.0,KDR
+Reactome_2022,Common Pathway Of Fibrin Clot Formation R-HSA-140875,1,4,8,1015,0.031201917114567847,1.0,PROS1
+GO_Biological_Process_2023,Protein Kinase B Signaling (GO:0043491),1,4,8,1015,0.031201917114567847,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Macroautophagy (GO:0016241),1,4,8,1015,0.031201917114567847,1.0,KDR
+GO_Biological_Process_2023,Cellular Response To Vascular Endothelial Growth Factor Stimulus (GO:0035924),1,4,8,1015,0.031201917114567847,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Nitric-Oxide Synthase Biosynthetic Process (GO:0051770),1,4,8,1015,0.031201917114567847,1.0,KDR
+Reactome_2022,Collagen Formation R-HSA-1474290,1,4,9,1015,0.03505017166426315,1.0,COL4A1
+GO_Biological_Process_2023,Regulation Of Focal Adhesion Assembly (GO:0051893),1,4,9,1015,0.03505017166426315,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Nitric-Oxide Synthase Biosynthetic Process (GO:0051769),1,4,9,1015,0.03505017166426315,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Fibrinolysis (GO:0051917),1,4,9,1015,0.03505017166426315,1.0,F11
+GO_Biological_Process_2023,Positive Regulation Of Cell Junction Assembly (GO:1901890),1,4,9,1015,0.03505017166426315,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Mitochondrion Organization (GO:0010822),1,4,9,1015,0.03505017166426315,1.0,KDR
+Reactome_2022,Assembly Of Collagen Fibrils And Other Multimeric Structures R-HSA-2022090,1,4,9,1015,0.03505017166426315,1.0,COL4A1
+KEGG_2021_Human,PI3K-Akt signaling pathway,2,4,83,1015,0.03557230490160959,1.0,COL4A1;KDR
+GO_Biological_Process_2023,Negative Regulation Of Endothelial Cell Apoptotic Process (GO:2000352),1,4,10,1015,0.03888695030573539,1.0,KDR
+GO_Biological_Process_2023,Zymogen Activation (GO:0031638),1,4,10,1015,0.03888695030573539,1.0,F11
+GO_Biological_Process_2023,External Encapsulating Structure Organization (GO:0045229),1,4,10,1015,0.03888695030573539,1.0,COL4A1
+GO_Biological_Process_2023,Extracellular Structure Organization (GO:0043062),1,4,10,1015,0.03888695030573539,1.0,COL4A1
+GO_Biological_Process_2023,Regulation Of Cell Migration Involved In Sprouting Angiogenesis (GO:0090049),1,4,10,1015,0.03888695030573539,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Chemotaxis (GO:0050921),1,4,11,1015,0.04271227587660032,1.0,KDR
+GO_Biological_Process_2023,Epithelial Tube Morphogenesis (GO:0060562),1,4,11,1015,0.04271227587660032,1.0,COL4A1
+GO_Biological_Process_2023,Vasculogenesis (GO:0001570),1,4,11,1015,0.04271227587660032,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Autophagy (GO:0010508),1,4,11,1015,0.04271227587660032,1.0,KDR
+GO_Biological_Process_2023,Epithelial Cell Differentiation (GO:0030855),1,4,12,1015,0.046526171191828246,1.0,KDR
+GO_Biological_Process_2023,Sprouting Angiogenesis (GO:0002040),1,4,12,1015,0.046526171191828246,1.0,KDR
+KEGG_2021_Human,Protein digestion and absorption,1,4,13,1015,0.05032865904356499,1.0,COL4A1
+GO_Biological_Process_2023,Brain Development (GO:0007420),1,4,13,1015,0.05032865904356499,1.0,COL4A1
+GO_Biological_Process_2023,Negative Regulation Of Epithelial Cell Apoptotic Process (GO:1904036),1,4,13,1015,0.05032865904356499,1.0,KDR
+GO_Biological_Process_2023,Negative Regulation Of Blood Coagulation (GO:0030195),1,4,14,1015,0.05411976220104523,1.0,F11
+Reactome_2022,NCAM Signaling For Neurite Out-Growth R-HSA-375165,1,4,14,1015,0.05411976220104523,1.0,COL4A1
+KEGG_2021_Human,VEGF signaling pathway,1,4,15,1015,0.05789950341110217,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Endothelial Cell Proliferation (GO:0001938),1,4,15,1015,0.05789950341110217,1.0,KDR
+Reactome_2022,Binding And Uptake Of Ligands By Scavenger Receptors R-HSA-2173782,1,4,15,1015,0.05789950341110217,1.0,COL4A1
+GO_Biological_Process_2023,Positive Regulation Of Blood Vessel Endothelial Cell Migration (GO:0043536),1,4,15,1015,0.05789950341110217,1.0,KDR
+Reactome_2022,VEGFA-VEGFR2 Pathway R-HSA-4420097,1,4,15,1015,0.05789950341110217,1.0,KDR
+Reactome_2022,Formation Of Fibrin Clot (Clotting Cascade) R-HSA-140877,1,4,15,1015,0.05789950341110217,1.0,PROS1
+GO_Biological_Process_2023,Regulation Of Endothelial Cell Apoptotic Process (GO:2000351),1,4,16,1015,0.06166790539738357,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Blood Vessel Endothelial Cell Migration (GO:0043535),1,4,16,1015,0.06166790539738357,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Endothelial Cell Proliferation (GO:0001936),1,4,17,1015,0.06542499086135123,1.0,KDR
+GO_Biological_Process_2023,Calcium-Mediated Signaling (GO:0019722),1,4,17,1015,0.06542499086135123,1.0,KDR
+GO_Biological_Process_2023,Extracellular Matrix Organization (GO:0030198),1,4,17,1015,0.06542499086135123,1.0,COL4A1
+GO_Biological_Process_2023,Embryonic Organ Development (GO:0048568),1,4,17,1015,0.06542499086135123,1.0,KDR
+Reactome_2022,Signaling By VEGF R-HSA-194138,1,4,18,1015,0.06917078248105306,1.0,KDR
+GO_Biological_Process_2023,MAPK Cascade (GO:0000165),1,4,18,1015,0.06917078248105306,1.0,KDR
+Reactome_2022,Signaling By PDGF R-HSA-186797,1,4,18,1015,0.06917078248105306,1.0,COL4A1
+GO_Biological_Process_2023,Regulation Of Endothelial Cell Migration (GO:0010594),1,4,20,1015,0.0766285747882778,1.0,KDR
+KEGG_2021_Human,ECM-receptor interaction,1,4,21,1015,0.08034062071882862,1.0,COL4A1
+GO_Biological_Process_2023,Positive Regulation Of Epithelial Cell Proliferation (GO:0050679),1,4,21,1015,0.08034062071882862,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Vasculature Development (GO:1904018),1,4,22,1015,0.084041463291321,1.0,KDR
+GO_Biological_Process_2023,Epithelium Development (GO:0060429),1,4,22,1015,0.084041463291321,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Epithelial Cell Migration (GO:0010634),1,4,23,1015,0.087731125070694,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Endothelial Cell Migration (GO:0010595),1,4,25,1015,0.09507699639441053,1.0,KDR
+GO_Biological_Process_2023,Peptidyl-Tyrosine Modification (GO:0018212),1,4,25,1015,0.09507699639441053,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Developmental Process (GO:0051094),1,4,25,1015,0.09507699639441053,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Kinase Activity (GO:0043549),1,4,25,1015,0.09507699639441053,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Kinase Activity (GO:0033674),1,4,25,1015,0.09507699639441053,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Angiogenesis (GO:0045766),1,4,26,1015,0.09873325095434732,1.0,KDR
+KEGG_2021_Human,Small cell lung cancer,1,4,26,1015,0.09873325095434732,1.0,COL4A1
+GO_Biological_Process_2023,Positive Regulation Of Phosphatidylinositol 3-Kinase Signaling (GO:0014068),1,4,27,1015,0.10237841475244273,1.0,KDR
+GO_Biological_Process_2023,Hemopoiesis (GO:0030097),1,4,27,1015,0.10237841475244273,1.0,KDR
+Reactome_2022,Cell Surface Interactions At Vascular Wall R-HSA-202733,1,4,27,1015,0.10237841475244273,1.0,PROS1
+GO_Biological_Process_2023,Central Nervous System Development (GO:0007417),1,4,28,1015,0.10601251023926216,1.0,COL4A1
+GO_Biological_Process_2023,Positive Regulation Of Macromolecule Biosynthetic Process (GO:0010557),1,4,29,1015,0.10963555984313475,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Phosphatidylinositol 3-Kinase Signaling (GO:0014066),1,4,29,1015,0.10963555984313475,1.0,KDR
+Reactome_2022,Response To Elevated Platelet Cytosolic Ca2+ R-HSA-76005,1,4,30,1015,0.11324758596946898,1.0,PROS1
+Reactome_2022,Platelet Degranulation R-HSA-114608,1,4,30,1015,0.11324758596946898,1.0,PROS1
+GO_Biological_Process_2023,Peptidyl-Tyrosine Phosphorylation (GO:0018108),1,4,30,1015,0.11324758596946898,1.0,KDR
+GO_Biological_Process_2023,Cellular Response To Growth Factor Stimulus (GO:0071363),1,4,30,1015,0.11324758596946898,1.0,KDR
+Reactome_2022,Regulation Of Complement Cascade R-HSA-977606,1,4,31,1015,0.11684861100112075,1.0,PROS1
+KEGG_2021_Human,Fluid shear stress and atherosclerosis,1,4,32,1015,0.12043865729771577,1.0,KDR
+GO_Biological_Process_2023,Protein Autophosphorylation (GO:0046777),1,4,32,1015,0.12043865729771577,1.0,KDR
+KEGG_2021_Human,Relaxin signaling pathway,1,4,33,1015,0.12401774719695532,1.0,COL4A1
+GO_Biological_Process_2023,Positive Regulation Of Transferase Activity (GO:0051347),1,4,34,1015,0.127585903012692,1.0,KDR
+KEGG_2021_Human,Calcium signaling pathway,1,4,34,1015,0.127585903012692,1.0,KDR
+KEGG_2021_Human,Amoebiasis,1,4,34,1015,0.127585903012692,1.0,COL4A1
+GO_Biological_Process_2023,Positive Regulation Of Cell Differentiation (GO:0045597),1,4,35,1015,0.131143147037254,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Intracellular Signal Transduction (GO:1902531),1,4,35,1015,0.131143147037254,1.0,KDR
+GO_Biological_Process_2023,Enzyme-Linked Receptor Protein Signaling Pathway (GO:0007167),1,4,37,1015,0.13822498876477657,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Angiogenesis (GO:0045765),1,4,38,1015,0.14174963093740597,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Cell Motility (GO:2000147),1,4,39,1015,0.14526345025807288,1.0,KDR
+Reactome_2022,Complement Cascade R-HSA-166658,1,4,39,1015,0.14526345025807288,1.0,PROS1
+GO_Biological_Process_2023,Positive Regulation Of Protein Modification Process (GO:0031401),1,4,42,1015,0.15574019277301995,1.0,KDR
+GO_Biological_Process_2023,Negative Regulation Of Macromolecule Metabolic Process (GO:0010605),1,4,42,1015,0.15574019277301995,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of ERK1 And ERK2 Cascade (GO:0070374),1,4,43,1015,0.15921094223785123,1.0,KDR
+KEGG_2021_Human,AGE-RAGE signaling pathway in diabetic complications,1,4,43,1015,0.15921094223785123,1.0,COL4A1
+GO_Biological_Process_2023,Regulation Of MAPK Cascade (GO:0043408),1,4,45,1015,0.16612032666196938,1.0,KDR
+KEGG_2021_Human,Rap1 signaling pathway,1,4,45,1015,0.16612032666196938,1.0,KDR
+GO_Biological_Process_2023,Negative Regulation Of Gene Expression (GO:0010629),1,4,47,1015,0.17298703872721055,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Protein Phosphorylation (GO:0001932),1,4,50,1015,0.18320748118234875,1.0,KDR
+KEGG_2021_Human,Ras signaling pathway,1,4,50,1015,0.18320748118234875,1.0,KDR
+Reactome_2022,Axon Guidance R-HSA-422475,1,4,51,1015,0.18659314965415422,1.0,COL4A1
+GO_Biological_Process_2023,Positive Regulation Of Cell Migration (GO:0030335),1,4,51,1015,0.18659314965415422,1.0,KDR
+Reactome_2022,Vesicle-mediated Transport R-HSA-5653656,1,4,52,1015,0.18996828181323702,1.0,COL4A1
+Reactome_2022,Nervous System Development R-HSA-9675108,1,4,52,1015,0.18996828181323702,1.0,COL4A1
+GO_Biological_Process_2023,Positive Regulation Of Phosphorylation (GO:0042327),1,4,53,1015,0.19333289954200789,1.0,KDR
+GO_Biological_Process_2023,Regulation Of ERK1 And ERK2 Cascade (GO:0070372),1,4,54,1015,0.19668702469992658,1.0,KDR
+KEGG_2021_Human,MAPK signaling pathway,1,4,55,1015,0.20003067912376518,1.0,KDR
+Reactome_2022,Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202,1,4,55,1015,0.20003067912376518,1.0,KDR
+Reactome_2022,"Platelet Activation, Signaling And Aggregation R-HSA-76002",1,4,56,1015,0.20336388462725769,1.0,PROS1
+GO_Biological_Process_2023,Regulation Of Cell Migration (GO:0030334),1,4,57,1015,0.20668666300210636,1.0,KDR
+KEGG_2021_Human,Human papillomavirus infection,1,4,58,1015,0.20999903601639414,1.0,COL4A1
+KEGG_2021_Human,Proteoglycans in cancer,1,4,59,1015,0.21330102541671417,1.0,KDR
+GO_Biological_Process_2023,Transmembrane Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),1,4,62,1015,0.22314490904725326,1.0,KDR
+GO_Biological_Process_2023,Negative Regulation Of Programmed Cell Death (GO:0043069),1,4,63,1015,0.2264055809922044,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of MAPK Cascade (GO:0043410),1,4,68,1015,0.24255524416258173,1.0,KDR
+GO_Biological_Process_2023,Protein Phosphorylation (GO:0006468),1,4,71,1015,0.25212286070843487,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Protein Phosphorylation (GO:0001934),1,4,72,1015,0.25529183163747465,1.0,KDR
+Reactome_2022,Signal Transduction R-HSA-162582,2,4,254,1015,0.2619263763512818,1.0,COL4A1;KDR
+GO_Biological_Process_2023,Negative Regulation Of Apoptotic Process (GO:0043066),1,4,83,1015,0.28948982652963856,1.0,KDR
+GO_Biological_Process_2023,Positive Regulation Of Cell Population Proliferation (GO:0008284),1,4,86,1015,0.2986085686952955,1.0,KDR
+Reactome_2022,Developmental Biology R-HSA-1266738,1,4,93,1015,0.31954417704892557,1.0,COL4A1
+GO_Biological_Process_2023,Positive Regulation Of Cellular Process (GO:0048522),1,4,93,1015,0.31954417704892557,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Apoptotic Process (GO:0042981),1,4,95,1015,0.3254387331332144,1.0,KDR
+Reactome_2022,Hemostasis R-HSA-109582,1,4,98,1015,0.3342086568230426,1.0,PROS1
+GO_Biological_Process_2023,Positive Regulation Of Intracellular Signal Transduction (GO:1902533),1,4,101,1015,0.3428927884598475,1.0,KDR
+Reactome_2022,Post-translational Protein Modification R-HSA-597592,1,4,111,1015,0.3712274781953448,1.0,PROS1
+GO_Biological_Process_2023,Regulation Of Cell Population Proliferation (GO:0042127),1,4,119,1015,0.39322725133163183,1.0,KDR
+GO_Biological_Process_2023,Regulation Of Gene Expression (GO:0010468),1,4,127,1015,0.41464460817113574,1.0,KDR
+KEGG_2021_Human,Pathways in cancer,1,4,130,1015,0.422528082495596,1.0,COL4A1
+Reactome_2022,Metabolism Of Proteins R-HSA-392499,1,4,133,1015,0.430331657421591,1.0,PROS1
+Reactome_2022,Innate Immune System R-HSA-168249,1,4,173,1015,0.5270062751141087,1.0,PROS1
+Reactome_2022,Disease R-HSA-1643685,1,4,245,1015,0.669417626216063,1.0,KDR
+Reactome_2022,Immune System R-HSA-168256,1,4,282,1015,0.7286303105396157,1.0,PROS1

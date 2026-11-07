@@ -1,0 +1,11 @@
+﻿gene_symbol,degree,MCC,EPC,biological_axis,strict_core_target,interpretation
+F2,25,1506956,52.22,Coagulation-fibrinolysis,False,Descriptive three-ranking intersection; not a causal hub claim
+F3,22,1502082,52.22,,False,Descriptive three-ranking intersection; not a causal hub claim
+ALB,17,12158,52.22,,False,Descriptive three-ranking intersection; not a causal hub claim
+F8,16,1451808,52.22,,False,Descriptive three-ranking intersection; not a causal hub claim
+F7,14,1493280,52.22,,False,Descriptive three-ranking intersection; not a causal hub claim
+PLG,21,20030,52.22,Coagulation-fibrinolysis,True,Descriptive three-ranking intersection; not a causal hub claim
+PROC,18,1130700,52.22,Coagulation-fibrinolysis,True,Descriptive three-ranking intersection; not a causal hub claim
+FGA,16,13230,52.22,Coagulation-fibrinolysis,True,Descriptive three-ranking intersection; not a causal hub claim
+F10,15,1497144,52.22,Coagulation-fibrinolysis,True,Descriptive three-ranking intersection; not a causal hub claim
+F5,14,725838,52.22,Coagulation-fibrinolysis,True,Descriptive three-ranking intersection; not a causal hub claim

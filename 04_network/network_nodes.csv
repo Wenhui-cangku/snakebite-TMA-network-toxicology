@@ -1,0 +1,55 @@
+﻿gene_symbol,degree,strict_core_target,descriptive_hub,network_role
+AHSG,11,False,False,STRING-expanded node
+ALB,17,False,True,STRING-expanded node
+ANXA2,7,False,False,STRING-expanded node
+AXL,2,False,False,STRING-expanded node
+C4A,6,False,False,STRING-expanded node
+C4B,4,False,False,STRING-expanded node
+C4BPB,3,False,False,STRING-expanded node
+CD44,13,False,False,STRING-expanded node
+CFTR,1,False,False,STRING-expanded node
+COL4A1,5,True,False,Strict-core and expanded-network node
+ENO1,3,False,False,STRING-expanded node
+F10,15,True,True,Strict-core and expanded-network node
+F11,13,True,False,Strict-core and expanded-network node
+F12,12,False,False,STRING-expanded node
+F2,25,False,True,STRING-expanded node
+F2R,10,False,False,STRING-expanded node
+F3,22,False,True,STRING-expanded node
+F5,14,True,True,Strict-core and expanded-network node
+F7,14,False,True,STRING-expanded node
+F8,16,False,True,STRING-expanded node
+FGA,16,True,True,Strict-core and expanded-network node
+FGF2,8,False,False,STRING-expanded node
+FGG,13,False,False,STRING-expanded node
+FLNA,11,False,False,STRING-expanded node
+GP1BA,16,True,False,Strict-core and expanded-network node
+GP1BB,7,False,False,STRING-expanded node
+GP6,8,False,False,STRING-expanded node
+GP9,9,False,False,STRING-expanded node
+ITGA1,8,False,False,STRING-expanded node
+ITGA2B,20,False,False,STRING-expanded node
+ITGAM,9,False,False,STRING-expanded node
+ITGB2,10,False,False,STRING-expanded node
+ITGB3,19,False,False,STRING-expanded node
+KDR,9,True,False,Strict-core and expanded-network node
+MTHFR,3,False,False,STRING-expanded node
+PDGFC,4,False,False,STRING-expanded node
+PGF,5,False,False,STRING-expanded node
+PLAT,13,False,False,STRING-expanded node
+PLG,21,True,True,Strict-core and expanded-network node
+PROC,18,True,True,Strict-core and expanded-network node
+PROCR,10,False,False,STRING-expanded node
+PROS1,10,True,False,Strict-core and expanded-network node
+SELP,14,False,False,STRING-expanded node
+SERPINA3,2,False,False,STRING-expanded node
+SERPINC1,25,False,False,STRING-expanded node
+SERPINE1,13,False,False,STRING-expanded node
+SERPINF2,13,False,False,STRING-expanded node
+SRC,13,False,False,STRING-expanded node
+TFPI,16,False,False,STRING-expanded node
+THBD,17,False,False,STRING-expanded node
+THBS1,15,False,False,STRING-expanded node
+VEGFC,4,False,False,STRING-expanded node
+VTN,23,False,False,STRING-expanded node
+VWF,27,False,False,STRING-expanded node

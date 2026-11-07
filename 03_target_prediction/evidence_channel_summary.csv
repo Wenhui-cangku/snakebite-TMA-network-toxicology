@@ -1,0 +1,6 @@
+﻿evidence_channel,edge_rows,host_targets,toxin_records,role
+primary_literature,33,15,17,Primary curated interaction set
+family_level,4,2,3,Annotation or inference context; excluded from primary-literature count
+uniprot_annotation_no_pmid,11,2,8,Annotation or inference context; excluded from primary-literature count
+by_similarity,1,1,1,Annotation or inference context; excluded from primary-literature count
+STRING_neighborhood,398,105,25,Annotation or inference context; excluded from primary-literature count

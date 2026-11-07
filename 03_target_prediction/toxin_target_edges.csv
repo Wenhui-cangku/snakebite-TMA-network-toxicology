@@ -1,448 +1,448 @@
-﻿toxin_id,toxin_ac,family,target_symbol,evidence_type,evidence_detail,pmids,score,下载日期
-T041,P59071,PLA2,F10,literature,结合 FXa 抑制凝血酶原酶活性 (IC50=130 nM),18062812,1.0,2026-09-24
-T027,C0HK16,PLA2,F10,literature,结合 FX/FXa 发挥抗凝活性 (UniProt 审编),27089306,1.0,2026-09-24
-PLA2_family,PLA2_family,PLA2,F10,literature,家族级文献: Daboxin P（印度 D. russelii 主要 PLA2）靶向 FX 抗凝,27089306,0.6,2026-09-24
-PLA2_family,PLA2_family,PLA2,F10,literature,家族级文献: 酸性 RVVA-PLA2-I 抗凝（纯化自 D. russelii）,21356226,0.6,2026-09-24
-T059,Q4PRD1,snaclec/CTL,F10,literature,RVV-X 轻链1: 识别结合 FX Gla 域 (Ca2+ 依赖),18616470;1629211;8144654;8639544;11910189;18060879,1.0,2026-09-24
-T059,Q4PRD1,snaclec/CTL,F9,literature,RVV-X 轻链1: 识别结合 FIX Gla 域,18616470;1629211;8144654;8639544;11910189;18060879,1.0,2026-09-24
-T060,Q4PRD2,snaclec/CTL,F10,literature,RVV-X 轻链2: 识别结合 FX Gla 域 (Ca2+ 依赖),18616470;8144654;11910189;18060879,1.0,2026-09-24
-T060,Q4PRD2,snaclec/CTL,F9,literature,RVV-X 轻链2: 识别结合 FIX Gla 域,18616470;8144654;11910189;18060879,1.0,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,F10,literature,RVV-X 重链: 切割 Arg-Ile 键激活 FX,37092784;18616470;1629211;8144654;8639544;18060879;11910189,1.0,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,F9,literature,RVV-X 重链: 切割 Arg-Ile 键激活 FIX,18616470;1629211;8144654;8639544;18060879;11910189,1.0,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,PROS1,literature,RVV-X 重链: 特异性切割激活 protein S,18616470;1629211;8144654;8639544;18060879;11910189,1.0,2026-09-24
-T059,Q4PRD1,snaclec/CTL,PROS1,literature,RVV-X 复合体: 切割激活 protein S,18616470;1629211;8144654;8639544;11910189;18060879,0.8,2026-09-24
-T060,Q4PRD2,snaclec/CTL,PROS1,literature,RVV-X 复合体: 切割激活 protein S,18616470;8144654;11910189;18060879,0.8,2026-09-24
-T052,Q38L02,snaclec/CTL,GP1BA,literature,"结合血小板 GPIbα, 抑制瑞斯托霉素诱导聚集",16330060,1.0,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,FGA,literature,daborhagin-K (P-III 出血性 SVMP): 水解纤维蛋白原 Aα 链,18554518;28042812,1.0,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,FN1,literature,daborhagin-M/K: 体外水解纤维连接蛋白,18554518,1.0,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,COL4A1,literature,daborhagin-M/K: 体外水解 IV 型胶原,18554518,1.0,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,FGA,literature,russelysin = daborhagin-K 同一蛋白 (GenBank 补充条目): 水解纤维蛋白原 Aα 链,18554518;28042812,0.9,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,FN1,literature,russelysin: 水解纤维连接蛋白,18554518,0.9,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,COL4A1,literature,russelysin: 水解 IV 型胶原,18554518,0.9,2026-09-24
-T003,A0A2H4Z2X6,SVMP/disintegrin,FN1,literature,家族级旁证: RVV 来源 SPAD-1 (HGD-disintegrin) 破坏纤维连接蛋白基质黏附,36423674,0.6,2026-09-24
-T004,A0A2H4Z2Y1,SVMP/disintegrin,FN1,literature,家族级旁证: RVV 来源 SPAD-1 (HGD-disintegrin) 破坏纤维连接蛋白基质黏附,36423674,0.6,2026-09-24
-T038,P18965,SVSP,F5,literature,RVV-V γ: 切割人 FV Arg1545-Ser1546 激活 (Ca2+ 非依赖),21640745;3053712;20054136;21871889;28732041,1.0,2026-09-24
-T037,P18964,SVSP,F5,literature,RVV-V: 切割人 FV Arg1545-Ser1546 激活,21640745;21871889;28732041,1.0,2026-09-24
-T028,E5L0E3,SVSP,FGA,literature,"SVSP: 降解纤维蛋白原 α 链, 强酪蛋白水解活性",21640745,1.0,2026-09-24
-T029,E5L0E4,SVSP,FGB,literature,SVSP: 水解纤维蛋白原 β 链,21640745,1.0,2026-09-24
-T034,H6VC06,Kunitz抑制剂,PLG,literature,抑制纤溶酶 90% (Ki=0.19 nM),22416129;23999090,1.0,2026-09-24
-T034,H6VC06,Kunitz抑制剂,F11,literature,抑制 FXIa 37% (Ki=6 nM),22416129;23999090,1.0,2026-09-24
-T034,H6VC06,Kunitz抑制剂,F10,literature,抑制 FXa 20%,22416129;23999090,1.0,2026-09-24
-T034,H6VC06,Kunitz抑制剂,PRSS1,literature,抑制胰蛋白酶 70%,22416129;23999090,1.0,2026-09-24
-T033,H6VC05,Kunitz抑制剂,PROC,literature,抑制活化蛋白 C (APC) IC50=3.5 nM (肝素存在),22416129,1.0,2026-09-24
-T033,H6VC05,Kunitz抑制剂,F11,literature,抑制 FXIa 40% (肝素存在),22416129,1.0,2026-09-24
-T033,H6VC05,Kunitz抑制剂,PLG,literature,抑制纤溶酶 70% (肝素存在),22416129,1.0,2026-09-24
-T033,H6VC05,Kunitz抑制剂,PRSS1,literature,抑制胰蛋白酶 45% (肝素存在),22416129,1.0,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,CTRB1,literature,抑制糜蛋白酶 (Ki=4.77 nM),23428970,1.0,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,PRSS1,literature,抑制胰蛋白酶,nan,1.0,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,PRSS1,literature,抑制胰蛋白酶,nan,1.0,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,PRSS1,literature,抑制胰蛋白酶,nan,1.0,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,PRSS1,literature,抑制胰蛋白酶,nan,1.0,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,PRSS1,literature,抑制胰蛋白酶,nan,1.0,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,PLG,literature,抑制纤溶酶与胰蛋白酶,nan,1.0,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,PRSS1,literature,抑制纤溶酶与胰蛋白酶,nan,1.0,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,PLG,literature,抑制纤溶酶与胰蛋白酶,nan,1.0,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,PRSS1,literature,抑制纤溶酶与胰蛋白酶,nan,1.0,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,PLG,literature,抑制纤溶酶与胰蛋白酶,nan,1.0,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,PRSS1,literature,抑制纤溶酶与胰蛋白酶,nan,1.0,2026-09-24
-T042,P67861,VEGF,KDR,literature,经 VEGFR-2 (KDR) 信号诱导血管生成; NO 介导低血压,19208624;14600159;15542594,1.0,2026-09-24
-T036,P0DL42,VEGF,KDR,literature,经 VEGFR-2 (KDR) 信号诱导血管生成; NO 介导低血压,15992764;19457351,1.0,2026-09-24
-T039,P30894,NGF,GP1BA,literature,By similarity: 抑制金属蛋白酶对血小板 GPIbα 的蛋白水解 (间接保护),1477101;21801740,0.5,2026-09-24
-T041,P59071,PLA2,F2,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T041,P59071,PLA2,TFPI,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T041,P59071,PLA2,F3,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T041,P59071,PLA2,SERPINC1,string,"STRING 一层邻居, 经 F10 (combined score=0.998)",,0.998,2026-09-24
-T041,P59071,PLA2,F8,string,"STRING 一层邻居, 经 F10 (combined score=0.997)",,0.997,2026-09-24
-T041,P59071,PLA2,F5,string,"STRING 一层邻居, 经 F10 (combined score=0.995)",,0.995,2026-09-24
-T041,P59071,PLA2,F7,string,"STRING 一层邻居, 经 F10 (combined score=0.988)",,0.988,2026-09-24
-T041,P59071,PLA2,VWF,string,"STRING 一层邻居, 经 F10 (combined score=0.978)",,0.978,2026-09-24
-T041,P59071,PLA2,PROCR,string,"STRING 一层邻居, 经 F10 (combined score=0.958)",,0.958,2026-09-24
-T041,P59071,PLA2,F9,string,"STRING 一层邻居, 经 F10 (combined score=0.953)",,0.953,2026-09-24
-T027,C0HK16,PLA2,F2,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T027,C0HK16,PLA2,TFPI,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T027,C0HK16,PLA2,F3,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T027,C0HK16,PLA2,SERPINC1,string,"STRING 一层邻居, 经 F10 (combined score=0.998)",,0.998,2026-09-24
-T027,C0HK16,PLA2,F8,string,"STRING 一层邻居, 经 F10 (combined score=0.997)",,0.997,2026-09-24
-T027,C0HK16,PLA2,F5,string,"STRING 一层邻居, 经 F10 (combined score=0.995)",,0.995,2026-09-24
-T027,C0HK16,PLA2,F7,string,"STRING 一层邻居, 经 F10 (combined score=0.988)",,0.988,2026-09-24
-T027,C0HK16,PLA2,VWF,string,"STRING 一层邻居, 经 F10 (combined score=0.978)",,0.978,2026-09-24
-T027,C0HK16,PLA2,PROCR,string,"STRING 一层邻居, 经 F10 (combined score=0.958)",,0.958,2026-09-24
-T027,C0HK16,PLA2,F9,string,"STRING 一层邻居, 经 F10 (combined score=0.953)",,0.953,2026-09-24
-T059,Q4PRD1,snaclec/CTL,F2,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T059,Q4PRD1,snaclec/CTL,TFPI,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T059,Q4PRD1,snaclec/CTL,F3,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T059,Q4PRD1,snaclec/CTL,SERPINC1,string,"STRING 一层邻居, 经 F10 (combined score=0.998)",,0.998,2026-09-24
-T059,Q4PRD1,snaclec/CTL,F8,string,"STRING 一层邻居, 经 F10 (combined score=0.997)",,0.997,2026-09-24
-T059,Q4PRD1,snaclec/CTL,F5,string,"STRING 一层邻居, 经 F10 (combined score=0.995)",,0.995,2026-09-24
-T059,Q4PRD1,snaclec/CTL,F7,string,"STRING 一层邻居, 经 F10 (combined score=0.988)",,0.988,2026-09-24
-T059,Q4PRD1,snaclec/CTL,VWF,string,"STRING 一层邻居, 经 F10 (combined score=0.978)",,0.978,2026-09-24
-T059,Q4PRD1,snaclec/CTL,PROCR,string,"STRING 一层邻居, 经 F10 (combined score=0.958)",,0.958,2026-09-24
-T059,Q4PRD1,snaclec/CTL,F9,string,"STRING 一层邻居, 经 F10 (combined score=0.953)",,0.953,2026-09-24
-T059,Q4PRD1,snaclec/CTL,GGCX,string,"STRING 一层邻居, 经 F9 (combined score=0.972)",,0.972,2026-09-24
-T059,Q4PRD1,snaclec/CTL,F11,string,"STRING 一层邻居, 经 F9 (combined score=0.967)",,0.967,2026-09-24
-T059,Q4PRD1,snaclec/CTL,IGLL5,string,"STRING 一层邻居, 经 F9 (combined score=0.967)",,0.967,2026-09-24
-T059,Q4PRD1,snaclec/CTL,F10,string,"STRING 一层邻居, 经 F9 (combined score=0.953)",,0.953,2026-09-24
-T060,Q4PRD2,snaclec/CTL,F2,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T060,Q4PRD2,snaclec/CTL,TFPI,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T060,Q4PRD2,snaclec/CTL,F3,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T060,Q4PRD2,snaclec/CTL,SERPINC1,string,"STRING 一层邻居, 经 F10 (combined score=0.998)",,0.998,2026-09-24
-T060,Q4PRD2,snaclec/CTL,F8,string,"STRING 一层邻居, 经 F10 (combined score=0.997)",,0.997,2026-09-24
-T060,Q4PRD2,snaclec/CTL,F5,string,"STRING 一层邻居, 经 F10 (combined score=0.995)",,0.995,2026-09-24
-T060,Q4PRD2,snaclec/CTL,F7,string,"STRING 一层邻居, 经 F10 (combined score=0.988)",,0.988,2026-09-24
-T060,Q4PRD2,snaclec/CTL,VWF,string,"STRING 一层邻居, 经 F10 (combined score=0.978)",,0.978,2026-09-24
-T060,Q4PRD2,snaclec/CTL,PROCR,string,"STRING 一层邻居, 经 F10 (combined score=0.958)",,0.958,2026-09-24
-T060,Q4PRD2,snaclec/CTL,F9,string,"STRING 一层邻居, 经 F10 (combined score=0.953)",,0.953,2026-09-24
-T060,Q4PRD2,snaclec/CTL,GGCX,string,"STRING 一层邻居, 经 F9 (combined score=0.972)",,0.972,2026-09-24
-T060,Q4PRD2,snaclec/CTL,F11,string,"STRING 一层邻居, 经 F9 (combined score=0.967)",,0.967,2026-09-24
-T060,Q4PRD2,snaclec/CTL,IGLL5,string,"STRING 一层邻居, 经 F9 (combined score=0.967)",,0.967,2026-09-24
-T060,Q4PRD2,snaclec/CTL,F10,string,"STRING 一层邻居, 经 F9 (combined score=0.953)",,0.953,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,F2,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,TFPI,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,F3,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,SERPINC1,string,"STRING 一层邻居, 经 F10 (combined score=0.998)",,0.998,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,F8,string,"STRING 一层邻居, 经 F10 (combined score=0.997)",,0.997,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,F5,string,"STRING 一层邻居, 经 F10 (combined score=0.995)",,0.995,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,F7,string,"STRING 一层邻居, 经 F10 (combined score=0.988)",,0.988,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,VWF,string,"STRING 一层邻居, 经 F10 (combined score=0.978)",,0.978,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,PROCR,string,"STRING 一层邻居, 经 F10 (combined score=0.958)",,0.958,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,F9,string,"STRING 一层邻居, 经 F10 (combined score=0.953)",,0.953,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,GGCX,string,"STRING 一层邻居, 经 F9 (combined score=0.972)",,0.972,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,F11,string,"STRING 一层邻居, 经 F9 (combined score=0.967)",,0.967,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,IGLL5,string,"STRING 一层邻居, 经 F9 (combined score=0.967)",,0.967,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,F10,string,"STRING 一层邻居, 经 F9 (combined score=0.953)",,0.953,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,MERTK,string,"STRING 一层邻居, 经 PROS1 (combined score=0.999)",,0.999,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,TYRO3,string,"STRING 一层邻居, 经 PROS1 (combined score=0.999)",,0.999,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,AXL,string,"STRING 一层邻居, 经 PROS1 (combined score=0.997)",,0.997,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,C4B,string,"STRING 一层邻居, 经 PROS1 (combined score=0.953)",,0.953,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,C4A,string,"STRING 一层邻居, 经 PROS1 (combined score=0.946)",,0.946,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,MGP,string,"STRING 一层邻居, 经 PROS1 (combined score=0.880)",,0.88,2026-09-24
-T061,Q7LZ61,SVMP/disintegrin,C4BPB,string,"STRING 一层邻居, 经 PROS1 (combined score=0.874)",,0.874,2026-09-24
-T059,Q4PRD1,snaclec/CTL,MERTK,string,"STRING 一层邻居, 经 PROS1 (combined score=0.999)",,0.999,2026-09-24
-T059,Q4PRD1,snaclec/CTL,TYRO3,string,"STRING 一层邻居, 经 PROS1 (combined score=0.999)",,0.999,2026-09-24
-T059,Q4PRD1,snaclec/CTL,AXL,string,"STRING 一层邻居, 经 PROS1 (combined score=0.997)",,0.997,2026-09-24
-T059,Q4PRD1,snaclec/CTL,C4B,string,"STRING 一层邻居, 经 PROS1 (combined score=0.953)",,0.953,2026-09-24
-T059,Q4PRD1,snaclec/CTL,C4A,string,"STRING 一层邻居, 经 PROS1 (combined score=0.946)",,0.946,2026-09-24
-T059,Q4PRD1,snaclec/CTL,MGP,string,"STRING 一层邻居, 经 PROS1 (combined score=0.880)",,0.88,2026-09-24
-T059,Q4PRD1,snaclec/CTL,C4BPB,string,"STRING 一层邻居, 经 PROS1 (combined score=0.874)",,0.874,2026-09-24
-T060,Q4PRD2,snaclec/CTL,MERTK,string,"STRING 一层邻居, 经 PROS1 (combined score=0.999)",,0.999,2026-09-24
-T060,Q4PRD2,snaclec/CTL,TYRO3,string,"STRING 一层邻居, 经 PROS1 (combined score=0.999)",,0.999,2026-09-24
-T060,Q4PRD2,snaclec/CTL,AXL,string,"STRING 一层邻居, 经 PROS1 (combined score=0.997)",,0.997,2026-09-24
-T060,Q4PRD2,snaclec/CTL,C4B,string,"STRING 一层邻居, 经 PROS1 (combined score=0.953)",,0.953,2026-09-24
-T060,Q4PRD2,snaclec/CTL,C4A,string,"STRING 一层邻居, 经 PROS1 (combined score=0.946)",,0.946,2026-09-24
-T060,Q4PRD2,snaclec/CTL,MGP,string,"STRING 一层邻居, 经 PROS1 (combined score=0.880)",,0.88,2026-09-24
-T060,Q4PRD2,snaclec/CTL,C4BPB,string,"STRING 一层邻居, 经 PROS1 (combined score=0.874)",,0.874,2026-09-24
-T052,Q38L02,snaclec/CTL,VWF,string,"STRING 一层邻居, 经 GP1BA (combined score=0.999)",,0.999,2026-09-24
-T052,Q38L02,snaclec/CTL,GP9,string,"STRING 一层邻居, 经 GP1BA (combined score=0.999)",,0.999,2026-09-24
-T052,Q38L02,snaclec/CTL,FLNA,string,"STRING 一层邻居, 经 GP1BA (combined score=0.999)",,0.999,2026-09-24
-T052,Q38L02,snaclec/CTL,GP1BB,string,"STRING 一层邻居, 经 GP1BA (combined score=0.999)",,0.999,2026-09-24
-T052,Q38L02,snaclec/CTL,SELP,string,"STRING 一层邻居, 经 GP1BA (combined score=0.999)",,0.999,2026-09-24
-T052,Q38L02,snaclec/CTL,F2,string,"STRING 一层邻居, 经 GP1BA (combined score=0.992)",,0.992,2026-09-24
-T052,Q38L02,snaclec/CTL,ITGAM,string,"STRING 一层邻居, 经 GP1BA (combined score=0.982)",,0.982,2026-09-24
-T052,Q38L02,snaclec/CTL,GP5,string,"STRING 一层邻居, 经 GP1BA (combined score=0.979)",,0.979,2026-09-24
-T052,Q38L02,snaclec/CTL,YWHAZ,string,"STRING 一层邻居, 经 GP1BA (combined score=0.979)",,0.979,2026-09-24
-T052,Q38L02,snaclec/CTL,ITGB2,string,"STRING 一层邻居, 经 GP1BA (combined score=0.978)",,0.978,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,F2,string,"STRING 一层邻居, 经 FGA (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,FGB,string,"STRING 一层邻居, 经 FGA (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,FGG,string,"STRING 一层邻居, 经 FGA (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,AHSG,string,"STRING 一层邻居, 经 FGA (combined score=0.984)",,0.984,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,SERPINC1,string,"STRING 一层邻居, 经 FGA (combined score=0.980)",,0.98,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,ITGB3,string,"STRING 一层邻居, 经 FGA (combined score=0.978)",,0.978,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,ALB,string,"STRING 一层邻居, 经 FGA (combined score=0.975)",,0.975,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,SERPINF2,string,"STRING 一层邻居, 经 FGA (combined score=0.967)",,0.967,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,PLG,string,"STRING 一层邻居, 经 FGA (combined score=0.965)",,0.965,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,F13B,string,"STRING 一层邻居, 经 FGA (combined score=0.960)",,0.96,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,ITGAV,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,VTN,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,SDC1,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,ITGB1,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,SDC4,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,ITGA2B,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,ITGA5,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,THBS1,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,CD44,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,COL4A2,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.999)",,0.999,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,ITGA1,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.923)",,0.923,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,COL5A1,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.915)",,0.915,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,COL5A2,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.914)",,0.914,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,GP6,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.906)",,0.906,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,LAMC1,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.880)",,0.88,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,PLOD3,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.874)",,0.874,2026-09-24
-T026,B8K1W0,SVMP/disintegrin,ITGA3,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.870)",,0.87,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,F2,string,"STRING 一层邻居, 经 FGA (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,FGB,string,"STRING 一层邻居, 经 FGA (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,FGG,string,"STRING 一层邻居, 经 FGA (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,AHSG,string,"STRING 一层邻居, 经 FGA (combined score=0.984)",,0.984,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,SERPINC1,string,"STRING 一层邻居, 经 FGA (combined score=0.980)",,0.98,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,ITGB3,string,"STRING 一层邻居, 经 FGA (combined score=0.978)",,0.978,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,ALB,string,"STRING 一层邻居, 经 FGA (combined score=0.975)",,0.975,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,SERPINF2,string,"STRING 一层邻居, 经 FGA (combined score=0.967)",,0.967,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,PLG,string,"STRING 一层邻居, 经 FGA (combined score=0.965)",,0.965,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,F13B,string,"STRING 一层邻居, 经 FGA (combined score=0.960)",,0.96,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,ITGAV,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,VTN,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,SDC1,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,ITGB1,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,SDC4,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,ITGA2B,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,ITGA5,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,THBS1,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,CD44,string,"STRING 一层邻居, 经 FN1 (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,COL4A2,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.999)",,0.999,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,ITGA1,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.923)",,0.923,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,COL5A1,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.915)",,0.915,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,COL5A2,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.914)",,0.914,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,GP6,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.906)",,0.906,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,LAMC1,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.880)",,0.88,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,PLOD3,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.874)",,0.874,2026-09-24
-T025,AAZ39880.1,SVMP/disintegrin,ITGA3,string,"STRING 一层邻居, 经 COL4A1 (combined score=0.870)",,0.87,2026-09-24
-T038,P18965,SVSP,F2,string,"STRING 一层邻居, 经 F5 (combined score=0.999)",,0.999,2026-09-24
-T038,P18965,SVSP,F10,string,"STRING 一层邻居, 经 F5 (combined score=0.995)",,0.995,2026-09-24
-T038,P18965,SVSP,PROS1,string,"STRING 一层邻居, 经 F5 (combined score=0.972)",,0.972,2026-09-24
-T038,P18965,SVSP,PROC,string,"STRING 一层邻居, 经 F5 (combined score=0.940)",,0.94,2026-09-24
-T038,P18965,SVSP,F8,string,"STRING 一层邻居, 经 F5 (combined score=0.846)",,0.846,2026-09-24
-T038,P18965,SVSP,MCFD2,string,"STRING 一层邻居, 经 F5 (combined score=0.825)",,0.825,2026-09-24
-T038,P18965,SVSP,MMRN1,string,"STRING 一层邻居, 经 F5 (combined score=0.822)",,0.822,2026-09-24
-T038,P18965,SVSP,MTHFR,string,"STRING 一层邻居, 经 F5 (combined score=0.821)",,0.821,2026-09-24
-T038,P18965,SVSP,SERPINC1,string,"STRING 一层邻居, 经 F5 (combined score=0.817)",,0.817,2026-09-24
-T038,P18965,SVSP,F3,string,"STRING 一层邻居, 经 F5 (combined score=0.799)",,0.799,2026-09-24
-T037,P18964,SVSP,F2,string,"STRING 一层邻居, 经 F5 (combined score=0.999)",,0.999,2026-09-24
-T037,P18964,SVSP,F10,string,"STRING 一层邻居, 经 F5 (combined score=0.995)",,0.995,2026-09-24
-T037,P18964,SVSP,PROS1,string,"STRING 一层邻居, 经 F5 (combined score=0.972)",,0.972,2026-09-24
-T037,P18964,SVSP,PROC,string,"STRING 一层邻居, 经 F5 (combined score=0.940)",,0.94,2026-09-24
-T037,P18964,SVSP,F8,string,"STRING 一层邻居, 经 F5 (combined score=0.846)",,0.846,2026-09-24
-T037,P18964,SVSP,MCFD2,string,"STRING 一层邻居, 经 F5 (combined score=0.825)",,0.825,2026-09-24
-T037,P18964,SVSP,MMRN1,string,"STRING 一层邻居, 经 F5 (combined score=0.822)",,0.822,2026-09-24
-T037,P18964,SVSP,MTHFR,string,"STRING 一层邻居, 经 F5 (combined score=0.821)",,0.821,2026-09-24
-T037,P18964,SVSP,SERPINC1,string,"STRING 一层邻居, 经 F5 (combined score=0.817)",,0.817,2026-09-24
-T037,P18964,SVSP,F3,string,"STRING 一层邻居, 经 F5 (combined score=0.799)",,0.799,2026-09-24
-T028,E5L0E3,SVSP,F2,string,"STRING 一层邻居, 经 FGA (combined score=0.999)",,0.999,2026-09-24
-T028,E5L0E3,SVSP,FGB,string,"STRING 一层邻居, 经 FGA (combined score=0.999)",,0.999,2026-09-24
-T028,E5L0E3,SVSP,FGG,string,"STRING 一层邻居, 经 FGA (combined score=0.999)",,0.999,2026-09-24
-T028,E5L0E3,SVSP,AHSG,string,"STRING 一层邻居, 经 FGA (combined score=0.984)",,0.984,2026-09-24
-T028,E5L0E3,SVSP,SERPINC1,string,"STRING 一层邻居, 经 FGA (combined score=0.980)",,0.98,2026-09-24
-T028,E5L0E3,SVSP,ITGB3,string,"STRING 一层邻居, 经 FGA (combined score=0.978)",,0.978,2026-09-24
-T028,E5L0E3,SVSP,ALB,string,"STRING 一层邻居, 经 FGA (combined score=0.975)",,0.975,2026-09-24
-T028,E5L0E3,SVSP,SERPINF2,string,"STRING 一层邻居, 经 FGA (combined score=0.967)",,0.967,2026-09-24
-T028,E5L0E3,SVSP,PLG,string,"STRING 一层邻居, 经 FGA (combined score=0.965)",,0.965,2026-09-24
-T028,E5L0E3,SVSP,F13B,string,"STRING 一层邻居, 经 FGA (combined score=0.960)",,0.96,2026-09-24
-T029,E5L0E4,SVSP,FGA,string,"STRING 一层邻居, 经 FGB (combined score=0.999)",,0.999,2026-09-24
-T029,E5L0E4,SVSP,FGG,string,"STRING 一层邻居, 经 FGB (combined score=0.999)",,0.999,2026-09-24
-T029,E5L0E4,SVSP,F2,string,"STRING 一层邻居, 经 FGB (combined score=0.999)",,0.999,2026-09-24
-T029,E5L0E4,SVSP,SERPINC1,string,"STRING 一层邻居, 经 FGB (combined score=0.954)",,0.954,2026-09-24
-T029,E5L0E4,SVSP,ITGB3,string,"STRING 一层邻居, 经 FGB (combined score=0.952)",,0.952,2026-09-24
-T029,E5L0E4,SVSP,SERPIND1,string,"STRING 一层邻居, 经 FGB (combined score=0.951)",,0.951,2026-09-24
-T029,E5L0E4,SVSP,PLG,string,"STRING 一层邻居, 经 FGB (combined score=0.948)",,0.948,2026-09-24
-T029,E5L0E4,SVSP,AMBP,string,"STRING 一层邻居, 经 FGB (combined score=0.931)",,0.931,2026-09-24
-T029,E5L0E4,SVSP,GC,string,"STRING 一层邻居, 经 FGB (combined score=0.931)",,0.931,2026-09-24
-T029,E5L0E4,SVSP,ITGA2B,string,"STRING 一层邻居, 经 FGB (combined score=0.925)",,0.925,2026-09-24
-T034,H6VC06,Kunitz抑制剂,HRG,string,"STRING 一层邻居, 经 PLG (combined score=0.999)",,0.999,2026-09-24
-T034,H6VC06,Kunitz抑制剂,SERPINF2,string,"STRING 一层邻居, 经 PLG (combined score=0.999)",,0.999,2026-09-24
-T034,H6VC06,Kunitz抑制剂,PLAT,string,"STRING 一层邻居, 经 PLG (combined score=0.998)",,0.998,2026-09-24
-T034,H6VC06,Kunitz抑制剂,ENO1,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T034,H6VC06,Kunitz抑制剂,FN1,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T034,H6VC06,Kunitz抑制剂,ANXA2,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T034,H6VC06,Kunitz抑制剂,CLEC3B,string,"STRING 一层邻居, 经 PLG (combined score=0.996)",,0.996,2026-09-24
-T034,H6VC06,Kunitz抑制剂,VTN,string,"STRING 一层邻居, 经 PLG (combined score=0.995)",,0.995,2026-09-24
-T034,H6VC06,Kunitz抑制剂,SERPINF1,string,"STRING 一层邻居, 经 PLG (combined score=0.995)",,0.995,2026-09-24
-T034,H6VC06,Kunitz抑制剂,AMOT,string,"STRING 一层邻居, 经 PLG (combined score=0.993)",,0.993,2026-09-24
-T034,H6VC06,Kunitz抑制剂,KNG1,string,"STRING 一层邻居, 经 F11 (combined score=0.998)",,0.998,2026-09-24
-T034,H6VC06,Kunitz抑制剂,SERPINC1,string,"STRING 一层邻居, 经 F11 (combined score=0.969)",,0.969,2026-09-24
-T034,H6VC06,Kunitz抑制剂,F9,string,"STRING 一层邻居, 经 F11 (combined score=0.967)",,0.967,2026-09-24
-T034,H6VC06,Kunitz抑制剂,F8,string,"STRING 一层邻居, 经 F11 (combined score=0.966)",,0.966,2026-09-24
-T034,H6VC06,Kunitz抑制剂,F12,string,"STRING 一层邻居, 经 F11 (combined score=0.954)",,0.954,2026-09-24
-T034,H6VC06,Kunitz抑制剂,APP,string,"STRING 一层邻居, 经 F11 (combined score=0.954)",,0.954,2026-09-24
-T034,H6VC06,Kunitz抑制剂,F3,string,"STRING 一层邻居, 经 F11 (combined score=0.923)",,0.923,2026-09-24
-T034,H6VC06,Kunitz抑制剂,IGHV3-43D,string,"STRING 一层邻居, 经 F11 (combined score=0.913)",,0.913,2026-09-24
-T034,H6VC06,Kunitz抑制剂,IGKV1D-33,string,"STRING 一层邻居, 经 F11 (combined score=0.912)",,0.912,2026-09-24
-T034,H6VC06,Kunitz抑制剂,IGKV1-33,string,"STRING 一层邻居, 经 F11 (combined score=0.912)",,0.912,2026-09-24
-T034,H6VC06,Kunitz抑制剂,F2,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T034,H6VC06,Kunitz抑制剂,TFPI,string,"STRING 一层邻居, 经 F10 (combined score=0.999)",,0.999,2026-09-24
-T034,H6VC06,Kunitz抑制剂,F5,string,"STRING 一层邻居, 经 F10 (combined score=0.995)",,0.995,2026-09-24
-T034,H6VC06,Kunitz抑制剂,F7,string,"STRING 一层邻居, 经 F10 (combined score=0.988)",,0.988,2026-09-24
-T034,H6VC06,Kunitz抑制剂,VWF,string,"STRING 一层邻居, 经 F10 (combined score=0.978)",,0.978,2026-09-24
-T034,H6VC06,Kunitz抑制剂,PROCR,string,"STRING 一层邻居, 经 F10 (combined score=0.958)",,0.958,2026-09-24
-T034,H6VC06,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.999)",,0.999,2026-09-24
-T034,H6VC06,Kunitz抑制剂,TMPRSS15,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.920)",,0.92,2026-09-24
-T034,H6VC06,Kunitz抑制剂,PRSS3,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.918)",,0.918,2026-09-24
-T034,H6VC06,Kunitz抑制剂,CTRB1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.863)",,0.863,2026-09-24
-T034,H6VC06,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.859)",,0.859,2026-09-24
-T034,H6VC06,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.855)",,0.855,2026-09-24
-T034,H6VC06,Kunitz抑制剂,CFTR,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.854)",,0.854,2026-09-24
-T034,H6VC06,Kunitz抑制剂,PLG,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.832)",,0.832,2026-09-24
-T034,H6VC06,Kunitz抑制剂,F2R,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.826)",,0.826,2026-09-24
-T033,H6VC05,Kunitz抑制剂,PROCR,string,"STRING 一层邻居, 经 PROC (combined score=0.996)",,0.996,2026-09-24
-T033,H6VC05,Kunitz抑制剂,THBD,string,"STRING 一层邻居, 经 PROC (combined score=0.992)",,0.992,2026-09-24
-T033,H6VC05,Kunitz抑制剂,F2,string,"STRING 一层邻居, 经 PROC (combined score=0.987)",,0.987,2026-09-24
-T033,H6VC05,Kunitz抑制剂,SERPINF2,string,"STRING 一层邻居, 经 PROC (combined score=0.972)",,0.972,2026-09-24
-T033,H6VC05,Kunitz抑制剂,SERPINA5,string,"STRING 一层邻居, 经 PROC (combined score=0.969)",,0.969,2026-09-24
-T033,H6VC05,Kunitz抑制剂,F2R,string,"STRING 一层邻居, 经 PROC (combined score=0.960)",,0.96,2026-09-24
-T033,H6VC05,Kunitz抑制剂,F8,string,"STRING 一层邻居, 经 PROC (combined score=0.960)",,0.96,2026-09-24
-T033,H6VC05,Kunitz抑制剂,SERPINE1,string,"STRING 一层邻居, 经 PROC (combined score=0.943)",,0.943,2026-09-24
-T033,H6VC05,Kunitz抑制剂,F5,string,"STRING 一层邻居, 经 PROC (combined score=0.940)",,0.94,2026-09-24
-T033,H6VC05,Kunitz抑制剂,SERPINA1,string,"STRING 一层邻居, 经 PROC (combined score=0.934)",,0.934,2026-09-24
-T033,H6VC05,Kunitz抑制剂,KNG1,string,"STRING 一层邻居, 经 F11 (combined score=0.998)",,0.998,2026-09-24
-T033,H6VC05,Kunitz抑制剂,SERPINC1,string,"STRING 一层邻居, 经 F11 (combined score=0.969)",,0.969,2026-09-24
-T033,H6VC05,Kunitz抑制剂,F9,string,"STRING 一层邻居, 经 F11 (combined score=0.967)",,0.967,2026-09-24
-T033,H6VC05,Kunitz抑制剂,F12,string,"STRING 一层邻居, 经 F11 (combined score=0.954)",,0.954,2026-09-24
-T033,H6VC05,Kunitz抑制剂,APP,string,"STRING 一层邻居, 经 F11 (combined score=0.954)",,0.954,2026-09-24
-T033,H6VC05,Kunitz抑制剂,F3,string,"STRING 一层邻居, 经 F11 (combined score=0.923)",,0.923,2026-09-24
-T033,H6VC05,Kunitz抑制剂,IGHV3-43D,string,"STRING 一层邻居, 经 F11 (combined score=0.913)",,0.913,2026-09-24
-T033,H6VC05,Kunitz抑制剂,IGKV1D-33,string,"STRING 一层邻居, 经 F11 (combined score=0.912)",,0.912,2026-09-24
-T033,H6VC05,Kunitz抑制剂,IGKV1-33,string,"STRING 一层邻居, 经 F11 (combined score=0.912)",,0.912,2026-09-24
-T033,H6VC05,Kunitz抑制剂,HRG,string,"STRING 一层邻居, 经 PLG (combined score=0.999)",,0.999,2026-09-24
-T033,H6VC05,Kunitz抑制剂,PLAT,string,"STRING 一层邻居, 经 PLG (combined score=0.998)",,0.998,2026-09-24
-T033,H6VC05,Kunitz抑制剂,ENO1,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T033,H6VC05,Kunitz抑制剂,FN1,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T033,H6VC05,Kunitz抑制剂,ANXA2,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T033,H6VC05,Kunitz抑制剂,CLEC3B,string,"STRING 一层邻居, 经 PLG (combined score=0.996)",,0.996,2026-09-24
-T033,H6VC05,Kunitz抑制剂,VTN,string,"STRING 一层邻居, 经 PLG (combined score=0.995)",,0.995,2026-09-24
-T033,H6VC05,Kunitz抑制剂,SERPINF1,string,"STRING 一层邻居, 经 PLG (combined score=0.995)",,0.995,2026-09-24
-T033,H6VC05,Kunitz抑制剂,AMOT,string,"STRING 一层邻居, 经 PLG (combined score=0.993)",,0.993,2026-09-24
-T033,H6VC05,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.999)",,0.999,2026-09-24
-T033,H6VC05,Kunitz抑制剂,TMPRSS15,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.920)",,0.92,2026-09-24
-T033,H6VC05,Kunitz抑制剂,PRSS3,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.918)",,0.918,2026-09-24
-T033,H6VC05,Kunitz抑制剂,CTRB1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.863)",,0.863,2026-09-24
-T033,H6VC05,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.859)",,0.859,2026-09-24
-T033,H6VC05,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.855)",,0.855,2026-09-24
-T033,H6VC05,Kunitz抑制剂,CFTR,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.854)",,0.854,2026-09-24
-T033,H6VC05,Kunitz抑制剂,PLG,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.832)",,0.832,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 CTRB1 (combined score=0.973)",,0.973,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,SERPINA3,string,"STRING 一层邻居, 经 CTRB1 (combined score=0.969)",,0.969,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,SERPINA1,string,"STRING 一层邻居, 经 CTRB1 (combined score=0.957)",,0.957,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 CTRB1 (combined score=0.949)",,0.949,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,CPB1,string,"STRING 一层邻居, 经 CTRB1 (combined score=0.932)",,0.932,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,PNLIP,string,"STRING 一层邻居, 经 CTRB1 (combined score=0.925)",,0.925,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,CEL,string,"STRING 一层邻居, 经 CTRB1 (combined score=0.909)",,0.909,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 CTRB1 (combined score=0.885)",,0.885,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,PRSS1,string,"STRING 一层邻居, 经 CTRB1 (combined score=0.863)",,0.863,2026-09-24
-T019,A8Y7P1,Kunitz抑制剂,A2M,string,"STRING 一层邻居, 经 CTRB1 (combined score=0.859)",,0.859,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.999)",,0.999,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,TMPRSS15,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.920)",,0.92,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,PRSS3,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.918)",,0.918,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,CTRB1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.863)",,0.863,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.859)",,0.859,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.855)",,0.855,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,CFTR,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.854)",,0.854,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,PLG,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.832)",,0.832,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,F2R,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.826)",,0.826,2026-09-24
-T012,A8Y7N4,Kunitz抑制剂,APP,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.822)",,0.822,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.999)",,0.999,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,TMPRSS15,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.920)",,0.92,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,PRSS3,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.918)",,0.918,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,CTRB1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.863)",,0.863,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.859)",,0.859,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.855)",,0.855,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,CFTR,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.854)",,0.854,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,PLG,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.832)",,0.832,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,F2R,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.826)",,0.826,2026-09-24
-T016,A8Y7N8,Kunitz抑制剂,APP,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.822)",,0.822,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.999)",,0.999,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,TMPRSS15,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.920)",,0.92,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,PRSS3,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.918)",,0.918,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,CTRB1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.863)",,0.863,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.859)",,0.859,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.855)",,0.855,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,CFTR,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.854)",,0.854,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,PLG,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.832)",,0.832,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,F2R,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.826)",,0.826,2026-09-24
-T018,A8Y7P0,Kunitz抑制剂,APP,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.822)",,0.822,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.999)",,0.999,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,TMPRSS15,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.920)",,0.92,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,PRSS3,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.918)",,0.918,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,CTRB1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.863)",,0.863,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.859)",,0.859,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.855)",,0.855,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,CFTR,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.854)",,0.854,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,PLG,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.832)",,0.832,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,F2R,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.826)",,0.826,2026-09-24
-T020,A8Y7P2,Kunitz抑制剂,APP,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.822)",,0.822,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.999)",,0.999,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,TMPRSS15,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.920)",,0.92,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,PRSS3,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.918)",,0.918,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,CTRB1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.863)",,0.863,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.859)",,0.859,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.855)",,0.855,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,CFTR,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.854)",,0.854,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,PLG,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.832)",,0.832,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,F2R,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.826)",,0.826,2026-09-24
-T024,A8Y7P6,Kunitz抑制剂,APP,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.822)",,0.822,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,HRG,string,"STRING 一层邻居, 经 PLG (combined score=0.999)",,0.999,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,SERPINF2,string,"STRING 一层邻居, 经 PLG (combined score=0.999)",,0.999,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,PLAT,string,"STRING 一层邻居, 经 PLG (combined score=0.998)",,0.998,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,ENO1,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,FN1,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,ANXA2,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,CLEC3B,string,"STRING 一层邻居, 经 PLG (combined score=0.996)",,0.996,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,VTN,string,"STRING 一层邻居, 经 PLG (combined score=0.995)",,0.995,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,SERPINF1,string,"STRING 一层邻居, 经 PLG (combined score=0.995)",,0.995,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,AMOT,string,"STRING 一层邻居, 经 PLG (combined score=0.993)",,0.993,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.999)",,0.999,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,TMPRSS15,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.920)",,0.92,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,PRSS3,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.918)",,0.918,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,CTRB1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.863)",,0.863,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.859)",,0.859,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.855)",,0.855,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,CFTR,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.854)",,0.854,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,PLG,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.832)",,0.832,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,F2R,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.826)",,0.826,2026-09-24
-T013,A8Y7N5,Kunitz抑制剂,APP,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.822)",,0.822,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,HRG,string,"STRING 一层邻居, 经 PLG (combined score=0.999)",,0.999,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,SERPINF2,string,"STRING 一层邻居, 经 PLG (combined score=0.999)",,0.999,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,PLAT,string,"STRING 一层邻居, 经 PLG (combined score=0.998)",,0.998,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,ENO1,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,FN1,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,ANXA2,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,CLEC3B,string,"STRING 一层邻居, 经 PLG (combined score=0.996)",,0.996,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,VTN,string,"STRING 一层邻居, 经 PLG (combined score=0.995)",,0.995,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,SERPINF1,string,"STRING 一层邻居, 经 PLG (combined score=0.995)",,0.995,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,AMOT,string,"STRING 一层邻居, 经 PLG (combined score=0.993)",,0.993,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.999)",,0.999,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,TMPRSS15,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.920)",,0.92,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,PRSS3,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.918)",,0.918,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,CTRB1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.863)",,0.863,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.859)",,0.859,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.855)",,0.855,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,CFTR,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.854)",,0.854,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,PLG,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.832)",,0.832,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,F2R,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.826)",,0.826,2026-09-24
-T021,A8Y7P3,Kunitz抑制剂,APP,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.822)",,0.822,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,HRG,string,"STRING 一层邻居, 经 PLG (combined score=0.999)",,0.999,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,SERPINF2,string,"STRING 一层邻居, 经 PLG (combined score=0.999)",,0.999,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,PLAT,string,"STRING 一层邻居, 经 PLG (combined score=0.998)",,0.998,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,ENO1,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,FN1,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,ANXA2,string,"STRING 一层邻居, 经 PLG (combined score=0.997)",,0.997,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,CLEC3B,string,"STRING 一层邻居, 经 PLG (combined score=0.996)",,0.996,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,VTN,string,"STRING 一层邻居, 经 PLG (combined score=0.995)",,0.995,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,SERPINF1,string,"STRING 一层邻居, 经 PLG (combined score=0.995)",,0.995,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,AMOT,string,"STRING 一层邻居, 经 PLG (combined score=0.993)",,0.993,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,SPINK1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.999)",,0.999,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,TMPRSS15,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.920)",,0.92,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,PRSS3,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.918)",,0.918,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,CTRB1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.863)",,0.863,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,CTRB2,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.859)",,0.859,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,CPA1,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.855)",,0.855,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,CFTR,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.854)",,0.854,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,PLG,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.832)",,0.832,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,F2R,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.826)",,0.826,2026-09-24
-T022,A8Y7P4,Kunitz抑制剂,APP,string,"STRING 一层邻居, 经 PRSS1 (combined score=0.822)",,0.822,2026-09-24
-T042,P67861,VEGF,VEGFB,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T042,P67861,VEGF,CDH5,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T042,P67861,VEGF,NRP1,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T042,P67861,VEGF,VEGFC,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T042,P67861,VEGF,PGF,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T042,P67861,VEGF,VEGFD,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T042,P67861,VEGF,PECAM1,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T042,P67861,VEGF,FGF2,string,"STRING 一层邻居, 经 KDR (combined score=0.998)",,0.998,2026-09-24
-T042,P67861,VEGF,SRC,string,"STRING 一层邻居, 经 KDR (combined score=0.998)",,0.998,2026-09-24
-T042,P67861,VEGF,PDGFC,string,"STRING 一层邻居, 经 KDR (combined score=0.997)",,0.997,2026-09-24
-T036,P0DL42,VEGF,VEGFB,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T036,P0DL42,VEGF,CDH5,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T036,P0DL42,VEGF,NRP1,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T036,P0DL42,VEGF,VEGFC,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T036,P0DL42,VEGF,PGF,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T036,P0DL42,VEGF,VEGFD,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T036,P0DL42,VEGF,PECAM1,string,"STRING 一层邻居, 经 KDR (combined score=0.999)",,0.999,2026-09-24
-T036,P0DL42,VEGF,FGF2,string,"STRING 一层邻居, 经 KDR (combined score=0.998)",,0.998,2026-09-24
-T036,P0DL42,VEGF,SRC,string,"STRING 一层邻居, 经 KDR (combined score=0.998)",,0.998,2026-09-24
-T036,P0DL42,VEGF,PDGFC,string,"STRING 一层邻居, 经 KDR (combined score=0.997)",,0.997,2026-09-24
+﻿toxin_id,toxin_ac,family,target_symbol,evidence_type,evidence_detail,pmids,score,download_date
+T041,P59071,PLA2,F10,literature,Bound activated factor X and inhibited prothrombinase activity (IC50 = 130 nM).,18062812,1.0,2026-09-24
+T027,C0HK16,PLA2,F10,literature,Bound factor X/factor Xa and exhibited anticoagulant activity (UniProt curated annotation).,27089306,1.0,2026-09-24
+PLA2_family,PLA2_family,PLA2,F10,literature,Family-level literature extrapolation; not treated as molecule-specific primary evidence.,27089306,0.6,2026-09-24
+PLA2_family,PLA2_family,PLA2,F10,literature,Family-level literature extrapolation; not treated as molecule-specific primary evidence.,21356226,0.6,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F10,literature,RVV-X light chain 1: calcium-dependent recognition of the factor X Gla domain.,18616470;1629211;8144654;8639544;11910189;18060879,1.0,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F9,literature,RVV-X light chain 1: recognition of the factor IX Gla domain.,18616470;1629211;8144654;8639544;11910189;18060879,1.0,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F10,literature,RVV-X light chain 2: calcium-dependent recognition of the factor X Gla domain.,18616470;8144654;11910189;18060879,1.0,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F9,literature,RVV-X light chain 2: recognition of the factor IX Gla domain.,18616470;8144654;11910189;18060879,1.0,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F10,literature,RVV-X heavy chain: cleavage of the Arg-Ile bond to activate factor X.,37092784;18616470;1629211;8144654;8639544;18060879;11910189,1.0,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F9,literature,RVV-X heavy chain: cleavage of the Arg-Ile bond to activate factor IX.,18616470;1629211;8144654;8639544;18060879;11910189,1.0,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,PROS1,literature,RVV-X heavy chain: specific cleavage and activation of protein S.,18616470;1629211;8144654;8639544;18060879;11910189,1.0,2026-09-24
+T059,Q4PRD1,snaclec/CTL,PROS1,literature,RVV-X complex: cleavage and activation of protein S.,18616470;1629211;8144654;8639544;11910189;18060879,0.8,2026-09-24
+T060,Q4PRD2,snaclec/CTL,PROS1,literature,RVV-X complex: cleavage and activation of protein S.,18616470;8144654;11910189;18060879,0.8,2026-09-24
+T052,Q38L02,snaclec/CTL,GP1BA,literature,Bound platelet GPIb alpha and inhibited ristocetin-induced agglutination.,16330060,1.0,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,FGA,literature,Daborhagin-K (P-III hemorrhagic SVMP): proteolysis of the fibrinogen A-alpha chain.,18554518;28042812,1.0,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,FN1,literature,Daborhagin-M/K: in vitro proteolysis of fibronectin.,18554518,1.0,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,COL4A1,literature,Daborhagin-M/K: in vitro proteolysis of type IV collagen.,18554518,1.0,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,FGA,literature,Russelysin and daborhagin-K are the same protein (GenBank supplement): proteolysis of fibrinogen A-alpha.,18554518;28042812,0.9,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,FN1,literature,Russelysin: proteolysis of fibronectin.,18554518,0.9,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,COL4A1,literature,Russelysin: proteolysis of type IV collagen.,18554518,0.9,2026-09-24
+T003,A0A2H4Z2X6,SVMP/disintegrin,FN1,literature,Family-level literature extrapolation; not treated as molecule-specific primary evidence.,36423674,0.6,2026-09-24
+T004,A0A2H4Z2Y1,SVMP/disintegrin,FN1,literature,Family-level literature extrapolation; not treated as molecule-specific primary evidence.,36423674,0.6,2026-09-24
+T038,P18965,SVSP,F5,literature,RVV-V gamma: calcium-independent activation of human factor V by cleavage at Arg1545-Ser1546.,21640745;3053712;20054136;21871889;28732041,1.0,2026-09-24
+T037,P18964,SVSP,F5,literature,RVV-V: activation of human factor V by cleavage at Arg1545-Ser1546.,21640745;21871889;28732041,1.0,2026-09-24
+T028,E5L0E3,SVSP,FGA,literature,SVSP: degradation of the fibrinogen alpha chain with strong caseinolytic activity.,21640745,1.0,2026-09-24
+T029,E5L0E4,SVSP,FGB,literature,SVSP: proteolysis of the fibrinogen beta chain.,21640745,1.0,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,PLG,literature,Inhibited plasmin by 90% (Ki = 0.19 nM).,22416129;23999090,1.0,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,F11,literature,Inhibited activated factor XI by 37% (Ki = 6 nM).,22416129;23999090,1.0,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,F10,literature,Inhibited activated factor X by 20%.,22416129;23999090,1.0,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,PRSS1,literature,Inhibited trypsin by 70%.,22416129;23999090,1.0,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,PROC,literature,Inhibited activated protein C with IC50 = 3.5 nM in the presence of heparin.,22416129,1.0,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,F11,literature,Inhibited activated factor XI by 40% in the presence of heparin.,22416129,1.0,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,PLG,literature,Inhibited plasmin by 70% in the presence of heparin.,22416129,1.0,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,PRSS1,literature,Inhibited trypsin by 45% in the presence of heparin.,22416129,1.0,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,CTRB1,literature,Inhibited chymotrypsin (Ki = 4.77 nM).,23428970,1.0,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,PRSS1,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,PRSS1,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,PRSS1,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,PRSS1,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,PRSS1,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,PLG,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,PRSS1,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,PLG,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,PRSS1,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,PLG,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,PRSS1,literature,UniProt annotation without a row-specific PMID; excluded from the primary-literature count.,,1.0,2026-09-24
+T042,P67861,VEGF,KDR,literature,Induced angiogenesis through VEGFR-2/KDR signalling; nitric-oxide-mediated hypotension.,19208624;14600159;15542594,1.0,2026-09-24
+T036,P0DL42,VEGF,KDR,literature,Induced angiogenesis through VEGFR-2/KDR signalling; nitric-oxide-mediated hypotension.,15992764;19457351,1.0,2026-09-24
+T039,P30894,NGF,GP1BA,literature,Similarity-based inference; not treated as molecule-specific primary evidence.,1477101;21801740,0.5,2026-09-24
+T041,P59071,PLA2,F2,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T041,P59071,PLA2,TFPI,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T041,P59071,PLA2,F3,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T041,P59071,PLA2,SERPINC1,string,"STRING one-step neighborhood via F10 (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T041,P59071,PLA2,F8,string,"STRING one-step neighborhood via F10 (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T041,P59071,PLA2,F5,string,"STRING one-step neighborhood via F10 (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T041,P59071,PLA2,F7,string,"STRING one-step neighborhood via F10 (combined score = 0.988); annotation-based expansion, not curated direct toxin-host binding.",,0.988,2026-09-24
+T041,P59071,PLA2,VWF,string,"STRING one-step neighborhood via F10 (combined score = 0.978); annotation-based expansion, not curated direct toxin-host binding.",,0.978,2026-09-24
+T041,P59071,PLA2,PROCR,string,"STRING one-step neighborhood via F10 (combined score = 0.958); annotation-based expansion, not curated direct toxin-host binding.",,0.958,2026-09-24
+T041,P59071,PLA2,F9,string,"STRING one-step neighborhood via F10 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T027,C0HK16,PLA2,F2,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T027,C0HK16,PLA2,TFPI,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T027,C0HK16,PLA2,F3,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T027,C0HK16,PLA2,SERPINC1,string,"STRING one-step neighborhood via F10 (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T027,C0HK16,PLA2,F8,string,"STRING one-step neighborhood via F10 (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T027,C0HK16,PLA2,F5,string,"STRING one-step neighborhood via F10 (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T027,C0HK16,PLA2,F7,string,"STRING one-step neighborhood via F10 (combined score = 0.988); annotation-based expansion, not curated direct toxin-host binding.",,0.988,2026-09-24
+T027,C0HK16,PLA2,VWF,string,"STRING one-step neighborhood via F10 (combined score = 0.978); annotation-based expansion, not curated direct toxin-host binding.",,0.978,2026-09-24
+T027,C0HK16,PLA2,PROCR,string,"STRING one-step neighborhood via F10 (combined score = 0.958); annotation-based expansion, not curated direct toxin-host binding.",,0.958,2026-09-24
+T027,C0HK16,PLA2,F9,string,"STRING one-step neighborhood via F10 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F2,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T059,Q4PRD1,snaclec/CTL,TFPI,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F3,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T059,Q4PRD1,snaclec/CTL,SERPINC1,string,"STRING one-step neighborhood via F10 (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F8,string,"STRING one-step neighborhood via F10 (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F5,string,"STRING one-step neighborhood via F10 (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F7,string,"STRING one-step neighborhood via F10 (combined score = 0.988); annotation-based expansion, not curated direct toxin-host binding.",,0.988,2026-09-24
+T059,Q4PRD1,snaclec/CTL,VWF,string,"STRING one-step neighborhood via F10 (combined score = 0.978); annotation-based expansion, not curated direct toxin-host binding.",,0.978,2026-09-24
+T059,Q4PRD1,snaclec/CTL,PROCR,string,"STRING one-step neighborhood via F10 (combined score = 0.958); annotation-based expansion, not curated direct toxin-host binding.",,0.958,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F9,string,"STRING one-step neighborhood via F10 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T059,Q4PRD1,snaclec/CTL,GGCX,string,"STRING one-step neighborhood via F9 (combined score = 0.972); annotation-based expansion, not curated direct toxin-host binding.",,0.972,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F11,string,"STRING one-step neighborhood via F9 (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T059,Q4PRD1,snaclec/CTL,IGLL5,string,"STRING one-step neighborhood via F9 (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T059,Q4PRD1,snaclec/CTL,F10,string,"STRING one-step neighborhood via F9 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F2,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T060,Q4PRD2,snaclec/CTL,TFPI,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F3,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T060,Q4PRD2,snaclec/CTL,SERPINC1,string,"STRING one-step neighborhood via F10 (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F8,string,"STRING one-step neighborhood via F10 (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F5,string,"STRING one-step neighborhood via F10 (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F7,string,"STRING one-step neighborhood via F10 (combined score = 0.988); annotation-based expansion, not curated direct toxin-host binding.",,0.988,2026-09-24
+T060,Q4PRD2,snaclec/CTL,VWF,string,"STRING one-step neighborhood via F10 (combined score = 0.978); annotation-based expansion, not curated direct toxin-host binding.",,0.978,2026-09-24
+T060,Q4PRD2,snaclec/CTL,PROCR,string,"STRING one-step neighborhood via F10 (combined score = 0.958); annotation-based expansion, not curated direct toxin-host binding.",,0.958,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F9,string,"STRING one-step neighborhood via F10 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T060,Q4PRD2,snaclec/CTL,GGCX,string,"STRING one-step neighborhood via F9 (combined score = 0.972); annotation-based expansion, not curated direct toxin-host binding.",,0.972,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F11,string,"STRING one-step neighborhood via F9 (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T060,Q4PRD2,snaclec/CTL,IGLL5,string,"STRING one-step neighborhood via F9 (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T060,Q4PRD2,snaclec/CTL,F10,string,"STRING one-step neighborhood via F9 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F2,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,TFPI,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F3,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,SERPINC1,string,"STRING one-step neighborhood via F10 (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F8,string,"STRING one-step neighborhood via F10 (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F5,string,"STRING one-step neighborhood via F10 (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F7,string,"STRING one-step neighborhood via F10 (combined score = 0.988); annotation-based expansion, not curated direct toxin-host binding.",,0.988,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,VWF,string,"STRING one-step neighborhood via F10 (combined score = 0.978); annotation-based expansion, not curated direct toxin-host binding.",,0.978,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,PROCR,string,"STRING one-step neighborhood via F10 (combined score = 0.958); annotation-based expansion, not curated direct toxin-host binding.",,0.958,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F9,string,"STRING one-step neighborhood via F10 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,GGCX,string,"STRING one-step neighborhood via F9 (combined score = 0.972); annotation-based expansion, not curated direct toxin-host binding.",,0.972,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F11,string,"STRING one-step neighborhood via F9 (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,IGLL5,string,"STRING one-step neighborhood via F9 (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,F10,string,"STRING one-step neighborhood via F9 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,MERTK,string,"STRING one-step neighborhood via PROS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,TYRO3,string,"STRING one-step neighborhood via PROS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,AXL,string,"STRING one-step neighborhood via PROS1 (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,C4B,string,"STRING one-step neighborhood via PROS1 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,C4A,string,"STRING one-step neighborhood via PROS1 (combined score = 0.946); annotation-based expansion, not curated direct toxin-host binding.",,0.946,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,MGP,string,"STRING one-step neighborhood via PROS1 (combined score = 0.880); annotation-based expansion, not curated direct toxin-host binding.",,0.88,2026-09-24
+T061,Q7LZ61,SVMP/disintegrin,C4BPB,string,"STRING one-step neighborhood via PROS1 (combined score = 0.874); annotation-based expansion, not curated direct toxin-host binding.",,0.874,2026-09-24
+T059,Q4PRD1,snaclec/CTL,MERTK,string,"STRING one-step neighborhood via PROS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T059,Q4PRD1,snaclec/CTL,TYRO3,string,"STRING one-step neighborhood via PROS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T059,Q4PRD1,snaclec/CTL,AXL,string,"STRING one-step neighborhood via PROS1 (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T059,Q4PRD1,snaclec/CTL,C4B,string,"STRING one-step neighborhood via PROS1 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T059,Q4PRD1,snaclec/CTL,C4A,string,"STRING one-step neighborhood via PROS1 (combined score = 0.946); annotation-based expansion, not curated direct toxin-host binding.",,0.946,2026-09-24
+T059,Q4PRD1,snaclec/CTL,MGP,string,"STRING one-step neighborhood via PROS1 (combined score = 0.880); annotation-based expansion, not curated direct toxin-host binding.",,0.88,2026-09-24
+T059,Q4PRD1,snaclec/CTL,C4BPB,string,"STRING one-step neighborhood via PROS1 (combined score = 0.874); annotation-based expansion, not curated direct toxin-host binding.",,0.874,2026-09-24
+T060,Q4PRD2,snaclec/CTL,MERTK,string,"STRING one-step neighborhood via PROS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T060,Q4PRD2,snaclec/CTL,TYRO3,string,"STRING one-step neighborhood via PROS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T060,Q4PRD2,snaclec/CTL,AXL,string,"STRING one-step neighborhood via PROS1 (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T060,Q4PRD2,snaclec/CTL,C4B,string,"STRING one-step neighborhood via PROS1 (combined score = 0.953); annotation-based expansion, not curated direct toxin-host binding.",,0.953,2026-09-24
+T060,Q4PRD2,snaclec/CTL,C4A,string,"STRING one-step neighborhood via PROS1 (combined score = 0.946); annotation-based expansion, not curated direct toxin-host binding.",,0.946,2026-09-24
+T060,Q4PRD2,snaclec/CTL,MGP,string,"STRING one-step neighborhood via PROS1 (combined score = 0.880); annotation-based expansion, not curated direct toxin-host binding.",,0.88,2026-09-24
+T060,Q4PRD2,snaclec/CTL,C4BPB,string,"STRING one-step neighborhood via PROS1 (combined score = 0.874); annotation-based expansion, not curated direct toxin-host binding.",,0.874,2026-09-24
+T052,Q38L02,snaclec/CTL,VWF,string,"STRING one-step neighborhood via GP1BA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T052,Q38L02,snaclec/CTL,GP9,string,"STRING one-step neighborhood via GP1BA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T052,Q38L02,snaclec/CTL,FLNA,string,"STRING one-step neighborhood via GP1BA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T052,Q38L02,snaclec/CTL,GP1BB,string,"STRING one-step neighborhood via GP1BA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T052,Q38L02,snaclec/CTL,SELP,string,"STRING one-step neighborhood via GP1BA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T052,Q38L02,snaclec/CTL,F2,string,"STRING one-step neighborhood via GP1BA (combined score = 0.992); annotation-based expansion, not curated direct toxin-host binding.",,0.992,2026-09-24
+T052,Q38L02,snaclec/CTL,ITGAM,string,"STRING one-step neighborhood via GP1BA (combined score = 0.982); annotation-based expansion, not curated direct toxin-host binding.",,0.982,2026-09-24
+T052,Q38L02,snaclec/CTL,GP5,string,"STRING one-step neighborhood via GP1BA (combined score = 0.979); annotation-based expansion, not curated direct toxin-host binding.",,0.979,2026-09-24
+T052,Q38L02,snaclec/CTL,YWHAZ,string,"STRING one-step neighborhood via GP1BA (combined score = 0.979); annotation-based expansion, not curated direct toxin-host binding.",,0.979,2026-09-24
+T052,Q38L02,snaclec/CTL,ITGB2,string,"STRING one-step neighborhood via GP1BA (combined score = 0.978); annotation-based expansion, not curated direct toxin-host binding.",,0.978,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,F2,string,"STRING one-step neighborhood via FGA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,FGB,string,"STRING one-step neighborhood via FGA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,FGG,string,"STRING one-step neighborhood via FGA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,AHSG,string,"STRING one-step neighborhood via FGA (combined score = 0.984); annotation-based expansion, not curated direct toxin-host binding.",,0.984,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,SERPINC1,string,"STRING one-step neighborhood via FGA (combined score = 0.980); annotation-based expansion, not curated direct toxin-host binding.",,0.98,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGB3,string,"STRING one-step neighborhood via FGA (combined score = 0.978); annotation-based expansion, not curated direct toxin-host binding.",,0.978,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ALB,string,"STRING one-step neighborhood via FGA (combined score = 0.975); annotation-based expansion, not curated direct toxin-host binding.",,0.975,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,SERPINF2,string,"STRING one-step neighborhood via FGA (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,PLG,string,"STRING one-step neighborhood via FGA (combined score = 0.965); annotation-based expansion, not curated direct toxin-host binding.",,0.965,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,F13B,string,"STRING one-step neighborhood via FGA (combined score = 0.960); annotation-based expansion, not curated direct toxin-host binding.",,0.96,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGAV,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,VTN,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,SDC1,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGB1,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,SDC4,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGA2B,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGA5,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,THBS1,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,CD44,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,COL4A2,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGA1,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.923); annotation-based expansion, not curated direct toxin-host binding.",,0.923,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,COL5A1,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.915); annotation-based expansion, not curated direct toxin-host binding.",,0.915,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,COL5A2,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.914); annotation-based expansion, not curated direct toxin-host binding.",,0.914,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,GP6,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.906); annotation-based expansion, not curated direct toxin-host binding.",,0.906,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,LAMC1,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.880); annotation-based expansion, not curated direct toxin-host binding.",,0.88,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,PLOD3,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.874); annotation-based expansion, not curated direct toxin-host binding.",,0.874,2026-09-24
+T026,B8K1W0,SVMP/disintegrin,ITGA3,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.870); annotation-based expansion, not curated direct toxin-host binding.",,0.87,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,F2,string,"STRING one-step neighborhood via FGA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,FGB,string,"STRING one-step neighborhood via FGA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,FGG,string,"STRING one-step neighborhood via FGA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,AHSG,string,"STRING one-step neighborhood via FGA (combined score = 0.984); annotation-based expansion, not curated direct toxin-host binding.",,0.984,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,SERPINC1,string,"STRING one-step neighborhood via FGA (combined score = 0.980); annotation-based expansion, not curated direct toxin-host binding.",,0.98,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGB3,string,"STRING one-step neighborhood via FGA (combined score = 0.978); annotation-based expansion, not curated direct toxin-host binding.",,0.978,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ALB,string,"STRING one-step neighborhood via FGA (combined score = 0.975); annotation-based expansion, not curated direct toxin-host binding.",,0.975,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,SERPINF2,string,"STRING one-step neighborhood via FGA (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,PLG,string,"STRING one-step neighborhood via FGA (combined score = 0.965); annotation-based expansion, not curated direct toxin-host binding.",,0.965,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,F13B,string,"STRING one-step neighborhood via FGA (combined score = 0.960); annotation-based expansion, not curated direct toxin-host binding.",,0.96,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGAV,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,VTN,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,SDC1,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGB1,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,SDC4,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGA2B,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGA5,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,THBS1,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,CD44,string,"STRING one-step neighborhood via FN1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,COL4A2,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGA1,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.923); annotation-based expansion, not curated direct toxin-host binding.",,0.923,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,COL5A1,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.915); annotation-based expansion, not curated direct toxin-host binding.",,0.915,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,COL5A2,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.914); annotation-based expansion, not curated direct toxin-host binding.",,0.914,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,GP6,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.906); annotation-based expansion, not curated direct toxin-host binding.",,0.906,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,LAMC1,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.880); annotation-based expansion, not curated direct toxin-host binding.",,0.88,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,PLOD3,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.874); annotation-based expansion, not curated direct toxin-host binding.",,0.874,2026-09-24
+T025,AAZ39880.1,SVMP/disintegrin,ITGA3,string,"STRING one-step neighborhood via COL4A1 (combined score = 0.870); annotation-based expansion, not curated direct toxin-host binding.",,0.87,2026-09-24
+T038,P18965,SVSP,F2,string,"STRING one-step neighborhood via F5 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T038,P18965,SVSP,F10,string,"STRING one-step neighborhood via F5 (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T038,P18965,SVSP,PROS1,string,"STRING one-step neighborhood via F5 (combined score = 0.972); annotation-based expansion, not curated direct toxin-host binding.",,0.972,2026-09-24
+T038,P18965,SVSP,PROC,string,"STRING one-step neighborhood via F5 (combined score = 0.940); annotation-based expansion, not curated direct toxin-host binding.",,0.94,2026-09-24
+T038,P18965,SVSP,F8,string,"STRING one-step neighborhood via F5 (combined score = 0.846); annotation-based expansion, not curated direct toxin-host binding.",,0.846,2026-09-24
+T038,P18965,SVSP,MCFD2,string,"STRING one-step neighborhood via F5 (combined score = 0.825); annotation-based expansion, not curated direct toxin-host binding.",,0.825,2026-09-24
+T038,P18965,SVSP,MMRN1,string,"STRING one-step neighborhood via F5 (combined score = 0.822); annotation-based expansion, not curated direct toxin-host binding.",,0.822,2026-09-24
+T038,P18965,SVSP,MTHFR,string,"STRING one-step neighborhood via F5 (combined score = 0.821); annotation-based expansion, not curated direct toxin-host binding.",,0.821,2026-09-24
+T038,P18965,SVSP,SERPINC1,string,"STRING one-step neighborhood via F5 (combined score = 0.817); annotation-based expansion, not curated direct toxin-host binding.",,0.817,2026-09-24
+T038,P18965,SVSP,F3,string,"STRING one-step neighborhood via F5 (combined score = 0.799); annotation-based expansion, not curated direct toxin-host binding.",,0.799,2026-09-24
+T037,P18964,SVSP,F2,string,"STRING one-step neighborhood via F5 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T037,P18964,SVSP,F10,string,"STRING one-step neighborhood via F5 (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T037,P18964,SVSP,PROS1,string,"STRING one-step neighborhood via F5 (combined score = 0.972); annotation-based expansion, not curated direct toxin-host binding.",,0.972,2026-09-24
+T037,P18964,SVSP,PROC,string,"STRING one-step neighborhood via F5 (combined score = 0.940); annotation-based expansion, not curated direct toxin-host binding.",,0.94,2026-09-24
+T037,P18964,SVSP,F8,string,"STRING one-step neighborhood via F5 (combined score = 0.846); annotation-based expansion, not curated direct toxin-host binding.",,0.846,2026-09-24
+T037,P18964,SVSP,MCFD2,string,"STRING one-step neighborhood via F5 (combined score = 0.825); annotation-based expansion, not curated direct toxin-host binding.",,0.825,2026-09-24
+T037,P18964,SVSP,MMRN1,string,"STRING one-step neighborhood via F5 (combined score = 0.822); annotation-based expansion, not curated direct toxin-host binding.",,0.822,2026-09-24
+T037,P18964,SVSP,MTHFR,string,"STRING one-step neighborhood via F5 (combined score = 0.821); annotation-based expansion, not curated direct toxin-host binding.",,0.821,2026-09-24
+T037,P18964,SVSP,SERPINC1,string,"STRING one-step neighborhood via F5 (combined score = 0.817); annotation-based expansion, not curated direct toxin-host binding.",,0.817,2026-09-24
+T037,P18964,SVSP,F3,string,"STRING one-step neighborhood via F5 (combined score = 0.799); annotation-based expansion, not curated direct toxin-host binding.",,0.799,2026-09-24
+T028,E5L0E3,SVSP,F2,string,"STRING one-step neighborhood via FGA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T028,E5L0E3,SVSP,FGB,string,"STRING one-step neighborhood via FGA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T028,E5L0E3,SVSP,FGG,string,"STRING one-step neighborhood via FGA (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T028,E5L0E3,SVSP,AHSG,string,"STRING one-step neighborhood via FGA (combined score = 0.984); annotation-based expansion, not curated direct toxin-host binding.",,0.984,2026-09-24
+T028,E5L0E3,SVSP,SERPINC1,string,"STRING one-step neighborhood via FGA (combined score = 0.980); annotation-based expansion, not curated direct toxin-host binding.",,0.98,2026-09-24
+T028,E5L0E3,SVSP,ITGB3,string,"STRING one-step neighborhood via FGA (combined score = 0.978); annotation-based expansion, not curated direct toxin-host binding.",,0.978,2026-09-24
+T028,E5L0E3,SVSP,ALB,string,"STRING one-step neighborhood via FGA (combined score = 0.975); annotation-based expansion, not curated direct toxin-host binding.",,0.975,2026-09-24
+T028,E5L0E3,SVSP,SERPINF2,string,"STRING one-step neighborhood via FGA (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T028,E5L0E3,SVSP,PLG,string,"STRING one-step neighborhood via FGA (combined score = 0.965); annotation-based expansion, not curated direct toxin-host binding.",,0.965,2026-09-24
+T028,E5L0E3,SVSP,F13B,string,"STRING one-step neighborhood via FGA (combined score = 0.960); annotation-based expansion, not curated direct toxin-host binding.",,0.96,2026-09-24
+T029,E5L0E4,SVSP,FGA,string,"STRING one-step neighborhood via FGB (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T029,E5L0E4,SVSP,FGG,string,"STRING one-step neighborhood via FGB (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T029,E5L0E4,SVSP,F2,string,"STRING one-step neighborhood via FGB (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T029,E5L0E4,SVSP,SERPINC1,string,"STRING one-step neighborhood via FGB (combined score = 0.954); annotation-based expansion, not curated direct toxin-host binding.",,0.954,2026-09-24
+T029,E5L0E4,SVSP,ITGB3,string,"STRING one-step neighborhood via FGB (combined score = 0.952); annotation-based expansion, not curated direct toxin-host binding.",,0.952,2026-09-24
+T029,E5L0E4,SVSP,SERPIND1,string,"STRING one-step neighborhood via FGB (combined score = 0.951); annotation-based expansion, not curated direct toxin-host binding.",,0.951,2026-09-24
+T029,E5L0E4,SVSP,PLG,string,"STRING one-step neighborhood via FGB (combined score = 0.948); annotation-based expansion, not curated direct toxin-host binding.",,0.948,2026-09-24
+T029,E5L0E4,SVSP,AMBP,string,"STRING one-step neighborhood via FGB (combined score = 0.931); annotation-based expansion, not curated direct toxin-host binding.",,0.931,2026-09-24
+T029,E5L0E4,SVSP,GC,string,"STRING one-step neighborhood via FGB (combined score = 0.931); annotation-based expansion, not curated direct toxin-host binding.",,0.931,2026-09-24
+T029,E5L0E4,SVSP,ITGA2B,string,"STRING one-step neighborhood via FGB (combined score = 0.925); annotation-based expansion, not curated direct toxin-host binding.",,0.925,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,HRG,string,"STRING one-step neighborhood via PLG (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,SERPINF2,string,"STRING one-step neighborhood via PLG (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,PLAT,string,"STRING one-step neighborhood via PLG (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,ENO1,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,FN1,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,ANXA2,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,CLEC3B,string,"STRING one-step neighborhood via PLG (combined score = 0.996); annotation-based expansion, not curated direct toxin-host binding.",,0.996,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,VTN,string,"STRING one-step neighborhood via PLG (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,SERPINF1,string,"STRING one-step neighborhood via PLG (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,AMOT,string,"STRING one-step neighborhood via PLG (combined score = 0.993); annotation-based expansion, not curated direct toxin-host binding.",,0.993,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,KNG1,string,"STRING one-step neighborhood via F11 (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,SERPINC1,string,"STRING one-step neighborhood via F11 (combined score = 0.969); annotation-based expansion, not curated direct toxin-host binding.",,0.969,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,F9,string,"STRING one-step neighborhood via F11 (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,F8,string,"STRING one-step neighborhood via F11 (combined score = 0.966); annotation-based expansion, not curated direct toxin-host binding.",,0.966,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,F12,string,"STRING one-step neighborhood via F11 (combined score = 0.954); annotation-based expansion, not curated direct toxin-host binding.",,0.954,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,APP,string,"STRING one-step neighborhood via F11 (combined score = 0.954); annotation-based expansion, not curated direct toxin-host binding.",,0.954,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,F3,string,"STRING one-step neighborhood via F11 (combined score = 0.923); annotation-based expansion, not curated direct toxin-host binding.",,0.923,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,IGHV3-43D,string,"STRING one-step neighborhood via F11 (combined score = 0.913); annotation-based expansion, not curated direct toxin-host binding.",,0.913,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,IGKV1D-33,string,"STRING one-step neighborhood via F11 (combined score = 0.912); annotation-based expansion, not curated direct toxin-host binding.",,0.912,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,IGKV1-33,string,"STRING one-step neighborhood via F11 (combined score = 0.912); annotation-based expansion, not curated direct toxin-host binding.",,0.912,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,F2,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,TFPI,string,"STRING one-step neighborhood via F10 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,F5,string,"STRING one-step neighborhood via F10 (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,F7,string,"STRING one-step neighborhood via F10 (combined score = 0.988); annotation-based expansion, not curated direct toxin-host binding.",,0.988,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,VWF,string,"STRING one-step neighborhood via F10 (combined score = 0.978); annotation-based expansion, not curated direct toxin-host binding.",,0.978,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,PROCR,string,"STRING one-step neighborhood via F10 (combined score = 0.958); annotation-based expansion, not curated direct toxin-host binding.",,0.958,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,TMPRSS15,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.920); annotation-based expansion, not curated direct toxin-host binding.",,0.92,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,PRSS3,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.918); annotation-based expansion, not curated direct toxin-host binding.",,0.918,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,CTRB1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.855); annotation-based expansion, not curated direct toxin-host binding.",,0.855,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,CFTR,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.854); annotation-based expansion, not curated direct toxin-host binding.",,0.854,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,PLG,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.832); annotation-based expansion, not curated direct toxin-host binding.",,0.832,2026-09-24
+T034,H6VC06,Kunitz-type inhibitors,F2R,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.826); annotation-based expansion, not curated direct toxin-host binding.",,0.826,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,PROCR,string,"STRING one-step neighborhood via PROC (combined score = 0.996); annotation-based expansion, not curated direct toxin-host binding.",,0.996,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,THBD,string,"STRING one-step neighborhood via PROC (combined score = 0.992); annotation-based expansion, not curated direct toxin-host binding.",,0.992,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,F2,string,"STRING one-step neighborhood via PROC (combined score = 0.987); annotation-based expansion, not curated direct toxin-host binding.",,0.987,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,SERPINF2,string,"STRING one-step neighborhood via PROC (combined score = 0.972); annotation-based expansion, not curated direct toxin-host binding.",,0.972,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,SERPINA5,string,"STRING one-step neighborhood via PROC (combined score = 0.969); annotation-based expansion, not curated direct toxin-host binding.",,0.969,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,F2R,string,"STRING one-step neighborhood via PROC (combined score = 0.960); annotation-based expansion, not curated direct toxin-host binding.",,0.96,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,F8,string,"STRING one-step neighborhood via PROC (combined score = 0.960); annotation-based expansion, not curated direct toxin-host binding.",,0.96,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,SERPINE1,string,"STRING one-step neighborhood via PROC (combined score = 0.943); annotation-based expansion, not curated direct toxin-host binding.",,0.943,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,F5,string,"STRING one-step neighborhood via PROC (combined score = 0.940); annotation-based expansion, not curated direct toxin-host binding.",,0.94,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,SERPINA1,string,"STRING one-step neighborhood via PROC (combined score = 0.934); annotation-based expansion, not curated direct toxin-host binding.",,0.934,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,KNG1,string,"STRING one-step neighborhood via F11 (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,SERPINC1,string,"STRING one-step neighborhood via F11 (combined score = 0.969); annotation-based expansion, not curated direct toxin-host binding.",,0.969,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,F9,string,"STRING one-step neighborhood via F11 (combined score = 0.967); annotation-based expansion, not curated direct toxin-host binding.",,0.967,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,F12,string,"STRING one-step neighborhood via F11 (combined score = 0.954); annotation-based expansion, not curated direct toxin-host binding.",,0.954,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,APP,string,"STRING one-step neighborhood via F11 (combined score = 0.954); annotation-based expansion, not curated direct toxin-host binding.",,0.954,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,F3,string,"STRING one-step neighborhood via F11 (combined score = 0.923); annotation-based expansion, not curated direct toxin-host binding.",,0.923,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,IGHV3-43D,string,"STRING one-step neighborhood via F11 (combined score = 0.913); annotation-based expansion, not curated direct toxin-host binding.",,0.913,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,IGKV1D-33,string,"STRING one-step neighborhood via F11 (combined score = 0.912); annotation-based expansion, not curated direct toxin-host binding.",,0.912,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,IGKV1-33,string,"STRING one-step neighborhood via F11 (combined score = 0.912); annotation-based expansion, not curated direct toxin-host binding.",,0.912,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,HRG,string,"STRING one-step neighborhood via PLG (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,PLAT,string,"STRING one-step neighborhood via PLG (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,ENO1,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,FN1,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,ANXA2,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,CLEC3B,string,"STRING one-step neighborhood via PLG (combined score = 0.996); annotation-based expansion, not curated direct toxin-host binding.",,0.996,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,VTN,string,"STRING one-step neighborhood via PLG (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,SERPINF1,string,"STRING one-step neighborhood via PLG (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,AMOT,string,"STRING one-step neighborhood via PLG (combined score = 0.993); annotation-based expansion, not curated direct toxin-host binding.",,0.993,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,TMPRSS15,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.920); annotation-based expansion, not curated direct toxin-host binding.",,0.92,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,PRSS3,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.918); annotation-based expansion, not curated direct toxin-host binding.",,0.918,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,CTRB1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.855); annotation-based expansion, not curated direct toxin-host binding.",,0.855,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,CFTR,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.854); annotation-based expansion, not curated direct toxin-host binding.",,0.854,2026-09-24
+T033,H6VC05,Kunitz-type inhibitors,PLG,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.832); annotation-based expansion, not curated direct toxin-host binding.",,0.832,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via CTRB1 (combined score = 0.973); annotation-based expansion, not curated direct toxin-host binding.",,0.973,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,SERPINA3,string,"STRING one-step neighborhood via CTRB1 (combined score = 0.969); annotation-based expansion, not curated direct toxin-host binding.",,0.969,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,SERPINA1,string,"STRING one-step neighborhood via CTRB1 (combined score = 0.957); annotation-based expansion, not curated direct toxin-host binding.",,0.957,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via CTRB1 (combined score = 0.949); annotation-based expansion, not curated direct toxin-host binding.",,0.949,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,CPB1,string,"STRING one-step neighborhood via CTRB1 (combined score = 0.932); annotation-based expansion, not curated direct toxin-host binding.",,0.932,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,PNLIP,string,"STRING one-step neighborhood via CTRB1 (combined score = 0.925); annotation-based expansion, not curated direct toxin-host binding.",,0.925,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,CEL,string,"STRING one-step neighborhood via CTRB1 (combined score = 0.909); annotation-based expansion, not curated direct toxin-host binding.",,0.909,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via CTRB1 (combined score = 0.885); annotation-based expansion, not curated direct toxin-host binding.",,0.885,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,PRSS1,string,"STRING one-step neighborhood via CTRB1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T019,A8Y7P1,Kunitz-type inhibitors,A2M,string,"STRING one-step neighborhood via CTRB1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,TMPRSS15,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.920); annotation-based expansion, not curated direct toxin-host binding.",,0.92,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,PRSS3,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.918); annotation-based expansion, not curated direct toxin-host binding.",,0.918,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,CTRB1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.855); annotation-based expansion, not curated direct toxin-host binding.",,0.855,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,CFTR,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.854); annotation-based expansion, not curated direct toxin-host binding.",,0.854,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,PLG,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.832); annotation-based expansion, not curated direct toxin-host binding.",,0.832,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,F2R,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.826); annotation-based expansion, not curated direct toxin-host binding.",,0.826,2026-09-24
+T012,A8Y7N4,Kunitz-type inhibitors,APP,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.822); annotation-based expansion, not curated direct toxin-host binding.",,0.822,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,TMPRSS15,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.920); annotation-based expansion, not curated direct toxin-host binding.",,0.92,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,PRSS3,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.918); annotation-based expansion, not curated direct toxin-host binding.",,0.918,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,CTRB1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.855); annotation-based expansion, not curated direct toxin-host binding.",,0.855,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,CFTR,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.854); annotation-based expansion, not curated direct toxin-host binding.",,0.854,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,PLG,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.832); annotation-based expansion, not curated direct toxin-host binding.",,0.832,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,F2R,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.826); annotation-based expansion, not curated direct toxin-host binding.",,0.826,2026-09-24
+T016,A8Y7N8,Kunitz-type inhibitors,APP,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.822); annotation-based expansion, not curated direct toxin-host binding.",,0.822,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,TMPRSS15,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.920); annotation-based expansion, not curated direct toxin-host binding.",,0.92,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,PRSS3,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.918); annotation-based expansion, not curated direct toxin-host binding.",,0.918,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,CTRB1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.855); annotation-based expansion, not curated direct toxin-host binding.",,0.855,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,CFTR,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.854); annotation-based expansion, not curated direct toxin-host binding.",,0.854,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,PLG,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.832); annotation-based expansion, not curated direct toxin-host binding.",,0.832,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,F2R,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.826); annotation-based expansion, not curated direct toxin-host binding.",,0.826,2026-09-24
+T018,A8Y7P0,Kunitz-type inhibitors,APP,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.822); annotation-based expansion, not curated direct toxin-host binding.",,0.822,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,TMPRSS15,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.920); annotation-based expansion, not curated direct toxin-host binding.",,0.92,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,PRSS3,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.918); annotation-based expansion, not curated direct toxin-host binding.",,0.918,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,CTRB1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.855); annotation-based expansion, not curated direct toxin-host binding.",,0.855,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,CFTR,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.854); annotation-based expansion, not curated direct toxin-host binding.",,0.854,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,PLG,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.832); annotation-based expansion, not curated direct toxin-host binding.",,0.832,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,F2R,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.826); annotation-based expansion, not curated direct toxin-host binding.",,0.826,2026-09-24
+T020,A8Y7P2,Kunitz-type inhibitors,APP,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.822); annotation-based expansion, not curated direct toxin-host binding.",,0.822,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,TMPRSS15,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.920); annotation-based expansion, not curated direct toxin-host binding.",,0.92,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,PRSS3,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.918); annotation-based expansion, not curated direct toxin-host binding.",,0.918,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,CTRB1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.855); annotation-based expansion, not curated direct toxin-host binding.",,0.855,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,CFTR,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.854); annotation-based expansion, not curated direct toxin-host binding.",,0.854,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,PLG,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.832); annotation-based expansion, not curated direct toxin-host binding.",,0.832,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,F2R,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.826); annotation-based expansion, not curated direct toxin-host binding.",,0.826,2026-09-24
+T024,A8Y7P6,Kunitz-type inhibitors,APP,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.822); annotation-based expansion, not curated direct toxin-host binding.",,0.822,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,HRG,string,"STRING one-step neighborhood via PLG (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,SERPINF2,string,"STRING one-step neighborhood via PLG (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,PLAT,string,"STRING one-step neighborhood via PLG (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,ENO1,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,FN1,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,ANXA2,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,CLEC3B,string,"STRING one-step neighborhood via PLG (combined score = 0.996); annotation-based expansion, not curated direct toxin-host binding.",,0.996,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,VTN,string,"STRING one-step neighborhood via PLG (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,SERPINF1,string,"STRING one-step neighborhood via PLG (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,AMOT,string,"STRING one-step neighborhood via PLG (combined score = 0.993); annotation-based expansion, not curated direct toxin-host binding.",,0.993,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,TMPRSS15,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.920); annotation-based expansion, not curated direct toxin-host binding.",,0.92,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,PRSS3,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.918); annotation-based expansion, not curated direct toxin-host binding.",,0.918,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,CTRB1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.855); annotation-based expansion, not curated direct toxin-host binding.",,0.855,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,CFTR,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.854); annotation-based expansion, not curated direct toxin-host binding.",,0.854,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,PLG,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.832); annotation-based expansion, not curated direct toxin-host binding.",,0.832,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,F2R,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.826); annotation-based expansion, not curated direct toxin-host binding.",,0.826,2026-09-24
+T013,A8Y7N5,Kunitz-type inhibitors,APP,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.822); annotation-based expansion, not curated direct toxin-host binding.",,0.822,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,HRG,string,"STRING one-step neighborhood via PLG (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,SERPINF2,string,"STRING one-step neighborhood via PLG (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,PLAT,string,"STRING one-step neighborhood via PLG (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,ENO1,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,FN1,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,ANXA2,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,CLEC3B,string,"STRING one-step neighborhood via PLG (combined score = 0.996); annotation-based expansion, not curated direct toxin-host binding.",,0.996,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,VTN,string,"STRING one-step neighborhood via PLG (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,SERPINF1,string,"STRING one-step neighborhood via PLG (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,AMOT,string,"STRING one-step neighborhood via PLG (combined score = 0.993); annotation-based expansion, not curated direct toxin-host binding.",,0.993,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,TMPRSS15,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.920); annotation-based expansion, not curated direct toxin-host binding.",,0.92,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,PRSS3,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.918); annotation-based expansion, not curated direct toxin-host binding.",,0.918,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,CTRB1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.855); annotation-based expansion, not curated direct toxin-host binding.",,0.855,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,CFTR,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.854); annotation-based expansion, not curated direct toxin-host binding.",,0.854,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,PLG,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.832); annotation-based expansion, not curated direct toxin-host binding.",,0.832,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,F2R,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.826); annotation-based expansion, not curated direct toxin-host binding.",,0.826,2026-09-24
+T021,A8Y7P3,Kunitz-type inhibitors,APP,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.822); annotation-based expansion, not curated direct toxin-host binding.",,0.822,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,HRG,string,"STRING one-step neighborhood via PLG (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,SERPINF2,string,"STRING one-step neighborhood via PLG (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,PLAT,string,"STRING one-step neighborhood via PLG (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,ENO1,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,FN1,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,ANXA2,string,"STRING one-step neighborhood via PLG (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,CLEC3B,string,"STRING one-step neighborhood via PLG (combined score = 0.996); annotation-based expansion, not curated direct toxin-host binding.",,0.996,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,VTN,string,"STRING one-step neighborhood via PLG (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,SERPINF1,string,"STRING one-step neighborhood via PLG (combined score = 0.995); annotation-based expansion, not curated direct toxin-host binding.",,0.995,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,AMOT,string,"STRING one-step neighborhood via PLG (combined score = 0.993); annotation-based expansion, not curated direct toxin-host binding.",,0.993,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,SPINK1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,TMPRSS15,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.920); annotation-based expansion, not curated direct toxin-host binding.",,0.92,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,PRSS3,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.918); annotation-based expansion, not curated direct toxin-host binding.",,0.918,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,CTRB1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.863); annotation-based expansion, not curated direct toxin-host binding.",,0.863,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,CTRB2,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.859); annotation-based expansion, not curated direct toxin-host binding.",,0.859,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,CPA1,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.855); annotation-based expansion, not curated direct toxin-host binding.",,0.855,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,CFTR,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.854); annotation-based expansion, not curated direct toxin-host binding.",,0.854,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,PLG,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.832); annotation-based expansion, not curated direct toxin-host binding.",,0.832,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,F2R,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.826); annotation-based expansion, not curated direct toxin-host binding.",,0.826,2026-09-24
+T022,A8Y7P4,Kunitz-type inhibitors,APP,string,"STRING one-step neighborhood via PRSS1 (combined score = 0.822); annotation-based expansion, not curated direct toxin-host binding.",,0.822,2026-09-24
+T042,P67861,VEGF,VEGFB,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T042,P67861,VEGF,CDH5,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T042,P67861,VEGF,NRP1,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T042,P67861,VEGF,VEGFC,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T042,P67861,VEGF,PGF,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T042,P67861,VEGF,VEGFD,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T042,P67861,VEGF,PECAM1,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T042,P67861,VEGF,FGF2,string,"STRING one-step neighborhood via KDR (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T042,P67861,VEGF,SRC,string,"STRING one-step neighborhood via KDR (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T042,P67861,VEGF,PDGFC,string,"STRING one-step neighborhood via KDR (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24
+T036,P0DL42,VEGF,VEGFB,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T036,P0DL42,VEGF,CDH5,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T036,P0DL42,VEGF,NRP1,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T036,P0DL42,VEGF,VEGFC,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T036,P0DL42,VEGF,PGF,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T036,P0DL42,VEGF,VEGFD,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T036,P0DL42,VEGF,PECAM1,string,"STRING one-step neighborhood via KDR (combined score = 0.999); annotation-based expansion, not curated direct toxin-host binding.",,0.999,2026-09-24
+T036,P0DL42,VEGF,FGF2,string,"STRING one-step neighborhood via KDR (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T036,P0DL42,VEGF,SRC,string,"STRING one-step neighborhood via KDR (combined score = 0.998); annotation-based expansion, not curated direct toxin-host binding.",,0.998,2026-09-24
+T036,P0DL42,VEGF,PDGFC,string,"STRING one-step neighborhood via KDR (combined score = 0.997); annotation-based expansion, not curated direct toxin-host binding.",,0.997,2026-09-24

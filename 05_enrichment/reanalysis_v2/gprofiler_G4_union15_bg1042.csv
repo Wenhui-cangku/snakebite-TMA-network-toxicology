@@ -1,0 +1,949 @@
+﻿source,term,p,term_size,query_size,intersection
+REAC,Formation of Fibrin Clot (Clotting Cascade),8.520387148332574e-12,25,15,11
+REAC,"Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation",1.0453114756892692e-06,7,15,6
+REAC,Hemostasis,1.649930105647639e-06,120,15,13
+GO:BP,coagulation,3.8785257346427385e-06,96,15,12
+GO:BP,blood coagulation,3.8785257346427385e-06,96,15,12
+REAC,Common Pathway of Fibrin Clot Formation,4.313022790091244e-06,14,15,7
+REAC,Intrinsic Pathway of Fibrin Clot Formation,4.313022790091244e-06,14,15,7
+KEGG,Complement and coagulation cascades,4.8514630658544125e-06,72,15,11
+GO:BP,hemostasis,5.688970345539565e-06,99,15,12
+GO:BP,regulation of blood coagulation,5.721599313116504e-06,36,15,9
+GO:BP,regulation of hemostasis,5.721599313116504e-06,36,15,9
+GO:BP,wound healing,7.239550680747773e-06,134,15,13
+GO:BP,regulation of coagulation,1.626220538789118e-05,40,15,9
+REAC,Gamma-carboxylation of protein precursors,9.205166684919628e-05,6,15,5
+REAC,"Gamma-carboxylation, transport, and amino-terminal cleavage of proteins",9.205166684919628e-05,6,15,5
+REAC,Removal of aminoterminal propeptides from gamma-carboxylated proteins,9.205166684919628e-05,6,15,5
+REAC,Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus,9.205166684919628e-05,6,15,5
+GO:BP,regulation of wound healing,0.00011633964665791862,49,15,9
+GO:BP,response to wounding,0.0001335937085475571,167,15,13
+GO:BP,regulation of body fluid levels,0.0001774395537621122,131,15,12
+GO:BP,regulation of response to wounding,0.0010695419183864583,62,15,9
+GO:BP,negative regulation of blood coagulation,0.0017680725224869195,29,15,7
+GO:BP,negative regulation of hemostasis,0.0017680725224869195,29,15,7
+GO:BP,negative regulation of coagulation,0.0029376134140248196,31,15,7
+REAC,Defects of contact activation system (CAS) and kallikrein/kinin system (KKS),0.003742140513333525,10,15,5
+GO:BP,fibrinolysis,0.005245110318245316,20,15,6
+GO:BP,negative regulation of wound healing,0.007305398326431491,35,15,7
+REAC,Diseases of hemostasis,0.011570484126129888,12,15,5
+REAC,Defective factor IX causes hemophilia B,0.02133376234152912,6,15,4
+GO:BP,negative regulation of response to wounding,0.02341837280409575,41,15,7
+REAC,Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs),0.029761754787463686,26,15,6
+REAC,"Platelet activation, signaling and aggregation",0.07380244675249172,71,15,8
+REAC,Metabolism of proteins,0.23239008539580713,149,15,10
+GO:BP,regulation of biological quality,0.23725903233245627,369,15,14
+REAC,Response to elevated platelet cytosolic Ca2+,0.38169496459266855,39,15,6
+REAC,Platelet degranulation ,0.38169496459266855,39,15,6
+REAC,Post-translational protein modification,0.42611290978883415,121,15,9
+REAC,Defective factor VIII causes hemophilia A,0.4924277013044313,4,15,3
+REAC,Extrinsic Pathway of Fibrin Clot Formation,0.4924277013044313,4,15,3
+GO:BP,proteolysis,0.9904196584760269,99,15,8
+REAC,VEGFA-VEGFR2 Pathway,1.0,17,15,1
+REAC,VEGF ligand-receptor interactions,1.0,5,15,1
+REAC,VEGF binds to VEGFR leading to receptor dimerization,1.0,5,15,1
+REAC,Transport to the Golgi and subsequent modification,1.0,12,15,2
+REAC,Transport of small molecules,1.0,88,15,1
+REAC,Transcriptional regulation by RUNX1,1.0,31,15,1
+REAC,Toll-like Receptor Cascades,1.0,33,15,1
+REAC,Toll Like Receptor TLR6:TLR2 Cascade,1.0,24,15,1
+REAC,Toll Like Receptor TLR1:TLR2 Cascade,1.0,24,15,1
+REAC,Toll Like Receptor 4 (TLR4) Cascade,1.0,28,15,1
+REAC,Toll Like Receptor 2 (TLR2) Cascade,1.0,24,15,1
+REAC,Thrombin signalling through proteinase activated receptors (PARs),1.0,5,15,1
+REAC,Signaling downstream of RAS mutants,1.0,15,15,1
+REAC,Signaling by moderate kinase activity BRAF mutants,1.0,15,15,1
+REAC,Signaling by membrane-tethered fusions of PDGFRA or PDGFRB,1.0,2,15,1
+GO:BP,cytokine production,1.0,156,15,2
+GO:BP,cell activation,1.0,254,15,3
+GO:BP,morphogenesis of a branching structure,1.0,43,15,2
+GO:BP,response to hypoxia,1.0,73,15,1
+GO:BP,eye development,1.0,45,15,2
+GO:BP,vasculogenesis,1.0,16,15,1
+GO:BP,branching involved in blood vessel morphogenesis,1.0,12,15,2
+GO:BP,blood vessel development,1.0,146,15,3
+GO:BP,regulation of cell growth,1.0,47,15,1
+GO:BP,ovarian follicle development,1.0,10,15,1
+GO:BP,angiogenesis,1.0,121,15,3
+GO:BP,skeletal system development,1.0,68,15,1
+GO:BP,response to acid chemical,1.0,32,15,2
+GO:BP,cell morphogenesis,1.0,101,15,3
+GO:BP,mitochondrial fission,1.0,6,15,1
+REAC,VEGFR2 mediated cell proliferation,1.0,3,15,1
+GO:BP,response to stress,1.0,509,15,14
+GO:BP,chemotaxis,1.0,97,15,3
+GO:BP,apoptotic process,1.0,268,15,4
+GO:BP,autophagy,1.0,54,15,1
+GO:BP,exocytosis,1.0,45,15,1
+GO:BP,intracellular calcium ion homeostasis,1.0,30,15,1
+GO:BP,intracellular monoatomic ion homeostasis,1.0,66,15,1
+GO:BP,calcium ion transport,1.0,59,15,2
+GO:BP,monoatomic cation transport,1.0,115,15,2
+GO:BP,monoatomic ion transport,1.0,143,15,2
+GO:BP,transport,1.0,439,15,3
+GO:BP,phosphate-containing compound metabolic process,1.0,215,15,1
+GO:BP,phosphorus metabolic process,1.0,216,15,1
+GO:BP,protein phosphorylation,1.0,127,15,1
+GO:BP,regulation of membrane depolarization,1.0,7,15,2
+GO:BP,cell surface receptor protein tyrosine kinase signaling pathway,1.0,126,15,4
+GO:BP,enzyme-linked receptor protein signaling pathway,1.0,152,15,4
+GO:BP,cell surface receptor signaling pathway,1.0,365,15,7
+GO:BP,signal transduction,1.0,536,15,9
+GO:BP,negative regulation of cell adhesion,1.0,65,15,1
+GO:BP,cell-matrix adhesion,1.0,45,15,2
+GO:BP,cell adhesion,1.0,240,15,4
+GO:BP,cell communication,1.0,557,15,9
+GO:BP,cell-substrate junction assembly,1.0,19,15,1
+GO:BP,mitochondrion organization,1.0,25,15,1
+GO:BP,organelle organization,1.0,218,15,1
+GO:BP,humoral immune response,1.0,79,15,2
+GO:BP,immune response,1.0,311,15,2
+GO:BP,inflammatory response,1.0,199,15,4
+GO:BP,acute-phase response,1.0,21,15,2
+GO:BP,defense response,1.0,303,15,5
+GO:BP,response to nutrient,1.0,47,15,2
+GO:BP,sex differentiation,1.0,44,15,1
+GO:BP,neuromuscular junction development,1.0,9,15,1
+GO:BP,heart development,1.0,89,15,1
+GO:BP,sensory organ development,1.0,68,15,2
+GO:BP,brain development,1.0,74,15,1
+GO:BP,central nervous system development,1.0,122,15,2
+GO:BP,nervous system development,1.0,225,15,2
+GO:BP,multicellular organism development,1.0,478,15,5
+GO:BP,cell-cell signaling,1.0,140,15,2
+GO:BP,nitric oxide mediated signal transduction,1.0,11,15,1
+GO:BP,cell surface receptor signaling pathway via JAK-STAT,1.0,36,15,1
+GO:BP,phospholipase C-activating G protein-coupled receptor signaling pathway,1.0,28,15,1
+GO:BP,G protein-coupled receptor signaling pathway,1.0,97,15,2
+GO:BP,cell surface receptor protein serine/threonine kinase signaling pathway,1.0,35,15,1
+GO:BP,epidermal growth factor receptor signaling pathway,1.0,39,15,1
+GO:BP,gonad development,1.0,36,15,1
+GO:BP,regulation of cell shape,1.0,18,15,2
+GO:BP,insulin receptor signaling pathway,1.0,39,15,1
+GO:BP,negative regulation of cell population proliferation,1.0,119,15,1
+GO:BP,positive regulation of cell population proliferation,1.0,177,15,3
+GO:BP,cell population proliferation,1.0,295,15,4
+GO:BP,regulation of G protein-coupled receptor signaling pathway,1.0,16,15,1
+GO:BP,cell death,1.0,273,15,4
+GO:BP,metabolic process,1.0,727,15,11
+GO:BP,biological_process,1.0,992,15,15
+GO:BP,intracellular protein localization,1.0,181,15,2
+GO:BP,blood circulation,1.0,95,15,2
+GO:BP,circadian rhythm,1.0,25,15,1
+GO:BP,"blood coagulation, intrinsic pathway",1.0,7,15,2
+GO:BP,response to endogenous stimulus,1.0,223,15,2
+GO:BP,anatomical structure morphogenesis,1.0,317,15,5
+GO:BP,response to toxic substance,1.0,45,15,1
+GO:BP,response to abiotic stimulus,1.0,168,15,1
+GO:BP,response to bacterium,1.0,137,15,2
+GO:BP,response to biotic stimulus,1.0,258,15,2
+GO:BP,response to external stimulus,1.0,373,15,10
+GO:BP,protein secretion,1.0,48,15,2
+GO:BP,cellular response to starvation,1.0,24,15,1
+GO:BP,macromolecule biosynthetic process,1.0,469,15,8
+GO:BP,biosynthetic process,1.0,552,15,8
+GO:BP,catabolic process,1.0,225,15,1
+GO:BP,extrinsic apoptotic signaling pathway via death domain receptors,1.0,19,15,1
+GO:BP,female gonad development,1.0,22,15,1
+GO:BP,fibroblast growth factor receptor signaling pathway,1.0,31,15,1
+GO:BP,negative regulation of signal transduction,1.0,163,15,1
+GO:BP,positive regulation of signal transduction,1.0,233,15,7
+GO:BP,regulation of signal transduction,1.0,351,15,7
+GO:BP,hormone transport,1.0,50,15,2
+GO:BP,positive regulation of catabolic process,1.0,57,15,1
+GO:BP,regulation of catabolic process,1.0,101,15,1
+GO:BP,positive regulation of metabolic process,1.0,358,15,3
+GO:BP,negative regulation of metabolic process,1.0,256,15,2
+GO:BP,positive regulation of biosynthetic process,1.0,301,15,2
+GO:BP,negative regulation of biosynthetic process,1.0,208,15,2
+GO:BP,regulation of biosynthetic process,1.0,405,15,3
+GO:BP,tissue development,1.0,243,15,3
+GO:BP,animal organ morphogenesis,1.0,131,15,1
+GO:BP,post-embryonic development,1.0,20,15,1
+GO:BP,embryo development,1.0,125,15,1
+GO:BP,response to hormone,1.0,154,15,2
+GO:BP,positive regulation of phosphorus metabolic process,1.0,73,15,1
+GO:BP,negative regulation of macromolecule biosynthetic process,1.0,203,15,2
+GO:BP,positive regulation of macromolecule biosynthetic process,1.0,283,15,1
+GO:BP,regulation of macromolecule biosynthetic process,1.0,386,15,3
+GO:BP,negative regulation of platelet activation,1.0,7,15,1
+GO:BP,regulation of platelet activation,1.0,19,15,2
+GO:BP,positive regulation of autophagy,1.0,19,15,1
+GO:BP,regulation of autophagy,1.0,40,15,1
+GO:BP,regulation of gene expression,1.0,381,15,3
+GO:BP,gene expression,1.0,440,15,8
+GO:BP,regulation of mesenchymal cell proliferation,1.0,9,15,1
+GO:BP,mesenchymal cell proliferation,1.0,10,15,1
+GO:BP,response to metal ion,1.0,63,15,1
+GO:BP,response to carbon dioxide,1.0,1,15,1
+GO:BP,glial cell differentiation,1.0,48,15,1
+GO:BP,cellular process,1.0,977,15,14
+GO:BP,positive regulation of cell development,1.0,87,15,1
+GO:BP,positive regulation of collagen metabolic process,1.0,8,15,1
+GO:BP,regulation of collagen metabolic process,1.0,13,15,1
+GO:BP,negative regulation of cell communication,1.0,173,15,1
+GO:BP,positive regulation of cell communication,1.0,246,15,7
+GO:BP,regulation of cell communication,1.0,376,15,7
+GO:BP,positive regulation of platelet-derived growth factor receptor signaling pathway,1.0,5,15,2
+GO:BP,regulation of platelet-derived growth factor receptor signaling pathway,1.0,9,15,2
+GO:BP,positive regulation of organelle organization,1.0,56,15,1
+GO:BP,negative regulation of gene expression,1.0,139,15,2
+GO:BP,positive regulation of gene expression,1.0,189,15,1
+GO:BP,negative regulation of macromolecule metabolic process,1.0,234,15,2
+GO:BP,positive regulation of macromolecule metabolic process,1.0,331,15,2
+GO:BP,positive regulation of endothelial cell migration,1.0,35,15,2
+GO:BP,regulation of endothelial cell migration,1.0,44,15,2
+GO:BP,positive regulation of platelet activation,1.0,7,15,1
+GO:BP,cell growth,1.0,57,15,1
+GO:BP,cellular component organization,1.0,489,15,5
+GO:BP,peptide transport,1.0,40,15,2
+GO:BP,protein transport,1.0,110,15,2
+GO:BP,negative regulation of gliogenesis,1.0,5,15,1
+GO:BP,regulation of gliogenesis,1.0,21,15,1
+GO:BP,programmed cell death,1.0,272,15,4
+GO:BP,regulation of metal ion transport,1.0,54,15,1
+GO:BP,regulation of mitochondrion organization,1.0,16,15,1
+GO:BP,regulation of hormone levels,1.0,75,15,2
+GO:BP,negative regulation of cell-substrate adhesion,1.0,15,15,1
+GO:BP,positive regulation of cell-substrate adhesion,1.0,22,15,2
+GO:BP,regulation of cell-substrate adhesion,1.0,43,15,3
+GO:BP,positive regulation of nitric oxide mediated signal transduction,1.0,2,15,1
+GO:BP,regulation of nitric oxide mediated signal transduction,1.0,5,15,1
+GO:BP,negative regulation of cell development,1.0,45,15,1
+GO:BP,cellular homeostasis,1.0,105,15,1
+GO:BP,protein metabolic process,1.0,356,15,11
+GO:BP,regulation of vasoconstriction,1.0,19,15,1
+GO:BP,regulation of metabolic process,1.0,475,15,3
+GO:BP,cytokine-mediated signaling pathway,1.0,124,15,2
+GO:BP,peptidyl-tyrosine modification,1.0,41,15,1
+GO:BP,peptidyl-amino acid modification,1.0,70,15,1
+GO:BP,peptidyl-tyrosine phosphorylation,1.0,41,15,1
+GO:BP,regulation of exocytosis,1.0,26,15,1
+GO:BP,protein processing,1.0,39,15,4
+GO:BP,cell migration,1.0,223,15,5
+GO:BP,phosphorylation,1.0,135,15,1
+GO:BP,regulation of macroautophagy,1.0,16,15,1
+GO:BP,positive regulation of macroautophagy,1.0,11,15,1
+GO:BP,macroautophagy,1.0,25,15,1
+GO:BP,vesicle-mediated transport,1.0,176,15,1
+GO:BP,positive regulation of signaling,1.0,246,15,7
+GO:BP,signaling,1.0,557,15,9
+GO:BP,regulation of signaling,1.0,376,15,7
+GO:BP,extracellular matrix disassembly,1.0,12,15,1
+GO:BP,cellular component assembly,1.0,249,15,2
+GO:BP,regulation of cell morphogenesis,1.0,26,15,2
+GO:BP,regulation of anatomical structure morphogenesis,1.0,138,15,3
+GO:BP,reproductive process,1.0,130,15,1
+GO:BP,cellular component disassembly,1.0,35,15,1
+GO:BP,positive regulation of cell-cell adhesion,1.0,91,15,1
+GO:BP,negative regulation of cell-cell adhesion,1.0,48,15,1
+GO:BP,regulation of cell-cell adhesion,1.0,124,15,2
+GO:BP,neurogenesis,1.0,165,15,1
+GO:BP,developmental maturation,1.0,47,15,1
+GO:BP,antibacterial humoral response,1.0,4,15,1
+GO:BP,antimicrobial humoral response,1.0,13,15,2
+GO:BP,extracellular matrix organization,1.0,52,15,2
+GO:BP,positive regulation of blood coagulation,1.0,16,15,4
+GO:BP,platelet activation,1.0,54,15,3
+GO:BP,regulation of proteolysis,1.0,30,15,1
+GO:BP,regulation of cell adhesion,1.0,175,15,3
+GO:BP,cell differentiation,1.0,428,15,5
+GO:BP,myeloid cell differentiation,1.0,94,15,1
+GO:BP,hemopoiesis,1.0,212,15,2
+GO:BP,insulin secretion,1.0,25,15,1
+GO:BP,peptide hormone secretion,1.0,33,15,2
+GO:BP,intracellular monoatomic cation homeostasis,1.0,63,15,1
+GO:BP,metal ion transport,1.0,104,15,2
+GO:BP,signal release,1.0,68,15,2
+GO:BP,negative regulation of signaling,1.0,174,15,1
+GO:BP,regulation of defense response,1.0,151,15,1
+GO:BP,animal organ regeneration,1.0,17,15,1
+GO:BP,regeneration,1.0,31,15,1
+GO:BP,post-embryonic camera-type eye development,1.0,4,15,1
+GO:BP,regulation of epithelial cell differentiation,1.0,33,15,1
+GO:BP,epithelial cell differentiation,1.0,102,15,3
+GO:BP,leukocyte chemotaxis,1.0,61,15,1
+GO:BP,positive regulation of BMP signaling pathway,1.0,5,15,1
+GO:BP,regulation of BMP signaling pathway,1.0,10,15,1
+GO:BP,BMP signaling pathway,1.0,16,15,1
+GO:BP,positive regulation of cell migration,1.0,128,15,5
+GO:BP,regulation of cell migration,1.0,165,15,5
+GO:BP,lung development,1.0,39,15,1
+GO:BP,respiratory tube development,1.0,40,15,1
+GO:BP,positive regulation of cell growth,1.0,17,15,1
+GO:BP,megakaryocyte differentiation,1.0,16,15,1
+GO:BP,negative regulation of response to external stimulus,1.0,96,15,7
+GO:BP,regulation of response to external stimulus,1.0,221,15,10
+GO:BP,positive regulation of insulin secretion,1.0,12,15,1
+GO:BP,positive regulation of TOR signaling,1.0,13,15,3
+GO:BP,regulation of TOR signaling,1.0,23,15,3
+GO:BP,TOR signaling,1.0,26,15,3
+GO:BP,cellular response to nutrient levels,1.0,37,15,1
+GO:BP,response to nutrient levels,1.0,86,15,3
+GO:BP,killing of cells of another organism,1.0,11,15,1
+GO:BP,plasminogen activation,1.0,14,15,2
+GO:BP,zymogen activation,1.0,17,15,2
+GO:BP,cell-substrate adhesion,1.0,66,15,3
+GO:BP,brain-derived neurotrophic factor receptor signaling pathway,1.0,21,15,1
+GO:BP,positive regulation of protein modification process,1.0,71,15,1
+GO:BP,regulation of protein modification process,1.0,98,15,1
+GO:BP,negative regulation of defense response,1.0,60,15,1
+GO:BP,collagen biosynthetic process,1.0,13,15,1
+GO:BP,collagen metabolic process,1.0,19,15,1
+GO:BP,secretion by cell,1.0,115,15,2
+GO:BP,regulation of protein localization,1.0,92,15,2
+GO:BP,regulation of localization,1.0,245,15,2
+GO:BP,cellular response to hormone stimulus,1.0,109,15,1
+GO:BP,cellular response to insulin stimulus,1.0,51,15,1
+GO:BP,response to insulin,1.0,60,15,1
+GO:BP,positive regulation of interleukin-8 production,1.0,23,15,1
+GO:BP,regulation of interleukin-8 production,1.0,29,15,1
+GO:BP,interleukin-8 production,1.0,29,15,1
+GO:BP,response to vitamin K,1.0,3,15,2
+GO:BP,developmental process,1.0,573,15,7
+GO:BP,multicellular organismal process,1.0,693,15,14
+GO:BP,response to estradiol,1.0,26,15,1
+GO:BP,positive regulation of response to external stimulus,1.0,136,15,5
+GO:BP,monoatomic ion transmembrane transport,1.0,116,15,2
+GO:BP,positive regulation of heterotypic cell-cell adhesion,1.0,7,15,1
+GO:BP,regulation of heterotypic cell-cell adhesion,1.0,11,15,1
+GO:BP,heterotypic cell-cell adhesion,1.0,18,15,1
+GO:BP,homotypic cell-cell adhesion,1.0,28,15,1
+GO:BP,response to cytokine,1.0,190,15,2
+GO:BP,response to lipid,1.0,166,15,1
+GO:BP,response to genistein,1.0,1,15,1
+GO:BP,response to hydroxyisoflavone,1.0,1,15,1
+GO:BP,cellular response to stress,1.0,180,15,1
+GO:BP,protein localization to organelle,1.0,72,15,1
+GO:BP,response to vitamin,1.0,28,15,2
+GO:BP,regulation of organelle organization,1.0,96,15,1
+GO:BP,macromolecule localization,1.0,228,15,2
+GO:BP,positive regulation of collagen biosynthetic process,1.0,8,15,1
+GO:BP,regulation of collagen biosynthetic process,1.0,12,15,1
+GO:BP,endothelial cell chemotaxis,1.0,8,15,1
+GO:BP,establishment of protein localization to extracellular region,1.0,48,15,2
+GO:BP,intracellular signal transduction,1.0,339,15,7
+GO:BP,regulation of tube diameter,1.0,49,15,1
+GO:BP,tube development,1.0,204,15,3
+GO:BP,tube morphogenesis,1.0,175,15,3
+GO:BP,embryonic hemopoiesis,1.0,12,15,1
+GO:BP,regulation of tube size,1.0,49,15,1
+GO:BP,positive regulation of monoatomic ion transmembrane transport,1.0,24,15,1
+GO:BP,regulation of monoatomic ion transmembrane transport,1.0,43,15,1
+GO:BP,positive regulation of transmembrane transport,1.0,34,15,1
+GO:BP,regulation of transmembrane transport,1.0,59,15,1
+GO:BP,protein localization to nucleus,1.0,42,15,1
+GO:BP,substrate adhesion-dependent cell spreading,1.0,17,15,1
+GO:BP,cell junction organization,1.0,90,15,2
+GO:BP,cell junction assembly,1.0,51,15,1
+GO:BP,collagen-activated signaling pathway,1.0,28,15,2
+GO:BP,collagen-activated tyrosine kinase receptor signaling pathway,1.0,26,15,2
+GO:BP,nitric oxide-cGMP-mediated signaling,1.0,7,15,1
+GO:BP,vascular endothelial growth factor receptor-2 signaling pathway,1.0,2,15,1
+GO:BP,vascular endothelial growth factor receptor-1 signaling pathway,1.0,20,15,1
+GO:BP,response to sterol,1.0,7,15,1
+GO:BP,response to decreased oxygen levels,1.0,73,15,1
+GO:BP,cellular response to stem cell factor stimulus,1.0,20,15,1
+GO:BP,response to stem cell factor,1.0,20,15,1
+GO:BP,protein modification process,1.0,187,15,1
+GO:BP,cellular response to macrophage colony-stimulating factor stimulus,1.0,22,15,1
+GO:BP,response to macrophage colony-stimulating factor,1.0,25,15,1
+GO:BP,cellular response to vascular endothelial growth factor stimulus,1.0,37,15,1
+GO:BP,megakaryocyte development,1.0,12,15,1
+GO:BP,platelet-derived growth factor receptor-beta signaling pathway,1.0,23,15,1
+GO:BP,platelet-derived growth factor receptor-alpha signaling pathway,1.0,24,15,1
+GO:BP,regulation of phosphorylation,1.0,87,15,1
+GO:BP,vasoconstriction,1.0,25,15,1
+GO:BP,response to chemical,1.0,478,15,7
+GO:BP,regulation of cell population proliferation,1.0,270,15,4
+GO:BP,gliogenesis,1.0,62,15,1
+GO:BP,positive regulation of locomotion,1.0,131,15,5
+GO:BP,regulation of locomotion,1.0,170,15,5
+GO:BP,locomotion,1.0,198,15,5
+GO:BP,regulation of growth,1.0,74,15,1
+GO:BP,growth,1.0,109,15,1
+GO:BP,macrophage colony-stimulating factor signaling pathway,1.0,20,15,1
+GO:BP,ERBB signaling pathway,1.0,42,15,1
+GO:BP,Kit signaling pathway,1.0,20,15,1
+GO:BP,vascular endothelial growth factor signaling pathway,1.0,35,15,1
+GO:BP,peptidyl-tyrosine autophosphorylation,1.0,6,15,1
+GO:BP,endothelium development,1.0,20,15,2
+GO:BP,endocardium development,1.0,4,15,1
+GO:BP,vascular process in circulatory system,1.0,66,15,1
+GO:BP,circulatory system process,1.0,109,15,2
+GO:BP,system process,1.0,241,15,2
+GO:BP,developmental process involved in reproduction,1.0,88,15,1
+GO:BP,positive regulation of peptide secretion,1.0,18,15,2
+GO:BP,regulation of peptide secretion,1.0,29,15,2
+GO:BP,peptide secretion,1.0,36,15,2
+GO:BP,positive regulation of leukocyte chemotaxis,1.0,33,15,1
+GO:BP,regulation of leukocyte chemotaxis,1.0,37,15,1
+GO:BP,positive regulation of leukocyte migration,1.0,50,15,1
+GO:BP,regulation of leukocyte migration,1.0,64,15,1
+GO:BP,positive regulation of immune system process,1.0,249,15,1
+GO:BP,regulation of immune system process,1.0,314,15,1
+GO:BP,activation of blood coagulation via clotting cascade,1.0,1,15,1
+GO:BP,surfactant homeostasis,1.0,5,15,1
+GO:BP,negative regulation of programmed cell death,1.0,162,15,3
+GO:BP,positive regulation of programmed cell death,1.0,90,15,1
+GO:BP,regulation of programmed cell death,1.0,237,15,4
+GO:BP,negative regulation of apoptotic process,1.0,156,15,3
+GO:BP,positive regulation of apoptotic process,1.0,87,15,1
+GO:BP,extracellular structure organization,1.0,52,15,2
+GO:BP,camera-type eye development,1.0,42,15,2
+GO:BP,regulation of apoptotic process,1.0,231,15,4
+GO:BP,defense response to bacterium,1.0,52,15,2
+GO:BP,response to starvation,1.0,28,15,1
+GO:BP,homeostatic process,1.0,271,15,2
+GO:BP,regulation of membrane potential,1.0,48,15,2
+GO:BP,taxis,1.0,98,15,3
+GO:BP,positive regulation of phosphorylation,1.0,63,15,1
+GO:BP,positive regulation of blood vessel endothelial cell migration,1.0,21,15,2
+GO:BP,regulation of blood vessel endothelial cell migration,1.0,29,15,2
+GO:BP,blood vessel endothelial cell migration,1.0,32,15,2
+GO:BP,negative regulation of neuron apoptotic process,1.0,36,15,1
+GO:BP,regulation of neuron apoptotic process,1.0,58,15,1
+GO:BP,phosphatidylinositol 3-kinase/protein kinase B signal transduction,1.0,71,15,3
+GO:BP,response to peptide hormone,1.0,95,15,2
+GO:BP,macromolecule modification,1.0,192,15,1
+GO:BP,positive regulation of MAPK cascade,1.0,93,15,2
+GO:BP,regulation of MAPK cascade,1.0,120,15,2
+GO:BP,positive regulation of monoatomic ion transport,1.0,37,15,1
+GO:BP,regulation of monoatomic ion transport,1.0,64,15,1
+GO:BP,response to external biotic stimulus,1.0,252,15,2
+GO:BP,response to amino acid,1.0,26,15,2
+GO:BP,macromolecule metabolic process,1.0,593,15,11
+GO:BP,induction of bacterial agglutination,1.0,1,15,1
+GO:BP,establishment of protein localization,1.0,126,15,2
+GO:BP,cell fate commitment,1.0,43,15,1
+GO:BP,development of primary sexual characteristics,1.0,36,15,1
+GO:BP,innate immune response,1.0,167,15,1
+GO:BP,biological process involved in interspecies interaction between organisms,1.0,273,15,3
+GO:BP,biological process involved in symbiotic interaction,1.0,35,15,1
+GO:BP,cellular response to fibroblast growth factor stimulus,1.0,40,15,1
+GO:BP,cell-cell adhesion mediated by cadherin,1.0,7,15,1
+GO:BP,primary metabolic process,1.0,642,15,11
+GO:BP,positive regulation of cellular component biogenesis,1.0,61,15,1
+GO:BP,regulation of cellular component biogenesis,1.0,101,15,1
+GO:BP,cellular component biogenesis,1.0,259,15,2
+GO:BP,regulation of system process,1.0,74,15,1
+GO:BP,protein-containing complex organization,1.0,147,15,1
+GO:BP,response to estrogen,1.0,11,15,1
+GO:BP,endothelial cell migration,1.0,54,15,2
+GO:BP,positive regulation of growth,1.0,30,15,1
+GO:BP,positive regulation of exocytosis,1.0,14,15,1
+GO:BP,positive regulation of vasoconstriction,1.0,9,15,1
+GO:BP,negative regulation of proteolysis,1.0,14,15,1
+GO:BP,positive regulation of cell adhesion,1.0,119,15,2
+GO:BP,positive regulation of angiogenesis,1.0,49,15,2
+GO:BP,regulation of angiogenesis,1.0,72,15,2
+GO:BP,positive regulation of G protein-coupled receptor signaling pathway,1.0,5,15,1
+GO:BP,negative regulation of glial cell differentiation,1.0,3,15,1
+GO:BP,regulation of glial cell differentiation,1.0,12,15,1
+GO:BP,regulation of endothelial cell differentiation,1.0,8,15,1
+GO:BP,positive regulation of cell differentiation,1.0,140,15,2
+GO:BP,negative regulation of cell differentiation,1.0,98,15,1
+GO:BP,regulation of cell differentiation,1.0,220,15,3
+GO:BP,endothelial cell differentiation,1.0,15,15,2
+GO:BP,external encapsulating structure organization,1.0,52,15,2
+GO:BP,focal adhesion assembly,1.0,17,15,1
+GO:BP,ephrin receptor signaling pathway,1.0,25,15,1
+GO:BP,hepatocyte growth factor receptor signaling pathway,1.0,21,15,1
+GO:BP,vascular endothelial growth factor receptor signaling pathway,1.0,31,15,1
+GO:BP,insulin-like growth factor receptor signaling pathway,1.0,28,15,1
+GO:BP,platelet-derived growth factor receptor signaling pathway,1.0,41,15,3
+GO:BP,secretion,1.0,137,15,2
+GO:BP,positive regulation of hormone secretion,1.0,22,15,2
+GO:BP,regulation of hormone secretion,1.0,40,15,2
+GO:BP,hormone secretion,1.0,49,15,2
+GO:BP,protein autophosphorylation,1.0,33,15,1
+GO:BP,female sex differentiation,1.0,25,15,1
+GO:BP,development of primary female sexual characteristics,1.0,22,15,1
+GO:BP,positive regulation of receptor signaling pathway via JAK-STAT,1.0,12,15,1
+GO:BP,regulation of receptor signaling pathway via JAK-STAT,1.0,18,15,1
+GO:BP,positive regulation of phosphate metabolic process,1.0,73,15,1
+GO:BP,negative regulation of response to stimulus,1.0,237,15,7
+GO:BP,positive regulation of response to stimulus,1.0,375,15,8
+GO:BP,regulation of response to stimulus,1.0,491,15,11
+GO:BP,embryonic organ development,1.0,64,15,1
+GO:BP,negative regulation of cellular process,1.0,440,15,5
+GO:BP,positive regulation of cellular process,1.0,539,15,10
+GO:BP,negative regulation of biological process,1.0,469,15,9
+GO:BP,positive regulation of biological process,1.0,600,15,11
+GO:BP,blood vessel morphogenesis,1.0,134,15,3
+GO:BP,animal organ development,1.0,321,15,3
+GO:BP,rhythmic process,1.0,38,15,1
+GO:BP,cell maturation,1.0,36,15,1
+GO:BP,cell development,1.0,332,15,4
+GO:BP,lung alveolus development,1.0,9,15,1
+GO:BP,organelle fission,1.0,31,15,1
+GO:BP,post-embryonic eye morphogenesis,1.0,2,15,1
+GO:BP,multicellular organismal-level homeostasis,1.0,171,15,1
+GO:BP,cell motility,1.0,238,15,5
+GO:BP,cellular developmental process,1.0,428,15,5
+GO:BP,anatomical structure development,1.0,556,15,7
+GO:BP,tissue remodeling,1.0,48,15,1
+GO:BP,branching morphogenesis of an epithelial tube,1.0,37,15,2
+GO:BP,system development,1.0,415,15,4
+GO:BP,tissue morphogenesis,1.0,108,15,2
+GO:BP,negative regulation of astrocyte differentiation,1.0,1,15,1
+GO:BP,regulation of astrocyte differentiation,1.0,5,15,1
+GO:BP,astrocyte differentiation,1.0,28,15,1
+GO:BP,anatomical structure formation involved in morphogenesis,1.0,180,15,3
+GO:BP,reproductive structure development,1.0,47,15,1
+GO:BP,post-embryonic camera-type eye morphogenesis,1.0,2,15,1
+GO:BP,camera-type eye morphogenesis,1.0,16,15,1
+GO:BP,eye morphogenesis,1.0,22,15,1
+GO:BP,monoatomic ion homeostasis,1.0,91,15,2
+GO:BP,regulation of insulin secretion,1.0,22,15,1
+GO:BP,regulation of cellular process,1.0,746,15,12
+GO:BP,regulation of developmental process,1.0,314,15,4
+GO:BP,regulation of biological process,1.0,792,15,13
+GO:BP,negative regulation of neurogenesis,1.0,13,15,1
+GO:BP,regulation of neurogenesis,1.0,43,15,1
+GO:BP,negative regulation of inflammatory response,1.0,45,15,1
+GO:BP,regulation of inflammatory response,1.0,101,15,1
+GO:BP,positive regulation of protein secretion,1.0,25,15,2
+GO:BP,regulation of protein secretion,1.0,39,15,2
+GO:BP,positive regulation of epithelial cell proliferation,1.0,41,15,2
+GO:BP,regulation of epithelial cell proliferation,1.0,70,15,2
+GO:BP,epithelial cell proliferation,1.0,80,15,2
+GO:BP,sensory system development,1.0,49,15,2
+GO:BP,chemical homeostasis,1.0,148,15,2
+GO:BP,regulation of positive chemotaxis,1.0,12,15,3
+GO:BP,positive regulation of chemotaxis,1.0,47,15,3
+GO:BP,regulation of chemotaxis,1.0,56,15,3
+GO:BP,positive chemotaxis,1.0,24,15,3
+GO:BP,leukocyte migration,1.0,101,15,1
+GO:BP,response to stimulus,1.0,766,15,15
+GO:BP,positive regulation of cell activation,1.0,102,15,1
+GO:BP,negative regulation of cell activation,1.0,53,15,1
+GO:BP,regulation of cell activation,1.0,149,15,2
+GO:BP,defense response to Gram-negative bacterium,1.0,13,15,1
+GO:BP,positive regulation of coagulation,1.0,18,15,4
+GO:BP,synapse organization,1.0,50,15,1
+GO:BP,regulation of multicellular organismal process,1.0,419,15,10
+GO:BP,establishment of localization,1.0,447,15,3
+GO:BP,regulation of protein transport,1.0,54,15,2
+GO:BP,positive regulation of protein transport,1.0,38,15,2
+GO:BP,release of sequestered calcium ion into cytosol,1.0,28,15,2
+GO:BP,localization,1.0,479,15,3
+GO:BP,regulation of phosphorus metabolic process,1.0,103,15,1
+GO:BP,positive regulation of cellular component organization,1.0,153,15,1
+GO:BP,regulation of cellular component organization,1.0,249,15,2
+GO:BP,positive regulation of developmental process,1.0,195,15,3
+GO:BP,negative regulation of developmental process,1.0,142,15,1
+GO:BP,positive regulation of transport,1.0,150,15,2
+GO:BP,regulation of transport,1.0,225,15,2
+GO:BP,positive regulation of secretion,1.0,53,15,2
+GO:BP,regulation of secretion,1.0,92,15,2
+GO:BP,positive regulation of positive chemotaxis,1.0,11,15,3
+GO:BP,regulation of mitochondrial membrane potential,1.0,12,15,2
+GO:BP,cellular response to stimulus,1.0,629,15,10
+GO:BP,response to other organism,1.0,252,15,2
+GO:BP,biological process involved in interaction with symbiont,1.0,1,15,1
+GO:BP,protein maturation,1.0,63,15,6
+GO:BP,response to calcium ion,1.0,17,15,1
+GO:BP,regulation of cytosolic calcium ion concentration,1.0,6,15,1
+GO:BP,neuron apoptotic process,1.0,63,15,1
+GO:BP,positive regulation of release of sequestered calcium ion into cytosol,1.0,11,15,1
+GO:BP,regulation of release of sequestered calcium ion into cytosol,1.0,17,15,1
+GO:BP,protein polymerization,1.0,24,15,1
+GO:BP,negative regulation of protein metabolic process,1.0,68,15,1
+GO:BP,positive regulation of protein metabolic process,1.0,120,15,1
+GO:BP,regulation of protein metabolic process,1.0,180,15,2
+GO:BP,negative regulation of multicellular organismal process,1.0,204,15,7
+GO:BP,positive regulation of multicellular organismal process,1.0,279,15,7
+GO:BP,negative regulation of nervous system development,1.0,14,15,1
+GO:BP,regulation of nervous system development,1.0,50,15,1
+GO:BP,positive regulation of calcium ion transport,1.0,24,15,1
+GO:BP,regulation of calcium ion transport,1.0,42,15,1
+GO:BP,positive regulation of fibrinolysis,1.0,3,15,2
+GO:BP,negative regulation of fibrinolysis,1.0,10,15,2
+GO:BP,regulation of fibrinolysis,1.0,13,15,3
+GO:BP,negative regulation of mitochondrial depolarization,1.0,3,15,1
+GO:BP,positive regulation of mitochondrial depolarization,1.0,2,15,1
+GO:BP,regulation of mitochondrial depolarization,1.0,6,15,2
+GO:BP,membrane depolarization,1.0,19,15,2
+GO:BP,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,1.0,55,15,3
+GO:BP,regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,1.0,63,15,3
+GO:BP,positive regulation of focal adhesion assembly,1.0,6,15,1
+GO:BP,regulation of focal adhesion assembly,1.0,12,15,1
+GO:BP,mitochondrial depolarization,1.0,7,15,2
+GO:BP,regulation of vesicle-mediated transport,1.0,100,15,1
+GO:BP,epithelial tube morphogenesis,1.0,67,15,2
+GO:BP,respiratory system development,1.0,46,15,1
+GO:BP,epithelium development,1.0,174,15,3
+GO:BP,response to growth hormone,1.0,12,15,1
+GO:BP,bone development,1.0,32,15,1
+GO:BP,cell chemotaxis,1.0,75,15,2
+GO:BP,head development,1.0,85,15,1
+GO:BP,regulation of cell development,1.0,139,15,2
+GO:BP,regulation of macromolecule metabolic process,1.0,436,15,3
+GO:BP,angiogenesis involved in wound healing,1.0,13,15,1
+GO:BP,retina development in camera-type eye,1.0,22,15,1
+GO:BP,transmembrane transport,1.0,175,15,2
+GO:BP,intracellular chemical homeostasis,1.0,86,15,1
+GO:BP,monoatomic cation homeostasis,1.0,88,15,2
+GO:BP,calcium ion homeostasis,1.0,39,15,2
+GO:BP,protein-containing complex assembly,1.0,138,15,1
+GO:BP,process utilizing autophagic mechanism,1.0,54,15,1
+GO:BP,antimicrobial humoral immune response mediated by antimicrobial peptide,1.0,9,15,1
+GO:BP,myeloid cell development,1.0,25,15,1
+GO:BP,reproductive system development,1.0,47,15,1
+GO:BP,renal tubule morphogenesis,1.0,22,15,1
+GO:BP,renal tubule development,1.0,33,15,1
+GO:BP,retinal blood vessel morphogenesis,1.0,1,15,1
+GO:BP,retina vasculature morphogenesis in camera-type eye,1.0,1,15,1
+GO:BP,retina vasculature development in camera-type eye,1.0,6,15,1
+GO:BP,morphogenesis of a branching epithelium,1.0,42,15,2
+GO:BP,vascular wound healing,1.0,8,15,1
+GO:BP,establishment of endothelial barrier,1.0,8,15,1
+GO:BP,blood vessel endothelial cell differentiation,1.0,3,15,1
+GO:BP,neutrophil-mediated killing of bacterium,1.0,2,15,1
+GO:BP,neutrophil-mediated killing of symbiont cell,1.0,2,15,1
+GO:BP,neutrophil mediated cytotoxicity,1.0,3,15,1
+GO:BP,cellular response to chemical stimulus,1.0,339,15,4
+GO:BP,response to growth factor,1.0,119,15,1
+GO:BP,response to cholesterol,1.0,6,15,1
+GO:BP,calcium ion transmembrane transport,1.0,46,15,2
+GO:BP,platelet aggregation,1.0,25,15,1
+GO:BP,thrombin-activated receptor signaling pathway,1.0,6,15,2
+GO:BP,response to oxygen levels,1.0,76,15,1
+GO:BP,positive regulation of ERK1 and ERK2 cascade,1.0,54,15,2
+GO:BP,regulation of ERK1 and ERK2 cascade,1.0,67,15,2
+GO:BP,ERK1 and ERK2 cascade,1.0,73,15,2
+GO:BP,regulation of establishment of protein localization,1.0,58,15,2
+GO:BP,biological regulation,1.0,821,15,15
+GO:BP,cellular component organization or biogenesis,1.0,496,15,5
+GO:BP,response to fibroblast growth factor,1.0,41,15,1
+GO:BP,cellular response to BMP stimulus,1.0,18,15,1
+GO:BP,response to BMP,1.0,18,15,1
+GO:BP,basement membrane organization,1.0,5,15,1
+GO:BP,nitrogen compound transport,1.0,95,15,2
+GO:BP,anatomical structure maturation,1.0,44,15,1
+GO:BP,protein localization to extracellular region,1.0,48,15,2
+GO:BP,semaphorin-plexin signaling pathway,1.0,10,15,1
+GO:BP,cellular response to endogenous stimulus,1.0,177,15,1
+GO:BP,cellular response to peptide hormone stimulus,1.0,76,15,1
+GO:BP,cellular response to growth factor stimulus,1.0,115,15,1
+GO:BP,cellular response to cytokine stimulus,1.0,169,15,2
+GO:BP,cellular response to amino acid stimulus,1.0,18,15,1
+GO:BP,cellular response to acid chemical,1.0,23,15,1
+GO:BP,neutrophil-mediated killing of gram-negative bacterium,1.0,2,15,1
+GO:BP,regulation of anatomical structure size,1.0,85,15,1
+GO:BP,positive regulation of cell migration involved in sprouting angiogenesis,1.0,9,15,1
+GO:BP,regulation of cell migration involved in sprouting angiogenesis,1.0,12,15,1
+GO:BP,response to phenylpropanoid,1.0,1,15,1
+GO:BP,regulation of response to stress,1.0,230,15,9
+GO:BP,regulation of primary metabolic process,1.0,366,15,2
+GO:BP,cellular response to calcium ion starvation,1.0,1,15,1
+GO:BP,reactive oxygen species metabolic process,1.0,53,15,1
+GO:BP,endothelial cell apoptotic process,1.0,27,15,3
+GO:BP,"blood coagulation, fibrin clot formation",1.0,12,15,3
+GO:BP,"blood coagulation, common pathway",1.0,2,15,1
+GO:BP,protein activation cascade,1.0,12,15,3
+GO:BP,circulatory system development,1.0,201,15,3
+GO:BP,regulation of stem cell proliferation,1.0,19,15,1
+GO:BP,stem cell proliferation,1.0,25,15,1
+GO:BP,renal system development,1.0,99,15,1
+GO:BP,cellular response to toxic substance,1.0,25,15,1
+GO:BP,extrinsic apoptotic signaling pathway,1.0,51,15,1
+GO:BP,apoptotic signaling pathway,1.0,114,15,1
+GO:BP,response to thyroxine,1.0,2,15,1
+GO:BP,response to thyroid hormone,1.0,3,15,1
+GO:BP,sensory organ morphogenesis,1.0,36,15,1
+GO:BP,positive regulation of wound healing,1.0,22,15,4
+GO:BP,regulation of cellular response to growth factor stimulus,1.0,43,15,1
+GO:BP,positive regulation of peptide hormone secretion,1.0,16,15,2
+GO:BP,regulation of peptide hormone secretion,1.0,27,15,2
+GO:BP,positive regulation of mitochondrial fission,1.0,2,15,1
+GO:BP,regulation of mitochondrial fission,1.0,6,15,1
+GO:BP,regulation of cell-substrate junction assembly,1.0,12,15,1
+GO:BP,positive regulation of transmembrane receptor protein serine/threonine kinase signaling pathway,1.0,19,15,1
+GO:BP,regulation of transmembrane receptor protein serine/threonine kinase signaling pathway,1.0,28,15,1
+GO:BP,regulation of peptide transport,1.0,29,15,2
+GO:BP,transforming growth factor beta receptor superfamily signaling pathway,1.0,33,15,1
+GO:BP,disruption of cell in another organism,1.0,11,15,1
+GO:BP,disruption of anatomical structure in another organism,1.0,11,15,1
+GO:BP,multicellular organismal-level chemical homeostasis,1.0,26,15,1
+GO:BP,defense response to symbiont,1.0,173,15,2
+GO:BP,export from cell,1.0,129,15,2
+GO:BP,cellular oxidant detoxification,1.0,22,15,1
+GO:BP,inorganic ion homeostasis,1.0,82,15,2
+GO:BP,detoxification,1.0,28,15,1
+GO:BP,monoatomic cation transmembrane transport,1.0,90,15,2
+GO:BP,cell-cell adhesion,1.0,176,15,2
+GO:BP,defense response to other organism,1.0,177,15,2
+GO:BP,blood vessel diameter maintenance,1.0,49,15,1
+GO:BP,cell surface receptor signaling pathway via STAT,1.0,44,15,1
+GO:BP,calcium ion transmembrane import into cytosol,1.0,35,15,2
+GO:BP,response to alcohol,1.0,47,15,1
+GO:BP,positive regulation of protein localization to nucleus,1.0,24,15,1
+GO:BP,regulation of protein localization to nucleus,1.0,29,15,1
+GO:BP,positive regulation of hemostasis,1.0,16,15,4
+GO:BP,positive regulation of substrate adhesion-dependent cell spreading,1.0,11,15,1
+GO:BP,regulation of substrate adhesion-dependent cell spreading,1.0,13,15,1
+GO:BP,negative regulation of cytokine production involved in inflammatory response,1.0,12,15,1
+GO:BP,regulation of cytokine production involved in inflammatory response,1.0,22,15,1
+GO:BP,positive regulation of cell-substrate junction organization,1.0,6,15,1
+GO:BP,regulation of cell-substrate junction organization,1.0,12,15,1
+GO:BP,cell-substrate junction organization,1.0,19,15,1
+GO:BP,visual system development,1.0,49,15,2
+GO:BP,positive regulation of nitric oxide-cGMP mediated signal transduction,1.0,1,15,1
+GO:BP,regulation of nitric oxide-cGMP mediated signal transduction,1.0,1,15,1
+GO:BP,intracellular signaling cassette,1.0,251,15,4
+GO:BP,negative regulation of extrinsic apoptotic signaling pathway via death domain receptors,1.0,9,15,1
+GO:BP,regulation of extrinsic apoptotic signaling pathway via death domain receptors,1.0,12,15,1
+GO:BP,positive regulation of cell junction assembly,1.0,15,15,1
+GO:BP,regulation of cell junction assembly,1.0,31,15,1
+GO:BP,cellular response to oxygen-containing compound,1.0,200,15,1
+GO:BP,response to oxygen-containing compound,1.0,283,15,3
+GO:BP,cellular response to nitrogen compound,1.0,132,15,1
+GO:BP,response to nitrogen compound,1.0,179,15,2
+GO:BP,response to ketone,1.0,42,15,2
+GO:BP,response to peptide,1.0,193,15,2
+GO:BP,positive regulation of endothelial cell development,1.0,1,15,1
+GO:BP,regulation of endothelial cell development,1.0,5,15,1
+GO:BP,regulation of hematopoietic progenitor cell differentiation,1.0,10,15,1
+GO:BP,regulation of vasculature development,1.0,77,15,2
+GO:BP,positive regulation of phospholipase C-activating G protein-coupled receptor signaling pathway,1.0,1,15,1
+GO:BP,regulation of phospholipase C-activating G protein-coupled receptor signaling pathway,1.0,1,15,1
+GO:BP,positive regulation of cation transmembrane transport,1.0,21,15,1
+GO:BP,regulation of monoatomic cation transmembrane transport,1.0,39,15,1
+GO:BP,positive regulation of vasculature development,1.0,52,15,2
+GO:BP,positive regulation of protein localization,1.0,59,15,2
+GO:BP,positive regulation of secretion by cell,1.0,47,15,2
+GO:BP,regulation of secretion by cell,1.0,81,15,2
+GO:BP,regulation of blood circulation,1.0,35,15,1
+GO:BP,regulation of calcium ion transmembrane transport,1.0,26,15,1
+GO:BP,positive regulation of establishment of endothelial barrier,1.0,1,15,1
+GO:BP,regulation of establishment of endothelial barrier,1.0,5,15,1
+GO:BP,positive regulation of response to wounding,1.0,25,15,4
+GO:BP,regulation of bone development,1.0,1,15,1
+GO:BP,positive regulation of intracellular signal transduction,1.0,192,15,7
+GO:BP,regulation of intracellular signal transduction,1.0,265,15,7
+GO:BP,ligand-gated ion channel signaling pathway,1.0,3,15,1
+GO:BP,cellular detoxification,1.0,23,15,1
+GO:BP,response to thyrotropin-releasing hormone,1.0,1,15,1
+GO:BP,response to astaxanthin,1.0,1,15,1
+GO:BP,positive regulation of establishment of protein localization,1.0,42,15,2
+GO:BP,positive regulation of receptor signaling pathway via STAT,1.0,14,15,1
+GO:BP,regulation of receptor signaling pathway via STAT,1.0,21,15,1
+GO:BP,cellular response to hydrogen sulfide,1.0,1,15,1
+GO:BP,response to hydrogen sulfide,1.0,1,15,1
+GO:BP,"response to 2,3,7,8-tetrachlorodibenzodioxine",1.0,2,15,1
+GO:BP,response to glycoprotein,1.0,1,15,1
+GO:BP,positive regulation of calcium ion transmembrane transport,1.0,14,15,1
+GO:BP,response to Thyroid stimulating hormone,1.0,1,15,1
+GO:BP,response to L-phenylalanine derivative,1.0,2,15,1
+GO:BP,positive regulation of membrane depolarization,1.0,2,15,1
+GO:BP,negative regulation of membrane depolarization,1.0,3,15,1
+GO:BP,regulation of apoptotic signaling pathway,1.0,82,15,1
+GO:BP,positive regulation of vasculogenesis,1.0,2,15,1
+GO:BP,regulation of vasculogenesis,1.0,2,15,1
+GO:BP,positive regulation of endothelial cell chemotaxis,1.0,6,15,1
+GO:BP,regulation of endothelial cell chemotaxis,1.0,8,15,1
+GO:BP,positive regulation of stem cell proliferation,1.0,10,15,1
+GO:BP,positive regulation of reactive oxygen species metabolic process,1.0,24,15,1
+GO:BP,regulation of reactive oxygen species metabolic process,1.0,37,15,1
+GO:BP,positive regulation of endothelial cell apoptotic process,1.0,7,15,1
+GO:BP,negative regulation of endothelial cell apoptotic process,1.0,18,15,2
+GO:BP,regulation of endothelial cell apoptotic process,1.0,26,15,3
+GO:BP,positive regulation of cell motility,1.0,128,15,5
+GO:BP,regulation of cell motility,1.0,166,15,5
+GO:BP,negative regulation of cell-cell adhesion mediated by cadherin,1.0,4,15,1
+GO:BP,regulation of cell-cell adhesion mediated by cadherin,1.0,5,15,1
+GO:BP,regulation of multicellular organismal development,1.0,222,15,4
+KEGG,Focal adhesion,1.0,54,15,2
+KEGG,Cornified envelope formation,1.0,13,15,1
+KEGG,VEGF signaling pathway,1.0,16,15,1
+KEGG,PI3K-Akt signaling pathway,1.0,90,15,2
+KEGG,Efferocytosis,1.0,38,15,1
+KEGG,Neuroactive ligand-receptor interaction,1.0,40,15,2
+KEGG,Phospholipase D signaling pathway,1.0,33,15,1
+KEGG,Calcium signaling pathway,1.0,34,15,1
+KEGG,Rap1 signaling pathway,1.0,47,15,1
+KEGG,Ras signaling pathway,1.0,50,15,1
+KEGG,MAPK signaling pathway,1.0,57,15,1
+KEGG,EGFR tyrosine kinase inhibitor resistance,1.0,35,15,1
+KEGG,KEGG root term,1.0,768,15,15
+GO:BP,negative regulation of extrinsic apoptotic signaling pathway,1.0,25,15,1
+GO:BP,regulation of extrinsic apoptotic signaling pathway,1.0,39,15,1
+GO:BP,negative regulation of apoptotic signaling pathway,1.0,52,15,1
+KEGG,Amoebiasis,1.0,36,15,1
+KEGG,Pathogenic Escherichia coli infection,1.0,41,15,1
+KEGG,Protein digestion and absorption,1.0,13,15,1
+KEGG,AGE-RAGE signaling pathway in diabetic complications,1.0,50,15,2
+KEGG,Relaxin signaling pathway,1.0,34,15,1
+KEGG,Thyroid hormone synthesis,1.0,4,15,1
+KEGG,Cytoskeleton in muscle cells,1.0,18,15,1
+KEGG,Regulation of actin cytoskeleton,1.0,55,15,1
+KEGG,Hematopoietic cell lineage,1.0,42,15,1
+KEGG,Neutrophil extracellular trap formation,1.0,41,15,2
+KEGG,Platelet activation,1.0,36,15,3
+KEGG,Cadherin signaling,1.0,35,15,1
+KEGG,Integrin signaling,1.0,52,15,3
+KEGG,IgSF CAM signaling,1.0,43,15,2
+KEGG,ECM-receptor interaction,1.0,25,15,2
+REAC,Assembly of collagen fibrils and other multimeric structures,1.0,9,15,1
+REAC,Aspirin ADME,1.0,13,15,1
+REAC,Asparagine N-linked glycosylation,1.0,29,15,2
+REAC,Antigen processing-Cross presentation,1.0,21,15,1
+REAC,Anchoring fibril formation,1.0,6,15,1
+REAC,Amyloid fiber formation,1.0,14,15,1
+REAC,Adaptive Immune System,1.0,87,15,1
+REAC,Activation of Matrix Metalloproteinases,1.0,5,15,1
+KEGG,Fluid shear stress and atherosclerosis,1.0,40,15,1
+KEGG,Small cell lung cancer,1.0,27,15,1
+KEGG,Proteoglycans in cancer,1.0,60,15,1
+KEGG,Pathways in cancer,1.0,134,15,2
+KEGG,Coronavirus disease - COVID-19,1.0,73,15,2
+KEGG,Human papillomavirus infection,1.0,62,15,1
+KEGG,Influenza A,1.0,51,15,1
+KEGG,Staphylococcus aureus infection,1.0,34,15,1
+REAC,Collagen chain trimerization,1.0,5,15,1
+REAC,Collagen biosynthesis and modifying enzymes,1.0,6,15,1
+REAC,Class I MHC mediated antigen processing & presentation,1.0,30,15,1
+REAC,Class A/1 (Rhodopsin-like receptors),1.0,45,15,1
+REAC,Circadian clock,1.0,4,15,1
+REAC,Ciprofloxacin ADME,1.0,2,15,1
+REAC,Cellular responses to stress,1.0,73,15,1
+REAC,Cellular responses to stimuli,1.0,73,15,1
+REAC,Cellular response to chemical stress,1.0,34,15,1
+REAC,Cell surface interactions at the vascular wall,1.0,31,15,3
+REAC,Cargo concentration in the ER,1.0,3,15,2
+REAC,COPII-mediated vesicle transport,1.0,3,15,2
+REAC,Binding and Uptake of Ligands by Scavenger Receptors,1.0,19,15,2
+REAC,Bile acid and bile salt metabolism,1.0,5,15,1
+REAC,"BMAL1:CLOCK,NPAS2 activates circadian expression",1.0,4,15,1
+REAC,Axon guidance,1.0,54,15,1
+REAC,Defective cofactor function of FVIIIa variant,1.0,2,15,2
+REAC,Defective binding of VWF variant to GPIb:IX:V,1.0,5,15,1
+REAC,Defective F9 variant does not activate FX,1.0,2,15,2
+REAC,Defective F9 activation,1.0,4,15,2
+REAC,Defective F8 sulfation at Y1699,1.0,1,15,1
+REAC,Defective F8 secretion,1.0,1,15,1
+REAC,Defective F8 cleavage by thrombin,1.0,3,15,2
+REAC,Defective F8 binding to von Willebrand factor,1.0,2,15,1
+REAC,Defective F8 binding to the cell membrane,1.0,1,15,1
+REAC,Defective F8 accelerates dissociation of the A2 domain,1.0,1,15,1
+REAC,Cytoprotection by HMOX1,1.0,11,15,1
+REAC,Crosslinking of collagen fibrils,1.0,6,15,1
+REAC,Complement cascade,1.0,50,15,2
+REAC,Collagen formation,1.0,9,15,1
+REAC,Collagen degradation,1.0,10,15,1
+GO:BP,activation of plasma proteins involved in acute inflammatory response,1.0,2,15,1
+GO:BP,cytokine production involved in inflammatory response,1.0,22,15,1
+GO:BP,production of molecular mediator involved in inflammatory response,1.0,30,15,1
+GO:BP,acute inflammatory response,1.0,38,15,3
+GO:BP,neutrophil mediated immunity,1.0,11,15,1
+GO:BP,myeloid leukocyte mediated immunity,1.0,33,15,1
+GO:BP,leukocyte mediated immunity,1.0,120,15,1
+GO:BP,immune system process,1.0,424,15,3
+GO:BP,immune effector process,1.0,179,15,1
+GO:BP,adaptive immune response,1.0,128,15,1
+GO:BP,hematopoietic progenitor cell differentiation,1.0,32,15,1
+GO:BP,epithelial cell maturation,1.0,6,15,1
+GO:BP,epithelial cell development,1.0,45,15,2
+GO:BP,positive regulation of mesenchymal cell proliferation,1.0,9,15,1
+GO:BP,cell migration involved in sprouting angiogenesis,1.0,13,15,1
+GO:BP,sprouting angiogenesis,1.0,28,15,1
+REAC,ECM proteoglycans,1.0,17,15,1
+REAC,Drug ADME,1.0,30,15,1
+REAC,Dissolution of Fibrin Clot,1.0,7,15,1
+REAC,Diseases of signal transduction by growth factor receptors and second messengers,1.0,75,15,2
+REAC,Diseases of Immune System,1.0,15,15,1
+REAC,Diseases associated with the TLR signaling cascade,1.0,15,15,1
+REAC,Disease,1.0,273,15,7
+REAC,Developmental Biology,1.0,121,15,1
+REAC,Degradation of the extracellular matrix,1.0,19,15,2
+REAC,Defects of platelet adhesion to exposed collagen,1.0,6,15,1
+REAC,Defective factor XII causes hereditary angioedema,1.0,2,15,1
+REAC,Defective factor IX causes thrombophilia,1.0,2,15,2
+REAC,Generic Transcription Pathway,1.0,115,15,1
+REAC,Gene expression (Transcription),1.0,126,15,1
+REAC,GRB2:SOS provides linkage to MAPK signaling for Integrins ,1.0,6,15,1
+REAC,GPCR ligand binding,1.0,52,15,1
+REAC,GPCR downstream signalling,1.0,64,15,1
+REAC,GP1b-IX-V activation signalling,1.0,6,15,1
+REAC,G alpha (q) signalling events,1.0,26,15,1
+REAC,Extracellular matrix organization,1.0,47,15,4
+REAC,Enhanced binding of GP1BA variant to VWF multimer:collagen ,1.0,5,15,1
+REAC,ER-Phagosome pathway,1.0,20,15,1
+REAC,ER to Golgi Anterograde Transport,1.0,10,15,2
+REAC,Metabolism,1.0,174,15,1
+REAC,Membrane Trafficking,1.0,39,15,2
+REAC,MAPK1/MAPK3 signaling,1.0,46,15,1
+REAC,MAPK family signaling cascades,1.0,51,15,1
+REAC,MAP2K and MAPK activation,1.0,14,15,1
+REAC,Laminin interactions,1.0,9,15,1
+REAC,Integrin signaling,1.0,8,15,1
+REAC,Integrin cell surface interactions,1.0,25,15,3
+REAC,Innate Immune System,1.0,192,15,3
+REAC,Immune System,1.0,314,15,3
+REAC,IRAK4 deficiency (TLR2/4),1.0,9,15,1
+REAC,Heme degradation,1.0,9,15,1
+REAC,Heme biosynthesis,1.0,5,15,1
+REAC,HDL remodeling,1.0,4,15,1
+REAC,Peptide ligand-binding receptors,1.0,34,15,1
+REAC,Paradoxical activation of RAF signaling by kinase inactive BRAF,1.0,15,15,1
+REAC,Oncogenic MAPK signaling,1.0,18,15,1
+REAC,Nuclear Events (kinase and transcription factor activation),1.0,5,15,1
+REAC,Non-integrin membrane-ECM interactions,1.0,18,15,1
+REAC,Neurophilin interactions with VEGF and VEGFR,1.0,2,15,1
+REAC,Nervous system development,1.0,55,15,1
+REAC,NGF-stimulated transcription,1.0,3,15,1
+REAC,NCAM1 interactions,1.0,7,15,1
+REAC,NCAM signaling for neurite out-growth,1.0,12,15,1
+REAC,MyD88:MAL(TIRAP) cascade initiated on plasma membrane,1.0,24,15,1
+REAC,MyD88 deficiency (TLR2/4),1.0,9,15,1
+REAC,Metabolism of steroids,1.0,12,15,1
+REAC,Metabolism of porphyrins,1.0,12,15,1
+REAC,Metabolism of lipids,1.0,62,15,1
+REAC,Regulation of TLR by endogenous ligand,1.0,10,15,1
+REAC,Regulation of Complement cascade,1.0,41,15,2
+REAC,Recycling of bile acids and salts,1.0,4,15,1
+REAC,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,1.0,10,15,1
+REAC,RNA Polymerase II Transcription,1.0,117,15,1
+REAC,RAF/MAP kinase cascade,1.0,44,15,1
+REAC,Prednisone ADME,1.0,3,15,1
+REAC,Post-translational protein phosphorylation,1.0,23,15,4
+REAC,Platelet Aggregation (Plug Formation),1.0,15,15,3
+REAC,Platelet Adhesion to exposed collagen,1.0,10,15,1
+REAC,Plasma lipoprotein remodeling,1.0,6,15,1
+REAC,"Plasma lipoprotein assembly, remodeling, and clearance",1.0,11,15,1
+REAC,Signaling by high-kinase activity BRAF mutants,1.0,13,15,1
+REAC,Signaling by VEGF,1.0,21,15,1
+REAC,Signaling by Receptor Tyrosine Kinases,1.0,83,15,4
+REAC,Signaling by RAS mutants,1.0,15,15,1
+REAC,Signaling by RAF1 mutants,1.0,14,15,1
+REAC,Signaling by PDGFR in disease,1.0,8,15,1
+REAC,Signaling by PDGF,1.0,18,15,2
+REAC,Signaling by NTRKs,1.0,19,15,1
+REAC,Signaling by NTRK1 (TRKA),1.0,13,15,1
+REAC,Signaling by GPCR,1.0,70,15,1
+REAC,Signaling by BRAF and RAF1 fusions,1.0,16,15,1
+REAC,Signal Transduction,1.0,275,15,6
+REAC,Scavenging of heme from plasma,1.0,9,15,1
+REAC,Scavenging by Class A Receptors,1.0,8,15,1
+GO:BP,morphogenesis of an epithelium,1.0,94,15,2
+GO:BP,positive regulation of cell-matrix adhesion,1.0,11,15,1
+GO:BP,regulation of cell-matrix adhesion,1.0,25,15,1
+GO:BP,lymph vessel development,1.0,10,15,1
+GO:BP,vasculature development,1.0,154,15,3
+GO:BP,positive regulation of endothelial cell proliferation,1.0,19,15,2
+GO:BP,regulation of endothelial cell proliferation,1.0,33,15,2
+GO:BP,endothelial cell proliferation,1.0,36,15,2
+GO:BP,positive regulation of protein phosphorylation,1.0,61,15,1
+GO:BP,regulation of protein phosphorylation,1.0,83,15,1
+GO:BP,leukocyte mediated cytotoxicity,1.0,36,15,1
+GO:BP,cell killing,1.0,52,15,1
+GO:BP,endothelial cell development,1.0,9,15,1
+GO:BP,positive regulation of cytokine production,1.0,111,15,1
+GO:BP,negative regulation of cytokine production,1.0,64,15,1
+GO:BP,regulation of cytokine production,1.0,156,15,2
+REAC,Vesicle-mediated transport,1.0,57,15,4
+REAC,p130Cas linkage to MAPK signaling for integrins,1.0,6,15,1
+REAC,REACTOME root term,1.0,844,15,15
+GO:BP,MAPK cascade,1.0,134,15,2

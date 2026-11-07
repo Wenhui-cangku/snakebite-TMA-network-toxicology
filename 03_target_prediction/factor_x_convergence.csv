@@ -1,0 +1,7 @@
+﻿edge_id,toxin_id,independent_toxin_entity,protein_state,interaction_type,pmids,mechanistic_role
+0,T041,T041,FXa (active enzyme),inhibition,18062812,Activated factor X inhibition
+1,T027,T027,FX and FXa,direct_binding,27089306,Zymogen recognition
+4,T059,RVV-X complex,FX zymogen (Gla domain),direct_binding,18616470;1629211;8144654;8639544;11910189;18060879,Zymogen recognition
+6,T060,RVV-X complex,FX zymogen (Gla domain),direct_binding,18616470;8144654;11910189;18060879,Zymogen recognition
+8,T061,RVV-X complex,FX zymogen -> FXa (activation),enzymatic_cleavage,37092784;18616470;1629211;8144654;8639544;18060879;11910189,Zymogen activation
+28,T034,T034,FXa (active enzyme),inhibition,22416129;23999090,Activated factor X inhibition

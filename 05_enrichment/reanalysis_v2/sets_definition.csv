@@ -1,0 +1,8 @@
+﻿group,n_input,background,n_background,genes,rationale
+G1_L2curated15,15,genome,16662,COL4A1;CTRB1;F10;F11;F5;F9;FGA;FGB;FN1;GP1BA;KDR;PLG;PROC;PROS1;PRSS1,targets selected by toxin literature only; genome background justified
+G2_strictcore10,10,core1042,1042,COL4A1;F10;F11;F5;FGA;GP1BA;KDR;PLG;PROC;PROS1,strict-core targets vs eligible-gene background
+G3_STRINGhubs5,5,core1042,1042,F2;F3;F7;F8;ALB,STRING-expanded hubs only
+G4_union15,15,core1042,1042,ALB;COL4A1;F10;F11;F2;F3;F5;F7;F8;FGA;GP1BA;KDR;PLG;PROC;PROS1,"original combined input, corrected background"
+G5_union14_noALB,14,core1042,1042,COL4A1;F10;F11;F2;F3;F5;F7;F8;FGA;GP1BA;KDR;PLG;PROC;PROS1,ALB hub-artifact removed
+G6_strict7_noPrior9,7,core1033,1033,COL4A1;F11;FGA;GP1BA;KDR;PLG;PROS1,drop 9 prior-tagged forced genes from input and background
+G7_strict4_noForced27,4,core1015,1015,COL4A1;F11;KDR;PROS1,drop all 27 axis-prior genes from input and background

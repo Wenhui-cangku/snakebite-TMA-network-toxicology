@@ -1,0 +1,8 @@
+﻿group,input_in_bg,bg,n_terms_tested_with_overlap,n_BH<0.05,top_term,top_p,top_BH_q
+G1_L2curated15,15,genome,371,69,Complement and coagulation cascades,7.38670509402692e-18,2.363745630088614e-15
+G2_strictcore10,10,core1042,310,15,Formation Of Fibrin Clot (Clotting Cascade) R-HSA-140877,4.740603541723056e-07,0.00044988327610951805
+G3_STRINGhubs5,5,core1042,158,3,Extrinsic Pathway Of Fibrin Clot Formation R-HSA-140834,5.520733919347172e-05,0.03269852670909085
+G4_union15,15,core1042,399,24,Formation Of Fibrin Clot (Clotting Cascade) R-HSA-140877,3.60684634800343e-11,3.4228971842552556e-08
+G5_union14_noALB,14,core1042,376,21,Formation Of Fibrin Clot (Clotting Cascade) R-HSA-140877,1.7023025431625507e-11,1.6154851134612607e-08
+G6_strict7_noPrior9,7,core1033,273,2,Negative Regulation Of Blood Coagulation (GO:0030195),2.776508599605222e-06,0.006491477105877009
+G7_strict4_noForced27,4,core1015,165,0,Blood Vessel Morphogenesis (GO:0048514),0.001203385261260917,1.0
