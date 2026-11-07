@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "JVAT reanalysis archive for an evidence-calibrated venom-host interaction map of Russell's viper envenoming"
+message: "Please cite the associated manuscript and the version-specific Zenodo record for this archive."
+type: dataset
+version: v2026.11.07-JVAT
+date-released: 2026-11-07
+repository-code: https://github.com/Wenhui-cangku/snakebite-TMA-network-toxicology
+license: MIT
+authors:
+  - family-names: Pan
+    given-names: Xiuzhen
+    orcid: https://orcid.org/0009-0006-3040-7153
+  - family-names: Zeng
+    given-names: Xianggui
+  - family-names: Li
+    given-names: Jiali
+  - family-names: Chen
+    given-names: Wenhui
+    orcid: https://orcid.org/0009-0001-3910-2528

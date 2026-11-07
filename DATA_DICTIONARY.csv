@@ -1,0 +1,19 @@
+﻿item,value
+Document,Supplementary Tables S1-S10
+Manuscript,An evidence-calibrated venom-host interaction map of Russell's viper envenoming
+Access model,Anonymous supplementary workbook accompanying the double-blind Research manuscript
+Data organization,Each supplementary table S1-S10 may comprise multiple worksheets; all large result tables are provided in full.
+Evidence rule,"Primary literature, annotation-based expansion, cross-species context and structural pose descriptors remain distinct."
+Structural rule,P4 is withdrawn; P1/P6 are orientation-level; P7 is template-dependent. No docking score is treated as binding validation.
+Expression rule,"GSE121297 and GSE248215 provide exploratory model-specific context, not patient-level TMA validation."
+Literature-search rule,The targeted scoping search is not a completed systematic review; broad discovery queries were not fully screened.
+S1: Protocol deviations and post hoc decisions,S1_Protocol_deviations (14 data rows)
+S2: Source-resolved disease-gene evidence flags,S2_Core_evidence_flags (2190 data rows); S2_Field_dictionary (8 data rows)
+S3: Toxin library and clustering benchmark,S3_Toxin_library (63 data rows); S3_Cluster_summary (11 data rows); S3_Cluster_membership (79 data rows); S3_Discrepant_pairs (8 data rows)
+S4: Edge-level toxin-host evidence audit,S4_Edge_audit (447 data rows); S4_Channel_summary (5 data rows); S4_Mechanism_summary (4 data rows); S4_Factor_X_convergence (6 data rows)
+S5: Group definitions and complete enrichment outputs,S5_Group_definitions (7 data rows); S5_Enrichment_summary (7 data rows); S5_G2_full_results (310 data rows); S5_G3_full_results (158 data rows); S5_G4_full_results (399 data rows); S5_G5_full_results (376 data rows); S5_G6_full_results (273 data rows); S5_G7_full_results (165 data rows); S5_G1_full_results (371 data rows)
+"S6: Permutation, source/axis and cross-platform sensitivity analyses",S6_Permutations (3 data rows); S6_Leave_one_source_out (7 data rows); S6_NoGeneCards_strict7 (190 data rows); S6_NoGeneCards_union (260 data rows); S6_gProfiler_G2 (741 data rows); S6_gProfiler_G4 (948 data rows)
+S7: Descriptive STRING-expanded network,S7_Network_edges (321 data rows); S7_Network_nodes (54 data rows); S7_Hub_metrics (10 data rows); S7_Topology_rankings (90 data rows)
+"S8: Structure identity, model inventory and docking-output disposition",S8_Structure_inventory (15 data rows); S8_Model_inventory (7 data rows); S8_Docking_outputs (12 data rows)
+S9: Samples and complete limma primary/sensitivity outputs,S9_Samples (11 data rows); S9_Limma_summary (5 data rows); S9_GSE121297_primary (22453 data rows); S9_GSE121297_trend_robust (22453 data rows); S9_GSE121297_quantile (22453 data rows); S9_GSE248215_primary (760 data rows); S9_GSE248215_trend_robust (760 data rows)
+"S10: Targeted-search queries, focused archive and mechanism anchors",S10_Search_queries (18 data rows); S10_Focused_archive (146 data rows); S10_Evidence_anchors (45 data rows)
